@@ -12,6 +12,6 @@ next:
 ---
 This subnet leverages AI to predict health outcomes by analyzing electronic health records
 
-# [Github](https://discord.com/channels/@me/1130320798574452848/1240798024645611650) 
+# [Github](https://discord.com/channels/@me/1130320798574452848/1240798024645611650)
 
 # [HW Requirements](https://github.com/Healthi-Labs/healthi-subnet?tab=readme-ov-file#faq)
