@@ -21,7 +21,7 @@ ck='<coldkey>'
 balance = sub.get_balance(address = ck)
 ```
 
-<br>
+<br />
 
 # hotkey balances
 
@@ -46,4 +46,4 @@ ck='<coldkey>'
 total_st = sub.get_total_stake_for_coldkey(ck)
 ```
 
-<br>
+<br />
