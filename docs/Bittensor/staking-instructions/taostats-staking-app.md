@@ -12,19 +12,7 @@ next:
 ---
 The [Taostats Staking App](https://dash.taostats.io/stake) is part of the taostats dashboard.
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F8Kjjefp5mK4%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8Kjjefp5mK4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F8Kjjefp5mK4%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=8Kjjefp5mK4",
-  "title": "Staking with the the Taostats Dashboard",
-  "favicon": "https://www.youtube.com/favicon.ico",
-  "image": "https://i.ytimg.com/vi/8Kjjefp5mK4/hqdefault.jpg",
-  "provider": "youtube.com",
-  "href": "https://www.youtube.com/watch?v=8Kjjefp5mK4",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="https://www.youtube.com/watch?v=8Kjjefp5mK4" title="Staking with the the Taostats Dashboard" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/8Kjjefp5mK4/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=8Kjjefp5mK4" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252F8Kjjefp5mK4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D8Kjjefp5mK4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252F8Kjjefp5mK4%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 > 📘 Undelegating & Unstaking - negative stake is removing stake from that validator.
 
