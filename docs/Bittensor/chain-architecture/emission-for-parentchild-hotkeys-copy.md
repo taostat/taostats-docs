@@ -32,7 +32,7 @@ A **child hotkey** is a neuron running on the subnet. One or more parent hotkeys
 
 On taostats, a child hotkey has a bright yellow stake.
 
-In the screenshot below, the validator in position 1 has no parent stake, but the validator in position 2 _does_ have parent hotkeys staking to it.
+In the screenshot below, the validator in position 1 has no parent stake, but the validator in position 2 *does* have parent hotkeys staking to it.
 
 ![](https://files.readme.io/bf3967ecb0f4a2e310f2ea03da72fe1fb21b1295e49dc575af74207d1ba910fd-image.png)
 
@@ -46,7 +46,7 @@ Clicking the UID or the stake of the validator helps us better understand this d
 
 ![](https://files.readme.io/f8f37fc7db7fcac1b370a2b1af0ecb95c04dbc39d84dc231dcea4144bc3ea1fc-image.png)
 
-UID 2 is _Taostats and Corcel_.  It has 2 parent hotkeys: _PR Validator_ and _Neural Internet_.  
+UID 2 is *Taostats and Corcel*.  It has 2 parent hotkeys: *PR Validator* and *Neural Internet*.  
 
 ## Calculating emission between parent and child hotkeys
 
