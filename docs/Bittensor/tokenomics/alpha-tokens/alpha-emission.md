@@ -14,16 +14,16 @@ Every block, two alpha are emitted into each subnet. This is split between the s
 
 # Calculations
 
-## alpha_in
+## alpha\_in
 
 To find the amount of alpha added to the subnet pool, find the tao emitted into the pool, and divide by the price of the alpha
 
 ![](https://files.readme.io/eecaa0d5d796c501766c848a87deceb21094cb61fd6ae5119f14bffbbb684b7d-image.png)
 
-> 📘 Note: the max value for alpha_in is 1.
+> 📘 Note: the max value for alpha\_in is 1.
 
 <br />
 
-## alpha_out
+## alpha\_out
 
 The alpha emitted to subnet participants is 1 alpha per block.  To learn how this is distributed, see [Subnet Emission](doc:subnets-1).
