@@ -62,7 +62,7 @@ This is the new feature and primary goal of dTao - to enable stakeholders to vot
 
 To stake in alpha, tao is exchanged via the [Subnet Pools](doc:subnet-pools) into alpha.  This will incur [Slippage](doc:slippage). The received alpha is then staked to the validator selected.
 
-> 📘 staking with taostats
+> 📘 Staking with taostats
 >
 > See [Staking Instructions](doc:staking-instructions) for a numbver of pages describing how to stake using Taostats.
 
