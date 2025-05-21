@@ -1,6 +1,8 @@
 ---
 title: dTao Introduction
-excerpt: This page is accurate as of January 27, 2025.
+excerpt: >-
+  An introduction to the dTao launch, and new features in the dTao version of
+  Bittensor
 deprecated: false
 hidden: false
 metadata:
