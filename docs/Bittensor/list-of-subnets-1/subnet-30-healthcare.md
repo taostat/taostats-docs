@@ -12,6 +12,6 @@ next:
 ---
 A groundbreaking healthcare subnet on the Bittensor network!
 
-# [Github](https://github.com/bthealthcare/healthcare-subnet) 
+# [Github](https://github.com/bthealthcare/healthcare-subnet)
 
 # [HW Requirements](https://github.com/bthealthcare/healthcare-subnet/blob/main/min_compute.yml)
