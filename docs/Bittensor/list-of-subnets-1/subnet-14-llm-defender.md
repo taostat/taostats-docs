@@ -12,6 +12,6 @@ next:
 ---
 The LLM Defender subnet provides Large Language Model (LLM) developers a way to decentralize the computing required to detect and prevent various attacks and exploits against LLM applications.
 
-# [GitHub](https://github.com/ceterum1/llm-defender-subnet) 
+# [GitHub](https://github.com/ceterum1/llm-defender-subnet)
 
 # [HW Requirements](https://github.com/synapsec-ai/llm-defender-subnet/blob/main/min_compute.yml)
