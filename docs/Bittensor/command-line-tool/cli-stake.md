@@ -21,8 +21,6 @@ positional arguments:
     remove           Remove stake from the specified hotkey into the coldkey balance.
 ```
 
-
-
 # show
 
 ```
