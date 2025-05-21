@@ -14,10 +14,10 @@ Currently, miners are rewarded for providing the time of networkless GPU-equippe
 
 In February 2024 this will change - subnet will define more resource types and Validators will reward miners more for providing resources that are in higher demand. The system will quickly fill with organic traffic.
 
-# [GitHub](https://github.com/backend-developers-ltd/ComputeHorde) 
+# [GitHub](https://github.com/backend-developers-ltd/ComputeHorde)
 
 # Requirements
 
-## [Miner Readme](https://github.com/backend-developers-ltd/ComputeHorde/blob/master/miner/envs/runner/README.md) 
+## [Miner Readme](https://github.com/backend-developers-ltd/ComputeHorde/blob/master/miner/envs/runner/README.md)
 
 ## [Validator Readme](https://github.com/backend-developers-ltd/ComputeHorde/blob/master/validator/envs/runner/README.md)
