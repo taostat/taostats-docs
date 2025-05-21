@@ -2,3 +2,4 @@
 - get-slippage
 - get-historical-stake
 - get-stakingdelegation-balances
+- get-delegation-events
