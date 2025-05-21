@@ -14,17 +14,17 @@ A validator operates a validator nodes on subnets of the Bittensor network. The 
 
 Validators are tasked with both measuring and rewarding the value produced by the network from within the code structure of each subnet, but also through external activities unique to each validator which are aimed to win approval and trust of the community which will be rewarded with delegated stake, affording greater network access.
 
-A validators performance in a subnet is measured through their consensus with the other validators, measured by the vtrust metric, attained through the process of scoring and setting weights to the miners.  Validators whose scores are in agreement/consensus with the rest of the validators have a higher vtrust and as a result earn more performant rewards..
+A validators performance in a subnet is measured through their consensus with the other validators, measured by the vtrust metric, attained through the process of scoring and setting weights to the miners. Validators whose scores are in agreement/consensus with the rest of the validators have a higher vtrust and as a result earn more performant rewards.
 
 # Subnet Validation
 
-Each subnet uses a unique validation and rewards mechanism to define the value of the commodity being produced and assign incentive rewards for this process. Miners complete tasks based on the subnet mechanism requirements and the validators verify, compare and score the responses.  The scores are collated, normalised and submitted as weights for consensus, published to the blockchain.
+Each subnet uses a unique validation and rewards mechanism to define the value of the commodity being produced and assign incentive rewards for this process. Miners complete tasks based on the subnet mechanism requirements and the validators verify, compare and score the responses. The scores are collated, normalised and submitted as weights for consensus, published to the blockchain.
 
 The output of the consensus (rewards landscape) is the breakdown of the rewards for the validators, miners, and subnet owners. These results are recorded on the blockchain.
 
-To see a validator's results in Taostats, x.taostats.io/validator/<hotkey> has a wealth of detail:
+To see a validator's results in Taostats, x.taostats.io/validator/&lt;hotkey&gt; has a wealth of detail:
 
-- For each subnet that the validator is active:
+* For each subnet that the validator is active:
 
 ![](https://files.readme.io/98aaa2e-image.png)
 
@@ -32,7 +32,7 @@ See [Taostats: For Validators](doc:taostats-for-validators) for more details
 
 # Stake/delegation
 
-Validators are incentivised to add value to the Bittensor ecosystem.  This value is recognised and rewarded by participants delegating [Stake](doc:staking) to their validator(s) of choice.  The more stake a validator has, the  greater proportion of network bandwidth is afforded to them through the natural market effect of their weights holding higher value to miners as a result of the prioritisation of stake by Yuma Consensus. 
+Validators are incentivised to add value to the Bittensor ecosystem. This value is recognised and rewarded by participants delegating [Stake](doc:staking) to their validator(s) of choice. The more stake a validator has, the greater proportion of network bandwidth is afforded to them through the natural market effect of their weights holding higher value to miners as a result of the prioritisation of stake by Yuma Consensus.
 
 This can also be enforced through subnet mechanisms such as Subnet 19 - Vision which enables inference at scale whilst allocating bandwidth based upon the proportion of total delegation held.
 
@@ -44,15 +44,15 @@ To reward those that stake on a validator, the validator's emissions are divided
 
 Validators on each subnet receive 41% of all emissions. This is divided amongst the validators based upon their current performance on a given subnet which can be seen through the vtrust and emissions metrics, proportional to the total stake they hold on any given subnet.
 
-The emissions awarded to the validator is then divided amongst all delegators on a percentage basis.  If a delegator has provided 10% of the stake to the validtor, they will receive 10% of the emissions.
+The emissions awarded to the validator is then divided amongst all delegators on a percentage basis. If a delegator has provided 10% of the stake to the validtor, they will receive 10% of the emissions.
 
-## Take 
+## Take
 
-As emission is divided to delegators, the validator can take a small percentage of the emissions. This is called the `take`.  Initially, take was hard-coded at 18% - validators get 18%, and delegators get 82%. Today, validators can set this percentage (using the [Command Line Interface (CLI)](doc:command-line-tool)) to be any value from 0-18%.
+As emission is divided to delegators, the validator can take a small percentage of the emissions. This is called the `take`. Initially, take was hard-coded at 18% - validators get 18%, and delegators get 82%. Today, validators can set this percentage (using the [Command Line Interface (CLI)](doc:command-line-tool)) to be any value from 0-18%.
 
 <br>
 
-See the [Tao Allocation](doc:tao-allocation) for a model of the percentages a validator can earn. 
+See the [Tao Allocation](doc:tao-allocation) for a model of the percentages a validator can earn.
 
 <br>
 
@@ -68,8 +68,8 @@ Validators may also elect to join the [Senate](doc:senate) provided they are pre
 
 # List of Validators and Verification
 
-In order to be recognised as a validator the participant much and on-chain verification of the ownership of their key using the [Bittensor Delegates](https://github.com/opentensor/bittensor-delegates/) repository. The full list of all keys and the associated metadata they submitted can be see on a [public delegates.json file](https://github.com/opentensor/bittensor-delegates/blob/main/public/delegates.json) which is used for labelling in the explorer and recognition of validators on Taostats. 
+In order to be recognised as a validator the participant much and on-chain verification of the ownership of their key using the [Bittensor Delegates](https://github.com/opentensor/bittensor-delegates/) repository. The full list of all keys and the associated metadata they submitted can be see on a [public delegates.json file](https://github.com/opentensor/bittensor-delegates/blob/main/public/delegates.json) which is used for labelling in the explorer and recognition of validators on Taostats.
 
-Validators who wish to havre an increased public presence with more dedicated information are also encouraged to [verify on Taostats via a web form](https://taostats.io/verify-validator/) in order to secure a more comprehensive page with additional data to better build trust within the network. 
+Validators who wish to havre an increased public presence with more dedicated information are also encouraged to [verify on Taostats via a web form](https://taostats.io/verify-validator/) in order to secure a more comprehensive page with additional data to better build trust within the network.
 
 The full list of these validators can be view on the Verified Validators page with more information available in the [Validators](doc:validators) section of the documentation.
