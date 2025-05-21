@@ -22,7 +22,7 @@ If the developers are signing commits, check to see that the releases are signed
 
 If you’ve cloned the repo, and have the authors public keys installed, you can check and verify a tag’s signature with `tag -v <tag>`.
 
-[block:image]{"images":[{"image":["https://files.readme.io/a343466-octocat.png",null,"Untitled"],"align":"center"}]}[/block]
+<Image align="center" src="https://files.readme.io/a343466-octocat.png" />
 
 ## Installing packages
 
@@ -30,12 +30,12 @@ When installing packages from GitHub, either clone down and checkout a tagged ve
 
 <br />
 
-> 🚧 
-> 
-> Never, _ever_ install a project or dependency without specifying a version. One of the easiest and most commonly performed attacks, is to push a patched version and hope users blindly auto update.
-> 
+> 🚧
+>
+> Never, *ever* install a project or dependency without specifying a version. One of the easiest and most commonly performed attacks, is to push a patched version and hope users blindly auto update.
+>
 > Only upgrade when instructed to by the project developers or when they announce a new version, via official/verified channels, and only to the version they have announced.
-> 
+>
 > To checkout and switch branches in one command, use:
 
 ```bash
@@ -56,7 +56,7 @@ usage: btcli <command> <command args>
 bittensor cli v7.3.0
 ```
 
-This avoids relying on an external dependency like PyPI to install the project (where malicious code is most likely to reside), but pip will still resolve it's _dependencies_ from PyPI. This is the responsibility of the developers to check that any project dependencies have not been compromised ([see below](https://www.notion.so/A-Best-Practices-Guide-for-Safely-Installing-Software-38766d1f178f4ef89490cb999d61ba16?pvs=21)).
+This avoids relying on an external dependency like PyPI to install the project (where malicious code is most likely to reside), but pip will still resolve it's *dependencies* from PyPI. This is the responsibility of the developers to check that any project dependencies have not been compromised ([see below](https://www.notion.so/A-Best-Practices-Guide-for-Safely-Installing-Software-38766d1f178f4ef89490cb999d61ba16?pvs=21)).
 
 ### Installing via Docker
 
@@ -70,7 +70,7 @@ docker build \
 
 # What Developers can do to help
 
-While it's not possible to produce _truly_ reproducible builds in Python (it was never a requirement of pip, nor is Python built to do it), you can get close by relying on lock files to avoid supply chain attacks. If you notice the projects you are using don’t do some of the following things, request them via GitHub Issues.
+While it's not possible to produce *truly* reproducible builds in Python (it was never a requirement of pip, nor is Python built to do it), you can get close by relying on lock files to avoid supply chain attacks. If you notice the projects you are using don’t do some of the following things, request them via GitHub Issues.
 
 ## Manage project dependencies properly
 
