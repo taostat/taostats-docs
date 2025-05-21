@@ -5,3 +5,4 @@
 - get-chain-calls
 - get-stats-latest
 - get-stats-history
+- get-runtime-version
