@@ -7,3 +7,4 @@
 - live-get-node-transaction-pool
 - live-get-node-version
 - live-get-pallet-consts
+- live-get-pallet-consts-id
