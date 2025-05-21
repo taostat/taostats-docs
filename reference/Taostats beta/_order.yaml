@@ -18,3 +18,4 @@
 - get-subnet-owner
 - get-transaction
 - get-validators
+- get-validator-history
