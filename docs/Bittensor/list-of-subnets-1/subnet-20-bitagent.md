@@ -10,6 +10,6 @@ metadata:
 next:
   description: ''
 ---
-# [GitHub](https://github.com/RogueTensor/bitagent_subnet) 
+# [GitHub](https://github.com/RogueTensor/bitagent_subnet)
 
 # [HW Requirements](https://github.com/RogueTensor/bitagent_subnet/blob/main/min_compute.yml)
