@@ -26,8 +26,6 @@ options:
 
 ```
 
-
-
 # set
 
 Set hyperparameters for a subnet.
