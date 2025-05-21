@@ -28,7 +28,7 @@ Your tao is stored on the chain, and only those with wallet credentials can acce
 
 When you create a wallet you are given a 12 word phrase that can be used to recreate your wallet.  Super useful if your computer dies, or you smash your phone use the seed phrase to create a new access point. However, if you **give out this phrase** you are giving this person **full access** to all of your tao in this wallet.  NEVER DO THIS.
 
-- We have seen examples where the user knows not to share their seed phrase, but is tricked into sharing the "hex encoded" version of their seed phrase.  This 2 steps for the hacker to access your wallet.
+* We have seen examples where the user knows not to share their seed phrase, but is tricked into sharing the "hex encoded" version of their seed phrase.  This 2 steps for the hacker to access your wallet.
 
 ## Coldkey/hotkey
 
@@ -44,32 +44,20 @@ Keep it in the open. Use channels for all messages.  If you must DM: ensure it i
 
 <br />
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F6uUtLxe3mXc%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6uUtLxe3mXc&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F6uUtLxe3mXc%2Fhqdefault.jpg&key=7788cb384c9f4d5dbbdbeffd9fe4b92f&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=6uUtLxe3mXc",
-  "title": "Crypto Safety: Discord Direct Messages",
-  "favicon": "https://www.google.com/favicon.ico",
-  "image": "https://i.ytimg.com/vi/6uUtLxe3mXc/hqdefault.jpg",
-  "provider": "https://www.youtube.com/",
-  "href": "https://www.youtube.com/watch?v=6uUtLxe3mXc",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="https://www.youtube.com/watch?v=6uUtLxe3mXc" title="Crypto Safety: Discord Direct Messages" favicon="https://www.google.com/favicon.ico" image="https://i.ytimg.com/vi/6uUtLxe3mXc/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=6uUtLxe3mXc" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252F6uUtLxe3mXc%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D6uUtLxe3mXc%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252F6uUtLxe3mXc%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
 # In Doubt?
 
-- Ask in public.  If someone wants to to use a different server, or move to DMs - they may be trying to hide from the community - not keep you safe.
-- Don't do it. Educate yourself and make sure you understand what your action does, and how it could affect you/your wallets.
-- Too good to be true?  You are a direct descendant of Queen Elizabeth II and she has left you 4,000 tao in her will? Stop and think about what you are about to do.
+* Ask in public.  If someone wants to to use a different server, or move to DMs - they may be trying to hide from the community - not keep you safe.
+* Don't do it. Educate yourself and make sure you understand what your action does, and how it could affect you/your wallets.
+* Too good to be true?  You are a direct descendant of Queen Elizabeth II and she has left you 4,000 tao in her will? Stop and think about what you are about to do.
 
 <br />
 
 # What you can do?
 
-- If using Discord - set up 2 Factor Authentication - either Via SMS or with an authenticator app. This will prevent unauthorized takeovers of your Discord account.
-- Always verify who you are talking with.
-- Be wary of clicking any link.  Especially messages to  #open-a-ticket or #talk-to-an-admin (r similar).  They are taking you to a new Discord server.
+* If using Discord - set up 2 Factor Authentication - either Via SMS or with an authenticator app. This will prevent unauthorized takeovers of your Discord account.
+* Always verify who you are talking with.
+* Be wary of clicking any link.  Especially messages to  #open-a-ticket or #talk-to-an-admin (r similar).  They are taking you to a new Discord server.
