@@ -20,21 +20,21 @@ Each Subnet runs a self-contained codebase on top of the Bittensor code, each de
 
 # Architecture of Subnets
 
-Subnets currently have 256 <<glossary:neurons>> (Subnets 0 and 1 are exceptions to this rule), set in the subnet hyperparameters and will in time be a custom configurable value. 
+Subnets currently have 256 <Glossary>neurons</Glossary> (Subnets 0 and 1 are exceptions to this rule), set in the subnet hyperparameters and will in time be a custom configurable value. 
 
 The neurons are a mix of validators and miners with 64 slots reserved for validators (given vpermit) and the remainder for miners.  If validator slots are left unused they can be utilised by miners, ordered by the amount of tao staked on they key.
 
 > 👍 Nervous System Analogy
-> 
+>
 > As you dig deeper into Bittensor and AI you will come across vocabulary references to the nervous system such as neurons. Neurons have axons, dendrites and synapses.  Since neurons are the way the nervous system transmits data, it is a convenient analogy to describe how data is transmitted through the subnet.
-> 
+>
 > Easy mode: 
-> 
-> - **Neurons** are nodes or servers running on a subnet.
-> - **Synapse**: Data sent between neurons
-> - **Axons**: receives message (server)
-> - **Dendrite**: sends message (client)
-> 
+>
+> * **Neurons** are nodes or servers running on a subnet.
+> * **Synapse**: Data sent between neurons
+> * **Axons**: receives message (server)
+> * **Dendrite**: sends message (client)
+>
 > For a deeper discussion of biology and nodes see: TODO
 
 ## Validators
@@ -50,7 +50,7 @@ The amount of tao a validator has as delegated stake defines both the value of t
 
 Miners produce output as defined by the subnet code. This work is usually performed by running GPUs in order to complete tasks and although the mechanisms can vary from subnet to subnet, it is the power of distributed compute that one of the key values of the network. The validators then request this output for both the rewards mechanism and to satisfy any external queries. 
 
-Miners are ranked by the <<glossary:trust>>.  Miners with higher trust values receive higher <<glossary:incentive>> and as a result more <<glossary:emissions>>.
+Miners are ranked by the <Glossary>trust</Glossary>.  Miners with higher trust values receive higher <Glossary>incentive</Glossary> and as a result more <Glossary>emissions</Glossary>.
 
 ## Consensus
 
@@ -58,7 +58,7 @@ Each subnet has a task that is undertaken, and an incentive mechanism that can b
 
 # Subnet Registration
 
-Anyone can register a new subnet provided they have an address that contains the current subnet registration cost in tao.  Once a Subnet is registered, it is given <<glossary:immunity>> from de-registration for 7 days. The period of immunity allows the new subnet to build trust and establish emissions without being de-registered in the event or further subnet registrations.
+Anyone can register a new subnet provided they have an address that contains the current subnet registration cost in tao.  Once a Subnet is registered, it is given <Glossary>immunity</Glossary> from de-registration for 7 days. The period of immunity allows the new subnet to build trust and establish emissions without being de-registered in the event or further subnet registrations.
 
 ## Registration Cost
 
@@ -73,82 +73,56 @@ btcli subnet lock_cost
 
 Or you can view a historical chart of registration cost at <a href="https://taostats.io/" target="_blank">Taostats</a>. The chart is called "subnet registration data." In this chart, a flurry of subnet registrations had recently occurred, leading to an increase in registration costs - showing 598 TAO.:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/816b1c7-image.png",
-        null,
-        "A screenshot of the Subnet registration cost over time."
-      ],
-      "align": "center",
-      "caption": "A screenshot of the Subnet registration cost over time."
-    }
-  ]
-}
-[/block]
-
+<Image alt="A screenshot of the Subnet registration cost over time." align="center" src="https://files.readme.io/816b1c7-image.png">
+  A screenshot of the Subnet registration cost over time.
+</Image>
 
 # Subnet de-registration
 
-With a limit on the number of subnets, (assuming all slots are filled) when a new subnet is registered an existing subnet must be de-registered. The subnet with the lowest emissions (that is not in <<glossary:immunity>>) will be removed from the network.  This means that the subnet numbers are not a chronological summary of the Bittensor network. Taostats has a [chart showing the emissions for all subnets that can be sorted low -> high](https://x.taostats.io/?_gl=1*1poggmz*_ga*NDEyNDE1Nzg2LjE3MDU1MDQ0MTE.*_ga_VCM7H6TDR4*MTcwNTY5MDI3MC44LjEuMTcwNTY5MDU3Mi4wLjAuMA..#subnets).
+With a limit on the number of subnets, (assuming all slots are filled) when a new subnet is registered an existing subnet must be de-registered. The subnet with the lowest emissions (that is not in <Glossary>immunity</Glossary>) will be removed from the network.  This means that the subnet numbers are not a chronological summary of the Bittensor network. Taostats has a [chart showing the emissions for all subnets that can be sorted low -> high](https://x.taostats.io/?_gl=1*1poggmz*_ga*NDEyNDE1Nzg2LjE3MDU1MDQ0MTE.*_ga_VCM7H6TDR4*MTcwNTY5MDI3MC44LjEuMTcwNTY5MDU3Mi4wLjAuMA..#subnets).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/dbde2e1-image.png",
-        null,
-        "In this screenshot, the three lowest emission subnets have immunity, meaning that subnet 29 would be the next deregistered subnet."
-      ],
-      "align": "center",
-      "caption": "In this screenshot from 20th January, the three lowest emission subnets have immunity, meaning that subnet 29 would be the next deregistered subnet."
-    }
-  ]
-}
-[/block]
-
+<Image alt="In this screenshot, the three lowest emission subnets have immunity, meaning that subnet 29 would be the next deregistered subnet." align="center" src="https://files.readme.io/dbde2e1-image.png">
+  In this screenshot from 20th January, the three lowest emission subnets have immunity, meaning that subnet 29 would be the next deregistered subnet.
+</Image>
 
 > 📘 If a Subnet is de-registered, all node hotkeys (miners & validators) are deregistered as well.
 
 <br />
 
 > 🚧 Should there be a need to manually deregister a subnet these are instructions sourced from the Official Discord server.  These are untested by the Taostats team.
-> 
-> In order to dissolve your network , you need to call the dissolve_network extrinsic directly from polkadot.js , as we dont expose this functionality via the cli.
-> 
+>
+> In order to dissolve your network , you need to call the dissolve\_network extrinsic directly from polkadot.js , as we dont expose this functionality via the cli.
+>
 > Here's a step by step guide to do this on polkadot.js
-> 
-> Connect to the Subtensor Network:  
-> Open your web browser and navigate to the Polkadot.js Apps website (<https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fentrypoint-finney.opentensor.ai%3A443#/extrinsics>).
-> 
-> Navigate to the Extrinsics Page:  
-> In the top navigation menu, click on the "Developer" tab.  
+>
+> Connect to the Subtensor Network:\
+> Open your web browser and navigate to the Polkadot.js Apps website ([https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fentrypoint-finney.opentensor.ai%3A443#/extrinsics](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fentrypoint-finney.opentensor.ai%3A443#/extrinsics)).
+>
+> Navigate to the Extrinsics Page:\
+> In the top navigation menu, click on the "Developer" tab.\
 > In the sub-menu, click on "Extrinsics" to open the Extrinsics page.
-> 
-> Select the subtensor Pallet:  
-> On the Extrinsics page, you will see a section labeled "submit the following extrinsic".  
+>
+> Select the subtensor Pallet:\
+> On the Extrinsics page, you will see a section labeled "submit the following extrinsic".\
 > In the first dropdown menu labeled "selected call", choose the subtensor pallet.
-> 
-> Choose the dissolve_network Function:  
-> After selecting the subtensor pallet, the second dropdown menu will show the available functions within that pallet.  
-> Scroll down and select the  dissolve_network function.
-> 
-> Provide the Required Arguments:  
-> Once you've selected the dissolve_network function, you will see input fields for the required arguments.  
-> For the origin argument, select the appropriate account from the "using the selected account" dropdown. This account should have the necessary permissions to dissolve the network.  
+>
+> Choose the dissolve\_network Function:\
+> After selecting the subtensor pallet, the second dropdown menu will show the available functions within that pallet.\
+> Scroll down and select the  dissolve\_network function.
+>
+> Provide the Required Arguments:\
+> Once you've selected the dissolve\_network function, you will see input fields for the required arguments.\
+> For the origin argument, select the appropriate account from the "using the selected account" dropdown. This account should have the necessary permissions to dissolve the network.\
 > For the netuid argument, enter the unique identifier of the network you want to dissolve. This should be a 16-bit unsigned integer. (i.e. your subnet number)
-> 
-> Submit the Transaction:  
-> Double-check that you've entered the correct  netuid  value.  
-> Scroll down to the bottom of the page and click on the "Submit Transaction" button.  
-> Polkadot.js will prompt you to sign the transaction using the selected account.  
+>
+> Submit the Transaction:\
+> Double-check that you've entered the correct  netuid  value.\
+> Scroll down to the bottom of the page and click on the "Submit Transaction" button.\
+> Polkadot.js will prompt you to sign the transaction using the selected account.\
 > After signing the transaction, it will be broadcast to the Subtensor network.
-> 
-> Monitor the Transaction Status:  
-> After submitting the transaction, you can monitor its status in the "Explorer" tab of Polkadot.js Apps.  
-> In the "Explorer" tab, click on the "Node Info" sub-menu to see the recent blocks and transactions.  
-> Look for your transaction in the list and click on it to view its details and status.  
+>
+> Monitor the Transaction Status:\
+> After submitting the transaction, you can monitor its status in the "Explorer" tab of Polkadot.js Apps.\
+> In the "Explorer" tab, click on the "Node Info" sub-menu to see the recent blocks and transactions.\
+> Look for your transaction in the list and click on it to view its details and status.\
 > If the transaction is successful, the network with the specified netuid will be dissolved, and the associated data will be removed from the Subtensor storage.
