@@ -10,6 +10,6 @@ metadata:
 next:
   description: ''
 ---
-# [GitHub](https://github.com/womboai/wombo-bittensor-subnet) 
+# [GitHub](https://github.com/womboai/wombo-bittensor-subnet)
 
 # [HW Requirements](https://github.com/womboai/wombo-bittensor-subnet/blob/main/min_compute.yml)
