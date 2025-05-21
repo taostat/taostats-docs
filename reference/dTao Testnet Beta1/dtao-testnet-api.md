@@ -18,7 +18,7 @@ They may break as we make changes.
 
 If you find any inconsistencies, please let us know on the  [Taostats Discord](discord.taostats.io)
 
-## Your Taostats API key will work on these endpoints. 
+## Your Taostats API key will work on these endpoints.
 
 ## Don't have an API key yet?
 
