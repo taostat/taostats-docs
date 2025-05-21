@@ -12,7 +12,7 @@ next:
 ---
 [Taostats](https://taostats.io) is the Blockchain Explorer and Data Analytics Platform for Bittensor.  
 
-It provides {timeframe} data on the state of Bittensor subnets, miners, and validators as well as details on blocks, accounts, transfers and delegation events.  In this section, we will break down every graph, chart, and page on Taostats to allow users to better understand the data being presented.
+It provides \{timeframe} data on the state of Bittensor subnets, miners, and validators as well as details on blocks, accounts, transfers and delegation events.  In this section, we will break down every graph, chart, and page on Taostats to allow users to better understand the data being presented.
 
 # TL;dr
 
@@ -24,8 +24,8 @@ It provides {timeframe} data on the state of Bittensor subnets, miners, and vali
 
 # Taostats basics
 
-- [Subnets](doc:subnets): Extract the data from each subnet on the Bittensor network.
-- [Blockchain](doc:blockchain-1): Learn how to read the blockchain for transactions.
-- [Delegation](doc:delegation): Delegate your tao to validators
-- [Validators](doc:validators): Learn about the validators on Bittensor.
-- [Accounts](doc:accounts): Dig into hotkeys and coldkeys and extract information from your account.
+* [Subnets](doc:subnets): Extract the data from each subnet on the Bittensor network.
+* [Blockchain](doc:blockchain-1): Learn how to read the blockchain for transactions.
+* [Delegation](doc:delegation): Delegate your tao to validators
+* [Validators](doc:validators): Learn about the validators on Bittensor.
+* [Accounts](doc:accounts): Dig into hotkeys and coldkeys and extract information from your account.
