@@ -12,9 +12,9 @@ next:
 ---
 Batch extrinsics do what you expect - they batch many extrinsics, so that they occur on the same block.  In Bittensor, there are three extrinsics for batching calls:
 
-- Utility.batch
-- Utility.batch_all
-- Utility.force_batch
+* Utility.batch
+* Utility.batch\_all
+* Utility.force\_batch
 
 <br />
 
