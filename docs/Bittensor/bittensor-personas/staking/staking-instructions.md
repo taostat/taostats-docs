@@ -12,13 +12,13 @@ next:
 ---
 A few assumptions.  You have a 
 
-- wallet (or coldkey)
-- the wallet has tao in it.
+* wallet (or coldkey)
+* the wallet has tao in it.
 
 > 📘 One stake event every 360 blocks
-> 
+>
 > You make stake or unstake to a validator hotkey once every 360 blocks.  So a 2nd stake, or an unstake must wait about 72 minutes.
-> 
+>
 > You can unstake from validator1, and immediately stake to validator2 since these are two different hotkeys.
 
 # btcli
