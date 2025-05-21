@@ -12,50 +12,21 @@ next:
 ---
 The [Delegation/Staking](https://taostats.io/staking/) link in the header opens a tao staking/validation calculator:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/bad9695-Screenshot_2024-06-24_at_08.35.45.jpg",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "75% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="75% " src="https://files.readme.io/bad9695-Screenshot_2024-06-24_at_08.35.45.jpg" />
 
 To use the calculator, enter the amount of tao you wish to stake, the validatopr you wish to stake with. Most users will leave the checkbox at "Staker."
 
-- Staker vs. Validator:  As a staker - a percentage of the emissions are given to the validator ('take').  This is subtracted from the total.  As a validator, you will earn both emissions & take.
+* Staker vs. Validator:  As a staker - a percentage of the emissions are given to the validator ('take').  This is subtracted from the total.  As a validator, you will earn both emissions & take.
 
 Results:
 
-- Daily Staking return - for the validator chosen, the amount of tao that will be added to your hotkey.
-- Monthly Staking return.- Estimates monthly return by multiplying the daily figure by 30. (Note: there will be rounding differences).
-- Yearly staking return: Estimate annual return: daily \* 365.
+* Daily Staking return - for the validator chosen, the amount of tao that will be added to your hotkey.
+* Monthly Staking return.- Estimates monthly return by multiplying the daily figure by 30. (Note: there will be rounding differences).
+* Yearly staking return: Estimate annual return: daily \* 365.
 
 The chart below the graph calculates staking returns for all validators: 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/92e9cf2-Screenshot_2024-06-24_at_11.18.44.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/92e9cf2-Screenshot_2024-06-24_at_11.18.44.jpg" />
 
 <br />
 
@@ -71,21 +42,7 @@ This also means that changes in "Take" will take time to significantly change th
 
 Let's say that the daily total distributed to stakeholders is 3,000 tao.  If there is 6M tao staked, this will be distributed evenly:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b15a31f-Screenshot_2024-06-25_at_11.05.30.jpg",
-        null,
-        null
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/b15a31f-Screenshot_2024-06-25_at_11.05.30.jpg" />
 
 As more tao is staked, the denominator gets larger, but the numerator stays constant.
 
