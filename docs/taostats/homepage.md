@@ -12,65 +12,36 @@ next:
 ---
 The landing page of Taostats provides a a high level overview of several important aspects of the Bittensor network.
 
-- [Tao Summary](#tao-summary)
-- [Tao Trading Chart](#tao-trading-chart)
-- [Subnet overview](#subnet-overview)
-- [Subnet 0 data](#subnet-0-data)
+* [Tao Summary](#tao-summary)
+* [Tao Trading Chart](#tao-trading-chart)
+* [Subnet overview](#subnet-overview)
+* [Subnet 0 data](#subnet-0-data)
 
 # Tao Summary
 
 Across the top of the homepage is a summary of the current trading state of the $TAO token.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ea6fb304425e873736152a3ff521ef7e5e9fb8e095b9512d6acfc590a75c9511-Screenshot_2024-09-06_at_14.56.12.jpg",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/ea6fb304425e873736152a3ff521ef7e5e9fb8e095b9512d6acfc590a75c9511-Screenshot_2024-09-06_at_14.56.12.jpg" />
 
-
-- **Current price**: in USD (and daily change)
-- **Market cap**: the value of all the **τ**  currently in circulation.
-- **24h Volume**: How much **τ** was traded in the last day.
-- **Circulating Supply**: **τ** that has been minted and can be traded.
-- **Total Supply**: In ~2045, the final **τ** will be created, and there will be 21M TAO in circulation.
+* **Current price**: in USD (and daily change)
+* **Market cap**: the value of all the **τ**  currently in circulation.
+* **24h Volume**: How much **τ** was traded in the last day.
+* **Circulating Supply**: **τ** that has been minted and can be traded.
+* **Total Supply**: In \~2045, the final **τ** will be created, and there will be 21M TAO in circulation.
 
 # Tao trading chart
 
 This chart lists the historical price and trading volume of **τ**.  
 
-- The price of **τ** is shown with an orange line.
-- The daily volume is a blue bar chart, where each bar is one day's trading (in millions of USD).
+* The price of **τ** is shown with an orange line.
+* The daily volume is a blue bar chart, where each bar is one day's trading (in millions of USD).
 
 **Chart controls:**
 
-- **Plus and minus buttons:** zoom in and zoom out.
-- **Magnifying glass**   select the zoom region
+* **Plus and minus buttons:** zoom in and zoom out.
+* **Magnifying glass**   select the zoom region
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/7dcecce-Screenshot_2024-06-28_at_12.25.26.jpg",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "75% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="75% " src="https://files.readme.io/7dcecce-Screenshot_2024-06-28_at_12.25.26.jpg" />
 
 <br />
 
@@ -80,21 +51,7 @@ This chart lists the historical price and trading volume of **τ**.
 
 This summary of subnet data shows the top 8 subnets based on emission:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2425b199177d3048109e95f233eb12edc872a27477fb0366a5e921376f1f40fe-Screenshot_2024-09-06_at_14.57.09.jpg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/2425b199177d3048109e95f233eb12edc872a27477fb0366a5e921376f1f40fe-Screenshot_2024-09-06_at_14.57.09.jpg" />
 
 # Validator Summary
 
@@ -124,11 +81,11 @@ The chart at the bottom of the homepage shows data from the  [Root Subnet](doc:r
 
 ## Validator data
 
-- **POS**:  The position in the chart (not a ranking.)
-- **Crown**: The crown indicates if the validator is a member of the Bittensor [Senate](doc:senate).
-- **UID** The UID of the validator on Subnet 0.
-- **Stake**: The TAO staked to that validator.
-- **Hotkey** The hotkey for the validator.
+* **POS**:  The position in the chart (not a ranking.)
+* **Crown**: The crown indicates if the validator is a member of the Bittensor [Senate](doc:senate).
+* **UID** The UID of the validator on Subnet 0.
+* **Stake**: The TAO staked to that validator.
+* **Hotkey** The hotkey for the validator.
 
 ## Validator Allocation
 
@@ -137,13 +94,13 @@ The remaining 33 columns list all of the subnets. Each validator divides their e
 Each column can be sorted in ascending or descending order.
 
 > 📘 Example:
-> 
-> [block:image]{"images":[{"image":["https://files.readme.io/b0c95e0ec4aef4282720b9ffc5ba5c337871a20b8514610e5500e53d382f0619-Screenshot_2024-09-06_at_15.00.15.jpg",null,null],"align":"center"}]}[/block]
-> 
+>
+> <Image align="center" src="https://files.readme.io/b0c95e0ec4aef4282720b9ffc5ba5c337871a20b8514610e5500e53d382f0619-Screenshot_2024-09-06_at_15.00.15.jpg" />
+>
 > Validator in position 1 has allocated 9% of emissions to SN1
-> 
+>
 > Validator in position 2 has allocated 9% of emissions to SN1
-> 
+>
 > Validator in position 3 has allocated 0% to SN1.
-> 
+>
 > Across all of the validators, SN1 receives 7.07% of emissions. This is determined by [Yuma Consensus](doc:consensus).
