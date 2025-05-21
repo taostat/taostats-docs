@@ -16,18 +16,18 @@ In the upper left, find a description and links to external sites for the subnet
 
 ![](https://files.readme.io/d4aba152ae819cd3c84d5b906762b2c68bf90ecf7542289996f9ee5b545ab60b-image.png)
 
-- [Price](#price) 
-- [Financial Data](#financial-data) 
-- [Staking Data](#staking-data) 
-- [Subnet Data](#subnet-data) 
-- Chart
-- [Metagraph](doc:metagraph)
-- Hyperparameters
-- Registration
-- Distribution
-- Miner Weights
-- Emission
-- <br />
+* [Price](#price) 
+* [Financial Data](#financial-data) 
+* [Staking Data](#staking-data) 
+* [Subnet Data](#subnet-data) 
+* Chart
+* [Metagraph](doc:metagraph)
+* Hyperparameters
+* Registration
+* Distribution
+* Miner Weights
+* Emission
+* <br />
 
 ## Price
 
@@ -43,14 +43,14 @@ The price of the alpha token in both tao and USD.
 
 <br />
 
-- **Market Cap**: The value of the subnet alpha in USD.
-- **Volume**: tao/alpha traded in the last 24 hours (in USD).
-- **FDV**: Fully Diluted Value: Price \* Max Supply
-- **Vol/Market Cap/24hr**: Percentage of market cap traded in the last day.
-- **Max Supply**: Max number of tokens.
-- **Circulating Supply**: Toal amount of alpha in circulation.
-- ** Alpha in Pool**: The amount of alpha in the Subnet liquidity pool.
-- **Tao in Pool **: The amount of tao in the Subnet liquidity pool.
+* **Market Cap**: The value of the subnet alpha in USD.
+* **Volume**: tao/alpha traded in the last 24 hours (in USD).
+* **FDV**: Fully Diluted Value: Price \* Max Supply
+* **Vol/Market Cap/24hr**: Percentage of market cap traded in the last day.
+* **Max Supply**: Max number of tokens.
+* **Circulating Supply**: Toal amount of alpha in circulation.
+* **Alpha in Pool** : The amount of alpha in the Subnet liquidity pool.
+* **Tao in Pool** : The amount of tao in the Subnet liquidity pool.
 
 ## Staking Data
 
@@ -64,10 +64,10 @@ A summary of all staking/unstaking events in the previous 24 hours
 
 <br />
 
-- **Emission**: The % of tao emitted into the Subnet pool.  If 1 tao is emitted per block, emission/100 os the amount of tao emitted into the pool.
-- **Emission/Day**: 
-- **Owner/day**
-- **Miner/day**
-- **Validator/day**
-- **Registration cost**
-- **Recycled/day**: tao recycled for neuron registration. This is the sum of the fees paid for miner and validator registrations.
+* **Emission**: The % of tao emitted into the Subnet pool.  If 1 tao is emitted per block, emission/100 os the amount of tao emitted into the pool.
+* **Emission/Day**: 
+* **Owner/day**
+* **Miner/day**
+* **Validator/day**
+* **Registration cost**
+* **Recycled/day**: tao recycled for neuron registration. This is the sum of the fees paid for miner and validator registrations.
