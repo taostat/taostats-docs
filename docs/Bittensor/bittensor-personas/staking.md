@@ -28,17 +28,17 @@ taostats reports emission per epoch (360 blocks).  multiple by 20 to get an esti
 
 # Why Stake?
 
-Staking is a way for a holder of TAO to earn emissions without running a subnet/validator/miner and as a result retain value of the token whilst the supply increases due to continued token issuance. By staking with a validator, they are giving _weight_ and showing support to that validator's actions on the network. 
+Staking is a way for a holder of TAO to earn emissions without running a subnet/validator/miner and as a result retain value of the token whilst the supply increases due to continued token issuance. By staking with a validator, they are giving *weight* and showing support to that validator's actions on the network. 
 
 # Staking TAO
 
 Stake TAO with:
 
-- [Command Line Tool](doc:command-line-tool)
-- <a href=" https://delegate.taostats.io" target="_blank">Taostats</a>
+* [Command Line Tool](doc:command-line-tool)
+* <a href=" https://delegate.taostats.io" target="_blank">Taostats</a>
 
 # Helpful links
 
-- [Taostats: For Staking](doc:taostats-for-staking): The Bittensor data you need to make staking decisions.
-- [Staking FAQ](https://docs.taostats.io/docs/faq#stakingdelegation) 
-- <br />
+* [Taostats: For Staking](doc:taostats-for-staking): The Bittensor data you need to make staking decisions.
+* [Staking FAQ](https://docs.taostats.io/docs/faq#stakingdelegation) 
+* <br />
