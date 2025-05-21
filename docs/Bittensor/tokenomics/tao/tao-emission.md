@@ -24,8 +24,8 @@ Tao emission (also known as `tao_in`) on a subnet is calculated by finding the s
 
 ![](https://files.readme.io/2a743d39d2afaacc67b13c59c53b76b57ba794a23d89d4fea557fc1da1d76cb4-image.png)
 
-> 📘 Tao_in example:
-> 
+> 📘 Tao\_in example:
+>
 > At dTao launch, 1 tao and 1 alpha will be added to the subnet pool for each of the 64 Subnets.
-> 
-> Therefore, the alpha price is 1 tao/1 alpha  = 1.  This holds for all 64 subnets, so the tao_in for each subnet at dTao launch is 1/64 = 0.015625 tao.
+>
+> Therefore, the alpha price is 1 tao/1 alpha  = 1.  This holds for all 64 subnets, so the tao\_in for each subnet at dTao launch is 1/64 = 0.015625 tao.
