@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-# [GitHub](https://github.com/Supreme-Emperor-Wang/ImageAlchemy) 
+# [GitHub](https://github.com/Supreme-Emperor-Wang/ImageAlchemy)
 
 # HW requirements
 
@@ -20,8 +20,8 @@ next:
 
 ## Running miners and validators on the testnet
 
-Mining guide:  
-<https://docs.google.com/document/d/1FzZe5EskEV0Q6BkOuVkqCrIEexzQZd_134eT74B7hPA/edit?usp=sharing>
+Mining guide:\
+[https://docs.google.com/document/d/1FzZe5EskEV0Q6BkOuVkqCrIEexzQZd\_134eT74B7hPA/edit?usp=sharing](https://docs.google.com/document/d/1FzZe5EskEV0Q6BkOuVkqCrIEexzQZd_134eT74B7hPA/edit?usp=sharing)
 
-Validator guide:  
-<https://docs.google.com/document/d/1gj6WOgjWBfKvYBc82r_lIiHNR_xfIT5me6QFXYgXrSU/edit?usp=sharing>
+Validator guide:\
+[https://docs.google.com/document/d/1gj6WOgjWBfKvYBc82r\_lIiHNR\_xfIT5me6QFXYgXrSU/edit?usp=sharing](https://docs.google.com/document/d/1gj6WOgjWBfKvYBc82r_lIiHNR_xfIT5me6QFXYgXrSU/edit?usp=sharing)
