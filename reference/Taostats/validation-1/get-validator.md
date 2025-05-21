@@ -13,11 +13,7 @@ metadata:
 next:
   description: ''
 ---
-## response details
-
-<br />
-
-```
+```json
 {
   "hotkey": {
     "ss58": "5GKH9FPPnWSUoeeTJp19wVtd84XqFW4pyK2ijV2GsFbhTrP1",
@@ -34,21 +30,21 @@ next:
   "rank": 1,
   "nominators": 6691,
   "nominators_24_hr_change": 5,
-  "system_stake": "5864261013828190", as rao
-  "stake": "767381773437417", as rao
-  "stake_24_hr_change": "-3452405790344", as rao
-  "dominance": "13.08573700297269211464",percentage
-  "validator_stake": "457978988665",as rao
-  "take": "0.08999771114671549554", number
+  "system_stake": "5864261013828190",
+  "stake": "767381773437417",
+  "stake_24_hr_change": "-3452405790344",
+  "dominance": "13.08573700297269211464",
+  "validator_stake": "457978988665",
+  "take": "0.08999771114671549554",
   "total_daily_return": "0",
   "validator_return": "0",
-  "nominator_return_per_k": "468470749",as rao
+  "nominator_return_per_k": "468470749",
   "apr": "0.17099",
-  "nominator_return_per_k_7_day_average": "468989538",as rao
-  "nominator_return_per_k_30_day_average": "452990300" as rao,
+  "nominator_return_per_k_7_day_average": "468989538",
+  "nominator_return_per_k_30_day_average": "452990300",
   "apr_7_day_average": "0.17118",
   "apr_30_day_average": "0.16534",
-  "pending_emission": "136028561110", per epoch as rao
+  "pending_emission": "136028561110",
   "blocks_until_next_reward": 4472,
   "last_reward_block": 4917621,
   "registrations": [
@@ -58,18 +54,16 @@ next:
   ],
   "permits": [
     0,
-```
-
-  <snip>
-        53
-      ],
-      "subnet_dominance": [
-        {
-          "netuid": 0,
-          "dominance": "13.08573700297269211464", percentage
-          "family_stake": "767381773437417" as rao
-        },
-  <snip>
-        }
-      ]
+    <snip>
+    53
+  ],
+  "subnet_dominance": [
+    {
+      "netuid": 0,
+      "dominance": "13.08573700297269211464",
+      "family_stake": "767381773437417"
     },
+    <snip>
+  ]
+}
+```
