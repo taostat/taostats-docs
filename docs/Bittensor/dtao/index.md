@@ -36,7 +36,7 @@ The [Subnet Emission](doc:subnets-emission) section walks through how alpha is d
 
 ## Does my staking change in dTao?
 
-Any tao staked prior to dTao is now staked to root. This will be done automatically for you.
+Any tao staked prior to dTao is now staked to root. This was done automatically.  Basic staking is now called "Root Stake" or "staking to root."
 
 [Stakeholder Emissions: Root](doc:stakeholder-emissions-root)
 
