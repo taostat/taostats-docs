@@ -10,41 +10,35 @@ metadata:
 next:
   description: ''
 ---
-# github <https://github.com/3itSmartLife/BitAudit>
+# github [https://github.com/3itSmartLife/BitAudit](https://github.com/3itSmartLife/BitAudit)
 
-# website: <https://www.bitaudit.co/>
+# website: [https://www.bitaudit.co/](https://www.bitaudit.co/)
 
+# **BitAudit - Blockchain Network Audit Subnet**
 
-
-
-
-# **BitAudit - Blockchain Network Audit Subnet** 
-
-[![bitAudit](/docs/BitAudit.png)](https://github.com/3itSmartlife/BitAudit/tree/main/docs)  
+[![bitAudit](/docs/BitAudit.png)](https://github.com/3itSmartlife/BitAudit/tree/main/docs)\
 [![Bittensor](/docs/taologo.png)](https://bittensor.com/)
 
 ***
 
-[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)  
+[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)\
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ***
 
-## Towards A Secure and Resilient Blockchain Network 
+## Towards A Secure and Resilient Blockchain Network
 
 [Discord](https://discord.gg/bittensor) • [Network](https://taostats.io/) • [Research](https://bittensor.com/whitepaper)
-
-
 
 ***
 
 ## Introduction
 
-> **Note:** The following documentation assumes you are familiar with basic Bittensor concepts: Miners, Validators, and incentives. If you need a primer, please check out <https://docs.bittensor.com/learn/bittensor-building-blocks>.
+> **Note:** The following documentation assumes you are familiar with basic Bittensor concepts: Miners, Validators, and incentives. If you need a primer, please check out [https://docs.bittensor.com/learn/bittensor-building-blocks](https://docs.bittensor.com/learn/bittensor-building-blocks).
 
-The objective of this subnet is to conduct audits on smart contracts, aiming to detect security vulnerabilities, address poor coding practices, and optimize inefficient code through the utilization of artificial intelligence (AI).  
-This aims to offer a service that safeguards users against potential financial losses, compromised data, and reputational damage, thereby bolstering the security, reliability, and performance of blockchain networks utilizing Bittensor Ecosystem.  
-This will be further extended to audit blockchain networks.  
+The objective of this subnet is to conduct audits on smart contracts, aiming to detect security vulnerabilities, address poor coding practices, and optimize inefficient code through the utilization of artificial intelligence (AI).\
+This aims to offer a service that safeguards users against potential financial losses, compromised data, and reputational damage, thereby bolstering the security, reliability, and performance of blockchain networks utilizing Bittensor Ecosystem.\
+This will be further extended to audit blockchain networks.\
 Additionally, it is the first Bittensor subnet to handle software security using AI.
 
 The mechanism works like this:
@@ -61,11 +55,11 @@ The mechanism works like this:
 
 Before you proceed with the installation of the subnet, note the following: 
 
-- Use these instructions to run your subnet locally for your development and testing, or on Bittensor testnet or on Bittensor mainnet. 
-- **IMPORTANT**: We **strongly recommend** that you first run your subnet locally and complete your development and testing before running the subnet on Bittensor testnet. Furthermore, make sure that you next run your subnet on Bittensor testnet before running it on the Bittensor mainnet.
-- You can run your subnet either as a subnet owner, or as a subnet validator or as a subnet miner. 
-- **IMPORTANT:** Make sure you are aware of the minimum compute requirements for your subnet. See the [Minimum compute YAML configuration](./min_compute.yml).
-- Note that installation instructions differ based on your situation: For example, installing for local development and testing will require a few additional steps compared to installing for testnet. Similarly, installation instructions differ for a subnet owner vs a validator or a miner. 
+* Use these instructions to run your subnet locally for your development and testing, or on Bittensor testnet or on Bittensor mainnet. 
+* **IMPORTANT**: We **strongly recommend** that you first run your subnet locally and complete your development and testing before running the subnet on Bittensor testnet. Furthermore, make sure that you next run your subnet on Bittensor testnet before running it on the Bittensor mainnet.
+* You can run your subnet either as a subnet owner, or as a subnet validator or as a subnet miner. 
+* **IMPORTANT:** Make sure you are aware of the minimum compute requirements for your subnet. See the [Minimum compute YAML configuration](./min_compute.yml).
+* Note that installation instructions differ based on your situation: For example, installing for local development and testing will require a few additional steps compared to installing for testnet. Similarly, installation instructions differ for a subnet owner vs a validator or a miner. 
 
 ### Install
 
@@ -97,12 +91,12 @@ npm i -g pm2
 
 ### Running subtensor locally
 
-Follow the instructions at : <https://docs.bittensor.com/getting-started/running-a-public-subtensor>
+Follow the instructions at : [https://docs.bittensor.com/getting-started/running-a-public-subtensor](https://docs.bittensor.com/getting-started/running-a-public-subtensor)
 
 ### Running miner
 
-Miners audit smart contracts written in Solidity utilizing various LLMs.  
-They have the flexibility to implement various AI algorithms for smart contract auditing. Their responses will be validated and be rewarded according to the accuracy.  
+Miners audit smart contracts written in Solidity utilizing various LLMs.\
+They have the flexibility to implement various AI algorithms for smart contract auditing. Their responses will be validated and be rewarded according to the accuracy.\
 Smart contract auditing using CodeLlama from Meta is working currently. 
 
 #### Run the miner with `pm2`
@@ -121,8 +115,8 @@ pm2 start neurons/miners/codellama/miner.py --name miner --interpreter python3 -
 
 ### Running validator
 
-Validating miners are a crucial part in analyzing the performance of the subnet and incentivize miners for continuous improvement. Validators query miners with prepared validation dataset and validate responses from miners with labels on the validation dataset.  
-Currently, validators are designed to use OpenAI API to refactor smart contract code from validation dataset to prevent exploits.  
+Validating miners are a crucial part in analyzing the performance of the subnet and incentivize miners for continuous improvement. Validators query miners with prepared validation dataset and validate responses from miners with labels on the validation dataset.\
+Currently, validators are designed to use OpenAI API to refactor smart contract code from validation dataset to prevent exploits.\
 Validators are highly encouraged to use their own validation data to validate miners.
 
 #### Run the validator with `pm2`
