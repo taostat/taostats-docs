@@ -27,36 +27,24 @@ The incentive score for a subnet scores how well miners are performing in relati
 The miner emission score is how much tao is awarded to the miner each epoch. (An epoch is 360 blocks)
 
 > 📘 Emission math example
-> 
+>
 > A subnet receives 0.05 tao per block.
-> 
+>
 > In 1 epoch - 0.05\*360 =  18 tao.
-> 
+>
 > Miners receive 41% of the subnet' emissions. 18\*.41 = 7.38 tao.
-> 
+>
 > Miner 19 has incentive of 0.006.  7.38\*0.006 = 0.04428 tao per epoch.
-> 
-> _Miner 19 has 0.04428 emission_
+>
+> *Miner 19 has 0.04428 emission*
 
 Emission is calculated every epoch, but is awarded once every 7200 blocks.  This can mean that emission is delivered to your hotkey after your miner is deregistered.
 
 # Daily Rewards
 
-On taostats, the daily rewards is calculated by multiplying emission \*20 (There are ~20 epochs in 24 hours.)
+On taostats, the daily rewards is calculated by multiplying emission \*20 (There are \~20 epochs in 24 hours.)
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FZ2s7jEJK_m4%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZ2s7jEJK_m4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZ2s7jEJK_m4%2Fhqdefault.jpg&key=7788cb384c9f4d5dbbdbeffd9fe4b92f&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=Z2s7jEJK_m4",
-  "title": "Bittensor: Miner Incentive deep dive",
-  "favicon": "https://www.google.com/favicon.ico",
-  "image": "https://i.ytimg.com/vi/Z2s7jEJK_m4/hqdefault.jpg",
-  "provider": "youtube.com",
-  "href": "https://www.youtube.com/watch?v=Z2s7jEJK_m4",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="https://www.youtube.com/watch?v=Z2s7jEJK_m4" title="Bittensor: Miner Incentive deep dive" favicon="https://www.google.com/favicon.ico" image="https://i.ytimg.com/vi/Z2s7jEJK_m4/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=Z2s7jEJK_m4" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FZ2s7jEJK_m4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZ2s7jEJK_m4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FZ2s7jEJK_m4%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
@@ -137,23 +125,23 @@ incentive: 0.002151522086933255
 The code calls the Chain and asks for all of the validator weights.  The output is a formatted list with the weight from each validator.  In the response, we can see on line 5 that validator 120 placed no weight. This score will be removed by the consensus engine, and the VTrust for the validator will be reduced.
 
 > 📘 VTrust for validator 120
-> 
+>
 > The code below queries the chain for the VTrust for validators 120, 232 and 236.  The number is reported in a Tensor:
-> 
-> 120: 44.5%  
-> 232: 93.9%  
+>
+> 120: 44.5%\
+> 232: 93.9%\
 > 236: 89.6%
-> 
+>
 > ```
 > print(subnet.Tv[120])
 > print(subnet.Tv[232])
 > print(subnet.Tv[236])
-> 
+>
 > tensor(0.4450)
 > tensor(0.9391)
 > tensor(0.8962)
 > ```
-> 
+>
 > At 44.5% Vtrust, validator 120 will begin to see lower emissions.
 
 The overall consensus is 0.00218, and looking at the weights placed by each validator - we can see that most of the validators are close to that score.  The overall incentive is right around the consensus (slightly lower) at 0.00215
