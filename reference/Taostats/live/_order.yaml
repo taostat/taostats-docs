@@ -2,3 +2,4 @@
 - get-live-blocks
 - get-live-block
 - live-get-block
+- live-get-raw-extrinsics-for-specific-block
