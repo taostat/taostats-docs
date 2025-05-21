@@ -14,27 +14,27 @@ Parent hotkeys are validators that do not run infrastructure in a subnet.  They 
 
 Parent hotkeys have all of the same abilities as child hotkeys. 
 
-- Delegators may stake alpha on a parent hotkey inside a subnet.
-- Delegators staked on root receive root stake from parent hotkeys.
+* Delegators may stake alpha on a parent hotkey inside a subnet.
+* Delegators staked on root receive root stake from parent hotkeys.
 
 > 📘 How we got here:
-> 
+>
 > [Subnet Emission tao and alpha](doc:subnet-emissions)
-> 
-> [Distribution of alpha_out to participants](doc:distribution-of-alpha-in-a-subnet)
-> 
+>
+> [Distribution of alpha\_out to participants](doc:distribution-of-alpha-in-a-subnet)
+>
 > [Emissions for Validators](doc:incentive-for-validators)
 
 # Calculating emissions for Parent/Child hotkeys
 
 > 📘 Example
-> 
+>
 > Taostats is the validator
-> 
+>
 > ![](https://files.readme.io/28ef58edc6d3e9d11713064a6aa00fe832605a2ef45a821926666e265f14be72-image.png)
-> 
+>
 > There are two parent hotkeys:
-> 
+>
 > ![](https://files.readme.io/b3f944b6273ea499e4aa8295ba96d6ad3ca511cd73e3d9c09a63b11d93933a38-image.png)
 
 <br />
@@ -45,9 +45,9 @@ The validator running the child hotkey (running the validation infrastructure) c
 
 First, we determine the amount of tao and alpha each validator has on this hotkey:
 
-- Taostats has 8/9 of its stake 
-- parent_1 has 50% of its stake on this child hotkey
-- parent_2 has 100% of its stake on the child hotkey.
+* Taostats has 8/9 of its stake 
+* parent\_1 has 50% of its stake on this child hotkey
+* parent\_2 has 100% of its stake on the child hotkey.
 
 <br />
 
@@ -65,21 +65,7 @@ First, we determine the amount of tao and alpha each validator has on this hotke
 
 The 0..15 dividends are split based on the % of total stake for each validator
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c1b3ad216dad0f26b5434bfa3b42904a22ae8da4a37ff7391efa4401a815bf14-image.png",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/c1b3ad216dad0f26b5434bfa3b42904a22ae8da4a37ff7391efa4401a815bf14-image.png" />
 
 <br />
 
@@ -89,26 +75,26 @@ Taostats has a 4.5% child hotkey take.  Remove 4.5% of the dividends from each p
 
 ![](https://files.readme.io/eed58b0aa184894c92a762ff8cf89cd24af8c844a0b0682dbe408e24edec680a-image.png)
 
-0.000102 and 0.003372 are taken from parent_1 and parent_2, and added to taostats' final dividends.
+0.000102 and 0.003372 are taken from parent\_1 and parent\_2, and added to taostats' final dividends.
 
 ### Step 5: Repeat this math for all child hotkeys.
 
 Taostats has 1/9 of its stake on another validator.
 
-Parent_1 has 50% of its stake on other validators.
+Parent\_1 has 50% of its stake on other validators.
 
 Sum these dividends for all hotkeys in a subnet to get the final dividends for a validator on a subnet.
 
 > 📘 Child Hotkey Take
-> 
+>
 > Note that the child hotkey take collected by the child hotkey is added to the dividends of the validator.
-> 
+>
 > This means that most of the child hotkey take is distributed to the stakeholders of the validator, and it is not directly deposited to the vlidator's wallet.
 
 ## Next Steps:
 
 The remaining dividends are then divided amongst stakeholders.  
 
-- [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha)
-- [Stakeholder Emissions: Root](doc:stakeholder-emissions-root)
-- [Stakeholder Emissions: Alpha](doc:stakeholder-emissions-alpha)
+* [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha)
+* [Stakeholder Emissions: Root](doc:stakeholder-emissions-root)
+* [Stakeholder Emissions: Alpha](doc:stakeholder-emissions-alpha)
