@@ -10,17 +10,15 @@ metadata:
 next:
   description: ''
 ---
-# Github <https://github.com/vn-automata/bt-automata>
+# Github [https://github.com/vn-automata/bt-automata](https://github.com/vn-automata/bt-automata)
 
 <p align="center">
-      <img width="500" alt="bt automata - subnet + repo logo" src="https://i.imgur.com/RrPk0yg.png"
-    </a>
-
+  <img width="500" alt="bt automata - subnet + repo logo" src="https://i.imgur.com/RrPk0yg.png" />
 </p>
 
 <div align='center'>
 
-[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)  
+[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)\
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Cellular Automata - A Bittensor Subnet
@@ -36,12 +34,12 @@ next:
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Prerequisites](#prerequisites)
-   - [Validator Hardware](#validator-hardware)
-   - [Miner Hardware](#miner-hardware)
+   * [Validator Hardware](#validator-hardware)
+   * [Miner Hardware](#miner-hardware)
 4. [Installation](#installation)
 5. [Running a Validator](#running-a-validator)
 6. [Running a Miner](#running-a-miner)
-   - [Restarting your Miner](#restarting-your-miner)
+   * [Restarting your Miner](#restarting-your-miner)
 7. [FAQ](#faq)
 8. [Contributing](#contributing)
 9. [License](#license)
@@ -60,19 +58,19 @@ As the size or dimensionality of the automaton increases, so does the computatio
 
 ## Features
 
-- 1-D Cellular Automata simulated with [CellPyLib](https://cellpylib.org/index.html)
-- Miner scoring on simulation accuracy and processing time
+* 1-D Cellular Automata simulated with [CellPyLib](https://cellpylib.org/index.html)
+* Miner scoring on simulation accuracy and processing time
 
 ### Upcoming Features
 
-- 2-D Cellular automata simulated with [CellPyLib](https://cellpylib.org/index.html)
-- Searchable database of simulation results
-- [Wolfram Alpha](https://products.wolframalpha.com/api) integration
+* 2-D Cellular automata simulated with [CellPyLib](https://cellpylib.org/index.html)
+* Searchable database of simulation results
+* [Wolfram Alpha](https://products.wolframalpha.com/api) integration
 
 ## Prerequisites
 
-- Requires **Python 3.8 or higher.**
-- [Bittensor](https://github.com/opentensor/bittensor#install)
+* Requires **Python 3.8 or higher.**
+* [Bittensor](https://github.com/opentensor/bittensor#install)
 
 ### Validator Hardware
 
@@ -162,13 +160,13 @@ pm2 restart all --update-env
 
 ## FAQ
 
-Q: How can I participate in the network?  
+Q: How can I participate in the network?\
 A: You can participate as a miner or a validator. Examples to get started are included in the "Running a Miner" and "Running a Validator" sections. 
 
-Q: I am a CA researcher. How can I access the completed simulations?  
+Q: I am a CA researcher. How can I access the completed simulations?\
 A: Stay tuned. Once we have completed our proof-of-concept phase, we will open up a database of completed simulations from top miners for researchers to access and study.
 
-Q: Can I mine on this subnet with CPU?  
+Q: Can I mine on this subnet with CPU?\
 A: Yes!
 
 ## Contributing
