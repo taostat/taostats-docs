@@ -8,3 +8,4 @@
 - live-get-node-version
 - live-get-pallet-consts
 - live-get-pallet-consts-id
+- live-get-pallet-events
