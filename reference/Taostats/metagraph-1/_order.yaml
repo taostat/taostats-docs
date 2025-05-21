@@ -4,3 +4,4 @@
 - get-root-subnet-history
 - get-neuron-registrations
 - get-neuron-deregistrations
+- get-miner-weights
