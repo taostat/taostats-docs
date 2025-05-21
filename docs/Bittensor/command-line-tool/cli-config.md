@@ -53,24 +53,9 @@ Clears the current configuration
 
 Configure the columns that appear when calling `btcli subnet metagraph`
 
- 
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/11e11623030bb381627db9395475c14d4b471a20146222a4fc600b15a73adb96-image.png",
-        null,
-        null
-      ],
-      "align": "center",
-      "caption": "In this example axon and Active are disabled."
-    }
-  ]
-}
-[/block]
-
+<Image alt="In this example axon and Active are disabled." align="center" src="https://files.readme.io/11e11623030bb381627db9395475c14d4b471a20146222a4fc600b15a73adb96-image.png">
+  In this example axon and Active are disabled.
+</Image>
 
 # set
 
