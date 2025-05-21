@@ -17,9 +17,9 @@ Wallets are used to store and house your tokens.  But the term wallet can be use
 Wallet applications are the way you interact with your tao on chain.  There are many wallets (The Bittensor Discord has a [FAQ](https://discord.com/channels/799672011265015819/1215386737661055056/1220037507656450068)  listing the wallets that support Bittensor.)  No matter what wallet application you use, the wallet is just looking at your tao on the chain.
 
 > 📘 Banking
-> 
+>
 > When you access your bank account, you use the mobile app, the website, an ATM, or even a bank teller in the bank.  These are all interfaces into your bank account. 
-> 
+>
 > None of these interfaces hold the money in your account, but are access points to the bank to manipulate your money.  You can take money in and out, pay bills, etc.from the interfaces in your account.
 
 You can connect many wallets to the [taostats delegation app](https://delegate.taostats.io) .  Once connected you can add/remove stake to validators using taostats.  (Taostats has no access to your wallet - the actions are all performed by the wallet app on chain).
@@ -39,7 +39,7 @@ When changing your wallet applications - you do not need to do anything with you
 <br />
 
 > 📘 Banking
-> 
+>
 > "I no longer want to use my bank's mobile app, I want to use the website.  In order to switch, I closed my savings account in the mobile app. I then logged in on my bank's website, and opened a savings account there."
 
 By unstaking your tao, you lose rewards for a period backwards in time (this can be up to 24 hours!)  When restaking - you lose rewards for a period of time in the future (this can be up to 24 hours!).  While it is unlikely that you will lose rewards for 48 hours, it is possible.
@@ -53,8 +53,8 @@ Your coldkey wallet is stored on the Bittensor chain and holds your tao.  The ch
 See [Coldkeys](doc:coldkeys) for more detail.
 
 > 📘 Banking
-> 
-> The coldkey wallet on the chain is equivalent to your bank account in the vault. Anyone with access to the money in your account can add or extract from the vault. 
+>
+> The coldkey wallet on the chain is equivalent to your bank account in the vault. Anyone with access to the money in your account can add or extract from the vault.
 
 # Hotkey
 
