@@ -12,7 +12,7 @@ next:
 ---
 # Deploy the Subtensor
 
-The Bittensor subtensor code can be found on GitHub: <https://github.com/opentensor/subtensor/>
+The Bittensor subtensor code can be found on GitHub: [https://github.com/opentensor/subtensor/](https://github.com/opentensor/subtensor/)
 
 Clone this repository locally, and switch to the dynamic branch:
 
@@ -78,16 +78,16 @@ sh scripts/localnet.sh
 Your subtensor is now running.
 
 > 📘 Calling the subtensor
-> 
+>
 > When working with your local chain, add the 
-> 
+>
 > `--subtensor.network local` or `--subtensor.network ws://127.0.0.1:9946` 
-> 
+>
 > parameters to your btcli commands.  They can be used interchanably for the subtensor running on your computer.
 
 # Install Bittensor
 
-The Bittensor Github repo can be found in the same organization on Github: <https://github.com/opentensor/bittensor>
+The Bittensor Github repo can be found in the same organization on Github: [https://github.com/opentensor/bittensor](https://github.com/opentensor/bittensor)
 
 We're going to install it, and again use the dynamic branch:
 
