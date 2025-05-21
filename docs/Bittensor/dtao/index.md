@@ -12,27 +12,27 @@ metadata:
 next:
   description: ''
 ---
-dTao is a proposal to change the way emission is distributed in Bittensor, poised to launch in February 2025.
+dTao is a fundamental change to emission on Bittensor, and it launched February 13, 2025.
 
-<Embed url="https://www.youtube.com/watch?v=W-2usD9UCjI" title="Bittensor - Introduction to Dynamic TAO" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/W-2usD9UCjI/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=W-2usD9UCjI" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FW-2usD9UCjI%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DW-2usD9UCjI%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FW-2usD9UCjI%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
+<Embed url="https://www.youtube.com/watch?v=W-2usD9UCjI" href="https://www.youtube.com/watch?v=W-2usD9UCjI" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FW-2usD9UCjI%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DW-2usD9UCjI%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FW-2usD9UCjI%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
 # What is dTao?
 
-dTao is a proposal to further decentralize the Bittensor ecosystem.  At its most basic, dTao introduces tokens for each subnet.  The subnet tokens are named after letters in the alphabet (subnet1 = alpha, Subnet2 = beta, etc. - with other alphabets following Greek), but are referred to in the generic sense as *alpha*. These tokens are traded with tao from the Bittensor chain. 
+dTao is a proposal to further decentralize the Bittensor ecosystem.  At its most basic, dTao introduces tokens for each subnet.  The subnet tokens are named after letters in the alphabet (subnet1 = alpha, Subnet2 = beta, etc. - with other alphabets following Greek), but are referred to in the generic sense as *alpha*. These tokens are traded with tao from the Bittensor chain.
 
 > 📘 While each subnet has a token with a unique name, the term `alpha` is used to generally describe any subnet token.
 
 ## Why alpha tokens?
 
-With alpha tokens, active participants in the Bittensor network can show their support of a subnet by buying that alpha and staking their alpha on the subnet.  The amount of alpha staked, and the exchange rate for the subnet will now play a role in determining the emission earned by the subnet.  
+With alpha tokens, active participants in the Bittensor network can show their support of a subnet by buying that alpha and staking their alpha on the subnet.  The amount of alpha staked, and the exchange rate for the subnet will now play a role in determining the emission earned by the subnet.
 
 See [Alpha Tokens](doc:alpha-tokens) for more detail.
 
 ## How does emission change with dTao?
 
-The [Subnet Emission](doc:subnets-emission) section walks through how alpha is distributed inside a subnet.  
+The [Subnet Emission](doc:subnets-emission) section walks through how alpha is distributed inside a subnet.
 
 ## Does my staking change in dTao?
 
