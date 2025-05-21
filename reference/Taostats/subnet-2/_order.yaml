@@ -11,3 +11,4 @@
 - get-subnet-registrations-1
 - get-sum-of-subnet-prices
 - get-current-sum-of-subnet-prices
+- get-historical-sum-of-subnet-prices
