@@ -3,3 +3,4 @@
 - get-block
 - get-delegate
 - get-delegation-balance
+- get-delegate-info
