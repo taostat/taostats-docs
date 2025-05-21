@@ -26,9 +26,9 @@ Subnet owners are responsible for providing the base miner and validator code. T
 
 There are very in depth tutorials for [creating a subnet](https://docs.bittensor.com/tutorials/basic-subnet-tutorials) covered in the official Bittensor Documentation which we will not attempt to cover here, however the process deployment can be broken down as
 
-- Running locally: Curing the initial construction phase most development teams will build locally
-- Running on Bittensor testnet: Once the code base is complete and ready for testing it is possible to deploy on the Bittensor testnet which emulates a similar environment and conditions to mainet in order to refine the code and processes, deploy and support applications  and infrastrucutre and to start to introduction network participants ot the product.
-- Running on Bittensor mainet: Once the subnet has proven itself on testnet and feels ready to deploy on mainet then the registration fee must be locked up and the subnet becomes live on the main Bittensor network with an immunity period of 7 days.
+* Running locally: Curing the initial construction phase most development teams will build locally
+* Running on Bittensor testnet: Once the code base is complete and ready for testing it is possible to deploy on the Bittensor testnet which emulates a similar environment and conditions to mainet in order to refine the code and processes, deploy and support applications  and infrastrucutre and to start to introduction network participants ot the product.
+* Running on Bittensor mainet: Once the subnet has proven itself on testnet and feels ready to deploy on mainet then the registration fee must be locked up and the subnet becomes live on the main Bittensor network with an immunity period of 7 days.
 
 # Registration
 
