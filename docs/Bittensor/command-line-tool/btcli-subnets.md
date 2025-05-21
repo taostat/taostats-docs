@@ -28,9 +28,9 @@ positional arguments:
     hyperparameters     View subnet hyperparameters
 ```
 
-- [informational](#Informational) : These commands return data on a subnet.
-- [Subnet owners](#subnet-owners): Useful for registering a subnet
-- [Validators and Miners](#miners-and-validators): Register a neuron on a subnet
+* [informational](#Informational) : These commands return data on a subnet.
+* [Subnet owners](#subnet-owners): Useful for registering a subnet
+* [Validators and Miners](#miners-and-validators): Register a neuron on a subnet
 
 # Informational
 
@@ -43,13 +43,13 @@ btcli s list
 
 The subnet list command provides a high-level overview of the subnets:
 
-- **N**: Neurons in use
-- **MAX_N**: Total possible neuron count
-- **Emission** (percentage of emission allocated to each subnet
-- **Tempo**: Each subnet can set their own epoch length
-- **Recycle**: cost to register a neuron.
-- **POW**: No longer used
-- **SUDO**: Hotkey that registered the subnet.
+* **N**: Neurons in use
+* **MAX\_N**: Total possible neuron count
+* **Emission** (percentage of emission allocated to each subnet
+* **Tempo**: Each subnet can set their own epoch length
+* **Recycle**: cost to register a neuron.
+* **POW**: No longer used
+* **SUDO**: Hotkey that registered the subnet.
 
 ```
 btcli subnets list
