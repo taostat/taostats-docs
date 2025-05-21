@@ -10,24 +10,18 @@ metadata:
 next:
   description: ''
 ---
-# Github: <https://github.com/zktensor/zktensor_subnet>
+# Github: [https://github.com/zktensor/zktensor\_subnet](https://github.com/zktensor/zktensor_subnet)
 
+# **ZkTensor Subnet v1.0.0**
 
-
-
-
-# **ZkTensor Subnet v1.0.0** 
-
-[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)  
+[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)\
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### The Incentivized Internet 
+### The Incentivized Internet
 
 [Discord](https://discord.gg/bittensor) • [Network](https://taostats.io/) • [Research](https://bittensor.com/whitepaper)
 
-
-
-This repo contains all the necessary files and functions to define zktensor subnet incentive mechanisms. You can run this project in three ways,  
+This repo contains all the necessary files and functions to define zktensor subnet incentive mechanisms. You can run this project in three ways,\
 on Bittensor's main-network (real TAO, to be released), Bittensor's test-network (fake TAO), or with your own staging-network. This repo includes instructions for doing all three.
 
 # Installation
@@ -68,29 +62,29 @@ cp Makefile.example Makefile
 
 # Miner
 
-Miners contribute to the execution layer in the current version.  
-They receive public inputs of the specified model in the deployment layer, generate output and zk proof and return the result.  
+Miners contribute to the execution layer in the current version.\
+They receive public inputs of the specified model in the deployment layer, generate output and zk proof and return the result.\
 Right now, Only a single ZkSqrtRegressionModel is deployed in the deployment layer, miners will be asked to generate proof for the public inputs from the validators. This will not require that much computing power right now.
 
 ## Hardware requirements
 
 Minimum requirement:
 
-- RAM: 4GB
-- Network: 1GB
-- Storage: 50GB
-- VRAM: 4GB
+* RAM: 4GB
+* Network: 1GB
+* Storage: 50GB
+* VRAM: 4GB
 
 Recommended requirement:
 
-- RAM: 16GB
-- Network: 1GB
-- Storage: 300GB
-- VRAM: 8GB
+* RAM: 16GB
+* Network: 1GB
+* Storage: 300GB
+* VRAM: 8GB
 
 ## Running Miner
 
-My personal preference to run is using Makefile.  
+My personal preference to run is using Makefile.\
 Visit Makefile in root folder and edit it based on your settings
 
 ```bash
@@ -137,15 +131,15 @@ Validators send public inputs of the specified model(which is deployed in deploy
 
 Minimum requirement:
 
-- RAM: 4GB
-- Network: 1GB
-- Storage: 50GB
+* RAM: 4GB
+* Network: 1GB
+* Storage: 50GB
 
 Recommended requirement:
 
-- RAM: 16GB
-- Network: 1GB
-- Storage: 300GB
+* RAM: 16GB
+* Network: 1GB
+* Storage: 300GB
 
 ## Running Validator
 
