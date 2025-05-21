@@ -14,7 +14,7 @@ In September 2024, the Bittensor chain launched parent hotkeys - a way for valid
 
 ## Parent hotkeys
 
-A parent hotkey allows a validator to add their stake to an existing validator.  This increases the total stake for that validator on the subnet.  
+A parent hotkey allows a validator to add their stake to an existing validator.  This increases the total stake for that validator on the subnet.\
 In the Subnet metagraph, and yellow stake value indicates parent hotkeys. Clicking the carat opens a view to show all of the parents (and the percentage of their stake) added to the child hotkey.
 
 ![](https://files.readme.io/d882bdb6639df5e533b69699ccde202c85727b5d188ba3dc50adf924b7a460b8-image.png)
@@ -25,8 +25,8 @@ For the benefit of being a parent hotkey, taostats charges a child take of 4.5% 
 
 ## Why Parent hotkey?
 
-- A parent hotkey does not need to run a neuron.
-- Can begin building a validator while validating (many subnets have minimum stake requirements.)
+* A parent hotkey does not need to run a neuron.
+* Can begin building a validator while validating (many subnets have minimum stake requirements.)
 
 <br />
 
@@ -36,8 +36,8 @@ Based on our research, if the parent hotkey chooses child validators with high V
 
 ### Math
 
-For each child validator we use the taostats API to obtain:  
-nom/1ktao/BTDay - describing the emissions of the validator  
+For each child validator we use the taostats API to obtain:\
+nom/1ktao/BTDay - describing the emissions of the validator\
 child hotkey take on each subnet - describing the take 
 
 As the child hotkey take varies across all subnets, we need to create a weighted child hotkey take (WCHT)
@@ -54,16 +54,16 @@ The emissions earned by a parent hotkey on this validator will be:
 
 <br />
 
-Doing this maths across top validators:  
-          ~~'Axis': 0.48198,  
-          'Ary van der Touw': 0.45515,  
-    	'Owl Ventures': 0.43533~~  
-    	'Taostats & Corcel': 0.41319,  
-    	~~'Datura': 0.41136,~~  
-    	'TAO-Validator.com': 0.4068,  
-    	'RoundTable21': 0.40259,  
-    	'Bittensor Guru': 0.40259,  
-    	'Rizzo': 0.40198,  
+Doing this maths across top validators:\
+          ~~'Axis': 0.48198,\
+          'Ary van der Touw': 0.45515,\
+    	'Owl Ventures': 0.43533~~\
+    	'Taostats & Corcel': 0.41319,\
+    	~~'Datura': 0.41136,~~\
+    	'TAO-Validator.com': 0.4068,\
+    	'RoundTable21': 0.40259,\
+    	'Bittensor Guru': 0.40259,\
+    	'Rizzo': 0.40198,\
     	'FirstTensor.com': 0.40137,
 
 Weight copiers are listed with strikethrough.  Parent hotkeys who use only weight copiers will also be tagged as weight copiers on taostats.  There are 5 non-weight copying validators where a validator running parent hotkey can return a nom/1ktao/BTDay over 0.400 - which is competitive with many regular validators.
