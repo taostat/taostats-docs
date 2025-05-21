@@ -12,6 +12,6 @@ next:
 ---
 Omron subnet, building cryptographically verified efficient and intelligent capital networks.
 
-# [Github](https://github.com/inference-labs-inc/omron-subnet) 
+# [Github](https://github.com/inference-labs-inc/omron-subnet)
 
 # [HW Requirements](https://github.com/inference-labs-inc/omron-subnet?tab=readme-ov-file#miner)
