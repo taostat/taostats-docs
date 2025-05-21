@@ -28,28 +28,15 @@ This means a maximum of 7200 tao are created every day. If a block takes longer 
 
 You can visualise the chain block production at [taostats](https://taostats.io/analytics/blocks) 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4c9bf3216cae967f4d0b3071fc9883830df39247d53d34a391043caf1f7fe1f7-image.png",
-        null,
-        "the mouseover shows 7,200 blocks created on 1/1/2025."
-      ],
-      "align": "center",
-      "caption": "The mouseover shows 7,200 blocks created on 1/1/2025."
-    }
-  ]
-}
-[/block]
-
+<Image alt="the mouseover shows 7,200 blocks created on 1/1/2025." align="center" src="https://files.readme.io/4c9bf3216cae967f4d0b3071fc9883830df39247d53d34a391043caf1f7fe1f7-image.png">
+  The mouseover shows 7,200 blocks created on 1/1/2025.
+</Image>
 
 <br />
 
 ## Distribution of Emitted tao
 
-The emitted tao is distributed to the subnet pools of each subnet.  The distribution is determined by the ratio of tao_in, the tao in the Subnet liquidity pool.
+The emitted tao is distributed to the subnet pools of each subnet.  The distribution is determined by the ratio of tao\_in, the tao in the Subnet liquidity pool.
 
 [Tao Emission Distribution](doc:tao-emission)
 
