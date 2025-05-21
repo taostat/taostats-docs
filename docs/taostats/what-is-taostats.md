@@ -24,8 +24,8 @@ It provides real time and historical data on the state of Bittensor subnets, min
 
 # Taostats basics
 
-- [Subnets](doc:subnets): Extract the data from each subnet on the Bittensor network.
-- [Blockchain](doc:blockchain-1): Learn how to read the blockchain for transactions.
-- [Delegation](doc:delegation): Delegate your tao to validators
-- [Validators](doc:validators): Learn about the validators on Bittensor.
-- [Accounts](doc:accounts): Dig into hotkeys and coldkeys and extract information from your account.
+* [Subnets](doc:subnets): Extract the data from each subnet on the Bittensor network.
+* [Blockchain](doc:blockchain-1): Learn how to read the blockchain for transactions.
+* [Delegation](doc:delegation): Delegate your tao to validators
+* [Validators](doc:validators): Learn about the validators on Bittensor.
+* [Accounts](doc:accounts): Dig into hotkeys and coldkeys and extract information from your account.
