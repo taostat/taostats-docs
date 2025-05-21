@@ -11,31 +11,31 @@ next:
   description: ''
 ---
 > 📘 How we got to this step of Emissions
-> 
+>
 > Step 1: [Subnet Emission Distribution](doc:subnet-emissions): How emitted tao is split amongst the subnets
-> 
+>
 > Step 2: [Alpha Emission](doc:alpha-emission): How the emitted alpha is split between the Subnet pool and subnet participants.
-> 
+>
 > Step 3: [Emissions for Validators](doc:incentive-for-validators): How the Subnet emission is divided amongst all the validators.
-> 
+>
 > Step 4: [Emission for Parent/Child Hotkeys](doc:emission-parent-hotkeys): On each subnet, determine the rewards for each validator. This sums across all parent and child hotkeys.  The validator's take is removed.
-> 
+>
 > Step 5: [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha): Divide the validator's dividends into a root proportion and an alpha proportion
 
 # Root Emissions:
 
 Stakeholders on root place their delegation of tao on a root validator.  
 
-- For every subnet the validator is active: stakeholders will earn a proportion of the rewards.  
+* For every subnet the validator is active: stakeholders will earn a proportion of the rewards.  
 
 > 📘 Root staking is similar to pre-dTao staking
-> 
+>
 > Pre-dTao, staking was done to a validator.
-> 
-> - Rewards were earned across all subnets the validator was active.
-> 
+>
+> * Rewards were earned across all subnets the validator was active.
+>
 > dTao: this is staking to a validator on root.
-> 
+>
 > The difference is that root staking in dTao will have lower returns over time, as stakeholder emission is split between alpha and root stakeholders (see [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha)
 
 <br />
