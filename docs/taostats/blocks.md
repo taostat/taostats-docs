@@ -16,10 +16,10 @@ A chart showing the 10 most recent blocks emmitted from the Bittensor blockchain
 
 Each block has a:
 
-- Spec number: the specification of Bittensor that generated the block
-- Events: All of the events that are included in the block.
-- Extrinsics: Groupings of events.
-- Time since emitted: The age of the block.
+* Spec number: the specification of Bittensor that generated the block
+* Events: All of the events that are included in the block.
+* Extrinsics: Groupings of events.
+* Time since emitted: The age of the block.
 
 Clicking on the block leads to details on the block:
 
@@ -37,12 +37,8 @@ Extrinsics are collections of events that are included in the block. In the tabl
 
 All of the events are displayed in the Event table. They are tied to Event names and the Extrinsic that is the parent of a group of events.
 
-
-
 > 📘 Note that the first 30 events are System events, and are not displayed.
-> 
+>
 > They can still be viewed by opening another Event, and changing the URL value.
-
-
 
 ![](https://files.readme.io/df4a4b1-image.png)
