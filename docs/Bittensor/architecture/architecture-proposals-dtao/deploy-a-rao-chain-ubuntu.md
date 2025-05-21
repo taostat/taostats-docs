@@ -28,7 +28,7 @@ git pull origin rao
 
 ### Install Rust
 
-Using the \[Installationinstructions](<https://github.com/opentensor/subtensor/blob/main/docs/rust-setup.md>) for Ubuntu:
+Using the \[Installationinstructions]\([https://github.com/opentensor/subtensor/blob/main/docs/rust-setup.md](https://github.com/opentensor/subtensor/blob/main/docs/rust-setup.md)) for Ubuntu:
 
 ```
 sudo apt update
@@ -84,9 +84,9 @@ bash  scripts/raonet.sh
 
 In practice - neither do exactly what you want to do.
 
-- localnet: has a faucet - so you can add tao to your wallets, but it does not have the rao network
-- localnet has fast-blocks turned on, but that seems to fail with raonet
-- raonet has rao, but no faucet.
+* localnet: has a faucet - so you can add tao to your wallets, but it does not have the rao network
+* localnet has fast-blocks turned on, but that seems to fail with raonet
+* raonet has rao, but no faucet.
 
 The fix is on line 28 & 34.
 
