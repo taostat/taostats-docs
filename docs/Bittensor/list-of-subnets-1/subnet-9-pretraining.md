@@ -12,6 +12,6 @@ next:
 ---
 Bittensor subnet 9 rewards miners for producing pretrained Foundation-Models on the Falcon Refined Web dataset. It acts like a continuous benchmark whereby miners are rewarded for attaining the best losses on randomly sampled pages of Falcon given a consistent model architecture.
 
-# [GitHub](https://github.com/RaoFoundation/pretraining) 
+# [GitHub](https://github.com/RaoFoundation/pretraining)
 
 # [HW Requirements](https://github.com/RaoFoundation/pretraining/blob/main/min_compute.yml)
