@@ -4,3 +4,4 @@
 - live-get-block
 - live-get-raw-extrinsics-for-specific-block
 - live-get-extrinsic
+- live-get-node-transaction-pool
