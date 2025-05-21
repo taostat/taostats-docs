@@ -12,8 +12,6 @@ next:
 ---
 The full list of events can be found in the [Bittensor source code](https://github.com/opentensor/subtensor/blob/main/pallets/subtensor/src/lib.rs#L819) 
 
-
-
 ```
     NetworkAdded(u16, u16), // --- Event created when a new network is added.
     NetworkRemoved(u16),    // --- Event created when a network is removed.
