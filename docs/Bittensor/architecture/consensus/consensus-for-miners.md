@@ -13,24 +13,21 @@ next:
 ---
 How is incentive calculated for Miners?  
 
-1. Validators test miners, and create a ranked list of each miner (weights).  These weights are regularly delivered to the consensus engine.  
+1. Validators test miners, and create a ranked list of each miner (weights). These weights are regularly delivered to the consensus engine.  
    1. These are stored in a 2D matrix - each row is the UID of the validator placing weights, and each column is the UID of the miner.
 2. These weights are used to calculate Consensus - how well do the validators agree on scoring? 
-3. The incentive score is made by a weighted average of validator weights.  Weights placed by validators with higher amounts of delegation of tao are given higher weight in the incentive score.  Validators that are out of consensus (a high deviation from the consensus score) may have their weight reduced further.
+3. The incentive score is made by a weighted average of validator weights. Weights placed by validators with higher amounts of delegation of tao are given higher weight in the incentive score. Validators that are out of consensus (a high deviation from the consensus score) may have their weight reduced further.
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FZ2s7jEJK_m4%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZ2s7jEJK_m4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZ2s7jEJK_m4%2Fhqdefault.jpg&key=7788cb384c9f4d5dbbdbeffd9fe4b92f&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=Z2s7jEJK_m4",
-  "title": "Bittensor: Miner Incentive deep dive",
-  "favicon": "https://www.google.com/favicon.ico",
-  "image": "https://i.ytimg.com/vi/Z2s7jEJK_m4/hqdefault.jpg",
-  "provider": "youtube.com",
-  "href": "https://www.youtube.com/watch?v=Z2s7jEJK_m4",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed
+  url="https://www.youtube.com/watch?v=Z2s7jEJK_m4"
+  title="Bittensor: Miner Incentive deep dive"
+  favicon="https://www.google.com/favicon.ico"
+  image="https://i.ytimg.com/vi/Z2s7jEJK_m4/hqdefault.jpg"
+  provider="youtube.com"
+  href="https://www.youtube.com/watch?v=Z2s7jEJK_m4"
+  typeOfEmbed="youtube"
+  html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FZ2s7jEJK_m4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZ2s7jEJK_m4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FZ2s7jEJK_m4%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E"
+/>
 
 <br>
 
@@ -111,20 +108,20 @@ incentive: 0.002151522086933255
 in the response, we can see that validator 120 placed no weight. This score will be removed by the consensus engine, and the VTrust for the validator will be reduced.
 
 > 📘 We can see the reduced VTrust for validator 120:
-> 
+>
 > ```
 > print(subnet.Tv[120])
 > print(subnet.Tv[232])
 > print(subnet.Tv[236])
-> 
+>
 > tensor(0.4450)
 > tensor(0.9391)
 > tensor(0.8962)
 > ```
-> 
+>
 > At 44.5% Vtrust, this validator will begin to see lower emissions.
 
-The overall consensus is 0.00218, and looking at the weights placed by each validator - we can see that most of the validators are close to that score.  The overall incentive is right around the consensus (slightly lower) at 0.00215
+The overall consensus is 0.00218, and looking at the weights placed by each validator - we can see that most of the validators are close to that score. The overall incentive is right around the consensus (slightly lower) at 0.00215
 
 ## Charting Weights and consensus
 
@@ -154,6 +151,6 @@ plt.show()
 
 ![](https://files.readme.io/8243646-image.png)
 
-Validator 103 is clearly out of consensus with the others. Its score will not be included (or its weight drastically reduced). 
+Validator 103 is clearly out of consensus with the others. Its score will not be included (or its weight drastically reduced).
 
 <br>
