@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-# Github: <https://github.com/unconst/imagesubnet>
+# Github: [https://github.com/unconst/imagesubnet](https://github.com/unconst/imagesubnet)
 
 # ImageSubnet
 
@@ -32,7 +32,7 @@ Optional arguments include
 
 `--miner.max_batch_size` default: **1**, the maximum number of images your miner will generate per request
 
-`--miner.allow_nsfw` default: **False**, set to True if you wish to allow NSFW content. _(Warning, this may produce unwanted content)_
+`--miner.allow_nsfw` default: **False**, set to True if you wish to allow NSFW content. *(Warning, this may produce unwanted content)*
 
 `--subtensor.chain_endpoint` default: **mainnet opentensor subnet**, override to use a custom subnet endpoint
 
@@ -54,7 +54,7 @@ Optional arguments include
 
 `--subtensor.chain_endpoint` default: **mainnet opentensor subnet**, override to use a custom subnet endpoint
 
-`--validator.allow_nsfw` default: **False**, as a miner, choose to allow NSFW content from miners. _Note: Miners still have the option of refusing to generate nsfw content._
+`--validator.allow_nsfw` default: **False**, as a miner, choose to allow NSFW content from miners. *Note: Miners still have the option of refusing to generate nsfw content.*
 
 `--validator.save_images` default: **False**, save images and prompts to `save_dir`
 
