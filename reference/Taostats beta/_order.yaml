@@ -17,3 +17,4 @@
 - get-subnet-description
 - get-subnet-owner
 - get-transaction
+- get-validators
