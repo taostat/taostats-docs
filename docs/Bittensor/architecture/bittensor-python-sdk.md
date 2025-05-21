@@ -10,15 +10,15 @@ metadata:
 next:
   description: ''
 ---
-The [Bittensor SDK](https://docs.bittensor.com/python-api/html/autoapi/bittensor/index.html)  allows you to access the data from the Bittensor network. 
+The [Bittensor SDK](https://docs.bittensor.com/python-api/html/autoapi/bittensor/index.html)  allows you to access the data from the Bittensor network.
 
 This section will have example Python code for common use cases.
 
-<br>
+<br />
 
 To use the Bittensor SDK, you must install the Bittensor library
 
-<br>
+<br />
 
 ```shell
 pip install bittensor
