@@ -16,34 +16,34 @@ There are tutorials on how to create and use multisig accounts at [polkadot.js](
 
 In this tutorial, we will look at the extrinsics that are created during a multisig event on chain. There are three events
 
-- Multisig.as_multi
-- Multisig.approve_as_multi
-- Multisig.cancel_as_multi
+* Multisig.as\_multi
+* Multisig.approve\_as\_multi
+* Multisig.cancel\_as\_multi
 
 <br />
 
 # The three stages of a multisig operation
 
-- **Start of the operation**:  Either `Multisig.as_multi` or `Multisig.approve_as_multi` may kick off the operation.  
-  - In this step a `threshold` is set. This is the number of sigs required for the operation to be completed.
-    - If the `Multisig.as_multi` is called, `[args][call]`  describes the extrinsics to be processed on chain upon completion.
-    - If the `Multisig.approve_as_multi` is called,  \``[args][callHash]` is a hash that describes the extrinsics to be completed.
-  - A fee is paid when completing a multisig process.  This will be deducted from the coldkey of the wallet starting the multisig process.
-- **Collect signatures** In this step, subsequent calls are collected to reach the threshold.  These can be `Multisig.as_multi` or `Multisig.approve_as_multi` calls.
-  - These transactions contain a `maybeTimepoint` argument with two parameters to connect with the inital multisig call. 
-    - `height` the block number of the original call.
-    - `index` The exttrinsic index of the original call.
-- **Complete the operation**. Either `Multisig.as_multi` or `Multisig.cancel` completes the operation.
-  - `Multisig.as_multi` - completes the operation as successful. The threshold has been reached, and the calls denoted will now be run on chain.
-  - `Multisig.cancel_as_multi` - as probably expected, this will cancel.  
-    - Cancel extrinsics have the `timepoint` extrinsic that matches the `maybeTimepoint` from the collection step.  On a cancel step, this is required, so it is not "maybe" included in the extrinsic.
-    - The fee is refunded to the key that kicked off the process.
+* **Start of the operation**:  Either `Multisig.as_multi` or `Multisig.approve_as_multi` may kick off the operation.  
+  * In this step a `threshold` is set. This is the number of sigs required for the operation to be completed.
+    * If the `Multisig.as_multi` is called, `[args][call]`  describes the extrinsics to be processed on chain upon completion.
+    * If the `Multisig.approve_as_multi` is called,  \``[args][callHash]` is a hash that describes the extrinsics to be completed.
+  * A fee is paid when completing a multisig process.  This will be deducted from the coldkey of the wallet starting the multisig process.
+* **Collect signatures** In this step, subsequent calls are collected to reach the threshold.  These can be `Multisig.as_multi` or `Multisig.approve_as_multi` calls.
+  * These transactions contain a `maybeTimepoint` argument with two parameters to connect with the inital multisig call. 
+    * `height` the block number of the original call.
+    * `index` The exttrinsic index of the original call.
+* **Complete the operation**. Either `Multisig.as_multi` or `Multisig.cancel` completes the operation.
+  * `Multisig.as_multi` - completes the operation as successful. The threshold has been reached, and the calls denoted will now be run on chain.
+  * `Multisig.cancel_as_multi` - as probably expected, this will cancel.  
+    * Cancel extrinsics have the `timepoint` extrinsic that matches the `maybeTimepoint` from the collection step.  On a cancel step, this is required, so it is not "maybe" included in the extrinsic.
+    * The fee is refunded to the key that kicked off the process.
 
 # Examples
 
 ## Example 1:
 
-In this example - more than `threshold` calls are made - because the last call _must_ be a `as_multi`. This multisig is being used to transfer 13.2 tao.
+In this example - more than `threshold` calls are made - because the last call *must* be a `as_multi`. This multisig is being used to transfer 13.2 tao.
 
 ### Initial call
 
@@ -140,13 +140,13 @@ The second call is also `approve_as_multi`.  It is matched to the first call by 
 },
 ```
 
-We can see that the `origin_address` matches one of the other_signatories in the first call.
+We can see that the `origin_address` matches one of the other\_signatories in the first call.
 
 > 📘 Threshold
-> 
+>
 > The threshold for this Multisig process is 2, and this is the 2nd signature.
-> 
-> **BUT** The final multisig event **must be** a Multisig.as_multi. So this extrinsic does not complete the Multisig.
+>
+> **BUT** The final multisig event **must be** a Multisig.as\_multi. So this extrinsic does not complete the Multisig.
 
 ### Third call
 
