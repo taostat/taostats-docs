@@ -14,35 +14,22 @@ On the [taostats homepage](taostats.io), a huge amount of data on Bittensor and 
 
 ## Top navigation
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/13c2eda-image.png",
-        null,
-        "Screenshot - January 17, 2024"
-      ],
-      "align": "center",
-      "caption": "Screenshot - January 17, 2024"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Screenshot - January 17, 2024" align="center" src="https://files.readme.io/13c2eda-image.png">
+  Screenshot - January 17, 2024
+</Image>
 
 From left to right, the top navigation tells us:
 
-- **Bittensor price** in USD and Percentage change day over day
-- **Market cap**: This is calculated from price x circulating supply:
+* **Bittensor price** in USD and Percentage change day over day
+* **Market cap**: This is calculated from price x circulating supply:
 
 > 📘 6,060,902 tokens x $274.84/token = $1,665,899,523
 
-- **24h Volume**: dollar value of tokens exchanged in the last 24 hours.
-- **Circulating supply**: How many tokens have been released.
-- **Total Supply**:  The total number of tokens that will eventualy be released.
-- **Validating APR**:Annual percentage rate (average of total emissions across all validators in the network)
-- **Staking APR**:  Annual percentage rate for staking (average across total emissions, and takes into account 18% validator commission.)
+* **24h Volume**: dollar value of tokens exchanged in the last 24 hours.
+* **Circulating supply**: How many tokens have been released.
+* **Total Supply**:  The total number of tokens that will eventualy be released.
+* **Validating APR**:Annual percentage rate (average of total emissions across all validators in the network)
+* **Staking APR**:  Annual percentage rate for staking (average across total emissions, and takes into account 18% validator commission.)
 
 ## Chart
 
