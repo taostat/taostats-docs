@@ -5,3 +5,4 @@
 - live-get-raw-extrinsics-for-specific-block
 - live-get-extrinsic
 - live-get-node-transaction-pool
+- live-get-node-version
