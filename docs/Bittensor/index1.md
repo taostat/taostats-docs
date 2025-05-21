@@ -40,10 +40,10 @@ next:
 
 Unpacking that statement:
 
-- **Decentralised**: Unlike a centralised company where the infrastructure is controlled by a single entity, Bittensor is run on a distributed network of computers that are owned and operated by many (thousands) of different individuals or companies.  This decentralisation improves resilience, and removes central points of failure. 
-- **Incentivised**: Incentivisation is achieved through the use of Bittensor's native token $TAO.  Participants are rewarded with tokens proportional to the value of their contribution to the network, with the lowest valued participants being replaced at a defined period  - ensuring that the entire network is not only performant but also strives to improve.
-- **Machine Learning Network** Bittensor was designed around machine learning tasks. One of the biggest concerns in machine learning is compute power, and a decentralised machine learning network provides Bittensor participants with access to immense computing power. 
-- **Digital Commodities Market** Although designed for machine learning, the (Re)evolution of Bittensor and the data agnostic principles of Yuma consensus have allowed it to adapt itself to not only provide a marketplace for Intelligence but for any digital commodity that can be produced and valued by network participants. 
+* **Decentralised**: Unlike a centralised company where the infrastructure is controlled by a single entity, Bittensor is run on a distributed network of computers that are owned and operated by many (thousands) of different individuals or companies.  This decentralisation improves resilience, and removes central points of failure. 
+* **Incentivised**: Incentivisation is achieved through the use of Bittensor's native token $TAO.  Participants are rewarded with tokens proportional to the value of their contribution to the network, with the lowest valued participants being replaced at a defined period  - ensuring that the entire network is not only performant but also strives to improve.
+* **Machine Learning Network** Bittensor was designed around machine learning tasks. One of the biggest concerns in machine learning is compute power, and a decentralised machine learning network provides Bittensor participants with access to immense computing power. 
+* **Digital Commodities Market** Although designed for machine learning, the (Re)evolution of Bittensor and the data agnostic principles of Yuma consensus have allowed it to adapt itself to not only provide a marketplace for Intelligence but for any digital commodity that can be produced and valued by network participants. 
 
 # Bittensor Architecture
 
@@ -59,7 +59,7 @@ Each subnet has a different mechanism for scoring the work being created. The Yu
 
 ## [Subtensor](doc:blockchain)
 
-Subtensor is a substrate based blockchain which holds the incentivisation layer ensuring immutable records and  
+Subtensor is a substrate based blockchain which holds the incentivisation layer ensuring immutable records and\
 distribution of a multiplicity of Bittensor incentive systems. All weights, consensus and network participation data are written to the chain along with transactions and account data.
 
 ## [Tao](doc:tao)
@@ -70,8 +70,8 @@ Tao is the native token of the Bittensor network. It is distributed to network p
 
 There are several ways interested parties can participate in the Bittensor network:
 
-- [User](doc:user)
-- [Developer](doc:developer)
-- [Miner](doc:miner)
-- [Validator](doc:validator)
-- [Staking](doc:staking)
+* [User](doc:user)
+* [Developer](doc:developer)
+* [Miner](doc:miner)
+* [Validator](doc:validator)
+* [Staking](doc:staking)
