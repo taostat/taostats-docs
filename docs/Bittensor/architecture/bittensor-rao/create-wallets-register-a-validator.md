@@ -32,10 +32,10 @@ btcli w faucet --subtensor.network local --wallet.name <your wallet name>
 This will add 3,000 tao to your wallet.  Repeat as needed across your coldkeys.
 
 > 📘 When making btcli commands, the default is to connect to the finney network (production chain)
-> 
-> To test your local chain, add:  
+>
+> To test your local chain, add:\
 > `--subtensor.network local`
-> 
+>
 > The bittensor version for raonet defaults to `--subtensor.network raonet`
 
 # Register a subnet
