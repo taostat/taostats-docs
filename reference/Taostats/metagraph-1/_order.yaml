@@ -7,3 +7,4 @@
 - get-miner-weights
 - get-latest-miner-weight
 - get-subnet-coldkey-distribution-1
+- get-subnet-axon-ip-distribution
