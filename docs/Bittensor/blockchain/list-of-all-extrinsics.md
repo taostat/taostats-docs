@@ -14,7 +14,7 @@ Here is a list of all extrinsics that can be called on the Bittensor chain
 
 # AdminUtils
 
-## sudo_set_min_burn
+## sudo\_set\_min\_burn
 
 Set the min cost for registering a neuron on a Subnet.
 
@@ -45,7 +45,7 @@ Set the min cost for registering a neuron on a Subnet.
     },
 ```
 
-## sudo_set_network_registration_allowed
+## sudo\_set\_network\_registration\_allowed
 
 Subnet owners can turn registration of neurons on and off
 
@@ -77,7 +77,7 @@ Subnet owners can turn registration of neurons on and off
     },
 ```
 
-## sudo_set_weights_version_key
+## sudo\_set\_weights\_version\_key
 
 <br />
 
@@ -89,7 +89,7 @@ Subnet owners can turn registration of neurons on and off
 
 <br />
 
-## transfer_keep_alive
+## transfer\_keep\_alive
 
 Transfer tao out of the wallet, but keep the wallet active if it is emptied.
 
@@ -124,7 +124,7 @@ Transfer tao out of the wallet, but keep the wallet active if it is emptied.
     }
 ```
 
-## transfer_all
+## transfer\_all
 
 Transfer everything out of the wallet
 
@@ -159,7 +159,7 @@ Transfer everything out of the wallet
     }
 ```
 
-## transfer_allow_death
+## transfer\_allow\_death
 
 Transfer tao out of the wallet, and allow the wallet to be closed if emptied.
 
@@ -247,7 +247,7 @@ A proxy can run one or more commands for other wallets. The below extrinsic adds
 
 # SubtensorModule
 
-## add_stake
+## add\_stake
 
 Add stake to a subnet/validator combination.
 
@@ -280,7 +280,7 @@ Add stake to a subnet/validator combination.
 
 <br />
 
-## burned_register
+## burned\_register
 
 When a neuron is registered on a subnet.
 
@@ -332,7 +332,7 @@ Its turned off.  The chain on't just give you token....
       },...
 ```
 
-## register_network
+## register\_network
 
 Register a Subnet
 
@@ -363,7 +363,7 @@ Register a Subnet
     }
 ```
 
-## register_network_with_identity
+## register\_network\_with\_identity
 
 Registers a Subnet, and adds chain identity for the coldkey
 
@@ -392,7 +392,7 @@ Registers a Subnet, and adds chain identity for the coldkey
       }
 ```
 
-## remove_stake
+## remove\_stake
 
 3 alpha unstaked from SN 13.  Note there is no limit preventing slippage or price changes
 
@@ -416,7 +416,7 @@ Registers a Subnet, and adds chain identity for the coldkey
 
 <br />
 
-## remove_stake_limit
+## remove\_stake\_limit
 
 The remove stake limit has a price limit to prevent slippage or excessive price changes.
 
@@ -473,11 +473,11 @@ Register your validator on root
 
 <br />
 
-## schedule_coldkey_swap
+## schedule\_coldkey\_swap
 
 Deprecated. Last used in July 2024.
 
-## serve_axon
+## serve\_axon
 
 Serve a Validaor or miner on the Subnet.
 
@@ -533,7 +533,7 @@ print(f"The IP address for {ip_int_value} is: {ip_address}")
 
 <br />
 
-## serve_prometheus
+## serve\_prometheus
 
 ```
 {
@@ -562,7 +562,7 @@ print(f"The IP address for {ip_int_value} is: {ip_address}")
       },
 ```
 
-## set_children
+## set\_children
 
 This sets 0xae66d26fed539fc501b4340faaef65e20feb0dbf388658997c034babad06bf43 ( 5G1NjW9YhXLadMWajvTkfcJy6up3yH2q1YzMXDTi6ijanChe) as the parent for taobot (0x56a9aee6291bd03ab6d36d4d13e2bebae7cd403518066c72fba1b417d6ddd748) on Subnet 14.
 
@@ -600,11 +600,11 @@ This sets 0xae66d26fed539fc501b4340faaef65e20feb0dbf388658997c034babad06bf43 ( 5
     }
 ```
 
-## set_root_weights
+## set\_root\_weights
 
 Deprecated. In dTao, root weights are no longer set.
 
-## set_weights:
+## set\_weights:
 
 Used by validators to set weights on miners
 
@@ -663,6 +663,6 @@ Used by validators to set weights on miners
 
 ## [batch](doc:batch-extrinsics)
 
-## [batch_all](doc:batch-extrinsics)
+## [batch\_all](doc:batch-extrinsics)
 
-## [force_batch](doc:batch-extrinsics)
+## [force\_batch](doc:batch-extrinsics)
