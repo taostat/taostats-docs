@@ -6,3 +6,4 @@
 - get-stats-latest
 - get-stats-history
 - get-runtime-version
+- get-historical-runtime-version
