@@ -13,7 +13,7 @@ next:
   description: ''
 ---
 > 📘 This section focuses on the validator architecture inside a subnet.
-> 
+>
 > The [Validator Persona](doc:validator) has details on how a validator can be run.
 
 On each subnet there are a configurable number slots reserved for validation (default: 64). Validators have two primary roles in each subnet.
@@ -43,22 +43,7 @@ An example of this is [Corcel](https://corcel.io) who provide API access to a nu
 
 This is just one way of facilitating access to the network data via a validator and constant advancements a birthing new and innovative ways to interface with the commodities produced by subnets.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1492508-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "75% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="75% " src="https://files.readme.io/1492508-image.png" />
 
 # Validator Registration
 
@@ -71,28 +56,16 @@ Although this varies from subnet to subnet there is a hard floor of 1k tao with 
 It should also be noted that in order to validate competitively you must be present on all subnets that have emissions, which means running 32 nodes. There is a real world cost to running this infrastructure which also makes it not profitable below a certain threshold of staked tao. 
 
 > 📘 How can miners ignore validators?
-> 
+>
 > If a validator has a very low amount of tao staked, their scoring has very little weight in Consensus - so a poor weight from this validator will not hurt the miner's trust score.
-> 
+>
 > Some subnets hardcode a minimum stake number.
 
 # Emissions
 
 Validators are awarded emission from the network based on their dividend score.  Dividend is evaluated from the stake and Vtrust values. Vtrust describes how well their weights match the **consensus** of other validators.  See [Incentive for Validators](doc:incentive-for-validators)  for a detailed analysis.
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FXUgoBN8VB7Q%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLDnKExP-CILW4skZCS2JCVslwQHAA%26days_since_epoch%3D19937&key=7788cb384c9f4d5dbbdbeffd9fe4b92f&type=text%2Fhtml&schema=youtube\" width=\"853\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd",
-  "title": "Bittensor Validation",
-  "favicon": "https://www.youtube.com/s/desktop/06e27914/img/favicon.ico",
-  "image": "https://i.ytimg.com/vi/XUgoBN8VB7Q/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDnKExP-CILW4skZCS2JCVslwQHAA&days_since_epoch=19937",
-  "provider": "http://youtube.com",
-  "href": "https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd" title="Bittensor Validation" favicon="https://www.youtube.com/s/desktop/06e27914/img/favicon.ico" image="https://i.ytimg.com/vi/XUgoBN8VB7Q/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDnKExP-CILW4skZCS2JCVslwQHAA&days_since_epoch=19937" provider="youtube.com" href="https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttp%253A%252F%252Fwww.youtube.com%252Fembed%252Fvideoseries%253Flist%253DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fplaylist%253Flist%253DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FXUgoBN8VB7Q%252Fhqdefault.jpg%253Fsqp%253D-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE%253D%2526rs%253DAOn4CLDnKExP-CILW4skZCS2JCVslwQHAA%2526days_since_epoch%253D19937%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22853%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 # Subnet Emissions
 
