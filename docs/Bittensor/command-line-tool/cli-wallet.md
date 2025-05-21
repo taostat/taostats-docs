@@ -78,7 +78,7 @@ All transfers in and out of a given wallet.
 
 # Creation
 
-## new_coldkey
+## new\_coldkey
 
 Creates a new coldkey in the wallet.
 
@@ -86,23 +86,23 @@ Creates a new coldkey in the wallet.
 
 Creates a new coldkey in the wallet.
 
-## new_hotkey
+## new\_hotkey
 
 Creates a new hotkey for a coldkey in your wallet.
 
-## regen_coldkey
+## regen\_coldkey
 
 Given a mnemonic, regenerate a coldkey.
 
-## regen_hotkey
+## regen\_hotkey
 
 Given a mnemonic, regenerate a hotkey.
 
-## swap_hotkey
+## swap\_hotkey
 
 Swap your associated hotkey.
 
-## set_identity
+## set\_identity
 
 Set an identity on a coldkey. This makes your coldkey publically identifiable.  Useful for 
 
