@@ -7,3 +7,4 @@
 - get-validator-identity
 - get-validator-performance
 - get-current-validator-weights
+- get-validator-weights-history
