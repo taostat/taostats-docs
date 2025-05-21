@@ -6,3 +6,4 @@
 - get-parentchild-hotkey
 - get-validator-identity
 - get-validator-performance
+- get-current-validator-weights
