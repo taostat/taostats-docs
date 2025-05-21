@@ -12,43 +12,13 @@ next:
 ---
 The Bittensor chain stives to emit 1 block every 12 seconds. However, chain congestion can slow down block emission.  In this tutorial, we chart the number of blocks over a period of time - hours or days.
 
-At 12 blocks/s, we should see ~300 blocks per hour, or ~7200 blocks per day.  By creating a chart of the blocks per day, we can see that there is a potential congestion problem that has arisen in the last few days.
+At 12 blocks/s, we should see \~300 blocks per hour, or \~7200 blocks per day.  By creating a chart of the blocks per day, we can see that there is a potential congestion problem that has arisen in the last few days.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/30832a6-image.png",
-        null,
-        null
-      ],
-      "align": "center",
-      "sizing": "50% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="50% " src="https://files.readme.io/30832a6-image.png" />
 
 <br />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b99ff86-image.png",
-        null,
-        null
-      ],
-      "align": "center",
-      "sizing": "50% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="50% " src="https://files.readme.io/b99ff86-image.png" />
 
 # Creating the charts
 
