@@ -12,22 +12,7 @@ next:
 ---
 To see a chart of subnet emissions, click the Blockchain dropdown, and choose [Subnets](https://x.taostats.io/#subnets).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9267af0-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "25% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="25% " src="https://files.readme.io/9267af0-image.png" />
 
 The chart shows the percentage of emission for each subnet (this is determined by the [Yuma Consensus](doc:consensus) on the [Root Subnet](doc:root-subnet).  This data is also available in the [Root Subnet](doc:root-subnet) chart on the Taostats homepage.
 
