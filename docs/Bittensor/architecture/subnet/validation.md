@@ -13,7 +13,7 @@ next:
   description: ''
 ---
 > 📘 This section focuses on the validator architecture inside a subnet.
-> 
+>
 > The [Validator Persona](doc:validator) has details on how a validator can be run.
 
 On each subnet there are a configurable number slots reserved for validation (default: 64). IN practice, these slots are not all filled by validators, and miners can use these slots as well.
@@ -26,19 +26,7 @@ Validators have three primary roles. Two exist inside  each subnet, and the thir
 
 The amount of tao a validator has as delegated stake defines both the value of the weights they set for miners and as a result allows for a natural market prioritisation of access to form.
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FMLVeSRZoU7g%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DMLVeSRZoU7g&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FMLVeSRZoU7g%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=MLVeSRZoU7g",
-  "title": "Bittensor Overview: Validators",
-  "favicon": "https://www.youtube.com/favicon.ico",
-  "image": "https://i.ytimg.com/vi/MLVeSRZoU7g/hqdefault.jpg",
-  "provider": "youtube.com",
-  "href": "https://www.youtube.com/watch?v=MLVeSRZoU7g",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="https://www.youtube.com/watch?v=MLVeSRZoU7g" title="Bittensor Overview: Validators" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/MLVeSRZoU7g/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=MLVeSRZoU7g" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FMLVeSRZoU7g%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DMLVeSRZoU7g%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FMLVeSRZoU7g%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
@@ -77,26 +65,14 @@ It should also be noted that in order to validate competitively you must be pres
 There is a real world cost to running this infrastructure which also makes it not profitable below a certain threshold of staked tao. 
 
 > 📘 How can miners ignore validators?
-> 
+>
 > If a validator has a very low amount of tao staked, their scoring has very little weight in Consensus.   Ignoring a validator allows the miner to focus on the validators that will impact their score (and create the subnet's output).
 
 ## Validator Emission
 
 Validators are awarded emission from the network based on their dividend score.  Dividend is evaluated from the stake and Vtrust values. Vtrust describes how well their weights match the **consensus** of other validators.  See [Incentive for Validators](doc:incentive-for-validators)  for a detailed analysis.
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2Fvideoseries%3Flist%3DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FXUgoBN8VB7Q%2Fhqdefault.jpg%3Fsqp%3D-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE%3D%26rs%3DAOn4CLDnKExP-CILW4skZCS2JCVslwQHAA%26days_since_epoch%3D19969&key=02466f963b9b4bb8845a05b53d3235d7&type=text%2Fhtml&schema=youtube\" width=\"853\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd",
-  "title": "Bittensor Validation",
-  "favicon": "https://www.youtube.com/s/desktop/4151fd0f/img/favicon.ico",
-  "image": "https://i.ytimg.com/vi/XUgoBN8VB7Q/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDnKExP-CILW4skZCS2JCVslwQHAA&days_since_epoch=19969",
-  "provider": "youtube.com",
-  "href": "https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd" title="Bittensor Validation" favicon="https://www.youtube.com/s/desktop/4151fd0f/img/favicon.ico" image="https://i.ytimg.com/vi/XUgoBN8VB7Q/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDnKExP-CILW4skZCS2JCVslwQHAA&days_since_epoch=19969" provider="youtube.com" href="https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttp%253A%252F%252Fwww.youtube.com%252Fembed%252Fvideoseries%253Flist%253DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fplaylist%253Flist%253DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FXUgoBN8VB7Q%252Fhqdefault.jpg%253Fsqp%253D-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE%253D%2526rs%253DAOn4CLDnKExP-CILW4skZCS2JCVslwQHAA%2526days_since_epoch%253D19969%26key%3D02466f963b9b4bb8845a05b53d3235d7%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22853%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 # Gateway Access
 
@@ -108,22 +84,7 @@ An example of this is [Corcel](https://corcel.io) who provide API access to a nu
 
 This is just one way of facilitating access to the network data via a validator and constant advancements a birthing new and innovative ways to interface with the commodities produced by subnets.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1492508-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "75% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="75% " src="https://files.readme.io/1492508-image.png" />
 
 <br />
 
@@ -135,20 +96,6 @@ Validators can join the root subnet, and set weights for all of the subnets to d
 
 Here's a screenshot of the Root subnet - with several validators and the weights placed on the first 6 subnets.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/bf1fab306cb78c9a43a36e34b538dc9a3ad51f7bf0fcc9db9cd1c4512a2b254a-Screenshot_2024-09-03_at_17.39.21.jpg",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/bf1fab306cb78c9a43a36e34b538dc9a3ad51f7bf0fcc9db9cd1c4512a2b254a-Screenshot_2024-09-03_at_17.39.21.jpg" />
 
 Note: This will change with the update to stao or dtao.
