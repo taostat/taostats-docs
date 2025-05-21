@@ -15,3 +15,4 @@
 - get-current-validator-weights
 - get-validator-weights-history
 - get-validator-alpha-shares
+- get-validator-alpha-shares-historical
