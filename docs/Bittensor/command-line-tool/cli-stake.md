@@ -11,11 +11,11 @@ next:
   description: ''
 ---
 > 📘 Note: To perform an initial delegation of stake, use:
-> 
+>
 > ```
 > btcli root delegate
 > ```
-> 
+>
 >  [CLI: Root](doc:cli-root)
 
 ```
@@ -44,19 +44,19 @@ next:
 
 # add
 
- Stake TAO to one or more hotkeys associated with the user's coldkey.  
- This command is used by a subnet validator to stake to their own hotkey. Compare this command with "btcli root delegate" that is typically run by a TAO holder to  
+ Stake TAO to one or more hotkeys associated with the user's coldkey.\
+ This command is used by a subnet validator to stake to their own hotkey. Compare this command with "btcli root delegate" that is typically run by a TAO holder to\
  delegate their TAO to a delegate's hotkey.
 
 > 📘 Note: the Validator hotkey must already be associated with your coldkey for this to add stake.
-> 
+>
 > For the initial staking process use:
-> 
+>
 > ```
 > btcli root delegate-stake
 > ```
 
-# 
+#
 
 ## show
 
