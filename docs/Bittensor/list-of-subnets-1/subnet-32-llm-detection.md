@@ -10,9 +10,9 @@ metadata:
 next:
   description: ''
 ---
-Our subnet focuses on the detection of AI-generated content. Given the rapid growth of LLM-generated text, such as ChatGPT's output of 100 billion words daily compared to humans' 100 trillion,  
+Our subnet focuses on the detection of AI-generated content. Given the rapid growth of LLM-generated text, such as ChatGPT's output of 100 billion words daily compared to humans' 100 trillion,\
 we believe that the ability to accurately determine AI-generated text will become increasingly necessary.
 
-# [GitHub](https://github.com/It-s-AI/llm-detection) 
+# [GitHub](https://github.com/It-s-AI/llm-detection)
 
 # [HW Requirements](https://github.com/It-s-AI/llm-detection/blob/main/min_compute.yml)
