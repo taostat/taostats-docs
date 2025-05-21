@@ -5,3 +5,4 @@
 - get-neuron-registrations
 - get-neuron-deregistrations
 - get-miner-weights
+- get-subnet-coldkey-distribution-1
