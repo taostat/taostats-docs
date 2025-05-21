@@ -30,6 +30,6 @@ This chart gives a running score of the incentive & emission of the last miners 
 
 # Registration Table
 
-This table lists the hotkeys and coldkeys of every neuron registration in the subnet. A key value for miners is how many registration occurred in the last 24 hours - this is an indicator of the cutoff for the _next_ 24 hours.
+This table lists the hotkeys and coldkeys of every neuron registration in the subnet. A key value for miners is how many registration occurred in the last 24 hours - this is an indicator of the cutoff for the *next* 24 hours.
 
 ![](https://files.readme.io/28b31ea9fd4dee8282bd333e9e5500bf3f44d6fd6fb850507027eaab747dc367-image.png)
