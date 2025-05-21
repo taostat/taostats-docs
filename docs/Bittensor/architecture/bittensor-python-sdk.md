@@ -14,7 +14,7 @@ The [Bittensor SDK](https://docs.bittensor.com/python-api/html/autoapi/bittensor
 
 This section will have example Python code for common use cases.
 
-> 📘 The [The Taostats API](doc:the-taostats-api) can provide much of the same information, using basic GET requests.  
+> 📘 The [The Taostats API](doc:the-taostats-api) can provide much of the same information, using basic GET requests.
 
 <br />
 
