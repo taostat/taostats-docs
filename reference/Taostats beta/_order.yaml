@@ -16,3 +16,4 @@
 - get-subnets
 - get-subnet-description
 - get-subnet-owner
+- get-transaction
