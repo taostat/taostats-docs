@@ -14,22 +14,7 @@ next:
 
 ## Why was there a big drop in accounts in May 2024?
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d5fedce-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "50% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="50% " src="https://files.readme.io/d5fedce-image.png" />
 
 Due to a chain upgrade, all accounts had to be migrated, but this migration had impacts to the chain.  To mitigate this impact, empty accounts were not migrated. [twitter thread](https://x.com/taostats/status/1794719922486223324)  
 
@@ -113,7 +98,7 @@ Any data transmitted to Bittensor will pass through multiple servers, including 
 
 From July 2-12, 2024, the chain was placed into safe mode - preventing transactions from being performed.  In the minutes before the chain was placed in safe mode, several large accounts were drained of tao. 
 
-The origins of the attack stem from the release of Bittensor 6.12.2 in May 2024. The pip version of this release had a compromised library that allowed the hacker to collect unencrypted coldkeys. On July 2, 2024, the attacker used these credentials to empty several wallets.  _ONLY_ users of the command like tool BTCLI - version 6.12.2 - were compromised. [Blog post](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d)  describing the attack, and the [process to reopen the chain](https://blog.bittensor.com/reopening-bittensor-8252ee749980) . During the reopening and coldkey swap - no further wallets were attacked.  
+The origins of the attack stem from the release of Bittensor 6.12.2 in May 2024. The pip version of this release had a compromised library that allowed the hacker to collect unencrypted coldkeys. On July 2, 2024, the attacker used these credentials to empty several wallets.  *ONLY* users of the command like tool BTCLI - version 6.12.2 - were compromised. [Blog post](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d)  describing the attack, and the [process to reopen the chain](https://blog.bittensor.com/reopening-bittensor-8252ee749980) . During the reopening and coldkey swap - no further wallets were attacked.\
 Our [A Best Practices Guide for Safely Installing Software](doc:a-best-practices-guide-for-safely-installing-software) provides a template for ensuring you are operating as safely as possible when installing dependencies. 
 
 # Hotkey/Coldkey What's the difference?
