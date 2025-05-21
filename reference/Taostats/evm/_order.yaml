@@ -1,3 +1,4 @@
 - get-evm-transaction
 - get-evm-block
 - get-evm-contract
+- get-evm-log
