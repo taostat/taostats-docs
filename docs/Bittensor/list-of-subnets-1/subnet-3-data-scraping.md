@@ -10,13 +10,13 @@ metadata:
 next:
   description: ''
 ---
-# Github: <https://github.com/gitphantomman/scraping_subnet>
+# Github: [https://github.com/gitphantomman/scraping\_subnet](https://github.com/gitphantomman/scraping_subnet)
 
 <div align="center">
 
 # **Scraping Subnet v2**
 
-[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)  
+[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)\
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ### The Incentivized Internet
@@ -25,7 +25,7 @@ next:
 
 </div>
 
-This repo contains all the necessary files and functions to define Scraping subnet incentive mechanisms. You can run this project in three ways,  
+This repo contains all the necessary files and functions to define Scraping subnet incentive mechanisms. You can run this project in three ways,\
 on Bittensor's main-network (real TAO, to be released), Bittensor's test-network (fake TAO), or with your own staging-network. This repo includes instructions for doing all three.
 
 # Introduction
@@ -34,9 +34,9 @@ Data scraping is a critical component in numerous AI and machine learning models
 
 For search and retrieval purposes, validators have access to the indexing table, which is constructed using MongoDB.
 
-- `scraping/protocol.py`: The file where the wire-protocol used by miners and validators is defined.
-- `neurons/miner.py`: This script defines the miner's behavior, i.e., how the miner responds to requests from validators.
-- `neurons/validator.py`: This script defines the validator's behavior, i.e., how the validator requests information from miners and determines scores.
+* `scraping/protocol.py`: The file where the wire-protocol used by miners and validators is defined.
+* `neurons/miner.py`: This script defines the miner's behavior, i.e., how the miner responds to requests from validators.
+* `neurons/validator.py`: This script defines the validator's behavior, i.e., how the validator requests information from miners and determines scores.
 
 # Installation
 
@@ -59,14 +59,14 @@ python -m pip install -e .
 
 # Running Miner
 
-A miner receives a query from the validator approximately every minute.  
-This query contains specific search keys.  
+A miner receives a query from the validator approximately every minute.\
+This query contains specific search keys.\
 The miner then scrapes data from Twitter or Reddit using Apify and returns the results.
 
 ## Prerequisites
 
-For mining you need apify api key. If you don't have one, you can obtain it from the [Apify Settings](https://console.apify.com/account/integrations).  
-And also you need to set which actor you're going to use and actor ids.  
+For mining you need apify api key. If you don't have one, you can obtain it from the [Apify Settings](https://console.apify.com/account/integrations).\
+And also you need to set which actor you're going to use and actor ids.\
 You can get actor ids from [Apify Actors](https://console.apify.com/actors/)
 
 ## Configuration with .env
@@ -135,7 +135,7 @@ Access to the indexing table is secured using an indexing API key, which is prov
 ## Prerequisites
 
 1. For validating you need apify api key. If you don't have one, you can obtain it from the [Apify Settings](https://console.apify.com/account/integrations).
-2. And also you need to set which actor you're going to use and actor ids.  
+2. And also you need to set which actor you're going to use and actor ids.\
    You can get actor ids from [Apify Actors](https://console.apify.com/actors/)
 3. You have to get `WASABI_ACCESS_KEY` and `INDEXING_API_KEY` from subnet owner(gitphantom). 
 
@@ -205,5 +205,5 @@ This repository is licensed under the MIT License.
 # DEALINGS IN THE SOFTWARE.
 ```
 
-python miner.py --wallet.name test_miner --wallet.hotkey test_miner_1 --subtensor.network test --netuid 18  
-python validator.py --wallet.name test_validator --wallet.hotkey test_validator_1 --subtensor.network test --netuid 18
+python miner.py --wallet.name test\_miner --wallet.hotkey test\_miner\_1 --subtensor.network test --netuid 18\
+python validator.py --wallet.name test\_validator --wallet.hotkey test\_validator\_1 --subtensor.network test --netuid 18
