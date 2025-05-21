@@ -15,3 +15,4 @@
 - get-status
 - get-subnets
 - get-subnet-description
+- get-subnet-owner
