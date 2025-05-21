@@ -10,17 +10,13 @@ metadata:
 next:
   description: ''
 ---
-# Github: <https://github.com/404-Repo/three-gen-subnet>
-
-
-
-
+# Github: [https://github.com/404-Repo/three-gen-subnet](https://github.com/404-Repo/three-gen-subnet)
 
 <div align="center">
 
 # **THREE GEN | SUBNET 24**
 
-[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)  
+[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)\
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 </div>
@@ -33,10 +29,10 @@ next:
 
 Pending detailed benchmark results, our recommended setup aligns with Google Cloud's a2-highgpu-1g specs:
 
-- GPU: NVIDIA A100 40GB
-- CPU: 12 vCPUs
-- RAM: 85GB
-- Storage: 200GB SSD
+* GPU: NVIDIA A100 40GB
+* CPU: 12 vCPUs
+* RAM: 85GB
+* Storage: 200GB SSD
 
 Expectations under continuous operation include about 500GB/month in network traffic and 0.2MB/s throughput.
 
@@ -48,15 +44,15 @@ Our code is compatible across various operating systems, yet it has undergone mo
 
 ### Environment Preparation
 
-- _Virtual Environment:_ For a clean and isolated setup, use a Python virtual environment. To set up one, execute:
+* *Virtual Environment:* For a clean and isolated setup, use a Python virtual environment. To set up one, execute:
 
 ```commandline
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-- _Process Management:_ Utilize PM2 for managing application processes. It offers advantages such as automatic restarts, load balancing, and comprehensive monitoring.
-- _Dependencies:_ Install all necessary Python packages:
+* *Process Management:* Utilize PM2 for managing application processes. It offers advantages such as automatic restarts, load balancing, and comprehensive monitoring.
+* *Dependencies:* Install all necessary Python packages:
 
 ```commandline
 pip install -r requirements.txt
