@@ -18,21 +18,21 @@ Each Subnet runs a self-contained codebase on top of the Bittensor code, each de
 
 # Architecture of Subnets
 
-Subnets generally have 256 <<glossary:neurons>> (Subnets 0 and 1 are exceptions to this rule), set in the subnet [hyperparameters](<>).  In time, this will be a custom configurable value. 
+Subnets generally have 256 <Glossary>neurons</Glossary> (Subnets 0 and 1 are exceptions to this rule), set in the subnet [hyperparameters]().  In time, this will be a custom configurable value. 
 
 The neurons are a mix of validators and miners with 64 slots reserved for validators and the remainder slots reserved for miners.  If validator slots are left unused they can be utilised by miners.  In practice, most subnets have around 20 validators, and the remaining 246 slots are used by miners.
 
 > 👍 Nervous System Analogy
-> 
+>
 > As you dig deeper into Bittensor and AI you will come across vocabulary references to the nervous system such as neurons. Neurons have axons, dendrites and synapses.  Since neurons are the way the nervous system transmits data, it is a convenient analogy to describe how data is transmitted through the subnet.
-> 
+>
 > Easy mode: 
-> 
-> - **Neurons** are nodes or servers running on a subnet.
-> - **Synapse**: Data sent between neurons
-> - **Axons**: receives message (server). The neuron's IP:port is considered the axon.
-> - **Dendrite**: sends message (client)
-> 
+>
+> * **Neurons** are nodes or servers running on a subnet.
+> * **Synapse**: Data sent between neurons
+> * **Axons**: receives message (server). The neuron's IP:port is considered the axon.
+> * **Dendrite**: sends message (client)
+>
 > For a deeper discussion of biology and nodes see: TODO
 
 ## Validators
@@ -46,9 +46,9 @@ Validators are nodes in the subnet that perform two roles.
 
 Tao holders can stake their tao with validators. Validators with higher stake receive higher emissions (that are shared with the stakeholders).  The weights set by validators is also influenced by the amount of stake held.The amount of tao a validator has as delegated stake defines both the value of the weights they set for miners and as a result allows for a natural market prioritisation of access to form. 
 
-- [Validator (Architecture)](doc:validation)
-- [Validator (Persona)](doc:validator)
-- [Emissions for Validators](doc:incentive-for-validators)
+* [Validator (Architecture)](doc:validation)
+* [Validator (Persona)](doc:validator)
+* [Emissions for Validators](doc:incentive-for-validators)
 
 <br />
 
@@ -58,11 +58,11 @@ Tao holders can stake their tao with validators. Validators with higher stake re
 
 Miners produce output as defined by the subnet code. This work is usually performed by running code in order to complete tasks.  Each subnet has differnet mechanisms, requiring different expertises and hardware.  Although the mechanisms can vary from subnet to subnet, the power of distributed compute is one of the key values of the network. The validators then request this output for both the rewards mechanism and to satisfy any external queries. 
 
-Miners are ranked by validators and given an incentive score.  Miners with higher incentive values receive higher <<glossary:emissions>>.
+Miners are ranked by validators and given an incentive score.  Miners with higher incentive values receive higher <Glossary>emissions</Glossary>.
 
-- [Miner (Architecture)](doc:mining)
-- [Miner (Persona)](doc:miner)
-- [Emission for Miners](doc:consensus-for-miners)
+* [Miner (Architecture)](doc:mining)
+* [Miner (Persona)](doc:miner)
+* [Emission for Miners](doc:consensus-for-miners)
 
 ## Consensus
 
@@ -72,7 +72,7 @@ Each subnet undertakes a specific task. In order to evaluate how the task is bei
 
 # Subnet Registration
 
-Anyone can register a new subnet provided they have a wallet containing the current subnet registration cost in tao.  Once a Subnet is registered, it is given <<glossary:immunity>> from de-registration for 7 days. The period of immunity allows the new subnet to build trust and establish emissions without being de-registered in the event or further subnet registrations.
+Anyone can register a new subnet provided they have a wallet containing the current subnet registration cost in tao.  Once a Subnet is registered, it is given <Glossary>immunity</Glossary> from de-registration for 7 days. The period of immunity allows the new subnet to build trust and establish emissions without being de-registered in the event or further subnet registrations.
 
 In practice, many subnets build in the testnet prior to going "live" on the main bittensor chain. This allows miners and validators to test out the code, and find any issues that might arise. It also allows the subnet team to build awareness of the project, ensuring faster acceptance on chain, and (hopefully) higher emissions.
 
@@ -80,8 +80,8 @@ In practice, many subnets build in the testnet prior to going "live" on the main
 
 When a new subnet is registered, the [Subnet Pool](doc:subnet-pools) will be initialized with:
 
-- 1 alpha
-- {subnet count} alpha
+* 1 alpha
+* \{subnet count} alpha
 
 ## Registration Cost
 
@@ -96,22 +96,9 @@ btcli subnet lock_cost
 
 Or you can view a historical chart of registration cost at <a href="<https://taostats.io/subnets>" target="_blank">Taostats</a>.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/dc48e04eec3d2bbe2b7a19c012073d38b4b40461a174098dedf42edc32e77292-Screenshot_2024-09-03_at_17.35.05.jpg",
-        null,
-        "A screenshot of the Subnet registration cost over time."
-      ],
-      "align": "center",
-      "caption": "A screenshot of the Subnet registration cost over time."
-    }
-  ]
-}
-[/block]
-
+<Image alt="A screenshot of the Subnet registration cost over time." align="center" src="https://files.readme.io/dc48e04eec3d2bbe2b7a19c012073d38b4b40461a174098dedf42edc32e77292-Screenshot_2024-09-03_at_17.35.05.jpg">
+  A screenshot of the Subnet registration cost over time.
+</Image>
 
 <br />
 
