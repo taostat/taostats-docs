@@ -49,9 +49,9 @@ options:
 
 # [subnets](doc:btcli-subnets): Commands related to subnets
 
-- [Informational](doc:btcli-subnets#informational)
-- [subnet owners](doc:btcli-subnets#subnet-owners)
-- [miners and validators](doc:btcli-subnets#miners-and-validators)
+* [Informational](doc:btcli-subnets#informational)
+* [subnet owners](doc:btcli-subnets#subnet-owners)
+* [miners and validators](doc:btcli-subnets#miners-and-validators)
 
 # [stake](doc:cli-stake): Add and remove stake from hotkeys
 
@@ -59,7 +59,7 @@ options:
 
 # [sudo](doc:cli-sudo): Set and query subnet parameters
 
-# [root](doc:cli-root): Parameters for members of the root subnet 
+# [root](doc:cli-root): Parameters for members of the root subnet
 
 # legacy: Deprecated
 
