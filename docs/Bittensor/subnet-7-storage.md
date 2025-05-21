@@ -10,21 +10,19 @@ metadata:
 next:
   description: ''
 ---
-# Github: <https://github.com/tensorage/tensorage>
+# Github: [https://github.com/tensorage/tensorage](https://github.com/tensorage/tensorage)
 
 # [HW Requirements](https://github.com/tensorage/tensorage/blob/main/min_compute.yml)
 
 ***
 
-
-
 <div align="center">
 
-# Storage Subnet on Bittensor <!-- omit in toc -->
+# Storage Subnet on Bittensor {/* omit in toc */}
 
 ## [Discord](https://discord.gg/bittensor) • [Network](https://taostats.io/) • [Research](https://bittensor.com/whitepaper) • [Installation](./docs/installation.md)
 
-[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)  
+[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/bittensor)\
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 </div>
@@ -47,20 +45,20 @@ The storage subnet will allow nodes to contribute storage space, employing a pro
 
 ## 3.1 Subnet Architecture
 
-- **Nodes**: Nodes in the storage subnet will have roles similar to Filecoin, including miners (storage providers), validators and clients (storage consumers).
-  - **Miners**: Miners will serve their hard drive space to the network, storing encrypted data and proving its existence to validators. They commit to storing data for a specified duration. Miners earn TAO from network emissions for providing storage and serving client requests.
-  - **Validators**: Validators validate storage proofs from miners to ensure data integrity. They validate transactions and add them to the blockchain and earn TAO from network emissions for validating and maintaining network security.
-  - **Clients**: Clients will be able to store and retrieve data from the network. Optionally, they provide feedback or ratings on miner performance.
-- **Interaction Mechanisms**: Nodes will communicate using P2P networking and data transmission protocols.
-- **Consensus Mechanism**: The subnet will operate under Bittensor's Yuma consensus mechanism.
+* **Nodes**: Nodes in the storage subnet will have roles similar to Filecoin, including miners (storage providers), validators and clients (storage consumers).
+  * **Miners**: Miners will serve their hard drive space to the network, storing encrypted data and proving its existence to validators. They commit to storing data for a specified duration. Miners earn TAO from network emissions for providing storage and serving client requests.
+  * **Validators**: Validators validate storage proofs from miners to ensure data integrity. They validate transactions and add them to the blockchain and earn TAO from network emissions for validating and maintaining network security.
+  * **Clients**: Clients will be able to store and retrieve data from the network. Optionally, they provide feedback or ratings on miner performance.
+* **Interaction Mechanisms**: Nodes will communicate using P2P networking and data transmission protocols.
+* **Consensus Mechanism**: The subnet will operate under Bittensor's Yuma consensus mechanism.
 
 ## 3.2 Storage Mechanism
 
-- **Data Storage**: Data will be distributed across nodes, ensuring redundancy and availability.
-- **Proof of Storage**: Miners will prove the existence of data to validators using a proof of storage mechanism.
-  - **Periodic Proofs**: Validators ask miners provide proof of storage periodically and miners submit cryptographic proofs of stored data to their assigned validators.
-  - **Validation**: Validators check these proofs. If valid, both miners and validators earn TAO from network emissions.
-- **Data Retrieval**: A mechanism will be designed for efficient data retrieval, leveraging Bittensor's peer-to-peer intelligence market.
+* **Data Storage**: Data will be distributed across nodes, ensuring redundancy and availability.
+* **Proof of Storage**: Miners will prove the existence of data to validators using a proof of storage mechanism.
+  * **Periodic Proofs**: Validators ask miners provide proof of storage periodically and miners submit cryptographic proofs of stored data to their assigned validators.
+  * **Validation**: Validators check these proofs. If valid, both miners and validators earn TAO from network emissions.
+* **Data Retrieval**: A mechanism will be designed for efficient data retrieval, leveraging Bittensor's peer-to-peer intelligence market.
 
 ## 3.3 Incentive Mechanism
 
@@ -70,9 +68,9 @@ Nodes will be rewarded based on their contribution to storage and the efficiency
 
 ## 4.1 Subnet Registration Module
 
-- **Hotkey Registration**: The subnet registration module is responsible for registering the subnet's hotkey on the Bittensor chain. This is done by using the `btcli s register` command in the `bittensor` package.
+* **Hotkey Registration**: The subnet registration module is responsible for registering the subnet's hotkey on the Bittensor chain. This is done by using the `btcli s register` command in the `bittensor` package.
 
-- **Subnet Registration**: The subnet registration module is also responsible for registering the subnet on the Bittensor chain. This is done by using the `btcli s create` command in the `bittensor` package.
+* **Subnet Registration**: The subnet registration module is also responsible for registering the subnet on the Bittensor chain. This is done by using the `btcli s create` command in the `bittensor` package.
 
 ## 4.2 Mining Module
 
@@ -82,10 +80,10 @@ The miner uses SQLite databases to store and retrieve data. It maintains a separ
 
 ## 4.3 Validation Module
 
-The validator (`neurons/validator.py`) is responsible for verifying the integrity of the data served by the miner. It does this by comparing the hash of the retrieved data with a stored hash.  
+The validator (`neurons/validator.py`) is responsible for verifying the integrity of the data served by the miner. It does this by comparing the hash of the retrieved data with a stored hash.\
 If the hashes do not match, it indicates that the data has been tampered with. The validator is rewarded for its contribution to the network by earning TAO from network emissions. 
 
-The validator also maintains a separate database connection for each miner in the network. The `retrieve` and `store` functions are used to handle data retrieval and storage requests from miners.  
+The validator also maintains a separate database connection for each miner in the network. The `retrieve` and `store` functions are used to handle data retrieval and storage requests from miners.\
 The validator also maintains a separate database connection for the partitioning algorithm.
 
 ## 4.4 Partitioning Algorithm
@@ -100,8 +98,8 @@ The proof of storage mechanism is responsible for proving the existence of data 
 
 The validator then checks this proof.
 
-- If the proof is valid, it means that the miner is indeed storing the data, and both the miner and validator earn TAO from network emissions. 
-- If the proof is not valid, it means that the miner might not be storing the data it claims to be storing, and no rewards are given.
+* If the proof is valid, it means that the miner is indeed storing the data, and both the miner and validator earn TAO from network emissions. 
+* If the proof is not valid, it means that the miner might not be storing the data it claims to be storing, and no rewards are given.
 
 The proof of storage mechanism is run periodically to generate proofs for all stored data.
 
@@ -123,9 +121,9 @@ It's important to note that the miner is rewarded for serving client requests, s
 
 Incentive mechanism is based on the contribution of nodes to the network. Both miners and validators earn TAO, the network's native token, from network emissions.
 
-- **Miners**: Miners earn TAO for providing storage and serving client requests. The amount of TAO earned is proportional to the amount of storage they provide and the number of client requests they serve. Miners also generate and submit proofs of storage to validators, and they earn TAO when these proofs are validated.
+* **Miners**: Miners earn TAO for providing storage and serving client requests. The amount of TAO earned is proportional to the amount of storage they provide and the number of client requests they serve. Miners also generate and submit proofs of storage to validators, and they earn TAO when these proofs are validated.
 
-- **Validators**: Validators earn TAO for validating storage proofs from miners and maintaining network security. When a validator validates a storage proof, both the miner who submitted the proof and the validator earn TAO.
+* **Validators**: Validators earn TAO for validating storage proofs from miners and maintaining network security. When a validator validates a storage proof, both the miner who submitted the proof and the validator earn TAO.
 
 The reward mechanism is run periodically to distribute rewards to nodes for their contributions to the network. The exact frequency of these reward distributions is up to design, but it can be determined by the network's consensus protocol.
 
@@ -135,42 +133,42 @@ It's important to note that if a miner's proof of storage is not valid, it indic
 
 ## 5.1 Allocator (allocate.py)
 
-- **db_root_path**: Default value is `'~/tensorage-db'`. This is the path where the SQLite databases for data storage and retrieval are stored.
-- **size_in_gb**: Default value is `100GB`. This is the default size to store data.
-- **validator**: Default value is `False`. If `True`, only generate hash DB for validators.
-- **disable_prompt**: Default value is `False`. If `True`, not wait for user input to confirm the allocation.
-- **disable_verify**: Default value is `False`. If `True`, not verify allocation data.
-- **restart**: Default value is `False`. If `True`, restart the DB.
-- **workers**: Default value is `[CPU threads]`. Number of concurrent workers to use.
-- **subtensor.network**: Default value is `'finney'`. The chain endpoint to use to generate the partition.
-- **wallet.name**: Default value is `'default'`. This is the name of the wallet used by the miner and validator.
-- **wallet.hotkey**: Default value is `'default'`. This is the hotkey of the wallet used by the miner and validator.
+* **db\_root\_path**: Default value is `'~/tensorage-db'`. This is the path where the SQLite databases for data storage and retrieval are stored.
+* **size\_in\_gb**: Default value is `100GB`. This is the default size to store data.
+* **validator**: Default value is `False`. If `True`, only generate hash DB for validators.
+* **disable\_prompt**: Default value is `False`. If `True`, not wait for user input to confirm the allocation.
+* **disable\_verify**: Default value is `False`. If `True`, not verify allocation data.
+* **restart**: Default value is `False`. If `True`, restart the DB.
+* **workers**: Default value is `[CPU threads]`. Number of concurrent workers to use.
+* **subtensor.network**: Default value is `'finney'`. The chain endpoint to use to generate the partition.
+* **wallet.name**: Default value is `'default'`. This is the name of the wallet used by the miner and validator.
+* **wallet.hotkey**: Default value is `'default'`. This is the hotkey of the wallet used by the miner and validator.
 
 ## 5.2 Validator (validator.py)
 
-- **db_root_path**: Default value is `'~/tensorage-db'`. This is the path where the SQLite databases for data storage and retrieval are stored.
-- **workers**: Default value is `[CPU threads]`. Number of concurrent workers to use.
-- **restart**: Default value is `False`. If `True`, restart the DB.
-- **no_store_weights**: Default value is `False`. If `False`, the validator will store newly-set weights.
-- **no_restore_weights**: Default value is `False`. If `False`, the validator will keep the weights from the previous run.
-- **logging.debug**: Default value is `False`. Run in debug mode.
-- **logging.trace**: Default value is `False`. Run in trace mode.
-- **subtensor.network**: Default value is `'finney'`. The chain endpoint to use to generate the partition.
-- **wallet.name**: Default value is `'default'`. This is the name of the wallet used by the miner and validator.
-- **wallet.hotkey**: Default value is `'default'`. This is the hotkey of the wallet used by the miner and validator.
+* **db\_root\_path**: Default value is `'~/tensorage-db'`. This is the path where the SQLite databases for data storage and retrieval are stored.
+* **workers**: Default value is `[CPU threads]`. Number of concurrent workers to use.
+* **restart**: Default value is `False`. If `True`, restart the DB.
+* **no\_store\_weights**: Default value is `False`. If `False`, the validator will store newly-set weights.
+* **no\_restore\_weights**: Default value is `False`. If `False`, the validator will keep the weights from the previous run.
+* **logging.debug**: Default value is `False`. Run in debug mode.
+* **logging.trace**: Default value is `False`. Run in trace mode.
+* **subtensor.network**: Default value is `'finney'`. The chain endpoint to use to generate the partition.
+* **wallet.name**: Default value is `'default'`. This is the name of the wallet used by the miner and validator.
+* **wallet.hotkey**: Default value is `'default'`. This is the hotkey of the wallet used by the miner and validator.
 
 ## 5.3 Miner (miner.py)
 
-- **db_root_path**: Default value is `'~/tensorage-db'`. This is the path where the SQLite databases for data storage and retrieval are stored.
-- **size_in_gb**: Default value is `100GB`. This is the default size to store data.
-- **seconds_per_reallocate**: Default value is `600 seconds`. This is the time between space updates based on changes to the subnet hotkeys.
-- **workers**: Default value is `[CPU threads]`. Number of concurrent workers to use.
-- **restart**: Default value is `False`. If `True`, restart the DB.
-- **logging.debug**: Default value is `False`. Run in debug mode.
-- **logging.trace**: Default value is `False`. Run in trace mode.
-- **subtensor.network**: Default value is `'finney'`. The chain endpoint to use to generate the partition.
-- **wallet.name**: Default value is `'default'`. This is the name of the wallet used by the miner and validator.
-- **wallet.hotkey**: Default value is `'default'`. This is the hotkey of the wallet used by the miner and validator.
+* **db\_root\_path**: Default value is `'~/tensorage-db'`. This is the path where the SQLite databases for data storage and retrieval are stored.
+* **size\_in\_gb**: Default value is `100GB`. This is the default size to store data.
+* **seconds\_per\_reallocate**: Default value is `600 seconds`. This is the time between space updates based on changes to the subnet hotkeys.
+* **workers**: Default value is `[CPU threads]`. Number of concurrent workers to use.
+* **restart**: Default value is `False`. If `True`, restart the DB.
+* **logging.debug**: Default value is `False`. Run in debug mode.
+* **logging.trace**: Default value is `False`. Run in trace mode.
+* **subtensor.network**: Default value is `'finney'`. The chain endpoint to use to generate the partition.
+* **wallet.name**: Default value is `'default'`. This is the name of the wallet used by the miner and validator.
+* **wallet.hotkey**: Default value is `'default'`. This is the hotkey of the wallet used by the miner and validator.
 
 Please note that these default values can be overridden by command-line arguments when running the allocator, miner or validator.
 
@@ -182,11 +180,11 @@ Minimum device requirement
 
 `For miner`
 
-- 1 TB of Hard Disk, 4 GB of RAM, 8 vCPUs
+* 1 TB of Hard Disk, 4 GB of RAM, 8 vCPUs
 
 `For validator`
 
-- 500 GB of Hard Disk, 8 GB of RAM, 64 vCPUs
+* 500 GB of Hard Disk, 8 GB of RAM, 64 vCPUs
 
 # License
 
