@@ -6,3 +6,4 @@
 - live-get-extrinsic
 - live-get-node-transaction-pool
 - live-get-node-version
+- live-get-pallet-consts
