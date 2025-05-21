@@ -14,7 +14,7 @@ Text-to-Speech (TTS) models serve as the backbone for a wide range of applicatio
 
 Yet, the TTS landscape is still in its infancy. In this subnet, we aim to gather the wisdom of the whole open-source community to create the best open-source TTS models.
 
-# [GitHub](https://github.com/myshell-ai/MyShell-TTS-Subnet) 
+# [GitHub](https://github.com/myshell-ai/MyShell-TTS-Subnet)
 
 # HW requirements:
 
