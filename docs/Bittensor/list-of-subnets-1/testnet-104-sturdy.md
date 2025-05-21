@@ -10,32 +10,28 @@ metadata:
 next:
   description: ''
 ---
-# Github: <https://github.com/Sturdy-Subnet/sturdy-subnet>
+# Github: [https://github.com/Sturdy-Subnet/sturdy-subnet](https://github.com/Sturdy-Subnet/sturdy-subnet)
 
-# [HW Requirements](https://github.com/Sturdy-Subnet/sturdy-subnet/blob/main/min_compute.yml) 
-
-
-
-
+# [HW Requirements](https://github.com/Sturdy-Subnet/sturdy-subnet/blob/main/min_compute.yml)
 
 <div align="center">
 
-# **Sturdy Subnet** <!-- omit in toc -->
+# **Sturdy Subnet** {/* omit in toc */}
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ***
 
-## Decentralized Yield Farming Fund <!-- omit in toc -->
+## Decentralized Yield Farming Fund {/* omit in toc */}
 
 </div>
 
-- [Introduction](#introduction)
-  - [Subnet Overview](#subnet-overview)
-- [Installation](#installation)
-  - [Before you proceed](#before-you-proceed)
-  - [Install](#install)
-- [License](#license)
+* [Introduction](#introduction)
+  * [Subnet Overview](#subnet-overview)
+* [Installation](#installation)
+  * [Before you proceed](#before-you-proceed)
+  * [Install](#install)
+* [License](#license)
 
 ***
 
@@ -53,7 +49,7 @@ There are three core files.
 
 ### Subnet Overview
 
-- Validators are reponsible for distributing lists of pools (of which contain relevant parameters such as base interest rate, base interest rate slope, minimum borrow amount, etc), as well as a maximum token balance miners can allocate to pools. Below is the function present in the codebase used for generating a dummy `assets_and_pools` taken from [pools.py](./sturdy/pools.py):
+* Validators are reponsible for distributing lists of pools (of which contain relevant parameters such as base interest rate, base interest rate slope, minimum borrow amount, etc), as well as a maximum token balance miners can allocate to pools. Below is the function present in the codebase used for generating a dummy `assets_and_pools` taken from [pools.py](./sturdy/pools.py):
 
 ```python
 def generate_assets_and_pools() -> typing.Dict:  # generate pools
@@ -82,11 +78,11 @@ def generate_assets_and_pools() -> typing.Dict:  # generate pools
     return assets_and_pools
 ```
 
-- The miners, after receiving these pools from validators, must then attempt to allocate the `TOTAL_ASSETS` into the given pools, with the ultimate goal of trying to maximize their yield. This repository comes with a default asset allocation algorithm in the form of `greedy_allocation_algorithm` (a greedy allocation algorithm) in [misc.py](./sturdy/utils/misc.py). The greedy allocation essentially works by breaking its assets into many chunks of small sizes, and allocating them into the pools by utilizing their current yields to determine its allocations to each pool (it is done this way because the yields of the pools are dynamic based on their various parameters - most notably it's `utilization rate = borrow amount / total available tokens`). A diagram is provided below for the more visually attuned: 
+* The miners, after receiving these pools from validators, must then attempt to allocate the `TOTAL_ASSETS` into the given pools, with the ultimate goal of trying to maximize their yield. This repository comes with a default asset allocation algorithm in the form of `greedy_allocation_algorithm` (a greedy allocation algorithm) in [misc.py](./sturdy/utils/misc.py). The greedy allocation essentially works by breaking its assets into many chunks of small sizes, and allocating them into the pools by utilizing their current yields to determine its allocations to each pool (it is done this way because the yields of the pools are dynamic based on their various parameters - most notably it's `utilization rate = borrow amount / total available tokens`). A diagram is provided below for the more visually attuned: 
 
 ![allocations](./assets/allocations.png)
 
-- After generating allocations, miners then send their outputs to validators to be scored. The scores of miners are determined based on their relative yields their response latency. This means that the fastest, best allocating miner will receive the most emissions, with an `80%` weight placed on yield alone, and the other `20%` being dependent on miner latency. The resulting is between a range of `0-1`. In math speak: $$s\_{{k}} = 0.8y_k + 0.2r_k $$ where $s_k$, $y_k$, and $r_k$ are the score, yield, latency of miner $k$ respectively. The reward curve of $r_k$ is determined by a sigmoid curve with response time being the function (see below). Note: The timeout for a miner is 10 seconds, hence why the reward for >= 10s of response time is 0. For more information on how miners are rewarded - please see [reward.py](./sturdy/validator/reward.py).
+* After generating allocations, miners then send their outputs to validators to be scored. The scores of miners are determined based on their relative yields their response latency. This means that the fastest, best allocating miner will receive the most emissions, with an `80%` weight placed on yield alone, and the other `20%` being dependent on miner latency. The resulting is between a range of `0-1`. In math speak: $$s\_\{\{k}} = 0.8y\_k + 0.2r\_k $$ where $s\_k$, $y\_k$, and $r\_k$ are the score, yield, latency of miner $k$ respectively. The reward curve of $r\_k$ is determined by a sigmoid curve with response time being the function (see below). Note: The timeout for a miner is 10 seconds, hence why the reward for >= 10s of response time is 0. For more information on how miners are rewarded - please see [reward.py](./sturdy/validator/reward.py).
 
 <div align="center"> 
     <img src="./assets/latency_scaling.png" />
@@ -104,8 +100,8 @@ As mentioned above, 80% of the miner's score comes from how much yield their all
 
 Before you proceed with the installation, note the following: 
 
-- **IMPORTANT:** Make sure you are aware of the minimum compute requirements for your subnet. See the [Minimum compute YAML configuration](./min_compute.yml).
-- Note that installation instructions differ based on your situation: For example, installing for local development and testing will require a few additional steps compared to installing for testnet or mainnet. For running a local subtensor - please visit: <https://github.com/opentensor/subtensor>.
+* **IMPORTANT:** Make sure you are aware of the minimum compute requirements for your subnet. See the [Minimum compute YAML configuration](./min_compute.yml).
+* Note that installation instructions differ based on your situation: For example, installing for local development and testing will require a few additional steps compared to installing for testnet or mainnet. For running a local subtensor - please visit: [https://github.com/opentensor/subtensor](https://github.com/opentensor/subtensor).
 
 ### Install
 
@@ -115,7 +111,7 @@ cd sturdy-subnet
 python -m pip install -e .
 ```
 
-<!--
+{/*
 
  
 
@@ -123,7 +119,7 @@ python -m pip install -e .
 - **Running on Bittensor testnet**: Follow the step-by-step instructions described in this section: [Running on the Test Network](./docs/running_on_testnet.md).
 - **Running on Bittensor mainnet**: Follow the step-by-step instructions described in this section: [Running on the Main Network](./docs/running_on_mainnet.md).
 
-\-->
+*/}
 
 ***
 
