@@ -4,3 +4,4 @@
 - get-stakingdelegation-balances
 - get-delegation-events
 - get-stake-balance-sum-in-tao
+- get-stake-balance
