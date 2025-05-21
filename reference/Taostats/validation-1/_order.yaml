@@ -14,3 +14,4 @@
 - het-historical-validator-weights
 - get-current-validator-weights
 - get-validator-weights-history
+- get-validator-alpha-shares
