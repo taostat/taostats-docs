@@ -41,29 +41,29 @@ The amount received will be less than the amount expected from the direct price 
 <br />
 
 > 📘 Example 1 (large purchase = large slippage):
-> 
+>
 > A subnet pool has 100α and 100τ.  alpha:tao is 1:1, so the alpha price is 1 tao.
-> 
+>
 > ![](https://files.readme.io/b4b5fc63a0c2c45d90bba35e3287ce8a515f79f9440581edfb428297697a1a89-image.png)
-> 
+>
 > A tao holder wishes to sell 1,000 tao for alpha.  Following the exchange rate of 1:1, you might assume 1,000α would be received. But there is just 100α in the pool, so using the equation above 90.9α is received.
-> 
+>
 > This results in a slippage of 90.91%:
-> 
-> [block:image]{"images":[{"image":["https://files.readme.io/a7703a9684fe70152b2355f1579288d7525a4870028ae80934221c652f4b4fb1-image.png",null,""],"align":"center","sizing":"50% "}]}[/block]
-> 
+>
+> <Image align="center" width="50% " src="https://files.readme.io/a7703a9684fe70152b2355f1579288d7525a4870028ae80934221c652f4b4fb1-image.png" />
+>
 > Large purchases of tao or alpha will have large amounts of slippage.
 
 <br />
 
 > 📘 Example 2 smaller purchase
-> 
+>
 > A subnet pool has 100α and 100τ.  alpha:tao is 1:1, so the alpha price is 1 tao.
-> 
+>
 > ![](https://files.readme.io/b4b5fc63a0c2c45d90bba35e3287ce8a515f79f9440581edfb428297697a1a89-image.png)
-> 
-> A tao holder wishes to sell 10 tao for alpha.  Using the equation for alpha_expected, they will receive 9.09α.
-> 
+>
+> A tao holder wishes to sell 10 tao for alpha.  Using the equation for alpha\_expected, they will receive 9.09α.
+>
 > This results in 9.1% slippage.
-> 
-> [block:image]{"images":[{"image":["https://files.readme.io/a4d6088065f7ee95b3202e22faaacaa15ce88dd5de06441895fe71114599fb65-image.png",null,""],"align":"center","sizing":"50% "}]}[/block]
+>
+> <Image align="center" width="50% " src="https://files.readme.io/a4d6088065f7ee95b3202e22faaacaa15ce88dd5de06441895fe71114599fb65-image.png" />
