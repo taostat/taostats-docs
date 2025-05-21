@@ -14,6 +14,6 @@ Neural Architecture Search (NAS) is a critical field in machine learning that fo
 
 ![](https://github.com/nimaaghli/NASChain/raw/main/imgs/naschain_logo.png)
 
-# [GitHub](https://github.com/nimaaghli/NASChain) 
+# [GitHub](https://github.com/nimaaghli/NASChain)
 
 # [HW Requirements](https://github.com/nimaaghli/NASChain/blob/main/min_compute.yml)
