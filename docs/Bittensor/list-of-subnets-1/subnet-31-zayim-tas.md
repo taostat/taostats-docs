@@ -16,4 +16,4 @@ The Tao Accounting System Protocol focuses on two areas of innovation: novel tok
 
 # [HW Requirements](https://github.com/tao-accounting-system-protocol/tas-protocol/blob/main/min_compute.yml)
 
-<br>
+<br />
