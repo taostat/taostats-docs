@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-## response details 
+## response details
 
 ```
     {
