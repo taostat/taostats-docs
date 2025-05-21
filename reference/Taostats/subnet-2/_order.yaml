@@ -7,3 +7,4 @@
 - get-subnet-identity
 - get-subnet-owner-1
 - get-subnet-registration-cost
+- get-subnet-registration-cost-history-1
