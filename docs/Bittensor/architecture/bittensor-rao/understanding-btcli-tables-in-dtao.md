@@ -45,7 +45,7 @@ Stake all: τ1,999.3250? [y/n]: y
 
 Move your staked tao from from subnet/hotkey to another subnet/hotkey.
 
-- Move stake in the same subnet - and swap hotkeys. This will incur zero slippage as you are in the same subnet)
+* Move stake in the same subnet - and swap hotkeys. This will incur zero slippage as you are in the same subnet)
 
 ```
 btcli st move 
@@ -65,7 +65,7 @@ Move all: 1.1217 β‎? [y/n]: y
 
 ```
 
-- Move stake across subnets - to the same hotkey, or a different one. Moving alpha stake across subnets will incur a slippage.
+* Move stake across subnets - to the same hotkey, or a different one. Moving alpha stake across subnets will incur a slippage.
 
 ```
 btcli st move
@@ -119,13 +119,13 @@ This lists all of the subnets, their emission, and information about the token a
 
 <br />
 
-- **Netuid**:  The Subnet number
-- **Symbol**: Greek (hebrew, etc.) character representing the Subnet.
-- **Emission**:  Breakdown of tao emission across subnets. This is determined by the amount of tao staked to the subnet.  This is represented as a fraction of tao. 
-- **TAO(τ)**: tao staked to the subnet.
-- **Stake(⍺)**: Amount of alpha token available. This is direct conversion of P(τ.
-- **Rate: (⍺, τ)**: Conversion rate from the alpha into tao. Or tao/alpha from the last 2 columns.
-- **Tempo**:  Tempo varies by how much tao is staked to the subnet.
+* **Netuid**:  The Subnet number
+* **Symbol**: Greek (hebrew, etc.) character representing the Subnet.
+* **Emission**:  Breakdown of tao emission across subnets. This is determined by the amount of tao staked to the subnet.  This is represented as a fraction of tao. 
+* **TAO(τ)**: tao staked to the subnet.
+* **Stake(⍺)**: Amount of alpha token available. This is direct conversion of P(τ.
+* **Rate: (⍺, τ)**: Conversion rate from the alpha into tao. Or tao/alpha from the last 2 columns.
+* **Tempo**:  Tempo varies by how much tao is staked to the subnet.
 
 <br />
 
@@ -198,11 +198,11 @@ We can see the amount of token (beta, in this case).  As there is just one UID, 
          │        │  τ 54.2232 │             │             │       τ 43.2188 │                     │             │                   │           
 ```
 
-- **TAO**: amount of tao staked
-- **Stake** amount of alpha taked
-- **Rate τ/⍺**: Exchange rate tao/alpha
-- ** Value**: Conversion of alpha to tao
-- ** Swap Conversion**: How much alpha-> tao will return (this includes slippage).
-- **Regitered**:Is this Hotkey registered on the Subnet
-- **Emission** Emission per block for this hotkey
-- **Locked** Amount of take that i locked
+* **TAO**: amount of tao staked
+* **Stake** amount of alpha taked
+* **Rate τ/⍺**: Exchange rate tao/alpha
+* **Value** : Conversion of alpha to tao
+* **Swap Conversion** : How much alpha-> tao will return (this includes slippage).
+* **Regitered**:Is this Hotkey registered on the Subnet
+* **Emission** Emission per block for this hotkey
+* **Locked** Amount of take that i locked
