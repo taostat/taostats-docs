@@ -46,8 +46,8 @@ Events are node/subnet registrations, tao trades, delegations, and distributions
 
 Emission describes the distribution of tao in the network.  There are two places where emission is used:
 
-- **Subnet Emission**. In the root Subnet, emission refers to the percentage of tao to each Subnet.  For example a 10% emission means that 10% of all tao generated is sent to that subnet. 
-- **Neuron Emission** Inside each subnet, all miners and validators are awarded emission (as seen in the metagraph.)  In the case of neuron emission, the value is in tao/epoch. 
+* **Subnet Emission**. In the root Subnet, emission refers to the percentage of tao to each Subnet.  For example a 10% emission means that 10% of all tao generated is sent to that subnet. 
+* **Neuron Emission** Inside each subnet, all miners and validators are awarded emission (as seen in the metagraph.)  In the case of neuron emission, the value is in tao/epoch. 
 
 When a subnet closes registration, the Subnet retains its emission percentage, but all tao is recycled - so miners and validators receive no emission.
 
@@ -73,7 +73,7 @@ Time period (defined in blocks) that a new node or subnet is protected from de-r
 
 # Liquid Alpha:
 
-Also know as consensus based weights.  Introduced in Bittensor 7.3, this feature changes the way Validator dividends are calculated.  The "Bond" between each validator and miner is a exponentaial moving average, where the  most recent bond is weighed at alpha = 0.9.  With Liquid alpha, this becomes a variable. Subnets with Liquid alpha enabled set the [Subnet Hyperparameters](doc:subnet-parameters) liquid_alpha_enabled to true.
+Also know as consensus based weights.  Introduced in Bittensor 7.3, this feature changes the way Validator dividends are calculated.  The "Bond" between each validator and miner is a exponentaial moving average, where the  most recent bond is weighed at alpha = 0.9.  With Liquid alpha, this becomes a variable. Subnets with Liquid alpha enabled set the [Subnet Hyperparameters](doc:subnet-parameters) liquid\_alpha\_enabled to true.
 
 # Miner:
 
@@ -83,9 +83,9 @@ Miners are nodes on a subnet.  Miners are given work to perform, and this work i
 
 Tao used to register a node is recycled - it is removed from circulation to be emitted again at a later date.  As tao is recycled, the chain halving is pushed to a later time. There are two main forms of recycle:
 
-- Root:  All emissions sent to Root subnet are recycled. See [Root Subnet](https://docs.taostats.io/v1.1/docs/root-subnet#root-subnet-emissions)  for more details.
-  - Any Subnet with neuron registration turned off will behave like the root subnet, and the tao will be recycled. 
-- Neuron Registration: All fees to register miners and validators are recycled.
+* Root:  All emissions sent to Root subnet are recycled. See [Root Subnet](https://docs.taostats.io/v1.1/docs/root-subnet#root-subnet-emissions)  for more details.
+  * Any Subnet with neuron registration turned off will behave like the root subnet, and the tao will be recycled. 
+* Neuron Registration: All fees to register miners and validators are recycled.
 
 # Stake:
 
