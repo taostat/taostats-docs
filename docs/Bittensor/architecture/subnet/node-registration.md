@@ -20,35 +20,22 @@ The number of registrations per epoch is defined in the subnet parameters (defau
 
 This allows the registration costs to be defined by natural market forces of demand. A historical chart is available on the subnet's page on Taostats to see the current costs for each subnet:
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/de95227252701b51d1a1ef968be37bc5a09b642ccdce095f3b3253ef58fe55ca-Screenshot_2024-09-03_at_17.40.57.jpg",
-        null,
-        "URL format: <https://taostats.io/subnets/netuid-18/#registration>"
-      ],
-      "align": "center",
-      "caption": "URL format: <https://taostats.io/subnets/netuid-18/#registration>"
-    }
-  ]
-}
-[/block]
+<Image alt="URL format: <https://taostats.io/subnets/netuid-18/#registration>" align="center" src="https://files.readme.io/de95227252701b51d1a1ef968be37bc5a09b642ccdce095f3b3253ef58fe55ca-Screenshot_2024-09-03_at_17.40.57.jpg">
+  URL format: [https://taostats.io/subnets/netuid-18/#registration](https://taostats.io/subnets/netuid-18/#registration)
+</Image>
 
-
-All new miners & validators are placed into <<glossary:immunity>> for a preset amount of time.  The immunity period can be adjusted per subnet.  A miner with immunity cannot be de-registered.
+All new miners & validators are placed into <Glossary>immunity</Glossary> for a preset amount of time.  The immunity period can be adjusted per subnet.  A miner with immunity cannot be de-registered.
 
 > 👍 Immunity period
-> 
-> To retrieve the immunity period (in blocks), you can use the [Bittensor CLI](doc:command-line-tool) to select a Subnet. The output includes the immunity_period.  For subnet 1, it is 7200 blocks:
-> 
+>
+> To retrieve the immunity period (in blocks), you can use the [Bittensor CLI](doc:command-line-tool) to select a Subnet. The output includes the immunity\_period.  For subnet 1, it is 7200 blocks:
+>
 > ```
 > btcli sudo get
 > Enter netuid [0/1/2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28/29/30/31/32] (0): 1
 > Bittensor Version: Current 6.6.0/Latest 6.7.0
 > Please update to the latest version at your earliest convenience. Run the following command to upgrade:
-> 
+>
 > python -m pip install --upgrade bittensor
 >   Subnet Hyperparameters - NETUID: 1 - finney  
 >  HYPERPARAMETER            VALUE               
