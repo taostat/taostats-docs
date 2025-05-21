@@ -3,3 +3,4 @@
 - get-root-subnet-metagraph
 - get-root-subnet-history
 - get-neuron-registrations
+- get-neuron-deregistrations
