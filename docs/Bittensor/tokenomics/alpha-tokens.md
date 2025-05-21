@@ -28,22 +28,7 @@ Subnet pools are how tao is exchanged into alpha.
 
 The Subnet pool determines the alpha price
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d8bf29448d71b415d59c472a882819ef507178fbc4c005550ba647dd33f25e76-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "50% "
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="50% " src="https://files.readme.io/d8bf29448d71b415d59c472a882819ef507178fbc4c005550ba647dd33f25e76-image.png" />
 
 <br />
 
@@ -53,5 +38,5 @@ When buying alpha (or unstaking/selling alpha), the alpha price is indicative of
 
 ## What are alpha tokens used for?
 
-- Alpha is used for staking on a subnet. The more alpha staked, the higher the subnet's emissions
-- Alpha is used to register neurons (miners & validators) on the subnet.  Alpha spent registering neurons is recycled.
+* Alpha is used for staking on a subnet. The more alpha staked, the higher the subnet's emissions
+* Alpha is used to register neurons (miners & validators) on the subnet.  Alpha spent registering neurons is recycled.
