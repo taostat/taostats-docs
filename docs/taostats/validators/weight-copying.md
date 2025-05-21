@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Weight copying is a controversial topic in the Bittensor community.  In this article, we look to _explain_ weight copying and pros and cons of weight copying.
+Weight copying is a controversial topic in the Bittensor community.  In this article, we look to *explain* weight copying and pros and cons of weight copying.
 
 # What is weight copying?
 
@@ -24,7 +24,7 @@ Vtrust is the scoring of validators - and to score well in Vtrust, your weights 
 
 When a validator uses the scoring from the Yuma consensus to place weights - they will score an extremely high Vtrust.  High Vtrust leads to a higher percentage of emissions - which leads to higher revenue.
 
-- On some subnets, miners will actively ignore requests from validators with low stake.  To get a high stake, you need good results.  It puts new validators in a chicken/egg situation.  By weight copying, the validator is able to show good returns, and gain delegation.  
+* On some subnets, miners will actively ignore requests from validators with low stake.  To get a high stake, you need good results.  It puts new validators in a chicken/egg situation.  By weight copying, the validator is able to show good returns, and gain delegation.  
 
 ## Reasons to not weight copy
 
