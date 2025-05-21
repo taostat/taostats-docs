@@ -10,6 +10,6 @@ metadata:
 next:
   description: ''
 ---
-# [Github](https://github.com/PlixML/pixel) 
+# [Github](https://github.com/PlixML/pixel)
 
 # [HW Requirements](https://github.com/PlixML/pixel/blob/master/min_compute.yml)
