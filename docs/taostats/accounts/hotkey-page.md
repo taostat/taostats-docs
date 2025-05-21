@@ -12,7 +12,7 @@ next:
 ---
 Active hotkeys have a unique page in the form:
 
-<https://x.taostats.io/hotkey/><hotkey>
+[https://x.taostats.io/hotkey/](https://x.taostats.io/hotkey/)&lt;hotkey&gt;
 
 <br />
 
