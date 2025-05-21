@@ -12,8 +12,6 @@ next:
 ---
 The Taostats API v0 consists of two very simple APIs
 
-
-
 # Bittensor data
 
 The /data.json endpoint returns an array of current Bittensor data. Updated every 5 minutes.
@@ -22,8 +20,6 @@ The /data.json endpoint returns an array of current Bittensor data. Updated ever
 curl --request GET \
      --url https://taostats.io/data.json \
 ```
-
-
 
 ```json
 [
