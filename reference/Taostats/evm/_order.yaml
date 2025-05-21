@@ -2,3 +2,4 @@
 - get-evm-block
 - get-evm-contract
 - get-evm-log
+- get-evm-address
