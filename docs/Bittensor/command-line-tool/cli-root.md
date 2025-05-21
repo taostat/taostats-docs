@@ -195,22 +195,9 @@ btcli root  get-weights   --help
   
 ```
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/714681824f63af1f27851754090c8f497dfb84c5824dacb1e355d355e6a63a76-image.png",
-        null,
-        "Welcome to the matrix."
-      ],
-      "align": "center",
-      "caption": "Welcome to the matrix."
-    }
-  ]
-}
-[/block]
-
+<Image alt="Welcome to the matrix." align="center" src="https://files.readme.io/714681824f63af1f27851754090c8f497dfb84c5824dacb1e355d355e6a63a76-image.png">
+  Welcome to the matrix.
+</Image>
 
 ## set-weights
 
@@ -322,22 +309,22 @@ Nominate your hotkey to be a member of the Bittensor senate.
 
 ## Proposals
 
- View active proposals for the senate in the Bittensor's governance protocol.  
+ View active proposals for the senate in the Bittensor's governance protocol.\
  This command displays the details of ongoing proposals, including proposal hashes, votes, thresholds, and proposal data.
 
 ## senate
 
- Shows the Senate members of the Bittensor's governance protocol.  
- This command lists the delegates involved in the decision-making process of the Bittensor network, showing their names and wallet addresses. This information is  
+ Shows the Senate members of the Bittensor's governance protocol.\
+ This command lists the delegates involved in the decision-making process of the Bittensor network, showing their names and wallet addresses. This information is\
  crucial for understanding who holds governance roles within the network.
 
 ## senate-vote
 
-This command is used by Senate members to vote on various proposals that shape the network's future. Use `btcli root proposals` to see the active proposals and their  
+This command is used by Senate members to vote on various proposals that shape the network's future. Use `btcli root proposals` to see the active proposals and their\
  hashes.                                                                                                                                                               
 
  USAGE                                                                                                                                                                 
 
- The user must specify the hash of the proposal they want to vote on. The command then allows the Senate member to cast a 'Yes' or 'No' vote, contributing to the  
- decision-making process on the proposal. This command is crucial for Senate members to exercise their voting rights on key proposals. It plays a vital role in the  
+ The user must specify the hash of the proposal they want to vote on. The command then allows the Senate member to cast a 'Yes' or 'No' vote, contributing to the\
+ decision-making process on the proposal. This command is crucial for Senate members to exercise their voting rights on key proposals. It plays a vital role in the\
  governance and evolution of the Bittensor network.
