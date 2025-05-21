@@ -18,8 +18,8 @@ On each subnet page, there is the ability [Connecting your wallet](doc:connectin
 
 In the screenshot above: 
 
-- there is 3.66 tao that can be used to buy alpha.
-- There is 0.149 alpha that cann be sold for tao 
+* there is 3.66 tao that can be used to buy alpha.
+* There is 0.149 alpha that cann be sold for tao 
 
 ## Max
 
