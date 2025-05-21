@@ -53,69 +53,36 @@ So how do these two types of wallets interact?
 
 Your EVM wallet (in Metamask) can execute smart contracts.  It has an alias address in Bittensor that can receive funds from "regular"  Substrate wallets.  This bittensor 'alias' has no password on the Bittensor side, and cannot be used for any transactions on the Bittensor chain. Any funds that are transferred into the alias immediately appear in the EVM wallet.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f3abfc30d2d41293749141a941d9d8f3e243b7c00613638ebc9b2ddc16d25194-image.png",
-        null,
-        "Bittensor wallet (orange) & EVM wallet (yellow)  \nThe EVM wallet has a Bittensor alias for receiving funds. These will immediately appear in the EVM wallet."
-      ],
-      "align": "center",
-      "caption": "Bittensor wallet (orange) & EVM wallet (yellow)  \nThe EVM wallet has a Bittensor alias for receiving funds. These will immediately appear in the EVM wallet."
-    }
-  ]
-}
-[/block]
-
+<Image
+  alt="Bittensor wallet (orange) & EVM wallet (yellow)  
+The EVM wallet has a Bittensor alias for receiving funds. These will immediately appear in the EVM wallet."
+  align="center"
+  src="https://files.readme.io/f3abfc30d2d41293749141a941d9d8f3e243b7c00613638ebc9b2ddc16d25194-image.png"
+>
+  Bittensor wallet (orange) & EVM wallet (yellow)\
+  The EVM wallet has a Bittensor alias for receiving funds. These will immediately appear in the EVM wallet.
+</Image>
 
 ### Bittensor wallets on EVM
 
 In a similar way, Bittensor wallets have an alias address on EVM that can receive funds. This EVM 'alias' has no password and cannot be used to execute smart contracts on EVM, but can receive transfers or the execution of smart contracts.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6ab8172063c03ab1d2a966a1cc9fcd84a5272e4a41f7e1d873bec35ce3b8ea82-image.png",
-        null,
-        "EVM wallet (yellow) can transfer funds to the Bittensor wallet alias. This appears in the Bittensor wallet immediately."
-      ],
-      "align": "center",
-      "caption": "EVM wallet (yellow) can transfer funds to the Bittensor wallet alias. This appears in the Bittensor wallet immediately."
-    }
-  ]
-}
-[/block]
+<Image alt="EVM wallet (yellow) can transfer funds to the Bittensor wallet alias. This appears in the Bittensor wallet immediately." align="center" src="https://files.readme.io/6ab8172063c03ab1d2a966a1cc9fcd84a5272e4a41f7e1d873bec35ce3b8ea82-image.png">
+  EVM wallet (yellow) can transfer funds to the Bittensor wallet alias. This appears in the Bittensor wallet immediately.
+</Image>
 
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3db4f59dd03e01bd9d960922f1d3091bf290d670966449ac6c32e0af2da25833-image.png",
-        null,
-        "EVM wallet executes a smart contract, and the Bittensor wallet's alias receives the funds as a result of the execution."
-      ],
-      "align": "center",
-      "caption": "EVM wallet executes a smart contract, and the Bittensor wallet's alias receives the funds as a result of the execution. These funds appear in the Bittensor wallet upon execution of the contract."
-    }
-  ]
-}
-[/block]
-
+<Image alt="EVM wallet executes a smart contract, and the Bittensor wallet's alias receives the funds as a result of the execution." align="center" src="https://files.readme.io/3db4f59dd03e01bd9d960922f1d3091bf290d670966449ac6c32e0af2da25833-image.png">
+  EVM wallet executes a smart contract, and the Bittensor wallet's alias receives the funds as a result of the execution. These funds appear in the Bittensor wallet upon execution of the contract.
+</Image>
 
 <br />
 
 > 📘 1 tao = 1e18 in Bittensor EVM.
-> 
+>
 > Due to the precision of token in EVM, 1 tao is written as (1 billion)^2.
 
 # Creating and executing Smart Contracts
 
 the Opentensor Foundation has up to date guides on running smart contracts on Bittensor:
 
-<https://docs.bittensor.com/evm-tutorials/>
+[https://docs.bittensor.com/evm-tutorials/](https://docs.bittensor.com/evm-tutorials/)
