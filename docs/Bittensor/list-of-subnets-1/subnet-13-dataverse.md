@@ -12,7 +12,7 @@ next:
 ---
 Data Universe is a Bittensor subnet for collecting and storing large amounts of data from across a wide-range of sources, for use by other Subnets.
 
-# [GitHub](https://github.com/RusticLuftig/data-universe/) 
+# [GitHub](https://github.com/RusticLuftig/data-universe/)
 
 # HW Requirements:
 
