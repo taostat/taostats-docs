@@ -14,14 +14,14 @@ next:
 
 ![](https://files.readme.io/2106671-image.png)
 
-- **Account**: coldkey for the wallet.
-- **Free**: tao that is not delegated
-- **Delegated**: tao that is delegated.
-- **Total**: A sum of free and delegated.
+* **Account**: coldkey for the wallet.
+* **Free**: tao that is not delegated
+* **Delegated**: tao that is delegated.
+* **Total**: A sum of free and delegated.
 
-> 📘 Note: tao that is staked to a hotkey is _not_ displayed. This is a known issue, and will be resolved.
+> 📘 Note: tao that is staked to a hotkey is *not* displayed. This is a known issue, and will be resolved.
 
-- **Last Update**: The last block where a change was made.
+* **Last Update**: The last block where a change was made.
 
 # Account details
 
@@ -42,7 +42,7 @@ We can also see the current breakdown of Delegation (in the screenshot below, st
 A breakdown of Free/delegated/total TAO over time. 
 
 > 📘 In the chart above, we can see where TAO was unstaked, and then restaked.
-> 
+>
 > In December, a large if TAO was added and immediately staked.
 
 ## Delegation Chart
@@ -61,7 +61,7 @@ A breakdown of the Extrinsics associated with this hotkey.
 
 ![](https://files.readme.io/7a88014-image.png)
 
-Extrinsics that are **_only transfers_**. It is possible to click on the other party's hotkey to explore that user.
+Extrinsics that are ***only transfers***. It is possible to click on the other party's hotkey to explore that user.
 
 ## Delegation
 
