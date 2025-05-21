@@ -12,10 +12,10 @@ next:
 ---
 The landing page of Taostats provides a a high level overview of several important aspects of the Bittensor network.
 
-- [Tao Summary](#tao-summary)
-- [Tao Trading Chart](#tao-trading-chart)
-- [Subnet overview](#subnet-overview)
-- [Subnet 0 data](#subnet-0-data)
+* [Tao Summary](#tao-summary)
+* [Tao Trading Chart](#tao-trading-chart)
+* [Subnet overview](#subnet-overview)
+* [Subnet 0 data](#subnet-0-data)
 
 # Tao Summary
 
@@ -25,24 +25,24 @@ Across the top of the homepage is a summary of the current trading state of the 
 
 <br />
 
-- **Current price**: in USD (and daily change)
-- **Market cap**: the value of all the **τ**  currently in circulation.
-- **24h Volume**: How much **τ** was traded in the last day.
-- **Circulating Supply**: **τ** that has been minted and can be traded.
-- **Total Supply**: In ~2045, the final **τ** will be created, and there will be 21M TAO in circulation.
+* **Current price**: in USD (and daily change)
+* **Market cap**: the value of all the **τ**  currently in circulation.
+* **24h Volume**: How much **τ** was traded in the last day.
+* **Circulating Supply**: **τ** that has been minted and can be traded.
+* **Total Supply**: In \~2045, the final **τ** will be created, and there will be 21M TAO in circulation.
 
 # Tao trading chart
 
 This chart lists the historical price and trading volume of **τ**.  
 
-- The price of **τ** is shown with an orange line.
-- The daily volume is a blue bar chart, where each bar is one day's trading (in millions of USD).
+* The price of **τ** is shown with an orange line.
+* The daily volume is a blue bar chart, where each bar is one day's trading (in millions of USD).
 
 **Chart controls:**
 
-- **Trading View**: toggles on/off a trading view version of the chart
-- **Plus and minus buttons:** zoom in and zoom out.
-- **Magnifying glass**   select the zoom region
+* **Trading View**: toggles on/off a trading view version of the chart
+* **Plus and minus buttons:** zoom in and zoom out.
+* **Magnifying glass**   select the zoom region
 
 You can also click and zoom with a mouse.
 
@@ -56,10 +56,10 @@ You can also click and zoom with a mouse.
 
 This summary of subnet data shows the top 8 subnets based on emission:
 
-- **Price**: The price of the alpha token, in tao.
-- **Market Cap**: Price \* circulating supply of alpha
-- ** Emission**: percentage of tao that is emitted into the pool. [Subnet Emission](doc:subnets-emission)is determined by the price of the token.
-- **Last 7 days** Price over the last 7 days.
+* **Price**: The price of the alpha token, in tao.
+* **Market Cap**: Price \* circulating supply of alpha
+* **Emission** : percentage of tao that is emitted into the pool. [Subnet Emission](doc:subnets-emission)is determined by the price of the token.
+* **Last 7 days** Price over the last 7 days.
 
 ![](https://files.readme.io/8ed322c3e33393ab3457d3bbb0f39a9a076041d6bc56b3aad90448e4d5b709fa-image.png)
 
@@ -69,10 +69,10 @@ This summary of subnet data shows the top 8 subnets based on emission:
 
 A summary of the top 8 validators (based on weighted stake).
 
-- **Weight**: root stake \*18% + sum of all alpha stake (in tao)
-- **Weight Change**: delta over the last day.
-- **Nominators**: Sum of nominators across all subnets.
-- **Root:Alpha**: Breakdown of Weight into root & Alpha contributions.
+* **Weight**: root stake \*18% + sum of all alpha stake (in tao)
+* **Weight Change**: delta over the last day.
+* **Nominators**: Sum of nominators across all subnets.
+* **Root:Alpha**: Breakdown of Weight into root & Alpha contributions.
 
 ![](https://files.readme.io/97cd48e8f12d2db3b87e7668953a07089377151d3bb9976b7bdfd3ae40c736a3-image.png)
 
