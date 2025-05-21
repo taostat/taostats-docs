@@ -30,7 +30,7 @@ Taostats calculates the nom/1ktao/24hours - or how much a nominator would receiv
 
 # Why Stake?
 
-Staking is a way for a holder of TAO to earn emissions without running a subnet/validator/miner and as a result retain value of the token whilst the supply increases due to continued token issuance. By staking with a validator, they are giving _weight_ and showing support to that validator's actions on the network. 
+Staking is a way for a holder of TAO to earn emissions without running a subnet/validator/miner and as a result retain value of the token whilst the supply increases due to continued token issuance. By staking with a validator, they are giving *weight* and showing support to that validator's actions on the network. 
 
 ## Is staking safe?
 
@@ -44,10 +44,10 @@ One stake/unstake event per wallet and validator every 360 blocks.  So if you ma
 
 Stake TAO with:
 
-- [Command Line Tool](doc:command-line-tool)
-- <a href=" https://delegate.taostats.io" target="_blank">Taostats</a>
+* [Command Line Tool](doc:command-line-tool)
+* <a href=" https://delegate.taostats.io" target="_blank">Taostats</a>
 
 # Helpful links
 
-- [Taostats: For Staking](doc:taostats-for-staking): The Bittensor data you need to make staking decisions.
-- [Staking FAQ](https://docs.taostats.io/docs/faq#stakingdelegation)
+* [Taostats: For Staking](doc:taostats-for-staking): The Bittensor data you need to make staking decisions.
+* [Staking FAQ](https://docs.taostats.io/docs/faq#stakingdelegation)
