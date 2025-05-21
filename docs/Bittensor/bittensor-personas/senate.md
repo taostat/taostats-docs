@@ -18,10 +18,10 @@ Network participants who have allocated their stake to any Senate member are rep
 
 To be eligible for Senate participation, a member must satisfy the following four criteria. A coldkey-hotkey pair can only cast votes on proposals once these conditions are met.
 
-- Is registered as a hotkey-coldkey pair with a sub-network.
-- Has put themselves forward as a delegate for staking their $TAO.
-- Possesses a hotkey stake exceeding 2% of the total network stake, either through direct staking or delegation.
-- Has opted to be part of the Senate.
+* Is registered as a hotkey-coldkey pair with a sub-network.
+* Has put themselves forward as a delegate for staking their $TAO.
+* Possesses a hotkey stake exceeding 2% of the total network stake, either through direct staking or delegation.
+* Has opted to be part of the Senate.
 
 A coldkey-hotkey pair is entitled to vote on any proposal put forth by the Triumvirate once they meet these requirements.
 
@@ -49,6 +49,6 @@ To vote, a delegate uses :
 
 then:
 
-- Retrieve the proposal hash from the summary.
-- Executes `btcli root senate_vote` and inputs the proposal hash, either with the `--proposal` flag or when the command prompts for the proposal hash.
-- Subsequently, they will be prompted to choose between approval or disapproval. Once the choice is confirmed, the vote is recorded in the upcoming block and tallied. This can be verified using `btcli root proposals`.
+* Retrieve the proposal hash from the summary.
+* Executes `btcli root senate_vote` and inputs the proposal hash, either with the `--proposal` flag or when the command prompts for the proposal hash.
+* Subsequently, they will be prompted to choose between approval or disapproval. Once the choice is confirmed, the vote is recorded in the upcoming block and tallied. This can be verified using `btcli root proposals`.
