@@ -91,8 +91,4 @@ neuron= sub.neuron_for_uid(uid=112, netuid=13)
 print(neuron)
 
 NeuronInfo(hotkey='5GgJNSGW7w4UTzRwN5fj8DoDVASQB5eqAwZdqiQehGxKkdCJ', coldkey='5EJ5tZCqzrE2LRh1Wnjh3HUkrDpkTLuApPDzvVRWvECZiLiK', uid=112, netuid=3, active=False, stake=τ0.365500259, stake_dict={'5EJ5tZCqzrE2LRh1Wnjh3HUkrDpkTLuApPDzvVRWvECZiLiK': τ0.365500259}, total_stake=τ0.365500259, rank=0.004257267109178301, emission=0.020831923, incentive=0.004257267109178301, consensus=0.0038757915617608912, trust=0.7679102769512475, validator_trust=0.0, dividends=0.0, last_update=2687685, validator_permit=False, weights=[], bonds=[], pruning_score=1016, prometheus_info=PrometheusInfo(block=0, version=0, ip='0.0.0.0', port=0, ip_type=0), axon_info=AxonInfo( /ipv0/0.0.0.0:0, 5GgJNSGW7w4UTzRwN5fj8DoDVASQB5eqAwZdqiQehGxKkdCJ, 5EJ5tZCqzrE2LRh1Wnjh3HUkrDpkTLuApPDzvVRWvECZiLiK, 0 ), is_null=False)
-
-
 ```
-
-<br>
