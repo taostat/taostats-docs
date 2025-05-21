@@ -21,7 +21,7 @@ Dividends are the value used to determine how emissions are divided amongst the 
 ## VTrust
 
 1. Validators test miners and create a weighted list of scores.  These are submitted to the Yuma consensus.
-2. These scores are compared to the other validators - and each validator is judged to be _in consensus_ with the rest of the validators.
+2. These scores are compared to the other validators - and each validator is judged to be *in consensus* with the rest of the validators.
 
 If a Validator is judged to be out of consensus, their VTrust (validator trust) will decrease. VTrust is a value between 0 and 1, where 0 is terrible, and 1 is perfect.
 
@@ -33,19 +33,7 @@ The other value in the determination of validator emissions is the stake value. 
 
 Dividends are the percentage of the total validator emissions that will be given to each validator. It is calculated from Vtrust and Stake. High stake & high Vtrust lead to high dividends.  High dividends yield high emissions.
 
-[block:embed]
-{
-  "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FBd4-eyGa1o0%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBd4-eyGa1o0&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FBd4-eyGa1o0%2Fhqdefault.jpg&key=7788cb384c9f4d5dbbdbeffd9fe4b92f&type=text%2Fhtml&schema=youtube\" width=\"854\" height=\"480\" scrolling=\"no\" title=\"YouTube embed\" frameborder=\"0\" allow=\"autoplay; fullscreen; encrypted-media; picture-in-picture;\" allowfullscreen=\"true\"></iframe>",
-  "url": "https://www.youtube.com/watch?v=Bd4-eyGa1o0",
-  "title": "Bittensor: What are validator Dividends and how are they calculated",
-  "favicon": "https://www.youtube.com/favicon.ico",
-  "image": "https://i.ytimg.com/vi/Bd4-eyGa1o0/hqdefault.jpg",
-  "provider": "https://www.youtube.com/",
-  "href": "https://www.youtube.com/watch?v=Bd4-eyGa1o0",
-  "typeOfEmbed": "youtube"
-}
-[/block]
-
+<Embed url="https://www.youtube.com/watch?v=Bd4-eyGa1o0" title="Bittensor: What are validator Dividends and how are they calculated" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/Bd4-eyGa1o0/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=Bd4-eyGa1o0" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FBd4-eyGa1o0%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBd4-eyGa1o0%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FBd4-eyGa1o0%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
