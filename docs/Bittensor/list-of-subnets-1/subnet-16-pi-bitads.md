@@ -12,6 +12,6 @@ next:
 ---
 Revolutionizing Online Advertising with Decentralization. Discover how BitAds leverages the Bittensor Network to offer cost-effective, high-quality advertising through a unique incentive mechanism for miners and validators.
 
-# [GitHub](https://github.com/eseckft/BitAds.ai) 
+# [GitHub](https://github.com/eseckft/BitAds.ai)
 
 # [HW Requirements](https://github.com/eseckft/BitAds.ai/blob/main/min_compute.yml)
