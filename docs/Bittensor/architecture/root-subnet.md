@@ -26,18 +26,4 @@ Validators on the Root subnet can allocate a percentage of emissions to the root
 
 Any emissions granted to the root subnet are recycled and not issued.  For example, if Subnet 0 has 1% emissions, 72 tao would be recycled a day, effectively reducing the daily tao emissions to  7,198 (7,200-72).  
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8882112-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "50% "
-    }
-  ]
-}
-[/block]
+<Image align="center" width="50% " src="https://files.readme.io/8882112-image.png" />
