@@ -10,7 +10,8 @@ metadata:
 next:
   description: ''
 ---
-# Github: <https://github.com/ait-protocol/einstein-ait-prod>
+```md
+# Github: [https://github.com/ait-protocol/einstein-ait-prod](https://github.com/ait-protocol/einstein-ait-prod)
 
 # Einstein - AIT
 
@@ -21,8 +22,6 @@ next:
 ### The Incentivized Internet
 
 [Subnet 5 Discord](https://discord.gg/wVPZrVu9) • [AIT Discord](https://discord.gg/aitprotocols) • [AIT Telegram](AIT_Protocol)
-
-</div>
 
 ***
 
@@ -46,21 +45,21 @@ We are dedicated to aligning with Bittensor's core values of permissionless part
 
 **VALIDATOR** REQUIREMENTS
 
-- GPU with 24GB or higher VRAM
-- Ubuntu 20.04 or 22.04
-- Python 3.9 or 3.10
-- CUDA 12.0 or higher
+* GPU with 24GB or higher VRAM
+* Ubuntu 20.04 or 22.04
+* Python 3.9 or 3.10
+* CUDA 12.0 or higher
 
 FINE TUNED **MINER** (`WIP`) REQUIREMENTS
 
-- GPU with 18GB or higher VRAM
-- Ubuntu 20.04 or 22.04
-- Python 3.9 or 3.10
-- CUDA 12.0 or higher
+* GPU with 18GB or higher VRAM
+* Ubuntu 20.04 or 22.04
+* Python 3.9 or 3.10
+* CUDA 12.0 or higher
 
 **OPENAI MINER** REQUIREMENTS
 
-- Python 3.8, 3.9 or 3.10
+* Python 3.8, 3.9 or 3.10
 
 # Tools
 
@@ -68,9 +67,9 @@ Currently, the tooling stack includes `mathgenerator`, `OpenAI`, `HuggingFace`, 
 
 Coming soon to public:
 
-- MIT Database
-- UCD OneSearch
-- Research Paper Database
+* MIT Database
+* UCD OneSearch
+* Research Paper Database
 
 More tooling will be included in future releases.
 
@@ -78,13 +77,13 @@ More tooling will be included in future releases.
 
 The validation process supports an ever-growing number of tasks. Tasks drive agent behaviour based on specific goals, such as;
 
-- Mathematics
+* Mathematics
 
 Coming soon in future releases:
 
-- Logics and Reasoning
-- Data Analysis
-- API for other subnets to access to our LLM supercharge extensions
+* Logics and Reasoning
+* Data Analysis
+* API for other subnets to access to our LLM supercharge extensions
 
 Tasks contain a **query** (basic question/problem) and a **reference** (ideal answer), where a downstream HumanAgent creates a more nuanced version of the **query**.
 
@@ -104,7 +103,7 @@ python -m pip install -r requirements.txt && python -m pip install -e .
 
 # Running Validators and Miners
 
-_Disclaimer:_
+*Disclaimer:*
 
 We encourage miners to use testnet as this gives you a risk-free playground before running on mainnet. If you require test tao, please reach out to our [Subnet 5 Discord](https://discord.gg/wVPZrVu9).
 
@@ -124,7 +123,7 @@ wandb login
 
 2. Install [Weights and Biases](https://docs.wandb.ai/quickstart) and run `wandb login` within this repository. This will initialize Weights and Biases, enabling you to view KPIs and Metrics on your validator. (Strongly recommended to help the network improve from data sharing)
 
-3. Install [PM2](https://pm2.io/docs/runtime/guide/installation/) and the [`jq` package](https://jqlang.github.io/jq/) on your system.  
+3. Install [PM2](https://pm2.io/docs/runtime/guide/installation/) and the [`jq` package](https://jqlang.github.io/jq/) on your system.\
    **On Linux**:
 
    ```bash
@@ -157,7 +156,7 @@ python neurons/validator.py \
 --logging.debug
 ```
 
-   _NOTE: Your wallet and wallet's hotkey must be created using the bittensor-cli and registered to the netuid 78 (our testnet uid). Additionally, you can run the validator in trace mode by using `--logging.trace` instead of `--logging.debug`_
+   *NOTE: Your wallet and wallet's hotkey must be created using the bittensor-cli and registered to the netuid 78 (our testnet uid). Additionally, you can run the validator in trace mode by using`--logging.trace` instead of`--logging.debug`*
 
 ***
 
@@ -198,13 +197,13 @@ Running Miners is very competitive and requires a lot of resources. We encourage
    --logging.debug
    ```
 
-   _NOTE: Your wallet and wallet's hotkey must be created using the bittensor-cli and registered to the netuid 78 (our testnet uid). Additionally, you can run the validator in trace mode by using `--logging.trace` instead of `--logging.debug`_
+   *NOTE: Your wallet and wallet's hotkey must be created using the bittensor-cli and registered to the netuid 78 (our testnet uid). Additionally, you can run the validator in trace mode by using`--logging.trace` instead of`--logging.debug`*
 
-   _- The `--neuron.model_id` flag is used to specify the model you want to use. The default value is `gpt3.5-turbo`_
+   *- The`--neuron.model_id` flag is used to specify the model you want to use. The default value is`gpt3.5-turbo`*
 
-   _- The `--neuron.max_tokens` flag is used to specify the maximum number of tokens the model can generate. The default value is `256`_
+   *- The`--neuron.max_tokens` flag is used to specify the maximum number of tokens the model can generate. The default value is`256`*
 
-   _- The `--neuron.temperature` flag is used to specify the temperature of the model. The default value is `0.7`_
+   *- The`--neuron.temperature` flag is used to specify the temperature of the model. The default value is`0.7`*
 
 ***
 
@@ -238,3 +237,4 @@ This repository is licensed under the MIT License.
 ```
 
 ***
+```
