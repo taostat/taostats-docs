@@ -10,6 +10,6 @@ metadata:
 next:
   description: ''
 ---
-# [Github](https://github.com/afterpartyai/bittensor-conversation-genome-project) 
+# [Github](https://github.com/afterpartyai/bittensor-conversation-genome-project)
 
 # [HW Requirements](https://github.com/afterpartyai/bittensor-conversation-genome-project/blob/main/min_compute.yml)
