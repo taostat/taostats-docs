@@ -42,7 +42,7 @@ You dont have to do anything. Your stake will be converted to `root stake` and c
 
 ## I don't see my staking rewards!
 
-Go to `taostats.io/account/<coldkey>`.  Mouse over the chart, and you'll see the staking number increase over time.  Staking reward are added to your wallet once every 7200 blocks (approx. 24 hours). You may not see your frist reward for 36-48 hours.
+Go to `taostats.io/account/<coldkey>`.  Mouse over the chart, and you'll see the staking number increase over time.  Staking reward are added to your wallet once every epoch - ~72 minutes.
 
 ## I have some tao. Which validator should I delegate it to?
 
