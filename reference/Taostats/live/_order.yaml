@@ -3,3 +3,4 @@
 - get-live-block
 - live-get-block
 - live-get-raw-extrinsics-for-specific-block
+- live-get-extrinsic
