@@ -26,9 +26,9 @@ Stake added during a hotkey epoch is considered "non-viable" and ineligible for 
 
 ## Required Measurements
 
-`stake_before_reward`: Nominator's stake on the block before validator's hotkey drainage  
-`non_viable_stake`: Nominator's non-viable stake on the block before validator's hotkey drainage  
-`stake_after_reward`: Nominator's stake on the block of validator's hotkey drainage  
+`stake_before_reward`: Nominator's stake on the block before validator's hotkey drainage\
+`non_viable_stake`: Nominator's non-viable stake on the block before validator's hotkey drainage\
+`stake_after_reward`: Nominator's stake on the block of validator's hotkey drainage\
 **Important**: Verify no stake/unstake actions occurred on this block
 
 ## Formula
@@ -42,13 +42,13 @@ apr = nominator_return_per_1000_tao_per_day * 365
 ```
 
 > 📘 The Law of Big Numbers (AKA the Whale Effect)
-> 
+>
 > Nominator returns can increase significantly when a whale (large stakeholder) joins a validator. This occurs because:
-> 
+>
 > 1. Non-viable stake is still considered viable by subnets during their epochs
 > 2. Subnets continue to drain pending emissions to hotkeys
 > 3. When a whale stakes on a validator with little existing stake, their contribution generates rewards that are shared among:
->    - The validator
->    - Existing nominators
-> 
+>    * The validator
+>    * Existing nominators
+>
 > This creates an opportunity for smaller stakeholders ("prawns") to receive unexpectedly high returns if they're positioned on a validator that attracts a whale investor.
