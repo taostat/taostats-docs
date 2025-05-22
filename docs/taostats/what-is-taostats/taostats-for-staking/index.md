@@ -22,19 +22,9 @@ Staking is the process of delegating your tao to a validator.
 
 Validators with high VTrust across as many subnets as possible will have the highest root returns.  You can also choose to support validators who work towards building the Bittensor ecosystem (with higher emissions, validators earn more tao, so by supporting validators who work on the ecosystem, you support their work.)
 
-Look for validators that support the bittensor network, and have a high `nom/1ktao/24 hours`- this tells you your daily return on this validator if you stake 1,000 tao.
+## Alpha Stake
 
-[https://taostats.io/staking](https://taostats.io/staking) is a calculator that uses current validator results to estimate future returns.
-
-![](https://files.readme.io/d585fab0026dfa5034bfefc2e26e7fe3a5bbce325d233ddaa34bf1cabb662ba9-image.png)
-
-<br />
-
-# How to Stake
-
-## [dash.taostats.io](https://dash.taostats.io/stake)
-
-[https://docs.taostats.io/docs/staking-in-dtao](https://docs.taostats.io/docs/staking-in-dtao)
+Staking in a subnet involves buying an alpha token.  See [Staking in dTao](doc:staking-in-dtao) for full details. Your staked alpha will always increase.  However, the exchange rate between tao/alpha may change - leading to a net loss of funds.
 
 <br />
 
@@ -46,7 +36,8 @@ There is no hold period for staking.
 
 ## Staking Risk
 
-There is no risk to staking on root Bittensor. Your staked tao is on a hotkey, but it never leaves your wallet. When buying alpha, there is a risk that the alpha/tao price will drop, causing a loss in stake.
+* **Root**: There is no risk to staking on root Bittensor. Your staked tao is on a hotkey, but it never leaves your wallet.
+* **Alpha**: When buying alpha, you are purchasing a new token. Your alpha stake will always increase, but the price of alpha/tao will fluctuate. This can lead to a loss in funds.
 
 ## Choosing a validator
 
@@ -66,62 +57,12 @@ When you stake your TAO on a validator, you'll want an idea of the amount of emi
 
 <br />
 
-To compare the returns of each validator, visit: [https://x.taostats.io/validators](https://x.taostats.io/validators). There are two values to be aware of:
+# APY
 
-# Take
+[https://taostats.io/yield](https://taostats.io/yield) displays the APY for all subnets including root
 
-Validator emission is divided amongst all of those who delegate.  The validator can take a small percentage of the emissions.  This is default set at 18%, but can range from 0-18%.
+![](https://files.readme.io/782e22a0a839ab3960a62e80624c947b0db391a2194d403f43d9e1635cb99f00-image.png)
 
-> 📘 How does `take` affect my return?
->
-> A rough APY for the bittensor network as a whole:
->
-> 0% take:  18.3% APY
->
-> 10% take: 16.9% APY
->
-> 18% take: 15.5% APY
+This page is calculated based on **actual returns** over the period.  As always *past performance does not indicate future gains*.
 
-# NOM/24hr/1ktao
-
-> 😀 What is NOM/24hr/1k tao?
->
-> This is the emission delivered by the validator over the last 24 hours for 1,000 tao. If you were to stake 1,000 tao, your account would receive this much tao every 24 hours (it is a running average, and numbers fluctuate, but it will be close to this value.)
-
-> 📘 If it looks fishy - maybe it is.
->
-> Calculation of NOM/24h/1ktao is a real time calculation, and fluctuations in the amount staked can greatly influence the value.  If you see a validator that is showing an extremely high value - dig into the numbers to see that it is accurate. In the screenshot below, one validator appears to have twice the return of all the others - for about 24 hours, before it settled back.
->
-> > 📘 ![](https://files.readme.io/e360a53-image.png)
->
-> This change occurred as \~1/2 of their delegation was removed.  If the actual numbers were 500k staked resulting in 50tao created - all of a sudden the math is showing 50tao created on 250k staked - and the metric appears to be double the actual number.  With the lower stake, the tao emitted was much less, and the value returned to the previous value in about 24 hours.
-
-## NOM/24hr/1ktao and APY
-
-How do APY and NOM/24hr/1k TAO relate?  Here is a chart based on May 1, 2024 data, including a take percentage:
-
-<Image align="center" width="75% " src="https://files.readme.io/331e0ff-image.png" />
-
-# Why is the APY declining?
-
-On the taostats calculator page:
-
-> 📘 The APR does not calculate compounding as it would be a false metric to provide APY based on declining APR.
-
-Why is the APY declining?
-
-Let's say that the daily emission for stakeholders is 3,000 tao.
-
-In July 2024, there are 5.7M tao staked.
-
-![](https://files.readme.io/ed366af-image.png)
-
-For every tao you stake, you receive 1/1900 tao a day:
-
-In a few months, there will be 9M tao staked:
-
-![](https://files.readme.io/f70e0db-image.png)
-
-For every 1 tao staked, you receive 1/3000 tao a day.
-
-The numerator will not change significantly, but the denominator will continue to grow.  This will cause the APD/APY to decrease over time.
+Root APY will be in decline as subnets mature, due to [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha).
