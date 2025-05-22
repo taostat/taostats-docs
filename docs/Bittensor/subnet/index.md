@@ -1,6 +1,6 @@
 ---
 title: Subnet Architecture
-excerpt: ''
+excerpt: How do Subnets work?
 deprecated: false
 hidden: false
 metadata:
