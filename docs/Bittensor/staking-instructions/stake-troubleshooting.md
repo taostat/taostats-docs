@@ -1,5 +1,5 @@
 ---
-title: Stake troubleshooting
+title: Stake Troubleshooting
 excerpt: Running into issues?  Some tricks!
 deprecated: false
 hidden: false
