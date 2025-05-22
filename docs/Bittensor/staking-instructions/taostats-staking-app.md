@@ -13,7 +13,7 @@ next:
 The [Taostats Staking App](https://dash.taostats.io/stake) is part of the taostats dashboard. There are a few options to stake here:
 
 * ## [Simple](#simple-1)
-* ## Manual
+* ## [Manual](#manual-1)
 * ## [Balance](#balance-1)
 
 ## Simple
