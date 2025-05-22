@@ -1,6 +1,6 @@
 ---
 title: Stake troubleshooting
-excerpt: ''
+excerpt: Running into issues?  Some tricks!
 deprecated: false
 hidden: false
 metadata:
