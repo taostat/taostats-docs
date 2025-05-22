@@ -1,6 +1,6 @@
 ---
 title: Connecting your wallet
-excerpt: ''
+excerpt: Taostats' staking tools require a connection with a wallet extension.
 deprecated: false
 hidden: false
 metadata:
