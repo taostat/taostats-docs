@@ -1,5 +1,8 @@
 ---
 title: Staking in dTao
+excerpt: >-
+  Learn about staking to root and staking in alpha, and how these emissions are
+  divided up.
 deprecated: false
 hidden: false
 metadata:
