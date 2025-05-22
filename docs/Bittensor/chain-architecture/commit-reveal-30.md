@@ -1,6 +1,8 @@
 ---
 title: Commit Reveal 3.0
-excerpt: ''
+excerpt: >-
+  Designed to stop weight copying: weights are commited to the chain, but
+  revealed several epochs later.
 deprecated: false
 hidden: false
 metadata:
