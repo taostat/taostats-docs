@@ -12,13 +12,41 @@ next:
 ---
 The [Taostats Staking App](https://dash.taostats.io/stake) is part of the taostats dashboard. There are a few options to stake here:
 
-* ## Simple
+* ## [Simple](#simple-1)
 * ## Manual
-* ## [Balance](#Balance)
+* ## [Balance](#Balance-1)
+
+## Simple
+
+Simple staking makes it easy to perform one or two stake transactions at a time.  You can buy/sell existing stake positions, or add a new one
+
+### Existing positions
+
+![](https://files.readme.io/a9585e4666a658a65d6123fc52a874b37f5c9adf707ab5e3a83950da8fd4738c-image.png)
+
+Click the Buy or Sell to begin a transaction
+
+### New positions
+
+![](https://files.readme.io/cd8ee24e0629e74143e54e434023e6612b5141adecdb7401c7f39b7360b1d115-image.png)
+
+Complete your buy or sell by filling in the details in the box
+
+<Image align="center" width="50% " src="https://files.readme.io/1324c0f13b20539176c0ad528ff43d51851ffedc8d3859f541f5eefc0df0254b-image.png" />
+
+When you are finished - click Next, confirm the transactions, and enter your password.  Your wallet app will complete the transaction.
+
+&#x20;
+
+<Image align="center" width="50% " src="https://files.readme.io/3a889848b1c58c4124f959146635a9038d4d8e2e16a2af9eccf34ac40a1afda1-image.png" />
+
+## Manual
 
 <br />
 
-# Balance
+<br />
+
+## Balance
 
 <Embed url="https://www.youtube.com/watch?v=8Kjjefp5mK4" href="https://www.youtube.com/watch?v=8Kjjefp5mK4" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252F8Kjjefp5mK4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D8Kjjefp5mK4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252F8Kjjefp5mK4%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
