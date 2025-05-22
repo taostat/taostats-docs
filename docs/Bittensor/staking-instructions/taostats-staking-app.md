@@ -15,6 +15,7 @@ The [Taostats Staking App](https://dash.taostats.io/stake) is part of the taosta
 * ## [Simple](#simple-1)
 * ## [Manual](#manual-1)
 * ## [Balance](#balance-1)
+  > 📘 [Connect your wallet](doc:connecting-your-wallet) to ensure you can stake
 
 ## Simple
 
@@ -52,9 +53,7 @@ When you are finished - click Next, confirm the transactions, and enter your pas
 
 > 📘 Undelegating & Unstaking - negative stake is removing stake from that validator.
 
-# Staking Dashboard
-
-Once you have [Connected your wallet](doc:connecting-your-wallet): you will see a staking page:
+<br />
 
 ![](https://files.readme.io/031574325d641374cb98d18fcd1060caf6f2079605973eeafcff9a3a432f4ac0-image.png)
 
