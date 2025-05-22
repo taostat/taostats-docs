@@ -10,6 +10,5 @@
 - get-subnet-registration-cost-history-1
 - get-subnet-registrations-1
 - get-sum-of-subnet-prices
-- get-onchain-identity
 - get-current-sum-of-subnet-prices
 - get-historical-sum-of-subnet-prices
