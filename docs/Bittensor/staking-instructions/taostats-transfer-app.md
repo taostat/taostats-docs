@@ -23,6 +23,5 @@ The [Taostats Transfer](https://dash.taostats.io/transfer/transfer-alpha)  page 
 5. ![](https://files.readme.io/83b45dc98e9379171eff8b14488321d9879190e3344d744b09cb5455f0245d6c-image.png)
 
    When all looks good, click Confirm and enter your wallet passowrd.  The transfer of your stake to the new validator will be completed on chain.
-6. ![](https://files.readme.io/9792aebbc75299777c02d18664da53f1e68fb8bf0c46319fc5938fd3e2a2c3e3-image.png)
 
-   <br />
+   ![](https://files.readme.io/a5affc6dd1bf032a018fe98f4e23ea5dec4801585c788dad6d6a0a5dd9348986-image.png)
