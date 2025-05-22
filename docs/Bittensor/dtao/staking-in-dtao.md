@@ -64,6 +64,6 @@ To stake in alpha, tao is exchanged via the [Subnet Pools](doc:subnet-pools) int
 
 > 📘 Staking with taostats
 >
-> See [Staking Instructions](doc:staking-instructions) for a numbver of pages describing how to stake using Taostats.
+> See [Staking Instructions](doc:staking-instructions) for a number of pages describing how to stake using Taostats.
 
 ## [dTao FAQ](doc:dtao-faq): Your top  staking questions
