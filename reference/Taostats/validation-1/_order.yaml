@@ -6,7 +6,6 @@
 - get-validator-history-copy
 - get-parentchild-hotkey-relationships
 - get-parentchild-hotkey
-- get-onchain-identity
 - get-validator-performance
 - get-validator-performance-copy
 - get-validator-performance-dtao-history
