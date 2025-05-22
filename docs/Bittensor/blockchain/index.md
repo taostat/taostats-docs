@@ -1,6 +1,6 @@
 ---
 title: Extrinsics
-excerpt: ''
+excerpt: Extrinsics are how commands are written to the chain.
 deprecated: false
 hidden: false
 metadata:
