@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-The Bittensor network's primary division is into a group of subnets.  The subnets are numbered, and there is theorietically no limit to the number that can exists.  
+The Bittensor network's primary division is into a group of subnets.  The subnets are numbered, and there is theorietically no limit to the number of subnets that can exist.
 
 Each Subnet runs a self-contained codebase on top of the Bittensor code, each defining a unique context for the incentivised generation of value. Although each subnet is unique and runs with independent sets of participants, the interface with the Bittensor network and use of Yuma Consensus is common across all subnets. (There is also a subnet 0: the [Root Subnet](doc:root-subnet)).
 
@@ -18,7 +18,7 @@ Each Subnet runs a self-contained codebase on top of the Bittensor code, each de
 
 # Architecture of Subnets
 
-Subnets generally have 256 <Glossary>neurons</Glossary> (Subnets 0 and 1 are exceptions to this rule), set in the subnet [hyperparameters]().  In time, this will be a custom configurable value. 
+Subnets generally have 256 <Glossary>neurons</Glossary> (Subnets 0 and 1 are exceptions to this rule), set in the subnet [hyperparameters]().  In time, this will be a custom configurable value.
 
 The neurons are a mix of validators and miners with 64 slots reserved for validators and the remainder slots reserved for miners.  If validator slots are left unused they can be utilised by miners.  In practice, most subnets have around 20 validators, and the remaining 246 slots are used by miners.
 
@@ -26,7 +26,7 @@ The neurons are a mix of validators and miners with 64 slots reserved for valida
 >
 > As you dig deeper into Bittensor and AI you will come across vocabulary references to the nervous system such as neurons. Neurons have axons, dendrites and synapses.  Since neurons are the way the nervous system transmits data, it is a convenient analogy to describe how data is transmitted through the subnet.
 >
-> Easy mode: 
+> Easy mode:
 >
 > * **Neurons** are nodes or servers running on a subnet.
 > * **Synapse**: Data sent between neurons
@@ -44,7 +44,7 @@ Validators are nodes in the subnet that perform two roles.
 
 ### Delegated Stake
 
-Tao holders can stake their tao with validators. Validators with higher stake receive higher emissions (that are shared with the stakeholders).  The weights set by validators is also influenced by the amount of stake held.The amount of tao a validator has as delegated stake defines both the value of the weights they set for miners and as a result allows for a natural market prioritisation of access to form. 
+Tao holders can stake their tao with validators. Validators with higher stake receive higher emissions (that are shared with the stakeholders).  The weights set by validators is also influenced by the amount of stake held.The amount of tao a validator has as delegated stake defines both the value of the weights they set for miners and as a result allows for a natural market prioritisation of access to form.
 
 * [Validator (Architecture)](doc:validation)
 * [Validator (Persona)](doc:validator)
@@ -56,7 +56,7 @@ Tao holders can stake their tao with validators. Validators with higher stake re
 
 ## Miners
 
-Miners produce output as defined by the subnet code. This work is usually performed by running code in order to complete tasks.  Each subnet has differnet mechanisms, requiring different expertises and hardware.  Although the mechanisms can vary from subnet to subnet, the power of distributed compute is one of the key values of the network. The validators then request this output for both the rewards mechanism and to satisfy any external queries. 
+Miners produce output as defined by the subnet code. This work is usually performed by running code in order to complete tasks.  Each subnet has differnet mechanisms, requiring different expertises and hardware.  Although the mechanisms can vary from subnet to subnet, the power of distributed compute is one of the key values of the network. The validators then request this output for both the rewards mechanism and to satisfy any external queries.
 
 Miners are ranked by validators and given an incentive score.  Miners with higher incentive values receive higher <Glossary>emissions</Glossary>.
 
@@ -66,7 +66,7 @@ Miners are ranked by validators and given an incentive score.  Miners with highe
 
 ## Consensus
 
-Each subnet undertakes a specific task. In order to evaluate how the task is being performed, an incentive mechanism is used by validators to evaluate work performed by the miners.  The validators score each miner, and set weights on-chain each epoch. These weights are aggregated by [Yuma Consensus](doc:consensus) to form an overall incentive landscape upon which trust values are calculated to determine emissions.  
+Each subnet undertakes a specific task. In order to evaluate how the task is being performed, an incentive mechanism is used by validators to evaluate work performed by the miners.  The validators score each miner, and set weights on-chain each epoch. These weights are aggregated by [Yuma Consensus](doc:consensus) to form an overall incentive landscape upon which trust values are calculated to determine emissions.
 
 <br />
 
@@ -96,9 +96,7 @@ btcli subnet lock_cost
 
 Or you can view a historical chart of registration cost at <a href="<https://taostats.io/subnets>" target="_blank">Taostats</a>.
 
-<Image alt="A screenshot of the Subnet registration cost over time." align="center" src="https://files.readme.io/dc48e04eec3d2bbe2b7a19c012073d38b4b40461a174098dedf42edc32e77292-Screenshot_2024-09-03_at_17.35.05.jpg">
-  A screenshot of the Subnet registration cost over time.
-</Image>
+<Image align="center" alt="A screenshot of the Subnet registration cost over time." border={false} caption="A screenshot of the Subnet registration cost over time." src="https://files.readme.io/dc48e04eec3d2bbe2b7a19c012073d38b4b40461a174098dedf42edc32e77292-Screenshot_2024-09-03_at_17.35.05.jpg" />
 
 <br />
 
