@@ -1,6 +1,6 @@
 ---
 title: dTao FAQ
-excerpt: ''
+excerpt: FAQ on dTao
 deprecated: false
 hidden: false
 metadata:
