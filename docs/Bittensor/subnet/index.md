@@ -77,7 +77,9 @@ In practice, many subnets build in the testnet prior to going "live" on the main
 When a new subnet is registered, the [Subnet Pool](doc:subnet-pools) will be initialized with:
 
 * 1 alpha
-* \{subnet count} alpha
+* 1 tao
+
+It is currently possible to buy and sell alpha in an inactive Subnet.  There is **very low** liquidity in these pools, so only invest here if you know what you are doing.
 
 ## Registration Cost
 
