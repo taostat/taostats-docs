@@ -54,7 +54,7 @@ The default action of staking to root is similar to what staking was pre-dTao.  
 
 As seen in the section above, the initial emissions will be the same, but over time the `staking to root` returns will decrease (eventually reaching \~ 18% of original staking rewards).
 
-If you have staked to root, your retruns will be autocompunded to your hotkey on root.
+If you have staked to root, your returns will be auto-compounded to your hotkey on root.
 
 # Staking to alpha
 
