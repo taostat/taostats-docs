@@ -14,8 +14,6 @@ The Bittensor network's primary division is into a group of subnets.  The subnet
 
 Each Subnet runs a self-contained codebase on top of the Bittensor code, each defining a unique context for the incentivised generation of value. Although each subnet is unique and runs with independent sets of participants, the interface with the Bittensor network and use of Yuma Consensus is common across all subnets. (There is also a subnet 0: the [Root Subnet](doc:root-subnet)).
 
-> 📘 If a new Subnet is registered (and there are no empty subnet slots), the Subnet with the lowest emission not in immunity is ejected.  Learn more about [Subnet Registration](#Subnet-Registration)
-
 # Architecture of Subnets
 
 Subnets generally have 256 <Glossary>neurons</Glossary> (Subnets 0 and 1 are exceptions to this rule), set in the subnet [hyperparameters]().  In time, this will be a custom configurable value.
