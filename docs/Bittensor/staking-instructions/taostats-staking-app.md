@@ -1,6 +1,6 @@
 ---
 title: Taostats Staking App
-excerpt: ''
+excerpt: The taostats staking app gives a number of ways to stake tao and alpha
 deprecated: false
 hidden: false
 metadata:
