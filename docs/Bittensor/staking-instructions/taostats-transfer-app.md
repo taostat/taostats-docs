@@ -1,5 +1,6 @@
 ---
 title: Switch Validators
+excerpt: Swap validators on a subnet with the taostats transfer tool.
 deprecated: false
 hidden: false
 metadata:
