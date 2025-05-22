@@ -1,6 +1,8 @@
 ---
 title: What is Bittensor?
-excerpt: ''
+excerpt: >-
+  The Taostats docs are a great introduction to Bittensor and ghow to explore
+  Bittensor with Taostats.
 deprecated: false
 hidden: false
 metadata:
