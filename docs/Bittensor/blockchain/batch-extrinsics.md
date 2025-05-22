@@ -1,6 +1,6 @@
 ---
 title: Batch Extrinsics
-excerpt: ''
+excerpt: Batch extrinsics allow many calls to be made in a single extrinsic.
 deprecated: false
 hidden: false
 metadata:
