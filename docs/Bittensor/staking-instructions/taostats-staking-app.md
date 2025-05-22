@@ -14,7 +14,7 @@ The [Taostats Staking App](https://dash.taostats.io/stake) is part of the taosta
 
 * ## [Simple](#simple-1)
 * ## Manual
-* ## [Balance](#Balance-1)
+* ## [Balance](#balance-1)
 
 ## Simple
 
