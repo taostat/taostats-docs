@@ -1,6 +1,6 @@
 ---
 title: Senate
-excerpt: ''
+excerpt: The Bittensor Senate can vote on proposed changes to the chain.
 deprecated: false
 hidden: false
 metadata:
