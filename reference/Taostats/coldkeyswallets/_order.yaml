@@ -2,5 +2,5 @@
 - get-account-history
 - get-transfers
 - get-exchanges
-- get-onchain-identity
 - get-coldkey-report
+- get-onchain-identity
