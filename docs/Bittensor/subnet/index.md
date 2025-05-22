@@ -18,7 +18,7 @@ Each Subnet runs a self-contained codebase on top of the Bittensor code, each de
 
 Subnets generally have 256 <Glossary>neurons</Glossary> (Subnets 0 and 1 are exceptions to this rule), set in the subnet [hyperparameters]().  In time, this will be a custom configurable value.
 
-The neurons are a mix of validators and miners with 64 slots reserved for validators and the remainder slots reserved for miners.  If validator slots are left unused they can be utilised by miners.  In practice, most subnets have around 20 validators, and the remaining 246 slots are used by miners.
+The neurons are a mix of validators and miners with 64 slots reserved for validators and the remainder slots reserved for miners.  If validator slots are left unused they can be utilised by miners.  In practice, most subnets have 5-15 validators, and the remaining  slots are used by miners.
 
 > 👍 Nervous System Analogy
 >
