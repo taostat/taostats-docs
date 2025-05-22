@@ -1,6 +1,6 @@
 ---
 title: Glossary
-excerpt: ''
+excerpt: List of commonly used terms in Bittensor.
 deprecated: false
 hidden: false
 metadata:
