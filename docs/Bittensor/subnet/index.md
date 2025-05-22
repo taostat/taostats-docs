@@ -30,8 +30,6 @@ The neurons are a mix of validators and miners with 64 slots reserved for valida
 > * **Synapse**: Data sent between neurons
 > * **Axons**: receives message (server). The neuron's IP:port is considered the axon.
 > * **Dendrite**: sends message (client)
->
-> For a deeper discussion of biology and nodes see: TODO
 
 ## Validators
 
