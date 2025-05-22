@@ -14,12 +14,6 @@ next:
 
 Your tao will remain staked to the validator you are staked with at the launch of dTao.  It will be now called staked to your validator on root.
 
-# Do I need to do anything to my Stake?
-
-You do not have to. Your staked balance will remain on the validator.  It will be in the root subnet.
-
-"I am staked on \[validatorName]." becomes "I am staked on \[validatorName] on root."
-
 # How is staking different?
 
 [Staking in dTao](doc:staking-in-dtao)
