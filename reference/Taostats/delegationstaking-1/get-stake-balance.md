@@ -19,14 +19,14 @@ next:
  {
       "block_number": 5453657,
       "timestamp": "2025-04-28T23:25:00.001Z",
-      "hotkey_name": "TAO.app",
+      "hotkey_name": "Rizzo (Insured)",
       "hotkey": {
-        "ss58": "5CoZxgtfhcJKX2HmkwnsN18KbaT9aih9eF3b6qVPTgAUbifj",
-        "hex": "0x20b0f8ac1d5416d32f5a552f98b570f06e8392ccb803029e04f63fbe0553c954"
+        "ss58": "5F2CsUDVbRbVMXTh9fAzF9GacjVX7UapvRxidrxe7z8BYckQ",
+        "hex": "0x82cca2238d379e49d84e9e1b8df35dd496d6a8b4ca4f511ac9e38fa04d42f86b"
       },
       "coldkey": {
-        "ss58": "5HqaAYanMmQUh6agtnsXeWcHJDsoBF4eWwAkUPV7WEG3zZqW",
-        "hex": "0xff65514f004c0bc475af33c478c36c2fe74c7e3d107937a0b74e781de7d4cfa1"
+        "ss58": "5EqUG3oUuzT5siNv5bSE9PKzqp8t2ehYEX7SeEjTjymuJS9W",
+        "hex": "0x7a9cbd27dd53d8020edb9db0a18c7603d12f8b64db91da1ce2d3909071a29656"
       },
       "netuid": 0,
       "subnet_rank": 88, wallet rank in subnet
