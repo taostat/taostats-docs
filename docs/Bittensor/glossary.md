@@ -10,13 +10,33 @@ metadata:
 next:
   description: ''
 ---
+# Alpha:
+
+Each subnet has a token corresponding to its symbol (alpha, beta, delta....). To generalise subnet tokens, they are referred to as alpha.
+
+Note [Liquid Alpha](#liquid-alpha)  is a different term.
+
+# Alpha in (aka Alpha pool, Alpha Reserve)
+
+The amount of alpha that is present in the liquidity pool.  Depending on the context, this can also refer to the amount of alpha being added to a pool during a block.
+
+# Alpha out (aka Alpha outstanding, alpha staked)
+
+The amount of alpha that has been staked onto hotkeys. Alpha\_out can refer to\_all\_ of the alpha staked, or to the alpha being staked to a specific wallet. Examples: Subnet 37 has 4,000 alpha out.  I have 100 alpha out staked from subnet 16.
+
+Alpha\_out can also refer to the amount of alpha being added to the hotkeys during a block.
+
+# Alpha Price:
+
+This is defined by the ratio of tao\_in/alpha\_in - the assets in the liquidity pool.
+
 # Coldkey:
 
 The main key for a Bittensor wallet. Used to transfer, buy, sell, and stake/delegate tao.
 
 # Commit Reveal:
 
-Bittensor's approach to address [weight copying](#weight-copying).  A process where validators encrypt their weights for a given period - prevening weight copiers from reading their weights immediately. 
+Bittensor's approach to address [weight copying](#weight-copying).  A process where validators encrypt their weights for a given period - prevening weight copiers from reading their weights immediately.
 
 # Consensus
 
@@ -24,7 +44,7 @@ Miner's score from the Yuma Consensus. Not applicable to validators.
 
 # Consensus based weights:
 
-See [liquid alpha](#liquid-alpha) 
+See [liquid alpha](#liquid-alpha)
 
 # Daily Rewards:
 
@@ -46,10 +66,14 @@ Events are node/subnet registrations, tao trades, delegations, and distributions
 
 Emission describes the distribution of tao in the network.  There are two places where emission is used:
 
-* **Subnet Emission**. In the root Subnet, emission refers to the percentage of tao to each Subnet.  For example a 10% emission means that 10% of all tao generated is sent to that subnet. 
-* **Neuron Emission** Inside each subnet, all miners and validators are awarded emission (as seen in the metagraph.)  In the case of neuron emission, the value is in tao/epoch. 
+* **Subnet Emission**. In the root Subnet, emission refers to the percentage of tao to each Subnet.  For example a 10% emission means that 10% of all tao generated is sent to that subnet.
+* **Neuron Emission** Inside each subnet, all miners and validators are awarded emission (as seen in the metagraph.)  In the case of neuron emission, the value is in tao/epoch.
 
 When a subnet closes registration, the Subnet retains its emission percentage, but all tao is recycled - so miners and validators receive no emission.
+
+# Exchange rate:
+
+This is defined by the ratio of tao\_in/alpha\_in - the assets in the liquidity pool.  Also known as
 
 # Extrinsic:
 
@@ -75,6 +99,10 @@ Time period (defined in blocks) that a new node or subnet is protected from de-r
 
 Also know as consensus based weights.  Introduced in Bittensor 7.3, this feature changes the way Validator dividends are calculated.  The "Bond" between each validator and miner is a exponentaial moving average, where the  most recent bond is weighed at alpha = 0.9.  With Liquid alpha, this becomes a variable. Subnets with Liquid alpha enabled set the [Subnet Hyperparameters](doc:subnet-parameters) liquid\_alpha\_enabled to true.
 
+# Liquidity pool/Subnet pool:
+
+Each subnet will have a liquidity pool where tao can be exchanged for alpha. The ratio of tao/alpha in the liquidity pool defines the tao/alpha exchange rate.
+
 # Miner:
 
 Miners are nodes on a subnet.  Miners are given work to perform, and this work is graded by the validators.  Miners receive tao emissions as an incentive for their work. [Miner](doc:miner)
@@ -84,7 +112,7 @@ Miners are nodes on a subnet.  Miners are given work to perform, and this work i
 Tao used to register a node is recycled - it is removed from circulation to be emitted again at a later date.  As tao is recycled, the chain halving is pushed to a later time. There are two main forms of recycle:
 
 * Root:  All emissions sent to Root subnet are recycled. See [Root Subnet](https://docs.taostats.io/v1.1/docs/root-subnet#root-subnet-emissions)  for more details.
-  * Any Subnet with neuron registration turned off will behave like the root subnet, and the tao will be recycled. 
+  * Any Subnet with neuron registration turned off will behave like the root subnet, and the tao will be recycled.
 * Neuron Registration: All fees to register miners and validators are recycled.
 
 # Stake:
@@ -102,6 +130,10 @@ The percentage of validator emissions kept by the validator.  The remaining perc
 # Tao:
 
 The token of the Bittensor subtensor.  1 tao is emitted from the network every 12 seconds. Tao can be divided into rao (there are 1B rao per tao).  Learn more about [Tao](doc:tao) and [Tao Allocation](doc:tao-allocation).
+
+# tao in:
+
+The tao in the subnet liquidity pool. It can also refer to the amount of tao being added to the pool in each block.
 
 # Trust
 
