@@ -1,6 +1,6 @@
 ---
 title: Tao Emission
-excerpt: ''
+excerpt: Basics on how tao is emiitted and distributed in Bittensor.
 deprecated: false
 hidden: false
 metadata:
