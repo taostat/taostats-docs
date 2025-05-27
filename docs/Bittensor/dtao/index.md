@@ -4,7 +4,7 @@ excerpt: >-
   An introduction to the dTao launch, and new features in the dTao version of
   Bittensor
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
