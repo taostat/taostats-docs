@@ -1,7 +1,7 @@
 ---
 title: Tokenomics
 excerpt: >-
-  Lean how tao and alpha tokens are emitted and distributed to participants on
+  Learn how tao and alpha tokens are emitted and distributed to participants on
   Bittensor.
 deprecated: false
 hidden: false
