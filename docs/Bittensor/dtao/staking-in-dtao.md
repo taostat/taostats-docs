@@ -1,5 +1,5 @@
 ---
-title: Staking in dTao
+title: Staking
 excerpt: >-
   Learn about staking to root and staking in alpha, and how these emissions are
   divided up.
@@ -31,6 +31,30 @@ in dTao, there are two options for staking:
 * [Staking to root](#staking-to-root)
 * [Staking to a Subnet](#staking-to-alpha)
 
+## Emission division: root to subnet
+
+Stakeholder emission is split between these two options.  For new subnets, the emission is primarily to root, with subnet increasing over time
+
+<Image align="center" alt="An example breakdown of root:subnet proportions." border={false} caption="An example breakdown of root:subnet proportions." src="https://files.readme.io/3e9d7b5c3747867d7b1d97a068bfceb15d003e0f4ba498f2f5b48bcca74f11ac-image.png" />
+
+<br />
+
+This change over time is described in [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha).
+
+## Staking to root
+
+staking to root does not affect subnet emissions, and is a `safe`  staking option - there is no way to lose tao value.   Root stakers earn a (ever decreasing) portion of returns from every subnet the validator is active in.
+
+If you have staked to root, your returns will be auto-compounded to your hotkey on root.
+
+## Staking to alpha
+
+This is the new feature and primary goal of dTao - to enable stakeholders to vote and determine the emissions for every subnet.
+
+To stake in alpha, tao is exchanged via the [Subnet Pools](doc:subnet-pools) into alpha.  This will incur [Slippage](doc:slippage). The received alpha is then staked to the validator selected.  Your returns will be in alpha, and autocompounded to the validator hotkey.
+
+<br />
+
 > 📘 Staking fees
 >
 > * Staking: All staking actions will incur a 50,000 rao (0.00005 tao) fee.
@@ -46,29 +70,5 @@ in dTao, there are two options for staking:
 > Example unstaking:
 >
 > You earn 10 alpha per epoch, and you unstake 50% of your alpha.  The fee will be 10\_50% = 5 alpha\_alpha\_price
-
-## Emission division: root to subnet
-
-Stakeholder emission is split between these two options.  For new subnets, the emission is primarily to root, with subnet increasing over time
-
-<Image align="center" alt="An example breakdown of root:subnet proportions." border={false} caption="An example breakdown of root:subnet proportions." src="https://files.readme.io/3e9d7b5c3747867d7b1d97a068bfceb15d003e0f4ba498f2f5b48bcca74f11ac-image.png" />
-
-<br />
-
-This change over time is described in [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha).
-
-# Staking to root
-
-The default action of staking to root is similar to what staking was pre-dTao.  All your earnings on each subnet are converted to tao and autocompound on root.  The default staking method on root is called `root stake`.
-
-As seen in the section above, the initial emissions will be the same, but over time the `staking to root` returns will decrease (eventually reaching \~ 18% of original staking rewards).
-
-If you have staked to root, your returns will be auto-compounded to your hotkey on root.
-
-# Staking to alpha
-
-This is the new feature and primary goal of dTao - to enable stakeholders to vote and determine the emissions for every subnet.
-
-To stake in alpha, tao is exchanged via the [Subnet Pools](doc:subnet-pools) into alpha.  This will incur [Slippage](doc:slippage). The received alpha is then staked to the validator selected.
 
 ## [dTao FAQ](doc:dtao-faq): Your top  staking questions
