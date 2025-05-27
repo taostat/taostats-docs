@@ -19,7 +19,11 @@ The [Taostats Staking App](https://dash.taostats.io/stake) is part of the taosta
 
 # Simple
 
-Simple staking makes it easy to perform one or two stake transactions at a time.  You can buy/sell existing stake positions, or add a new one
+Simple staking makes it easy to perform one or two stake transactions at a time.  You can buy/sell existing stake positions, or add a new one.
+
+<Embed typeOfEmbed="youtube" url="https://www.youtube.com/watch?v=EAMKqNDB_yk" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FEAMKqNDB_yk%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DEAMKqNDB_yk%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FEAMKqNDB_yk%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" href="https://www.youtube.com/watch?v=EAMKqNDB_yk" providerUrl="https://www.youtube.com/" providerName="YouTube" />
+
+<br />
 
 ### Existing positions
 
@@ -42,6 +46,8 @@ When you are finished - click Next, confirm the transactions, and enter your pas
 <Image align="center" width="50% " src="https://files.readme.io/3a889848b1c58c4124f959146635a9038d4d8e2e16a2af9eccf34ac40a1afda1-image.png" />
 
 # Manual
+
+<br />
 
 The Manual staking page lists all of your current stakes, with sliders.
 
