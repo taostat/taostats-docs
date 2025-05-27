@@ -12,11 +12,17 @@ metadata:
 next:
   description: ''
 ---
-Staking now plays a principal role in the functioning of the Bittensor network. The principal goal of dTao is to divide chain emissions amongst subnets in a democratic way.
+> 📘 Staking with taostats
+>
+> See [Staking Instructions](doc:staking-instructions) for a number of pages describing how to stake using Taostats.
+
+<br />
+
+Staking plays a principal role in the functioning of the Bittensor network. The principal goal of dTao is to divide chain emissions amongst subnets in a democratic way.  Staking into a subnet  increases the emissoins of the subnet.
 
 # Subnet emission
 
-Emission into a subnet is determined by the amount of tao in the [Subnet Pool](doc:subnet-pools). The principal addition of tao into the pool is via staking actions. Therefore subnet emission is guided by how much stake has been placed on the subnet.
+Emission into a subnet is determined by the subnet price. (which is based on the amount of tao and alpha in the [Subnet Pool](doc:subnet-pools). The act of staking adds tao and removes alpha from the pool, increasing the price, and increasing emission to the subnet. Therefore subnet emission is guided by how much stake has been placed on the subnet.
 
 # Staking Options
 
@@ -64,9 +70,5 @@ If you have staked to root, your returns will be auto-compounded to your hotkey 
 This is the new feature and primary goal of dTao - to enable stakeholders to vote and determine the emissions for every subnet.
 
 To stake in alpha, tao is exchanged via the [Subnet Pools](doc:subnet-pools) into alpha.  This will incur [Slippage](doc:slippage). The received alpha is then staked to the validator selected.
-
-> 📘 Staking with taostats
->
-> See [Staking Instructions](doc:staking-instructions) for a number of pages describing how to stake using Taostats.
 
 ## [dTao FAQ](doc:dtao-faq): Your top  staking questions
