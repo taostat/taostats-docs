@@ -21,3 +21,5 @@ next:
 [Halving](doc:halving)
 
 [Recycling](doc:recycling)
+
+[Staking](doc:staking-in-dtao)
