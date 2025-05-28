@@ -17,10 +17,10 @@ next:
 
 ```
     {
-      "name": null, name in available
+      "name": "Taostats & Corcel",
       "hotkey": {
-        "ss58": "5CAQhe9pWMe9anWX9qbK6Z9RydRth7S6WDopapSr6uShGum5",
-        "hex": "0x0459b8ac46933d4cbbd4f0b36934704e7a726851b359ca2ee8d5e704a8896e02"
+        "ss58": "5GKH9FPPnWSUoeeTJp19wVtd84XqFW4pyK2ijV2GsFbhTrP1",
+        "hex": "0xbc0e6b701243978c1fe73d721c7b157943a713fca9f3c88cad7a9f7799bc6b26"
       },
       "coldkey": {
         "ss58": "5GcCZ2BPXBjgG88tXJCEtkbdg2hNrPbL4EFfbiVRvBZdSQDC",
