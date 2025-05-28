@@ -34,7 +34,9 @@ The Subnet pool determines the alpha price
 
 <Image align="center" width="50% " src="https://files.readme.io/d8bf29448d71b415d59c472a882819ef507178fbc4c005550ba647dd33f25e76-image.png" />
 
-<br />
+> 📘 example
+>
+> Using the pool in the screenshot above
 
 ## [Slippage](doc:slippage)
 
