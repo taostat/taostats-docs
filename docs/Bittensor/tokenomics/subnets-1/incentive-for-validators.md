@@ -31,19 +31,20 @@ If a Validator is judged to be out of consensus, their VTrust (validator trust) 
 
 ## Stake
 
-The other value in the determination of validator emissions is the stake value.  Validators with higher stake will receive higher emissions.  
+The other value in the determination of validator emissions is the stake value.  Validators with higher stake will receive higher emissions.
 
 * **root\_stake**: The amount of tao staked to a validator on root.
+* **tao\_weight** : Defined on chain as 0.18.
 * **alpha\_stake**: The amount of alpha staked to a validator on the subnet
-* **total\_stake**: The value used to determine emissions. tao\_weight is defined on chain as 0.18.
+* **total\_stake**: The value used to determine emissions.
 
-  ![](https://files.readme.io/d585383ab0a61abd5f219a23d799f7eca283035c48b6c1109c3d8db4b207ad63-image.png)
+![](https://files.readme.io/d585383ab0a61abd5f219a23d799f7eca283035c48b6c1109c3d8db4b207ad63-image.png)
 
 <br />
 
 ## Dividends
 
-Dividends are the percentage of the total validator emissions that will be given to each validator. It is calculated from Vtrust and total\_stake. High stake & high VTrust lead to high dividends.  High dividends yield high emissions.
+Dividends are the percentage of the total validator emissions that will be given to each validator. It is calculated from VTrust and total\_stake. High stake & high VTrust lead to high dividends.  High dividends yield high emissions.
 
 * The sum of all dividends on a subnet is 1.
 * Dividend score is calculated once per tempo (360 blocks for most subnets).
@@ -67,9 +68,13 @@ Dividends are the percentage of the total validator emissions that will be given
 >
 > Validator x has dividends of 0.006.  147.6\*0.006 = .8856 alpha per epoch.
 >
-> \_Validator x has 0.8856 alpha emission. This will then be divided into root emission (and converted into tao) and alpha emission - awared to stakehodlers holding alpha.
+> Validator x has 0.8856 alpha emission.
+>
+> If this validator has parent hotkeys this will be divided amongst the validators based on the stake (see [Emission for Parent/Child Hotkeys](doc:emission-parent-hotkeys)).
+>
+> This will then be divided into root emission (and converted into tao) and alpha emission (see [)Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha).
 
-<Embed url="https://www.youtube.com/watch?v=Bd4-eyGa1o0" title="Bittensor: What are validator Dividends and how are they calculated" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/Bd4-eyGa1o0/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=Bd4-eyGa1o0" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FBd4-eyGa1o0%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBd4-eyGa1o0%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FBd4-eyGa1o0%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
+<Embed url="https://www.youtube.com/watch?v=Bd4-eyGa1o0" href="https://www.youtube.com/watch?v=Bd4-eyGa1o0" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FBd4-eyGa1o0%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBd4-eyGa1o0%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FBd4-eyGa1o0%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 ## Validator rewards
 
