@@ -22,7 +22,7 @@ A validator with stake now has three options:
 
 ## Parent Hotkey
 
-A **parent hotkey** sets a proportion (from 1-100%) of their stake to another hotkey.  
+A **parent hotkey** sets a proportion (from 1-100%) of their stake to another hotkey.
 
 ## Child Hotkey
 
@@ -34,19 +34,17 @@ On taostats, a child hotkey has a bright yellow stake.
 
 In the screenshot below, the validator in position 1 has no parent stake, but the validator in position 2 *does* have parent hotkeys staking to it.
 
-![](https://files.readme.io/bf3967ecb0f4a2e310f2ea03da72fe1fb21b1295e49dc575af74207d1ba910fd-image.png)
+![](https://files.readme.io/cff853c815003080a78d3ab09ab2e00d059c1342b9a1b89b47e4cae65c0c1b1f-image.png)
 
 # Child hotkeys and emission
 
-In the screenshot above, the validator in position 1 has emission of 1.93543.  100% of that emission goes to that validator, as there are no parent hotkeys.
+In the screenshot above, the validatorOwner64 in position 5 has 40,265 alpha staked, and 100% of that emission goes it it's stakeholders, there are no child hotkeys.
 
-But with child hotkeys, the emission is split between the child and the parents.  So the validator in position 2 share the 1.83997 emission with its parents.
+MUV in position 4 has 66,290 alpha staked, but some comes from child hotkeys.
 
-Clicking the UID or the stake of the validator helps us better understand this division.
+But with child hotkeys, the emission is split between the child and the parents.  Clicking the carat shows the stake breakdown:
 
-![](https://files.readme.io/f8f37fc7db7fcac1b370a2b1af0ecb95c04dbc39d84dc231dcea4144bc3ea1fc-image.png)
-
-UID 2 is *Taostats and Corcel*.  It has 2 parent hotkeys: *PR Validator* and *Neural Internet*.  
+![](https://files.readme.io/0b84d42d9c45455f6c947d3d2893db84f10a4a67f57be2e7145212e6294c216e-image.png)
 
 ## Calculating emission between parent and child hotkeys
 
