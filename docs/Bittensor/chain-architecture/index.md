@@ -14,9 +14,6 @@ next:
 * [Smart Contracts with EVM](doc:evm-contracts)
 * [Commit Reveal 3.0](doc:commit-reveal-30)
 * [Parent/Child Hotkeys](doc:emission-for-parentchild-hotkeys-copy)
-
-<br />
-
 * [Extrinsics](doc:blockchain)
   * [List of all Extrinsics](doc:list-of-all-extrinsics)
   * [Multisig extrinsics](doc:multisig-extrinsics)
