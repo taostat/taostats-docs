@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-The Bittensor network's primary division is into a group of subnets.  The subnets are numbered, and there is theorietically no limit to the number of subnets that can exist.
+The Bittensor network's primary division is into a group of subnets.  The subnets are numbered, and there is theoretically no limit to the number of subnets that can exist.
 
 Each Subnet runs a self-contained codebase on top of the Bittensor code, each defining a unique context for the incentivised generation of value. Although each subnet is unique and runs with independent sets of participants, the interface with the Bittensor network and use of Yuma Consensus is common across all subnets. (There is also a subnet 0: the [Root Subnet](doc:root-subnet)).
 
@@ -40,13 +40,11 @@ Validators are nodes in the subnet that perform two roles.
 
 ### Delegated Stake
 
-Tao holders can stake their tao with validators. Validators with higher stake receive higher emissions (that are shared with the stakeholders).  The weights set by validators is also influenced by the amount of stake held.The amount of tao a validator has as delegated stake defines both the value of the weights they set for miners and as a result allows for a natural market prioritisation of access to form.
+Tao holders can stake their tao with validators. Validators with higher stake receive higher emissions (that are shared with the stakeholders).  The weights set by validators is also influenced by the amount of stake held. The amount of tao a validator has as delegated stake defines both the value of the weights they set for miners and as a result allows for a natural market prioritisation of access to form.
 
 * [Validator (Architecture)](doc:validation)
 * [Validator (Persona)](doc:validator)
 * [Emissions for Validators](doc:incentive-for-validators)
-
-<br />
 
 <br />
 
@@ -68,7 +66,7 @@ Each subnet undertakes a specific task. In order to evaluate how the task is bei
 
 # Subnet Registration
 
-Anyone can register a new subnet provided they have a wallet containing the current subnet registration cost in tao.  Once a Subnet is registered, it is given <Glossary>immunity</Glossary> from de-registration for 7 days. The period of immunity allows the new subnet to build trust and establish emissions without being de-registered in the event or further subnet registrations.
+Anyone can register a new subnet provided they have a wallet containing the current subnet registration cost in tao.  Once a Subnet is registered, it set to an inactive state. This period allows the new subnet to iron out the last steps, and begin building relationships with miners and validators. There is no emission when a subnet is inactive.
 
 In practice, many subnets build in the testnet prior to going "live" on the main bittensor chain. This allows miners and validators to test out the code, and find any issues that might arise. It also allows the subnet team to build awareness of the project, ensuring faster acceptance on chain, and (hopefully) higher emissions.
 
