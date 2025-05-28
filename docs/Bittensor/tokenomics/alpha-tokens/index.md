@@ -1,6 +1,6 @@
 ---
 title: Alpha Tokens
-excerpt: Updated January 28, 2025
+excerpt: Alpha is the genearic name for subnet tokens.  Each subnet has its own token.
 deprecated: false
 hidden: false
 metadata:
@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-in dTao, all subnets will have a token for staking. The subnet tokens are given a letter from an alphabet (greek, hebrew, arabic, etc.) but are generically defined as 'alpha'.  (alpha is also the token of subnet 1, as it is the first letter in the greek alphabet)
+From the dTao launch in February 2025, all subnets now have a token for staking. The subnet tokens are given a letter from an alphabet (greek, hebrew, arabic, etc.) but are generically defined as 'alpha'.  (alpha is also the token of subnet 1, as it is the first letter in the greek alphabet)
 
 ## Alpha tokens can only be purchased with tao.
 
