@@ -26,7 +26,7 @@ This means a maximum of 7200 tao are created every day. If a block takes longer 
 
 You can visualise the chain block production at [taostats](https://taostats.io/analytics/blocks)
 
-<Image align="center" alt="the mouseover shows 7,200 blocks created on 1/1/2025." border={false} caption="The mouseover shows 7,200 blocks created on 1/1/2025." src="https://files.readme.io/4c9bf3216cae967f4d0b3071fc9883830df39247d53d34a391043caf1f7fe1f7-image.png" />
+![](https://files.readme.io/28446390ea167a0c1cd61e46942e4154a3b16faf03de05c69290c6c514269e15-image.png)
 
 <br />
 
@@ -50,6 +50,6 @@ Recycled tao is tao that is removed from circulation back into the unissued supp
 
 ## Halving
 
-Bittensor follows the halving schedule of Bittcoin, and the first halving will be when 10.5M tao have been emitted.  At this time 0.5 tao will be emitted each block.
+Bittensor follows the halving schedule of Bitcoin, and the first halving will be when 10.5M tao have been emitted.  At this time 0.5 tao will be emitted each block.
 
 [Halving](doc:halving)
