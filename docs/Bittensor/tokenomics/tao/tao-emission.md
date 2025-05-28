@@ -22,6 +22,8 @@ In the past, Subnet emissions were set by validators, and Yuma Consensus would a
 
 Tao emission (also known as `tao_in`) on a subnet is calculated by finding the subnet price, and dividing by the total of all subnet prices.
 
+This ensures that 1 tao is emitted every block, and distributed amongst the subnets.
+
 ![](https://files.readme.io/2a743d39d2afaacc67b13c59c53b76b57ba794a23d89d4fea557fc1da1d76cb4-image.png)
 
 > 📘 Tao\_in example:
