@@ -17,16 +17,16 @@ next:
 >
 > [Distribution of alpha\_out to participants](doc:distribution-of-alpha-in-a-subnet)
 
-How is emission calculated for Miners?  Emission is derived from the `incentive` calculated by Yuma Consensus.  
+How is emission calculated for Miners?  Emission is derived from the `incentive` calculated by Yuma Consensus.
 
-1. Validators test miners, and create a ranked list of each miner (weights).  These weights are regularly delivered to the consensus engine.  
+1. Validators test miners, and create a ranked list of each miner (weights).  These weights are regularly delivered to the consensus engine.
    1. These are stored in a 2D matrix - each row is the UID of the validator placing weights, and each column is the UID of the miner. (A visual representation of the weights can be found for each subnet on taostats: [Subnet 19 Miner weights](https://taostats.io/subnets/19/miners) .
-2. These weights are used to calculate `incentive` and consensus - how well do the validators agree on scoring? 
+2. These weights are used to calculate `incentive` and consensus - how well do the validators agree on scoring?
 3. The `incentive` score is made by a weighted average of validator weights.  Weights placed by validators with higher amounts of delegation of tao are given higher weight in the incentive score.  Validators that are out of consensus (a high deviation from the weighted score) may have their weight reduced further.
 
 # Incentive
 
-The `incentive` score for a subnet scores how well miners are performing in relation to other miners.  The sum of incentive scores in a subnet is 1.  
+The `incentive` score for a subnet scores how well miners are performing in relation to other miners.  The sum of incentive scores in a subnet is 1.
 
 * Each miner's `incentive` score is reported in the metagraph of the subnet.
 * The `incentive` score is updated once per tempo of the subnet (360 blocks)
@@ -51,13 +51,13 @@ The miner emission score is how much tao is awarded to the miner each epoch. (An
 >
 > *Miner 19 has 0.8856 alpha emission*.
 
-Emission is calculated every epoch, but is awarded once every 7200 blocks.  This can mean that emission is delivered to your hotkey after your miner is deregistered.
+Emission is calculated and awarded every epoch.  This can mean that emission is delivered to your hotkey after your miner is deregistered.
 
 # Daily Rewards
 
 On taostats, the daily rewards is calculated by multiplying emission \*20 (There are \~20 epochs in 24 hours.)
 
-<Embed url="https://www.youtube.com/watch?v=Z2s7jEJK_m4" title="Bittensor: Miner Incentive deep dive" favicon="https://www.google.com/favicon.ico" image="https://i.ytimg.com/vi/Z2s7jEJK_m4/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=Z2s7jEJK_m4" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FZ2s7jEJK_m4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZ2s7jEJK_m4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FZ2s7jEJK_m4%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
+<Embed url="https://www.youtube.com/watch?v=Z2s7jEJK_m4" href="https://www.youtube.com/watch?v=Z2s7jEJK_m4" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FZ2s7jEJK_m4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZ2s7jEJK_m4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FZ2s7jEJK_m4%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
@@ -142,7 +142,7 @@ The code calls the Chain and asks for all of the validator weights.  The output 
 > The code below queries the chain for the VTrust for validators 120, 232 and 236.  The number is reported in a Tensor:
 >
 > 120: 44.5%\
-> 232: 93.9%\
+> 232: 93.9%
 > 236: 89.6%
 >
 > ```
