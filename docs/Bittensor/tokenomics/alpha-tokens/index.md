@@ -34,13 +34,15 @@ The Subnet pool determines the alpha price
 
 <Image align="center" width="50% " src="https://files.readme.io/d8bf29448d71b415d59c472a882819ef507178fbc4c005550ba647dd33f25e76-image.png" />
 
-> 📘 example
+> 📘 Example
 >
-> Using the pool in the screenshot above
+> Using the pool in the screenshot above. 110,900/432,470= 0.2564.  This is the price of Subnet 64 when the screenshot was taken.
 
 ## [Slippage](doc:slippage)
 
 When buying alpha (or unstaking/selling alpha), the alpha price is indicative of the amount you will receive, but every purchase has slippage.
+
+<br />
 
 ## What are alpha tokens used for?
 
