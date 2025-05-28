@@ -1,6 +1,6 @@
 ---
 title: Chain Architecture
-excerpt: ''
+excerpt: How does the Bittensor Chain work?
 deprecated: false
 hidden: false
 metadata:
