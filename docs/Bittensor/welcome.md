@@ -14,7 +14,7 @@ next:
 
 ## [Taostats API](ref:welcome-to-the-taostats-api) is out of Beta!
 
-* Get a free API key and get started building!
+* Get a [free API key](https://dash.taostats.io)  and get started building!
 * See sample apps in our [Awesome Taostats Examples](https://github.com/taostat/awesome-taostats-api-examples)  Github.
 
 <br />
