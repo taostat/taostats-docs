@@ -16,42 +16,33 @@ next:
 ## response details
 
 ```
- {
+{
       "coldkey": {
-        "ss58": "5GNm8nzQxKKoBbfJZvYPHUQZRiikv24TCriCtpRgL8UXbfky",
-        "hex": "0xbeb662c9041c94bbe89f6e7a83f2f6ccbab9742dfe4feff3342e9bb4cdfa7a11"
+        "ss58": "5GcCZ2BPXBjgG88tXJCEtkbdg2hNrPbL4EFfbiVRvBZdSQDC",
+        "hex": "0xc8f623c92b47ac9645d6744f3d448cdb7a2a3b08a22a39bfd1db0afbd9c07117"
       },
       "hotkey": {
-        "ss58": "5GsM51NJm4q1p53A6DHnvRSoa6Pa4sm9nF1YxBCPAV5dAqCA",
-        "hex": "0xd4837ddb941b671c323e9ca0f8d81362c54f25e60437c73a57b00f70d5765624"
+        "ss58": "5GKH9FPPnWSUoeeTJp19wVtd84XqFW4pyK2ijV2GsFbhTrP1",
+        "hex": "0xbc0e6b701243978c1fe73d721c7b157943a713fca9f3c88cad7a9f7799bc6b26"
       },
-      "netuid": 19,
-      "uid": 57,
-      "block_number": 5453975,
-      "timestamp": "2025-04-29T00:28:36.001Z",
+      "netuid": 0,
+      "uid": 6,
+      "block_number": 5657336,
+      "timestamp": "2025-05-28T14:10:48Z",
       "active": false,
-      "validator_permit": false,
+      "validator_permit": true,
       "is_immunity_period": false,
-      "updated": 1848843,
-      "registered_block_number": 5410171,
-      "rank": 68,
-      "validator_trust": "0",
+      "updated": 793260,
+      "registered_block_number": 1404310,
+      "rank": 1,
+      "validator_trust": "0.52715342946517128252",
       "stake": "0",
-      "emission": "833482842",
-      "daily_reward": "16669656840",
-      "incentive": "0.00563057907988097963",
-      "consensus": "0.00556954299229419394",
+      "emission": "91616413",
+      "daily_reward": "6596381736",
+      "incentive": "0.01646448462653543908",
+      "consensus": "0.01478599221789883268",
       "dividends": "0",
-      "trust": "0.99465934233615625238",
-      "axon_info": {
-        "block": 5410531,
-        "ip": "52.15.97.197",
-        "ipType": 4,
-        "placeholder1": 0,
-        "placeholder2": 0,
-        "port": 9010,
-        "protocol": 4,
-        "version": 1
-      }
-    },
+      "trust": "0.51406118867780575265",
+      "axon_info": null
+    }
 ```
