@@ -10,13 +10,15 @@ metadata:
 next:
   description: ''
 ---
-Every block, two alpha are emitted into each subnet. This is split between the subnet pool `alpha_in` and the `alpha_out` (the emissions rewarded to the subnet owner, miners and validators and stakeholders)
+Every block, up to two alpha are emitted into each subnet. This is split between the subnet pool `alpha_in` and the `alpha_out` (the emissions rewarded to the subnet owner, miners and validators and stakeholders)
 
 # Calculations
 
 ## alpha\_in
 
-To find the amount of alpha added to the subnet pool, find the tao emitted into the pool, and divide by the price of the alpha
+To find the amount of alpha added to the subnet pool, find the tao emitted into the pool, and divide by the price of the alpha.
+
+This keeps the ratio of alpha and tao values in the pool equal.
 
 ![](https://files.readme.io/eecaa0d5d796c501766c848a87deceb21094cb61fd6ae5119f14bffbbb684b7d-image.png)
 
