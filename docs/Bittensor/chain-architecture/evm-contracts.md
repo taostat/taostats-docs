@@ -1,6 +1,6 @@
 ---
 title: Smart Contracts with EVM
-excerpt: Smart contract evaluation has launched on Bittensor
+excerpt: Smart contract evaluation has launched on Bittensor.
 deprecated: false
 hidden: false
 metadata:
