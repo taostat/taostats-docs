@@ -10,11 +10,11 @@ metadata:
 next:
   description: ''
 ---
-Every block, 1 tao\* is emitted by the chain (until 10.5M blocks are emitted and the first halving occurs).  Where do these blocks go?
+Every block, 1 tao is emitted by the chain (until 10.5M blocks are emitted and the first halving occurs).  Where do these blocks go?
 
 The tao is divided amongst the subnets and the fraction of tao awarded to each subnet is placed into the `tao_in` of the [Subnet Pools](doc:subnet-pools).
 
-\*The amount of tao emitted each block is dependent on how much tao is emitted into each subnet pool. This can potentially be less than one.
+<br />
 
 ## Determining the emission into each Subnet pool.
 
