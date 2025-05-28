@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-Commit Reveal 3.0 will launch in December 2024.
+Commit Reveal 3.0 launched in December 2024.
 
 # What is Commit Reveal?
 
@@ -58,7 +58,7 @@ Epoch x: Miner crashes. Stops responding to validator requests
 
 Epoch x+1: Validators begin lowering your score
 
-(intervening epochs - scores continue to drop precipitously) 
+(intervening epochs - scores continue to drop precipitously)
 
 Epoch x+1+ `commit_reveal_weights_interval`: you start seeing dropped scores
 
