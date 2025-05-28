@@ -1,8 +1,6 @@
 ---
 title: Staking
-excerpt: >-
-  Learn about staking to root and staking in alpha, and how these emissions are
-  divided up.
+excerpt: Learn about staking to root and alpha, and how these emissions are divided up.
 deprecated: false
 hidden: false
 metadata:
@@ -43,7 +41,7 @@ This change over time is described in [Emissions: Root vs. Alpha Stake](doc:stak
 
 ## Staking to root
 
-staking to root does not affect subnet emissions, and is a `safe`  staking option - there is no way to lose tao value.   Root stakers earn a (ever decreasing) portion of returns from every subnet the validator is active in.
+Staking to root does not affect subnet emissions, and is a `safe`  staking option - there is no way to lose tao value.   Root stakers earn a (ever decreasing) portion of returns from every subnet the validator is active in.
 
 If you have staked to root, your returns will be auto-compounded to your hotkey on root.
 
@@ -52,6 +50,8 @@ If you have staked to root, your returns will be auto-compounded to your hotkey 
 This is the new feature and primary goal of dTao - to enable stakeholders to vote and determine the emissions for every subnet.
 
 To stake in alpha, tao is exchanged via the [Subnet Pools](doc:subnet-pools) into alpha.  This will incur [Slippage](doc:slippage). The received alpha is then staked to the validator selected.  Your returns will be in alpha, and autocompounded to the validator hotkey.
+
+Staking to alpha *does* incur risk: a drop in alpha token price will result in a lower amout of tao when unstaking.
 
 <br />
 
