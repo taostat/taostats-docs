@@ -1,5 +1,5 @@
 ---
-title: List of all Extrinsics
+title: List of the Most Common Extrinsics
 excerpt: A list of the most commonly used extrinsics in Bittensor
 deprecated: false
 hidden: false
