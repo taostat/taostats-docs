@@ -14,15 +14,19 @@ in dTao, all subnets will have a token for staking. The subnet tokens are given 
 
 ## Alpha tokens can only be purchased with tao.
 
-Your staking transaction will take your tao to purchase alpha.  This is done through a liquidity pool. Since each subnet has a token, each subnet has a liquidity pool (or Subnet Pool) that converts tao to the token of the subnet
+Your staking transaction will take your tao to purchase alpha.  This is done through a liquidity pool. Since each subnet has a token, each subnet has a liquidity pool (or Subnet Pool) that converts tao to the token of the subnet.  The price cannot be used to determine the exact conversion, there is [Slippage](doc:slippage) on every transaction in and out of a Subnet Pool.
 
-![](https://files.readme.io/112d6315e15b0a250a28c6efab46d1ae7baadf5e1c17f879aa6e422ea4fb1289-image.png)
-
-In the screenshot above of the btcli, the P column shows the amount of tao and alpha available in the liquidity pools for subnets 255 and 2.  Subnet 2's pool has 21.65 tao and 5,170 beta.
+<br />
 
 ## [Subnet Pools](doc:subnet-pools)
 
-Subnet pools are how tao is exchanged into alpha.
+<Image align="center" border={false} caption="The subnet pool for SN 64 (May 28, 2025)" src="https://files.readme.io/7fdbb36d142a090808c56e253f6170a58198dee773f137c845ab15631086d8e4-image.png" />
+
+<br />
+
+In the screenshot above, the value of alpha and tao in the pools are equal, but there are \~4x the alpha tokens in the pool vs. tao.  Alpha Price is determined by the contents of the subnet pool.
+
+<br />
 
 ## Alpha Price
 
