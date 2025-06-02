@@ -20,7 +20,7 @@ In the upper left, find a description and links to external sites for the subnet
 * [Financial Data](#financial-data)
 * [Staking Data](#staking-data)
 * [Subnet Data](#subnet-data)
-* Chart
+* [Subnet Trading View Chart](doc:subnet-trading-view-chart)
 * [Metagraph](doc:metagraph)
 * Hyperparameters
 * Registration
