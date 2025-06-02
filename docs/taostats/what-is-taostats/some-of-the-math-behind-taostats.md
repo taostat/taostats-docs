@@ -43,7 +43,7 @@ This can be broken down a number of ways.
 
 # Daily Return
 
-The amount that the validator has earned in the last 24 hours.  It is a sum of validator return across all subnets.  
+The amount that the validator has earned in the last 24 hours.  It is a sum of validator return across all subnets.
 
 <Image align="center" src="https://files.readme.io/449da9091d3d09eb781efaa4bc7c1efde5648d12bc3073486befbd5ec2130a35-Screenshot_2024-10-04_at_10.20.25.jpg" />
 
@@ -55,7 +55,7 @@ To determine a validator's return in a subnet, we need to account for all places
 
 <Image align="center" src="https://files.readme.io/c647dd1fd28a5f15b5f51d065865a9d90ac26e41de03f2c88cb2628d5e516b09-Screenshot_2024-10-04_at_10.21.49.jpg" />
 
-* Emission for the registered hotkey.  
+* Emission for the registered hotkey.
 
   * Calculate the % of stake held by the child hotkey \* the emission. (Note if there is no parent/child, the % of stake held is 100%)
 
@@ -71,6 +71,6 @@ To determine a validator's return in a subnet, we need to account for all places
 
 These values, summed across the subnet, provide the validator return.
 
-# APR: Annual Percentage Return
+# APY: Annual Percentage Yield
 
-nom/1k/24BTday is the APD\*1000.  So, to get to APR, take any nom/1k/24BTday, and divide by 1000. The multiply by 365 to get the annual value.
+nom/1k/24BTday is the DPY\*1000.  So, to get to APY, take any nom/1k/24BTday, and divide by 1000. The multiply by 365 to get the annual value.
