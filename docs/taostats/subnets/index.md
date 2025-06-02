@@ -10,7 +10,29 @@ metadata:
 next:
   description: ''
 ---
-The Subnets page lists all of the subnets.  The initial sort is by Market Cap.
+The [Subnets page](https://taostats.io/subnets)  is the entryway into the world of subnets.  At the top of the page are three infoboxes with an overview:
+
+# Infoboxes
+
+## Subnets Value
+
+This shows the sum of subnet prices (in tao).  Root always has a price of 1.  In the chart below, the sum of subnet prices is 1.60.
+
+![](https://files.readme.io/03fd0581a1192c5255ab62fbeba5f2fd7d7fd5ee8474c0ffa0a93546f6d82926-image.png)
+
+## Stake Split
+
+The division of stake between root and subnets.
+
+![](https://files.readme.io/26ab6e2949e73ca4cdd0633d770242f269259f281b3fdb7e887c84fcab0b7cfe-image.png)
+
+## Total Volume
+
+![](https://files.readme.io/a4c16cf79abde84e216a4e4ee3c52dc8269ccba440261e8f0c0c39e909805c8e-image.png)
+
+<br />
+
+The initial sort is by Market Cap.
 
 Subnet data can be shown in tao values (where all alpha token is converted into tao) or in USD.
 
