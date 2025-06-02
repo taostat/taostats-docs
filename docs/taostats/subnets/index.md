@@ -40,16 +40,24 @@ Subnet data can be shown in tao values (where all alpha token is converted into 
 
 ![](https://files.readme.io/5997e445918cd954ce1b020650221a3390790c87828b2c580d9bd3d04f1a9a0d-image.png)
 
-* **Name**: The name and alpha token of the subnet.
-* **Netuid** The Subnet's ID on the Bittensor Network.
-* **Age**: Time present on the Network.
+* **Name**: The name and netuid of the subnet.
+* **Emission**: The % of tao flowing into the subnet pool.
 * **Price**: The [Alpha Price](https://docs.taostats.io/docs/alpha-tokens#alpha-price)  of the subnet.
 * **1H**: Price trend over the previous hour.
 * **24H**: Price trend over the previous day.
 * **1W**: Price trend over the previous week.
-* **Market Cap**: The Circulating supply of alpha token.
-* **Volume**: Amount traded in the last 24 hours.
+* **1M**: Price trend over the previous month.
+* **Market Cap**: The Circulating supply of alpha token (this can be displayed in tao or in USD.)
+* **Volume**: Amount traded in the last 24 hours (in tao or USD.)
 * **Liquidity**: Total value of tokens in the [Subnet Pool](doc:subnet-pools).
+
+# Subnets Total Price
+
+A chart showing the sum of subnet prices over time.
+
+![](https://files.readme.io/588e4617452e5b17c1a37b5b4cc12c3ab2a324cdb3119ac6a8ed544d4842b0ed-image.png)
+
+<br />
 
 # Subnet Top Emissions
 
