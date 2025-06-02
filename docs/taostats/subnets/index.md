@@ -28,6 +28,8 @@ The division of stake between root and subnets.
 
 ## Total Volume
 
+Total buys and sells on root vs. total buys and sells on other subnets.
+
 ![](https://files.readme.io/a4c16cf79abde84e216a4e4ee3c52dc8269ccba440261e8f0c0c39e909805c8e-image.png)
 
 <br />
