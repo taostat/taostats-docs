@@ -14,6 +14,8 @@ If you are thinking about mining on Bittensor - or you want to improve your mini
 
 <br />
 
+# Choosing where to mine
+
 # Getting started: the data
 
 When looking at your miner's activity in taostats - there are probably a few different ways you want to interact:
@@ -81,13 +83,9 @@ Each subnet is granted a percentage of the blockchain [emission](doc:subnets-emi
 
 Subnets with higher emissions tend to be more competitive for miners, meaning that the risk of being deregistered is high. The competitiveness of a subnet can be seen on subnet[individual subnets distribution graphs](https://taostats.io/subnets/netuid-19/#distribution). For example:
 
-<Image alt="Snapshot of Subnet 13" align="center" src="https://files.readme.io/4805237b06bb1f3b7ea18849f3b5f29e2f6f33cbd752f1a836777fd8d40ad398-Screenshot_2024-09-06_at_13.56.56.jpg">
-  Subnet with a wide distribution
-</Image>
+<Image align="center" alt="Snapshot of Subnet 13" border={false} caption="Subnet with a wide distribution" src="https://files.readme.io/4805237b06bb1f3b7ea18849f3b5f29e2f6f33cbd752f1a836777fd8d40ad398-Screenshot_2024-09-06_at_13.56.56.jpg" />
 
-<Image alt="Snapshot of subnet 19" align="center" src="https://files.readme.io/daa6b371ebe7ba86eda6f53c6e2be5324cc57fc24a12f29ac371c2f8c84a0b03-Screenshot_2024-09-06_at_13.47.59.jpg">
-  subnet with a narrow distribution
-</Image>
+<Image align="center" alt="Snapshot of subnet 19" border={false} caption="subnet with a narrow distribution" src="https://files.readme.io/daa6b371ebe7ba86eda6f53c6e2be5324cc57fc24a12f29ac371c2f8c84a0b03-Screenshot_2024-09-06_at_13.47.59.jpg" />
 
 In the first screenshot, there is a large distribution of emissions. In this subnet, a well-performing miner can keep above the threshold for de-registration.
 
@@ -95,7 +93,7 @@ In the second screenshot, the range for Active keys is very narrow (0.00401 - 0.
 
 ## Node Registration cost
 
-You can view the current registration cost at [https://taostats.io/subnets/netuid-&lt;subnetID&gt;/#registration](https://taostats.io/subnets/netuid-19/#registration). Competitive subnets generally cost more to register a node than non-competitive nodes.
+You can view the current registration cost at [https://taostats.io/subnets/netuid-\<subnetID>/#registration](https://taostats.io/subnets/netuid-19/#registration). Competitive subnets generally cost more to register a node than non-competitive nodes.
 
 ### Deregistration
 
@@ -115,9 +113,7 @@ Each new node is granted immunity for a defined number of blocks. When you have 
 
 Some subnets evenly distribute emissions to all miners based on the trust value calculated by [Yuma Consensus](doc:consensus), while others may limit emissions. For example, Subnet 6 currently only distributes emissions to the top x miners:
 
-<Image alt="Subnet 6 miner emissions - showing only top 6-10 miners receive any significant emission. (Feb. 5, 2024)" align="center" src="https://files.readme.io/3dc6554-image.png">
-  Subnet 6 miner emissions - showing only the top 6-10 miners receive any significant emission. (Feb. 5, 2024)
-</Image>
+<Image align="center" alt="Subnet 6 miner emissions - showing only top 6-10 miners receive any significant emission. (Feb. 5, 2024)" border={false} caption="Subnet 6 miner emissions - showing only the top 6-10 miners receive any significant emission. (Feb. 5, 2024)" src="https://files.readme.io/3dc6554-image.png" />
 
 Learning to read the [Subnet Metagraph table](doc:metagraph#miner-view) is a helpful step to better understand emission distribution.
 
@@ -127,7 +123,7 @@ See [Tao Allocation](doc:tao-allocation) for a mathematical description of how t
 
 The registration tab for each subnet lists the number of registrations in the last 24 hours. Assuming a full subnet - this is equal to the number of de-registrations.
 
-[https://taostats.io/subnets/netuid-&lt;subnetID&gt;/#registration](https://taostats.io/subnets/netuid-13/#registration)
+[https://taostats.io/subnets/netuid-\<subnetID>/#registration](https://taostats.io/subnets/netuid-13/#registration)
 
 <Image align="center" width="26% " src="https://files.readme.io/76de496-image.png" />
 
