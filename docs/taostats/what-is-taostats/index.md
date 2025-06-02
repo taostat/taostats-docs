@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-[Taostats](https://taostats.io) is the Blockchain Explorer and Data Analytics Platform for Bittensor.  
+[Taostats](https://taostats.io) is the Blockchain Explorer and Data Analytics Platform for Bittensor.
 
 Taostats provides real time and historical data on the state of Bittensor subnets, miners, and validators as well as details on blocks, accounts, transfers and delegation events.  In this section, we will break down every graph, chart, and page on Taostats to allow users to better understand the data being presented.
 
@@ -21,6 +21,8 @@ Taostats provides real time and historical data on the state of Bittensor subnet
 ## [Taostats: For Staking](doc:taostats-for-staking) Dig into the data to stake your tao
 
 ## [Taostats: For Validators](doc:taostats-for-validators) Taostats charts for validators
+
+## [Staking: Taostats Subnet page](doc:staking-taostats-subnet-page)
 
 # Taostats basics
 
