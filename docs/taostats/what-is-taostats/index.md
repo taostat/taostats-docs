@@ -22,7 +22,13 @@ Taostats provides real time and historical data on the state of Bittensor subnet
 
 ## [Taostats: For Validators](doc:taostats-for-validators) Taostats charts for validators
 
-## [Staking: Taostats Subnet page](doc:staking-taostats-subnet-page)
+## Staking
+
+### [Staking: Taostats Subnet page](doc:staking-taostats-subnet-page)
+
+### [Taostats Staking App](doc:taostats-staking-app)
+
+### [Switch Validators](doc:taostats-transfer-app)
 
 # Taostats basics
 
