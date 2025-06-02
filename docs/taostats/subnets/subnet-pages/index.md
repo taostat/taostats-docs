@@ -73,9 +73,10 @@ An algorithm to sense buy/sell sentiment of investors on the subnet.
 <br />
 
 * **Emission**: The % of tao emitted into the Subnet pool.  If 1 tao is emitted per block, emission/100 os the amount of tao emitted into the pool.
-* **Emission/Day**:
-* **Owner/day**
-* **Miner/day**
-* **Validator/day**
-* **Registration cost**
+* **Root Proportion**: The percentage of stakeholder returns that are split to root stakeholders vs. alpha stakeholders.
+* **Emission/Day**: Tao injected by the chain into the SN pool per day.
+* **Owner/day**: 18% of the tao injected.
+* **Miner/day** 41% of the tao injected.
+* **Validator/day** 41% of the tao injected.
+* **Registration cost** Cost to register a neuron.
 * **Recycled/day**: tao recycled for neuron registration. This is the sum of the fees paid for miner and validator registrations.
