@@ -20,13 +20,17 @@ A historical chart of the cost in tao to register a node on the subnet.  To the 
 
 In the screenshot, the current registration cost is 0.06 tao. Registration rates vary by the competitiveness of the subnet.
 
-![](https://files.readme.io/e6ac861a1c2d3cf1d8740f30d5c1b20ca7f67139137d26a00ee35c62dcd9f57e-image.png)
+![](https://files.readme.io/90444afea88ce790d404ff5a83c148075189c9c39cd42e3311fa0c9b366026d3-image.png)
 
-# De-Registration Data
+<br />
 
-This chart gives a running score of the incentive & emission of the last miners de-registered.  If your miner is coming out of immunity, it is important to be above these values, or your miner is more likely to be de-registered.
+# Immune Miners
 
-![](https://files.readme.io/a1d61be505c9c4d8abb9be0dc72115c0b07a6a5a676af51c4c6eba1238417ffe-image.png)
+A daily tally of how many miners were immune at midnight GMT.
+
+![](https://files.readme.io/0d4fbacee434fd4835379473f1ae190b1d76310ea683781d57b18df72d210cce-image.png)
+
+<br />
 
 # Registration Table
 
