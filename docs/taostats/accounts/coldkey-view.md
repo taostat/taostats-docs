@@ -2,7 +2,7 @@
 title: Coldkey view
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
