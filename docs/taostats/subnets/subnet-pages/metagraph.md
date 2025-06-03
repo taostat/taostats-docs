@@ -10,28 +10,28 @@ metadata:
 next:
   description: ''
 ---
-The Subnet metagraph is a chart that displays a detailed readout of the neurons (validators & miners) on a subnet. 
+The Subnet metagraph is a chart that displays a detailed readout of the neurons (validators & miners) on a subnet.
 
-![](https://files.readme.io/9f435b7f41b30d0a01ca8329dc0f27f30b3cba2a9619cdc3de976d5c93b46761-image.png)
+![](https://files.readme.io/4420f76a226bfaa643b2fa1c6962156db2db5f74cbe869eda0e077318f1fa8d4-image.png)
 
 <br />
 
 # Metagraph key
 
 * **POS**: Position in the chart (not a ranking)
-* **Shield/pickaxe**: 
-  * The shield icon is shown for all validators. 
-  * A pickaxe is shown for miners. Orange miners are in immunity.
+* **Shield/pickaxe**:
+  * The shield icon is shown for all validators.
+  * A pickaxe is shown for miners. Orange miners are in immunity. (Note: new validators might *initially* have a pickaxe until weights are set.)
 * **UID**: Unique ID: A number 0-\{node count -1} that specifies the node the miner/validator is connecting on. Every miner or validator has a UID assigned to their registration.
 * **Stake Weight**: Stake weight is a measurement of the alpha staked on the subnet.  Root stake is weighted at 18% of the tao staked. `Stake Weight = root_stake *0.18 + alpha stake`
   * Orange color: This validator has no parent hotkeys
   * Yellow Color: Validators that are [child hotkeys](#child-hotkeys).
 * **VTrust**: *Validator* Measurement of [Validator](doc:validator) trust.  High Vtrust implies consensus on the weights being set by the validator.
 * **Consensus**: *Miners*: A measurement of the consensus between the validators on the accuracy of the mining results. Adds to 1 for each subnet.
-* **Incentive**: *Miners*: Represents the distribution of miner emissions. The emissions column adds to 1 for all miners. 
+* **Incentive**: *Miners*: Represents the distribution of miner emissions. The emissions column adds to 1 for all miners.
 * **Dividends** *Validators*: Breakdown of emissions per validator. Calculated from the amount of TAO staked and the Vtrust. Adds to 1 for each subnet
 * **Emission**(P): Alpha granted each epoch (1 epoch is 360 blocks and approx 72 minutes). (Note: The metagraph from Bittensor outputs emission in 1 billionth of an alpha  per block. Same data, different units.).
-* **Updated** 
+* **Updated**
   * *Validator*:  The number of blocks since weights were last set. This should be less than 500 for optimum performance, and anything over 1500 triggers an alert.
   * *Miners* This value has no meaning for miners.
 * **Axon**: IP address.
@@ -68,23 +68,21 @@ There is a ton of information here.  Here are a few tricks to read the metagraph
 
 Sort by stake (or rank) descending to display validators at the top of the table.
 
-<Image alt="Subnet 18: 01/29/2024" align="center" src="https://files.readme.io/38e8082-image.png">
-  This chart lists the top 9 validators (by stake).
-</Image>
+<Image align="center" alt="Subnet 18: 01/29/2024" border={false} caption="This chart lists the top 9 validators (by stake)." src="https://files.readme.io/38e8082-image.png" />
 
-.  
+.
 
 Some basic analysis points to help you better understand the data:
 
 * **Mining and validating**: A single UID can run a miner and a validator. (Note: This is not true in all subnets)
   * Position 7 (UID 224) is mining in addition to validation (there are nonzero Trust/Consensus/Incentive values.)
-* **Vtrust vs. Stake**. Validator emissions are defined by the amount staked and the Vtrust determined by the Yuma Consensus. Generally, higher numbers of stake & vtrust correlate directly to higher emission  
-  * **Vtrust effect**Positions 8&9 have nearly identical stake values.  Position 9 has a higher Vtrust (0.94 > 0.92). This leads to higher emissions (0.53 > 0.47.)  
+* **Vtrust vs. Stake**. Validator emissions are defined by the amount staked and the Vtrust determined by the Yuma Consensus. Generally, higher numbers of stake & vtrust correlate directly to higher emission
+  * **Vtrust effect**Positions 8&9 have nearly identical stake values.  Position 9 has a higher Vtrust (0.94 > 0.92). This leads to higher emissions (0.53 > 0.47.)
     * Vtrust is affected by how often weights are set (Updated lists the tao emitted since the last update.). Pe Position 8 has not updated weights on this network for 2657 (vs 298 for position 9), lowering their Vtrust score.
   * **High stake/low Vtrust**:  Position 3 has \~ 40k more tao staked than position 4.  Yet, it has lower Vtrust (0.91 vs 0.97). As a result, position 4 has *slighty* higher dividends and receives more emissions - despite the lower tao stake.
 
 ## Miner View
 
-Sort the metagraph by incentive.  Your goal is to gain as much incentive as possible, as this directly correlates to emission.  (You can sort by emission, but this will also add validators into the mix.)  
+Sort the metagraph by incentive.  Your goal is to gain as much incentive as possible, as this directly correlates to emission.  (You can sort by emission, but this will also add validators into the mix.)
 
 * Set the number of entries to 100.  We now see the bottom 100 nodes for emission (note, validators are here too - as they have 0 emission). Subtract away the validators, and the miners in immunity (gear icon), and the remaining miners are at risk of de-registration, as they have the lowest emission values.
