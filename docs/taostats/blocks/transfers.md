@@ -20,6 +20,6 @@ A table of all transfers of TAO between two wallets.  Listed in reverse chronolo
 * **Amount**: The amount of tao transferred
 * **Time** when the transfer occurred (relative to right now.)
 
-<Image align="center" src="https://files.readme.io/a1e2f48-image.png" />
-
 This chart can be filtered to view all transfers over 100 TAO, 500 TAO, etc. using the buttons at the top.
+
+![](https://files.readme.io/b0d07bee7422d5959c193134899cb44bac69b1b59e3d104e0d82af5e7d8b0f20-image.png)
