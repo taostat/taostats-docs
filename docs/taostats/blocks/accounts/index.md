@@ -12,7 +12,9 @@ next:
 ---
 **[Blockchain -> Accounts](https://x.taostats.io/#accounts)** lands at the blockchain page, and highlights the Accounts table. This table lists all of the accounts on the Bittensor blockchain and is initially sorted by the total tao associated with the coldkey.
 
-![](https://files.readme.io/2106671-image.png)
+![](https://files.readme.io/193cf7ec24ecd3dd0ed46e89f2d801a1ac882b5c6d4ef92de129483e4d2522fd-image.png)
+
+<br />
 
 * **Account**: coldkey for the wallet.
 * **Free**: tao that is not delegated
@@ -39,7 +41,7 @@ We can also see the current breakdown of Delegation (in the screenshot below, st
 
 ![](https://files.readme.io/cba2154-image.png)
 
-A breakdown of Free/delegated/total TAO over time. 
+A breakdown of Free/delegated/total TAO over time.
 
 > 📘 In the chart above, we can see where TAO was unstaked, and then restaked.
 >
