@@ -29,9 +29,9 @@ next:
 
 If a Validator is judged to be out of consensus, their VTrust (validator trust) will decrease. VTrust is a value between 0 and 1, where 0 is terrible, and 1 is perfect.
 
-## Stake
+## [Stake Weight](doc:stake-weight)
 
-The other value in the determination of validator emissions is the stake value.  Validators with higher stake will receive higher emissions.
+The other value in the determination of validator emissions is the stake weight.  Validators with higher stake weight will receive higher emissions.
 
 * **root\_stake**: The amount of tao staked to a validator on root.
 * **tao\_weight** : Defined on chain as 0.18.
