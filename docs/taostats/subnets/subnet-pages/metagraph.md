@@ -27,21 +27,22 @@ The Subnet metagraph is a chart that displays a detailed readout of the neurons 
 * **[Stake Weight](doc:stake-weight)**: Stake weight is a measurement of the alpha staked on the subnet.  Root stake is weighted at 18% of the tao staked.
   * Orange color: This validator has no parent hotkeys (see [Parent/Child Hotkeys](doc:emission-for-parentchild-hotkeys-copy))
   * Yellow Color: Validators that are [child hotkeys](#child-hotkeys).
+    * Child hotkeys have a carat that expands the metagraph to show all of the parent hotkeys and their contribution.
 * **VTrust**: *Validator* Measurement of [Validator](doc:validator) trust.  High Vtrust implies consensus on the weights being set by the validator.
 * **Consensus**: *Miners*: A measurement of the consensus between the validators on the accuracy of the mining results. Adds to 1 for each subnet.
-* **Incentive**: *Miners*: Represents the distribution of miner emissions. The emissions column adds to 1 for all miners.
-* **Dividends** *Validators*: Breakdown of emissions per validator. Calculated from the amount of TAO staked and the Vtrust. Adds to 1 for each subnet
-* **Emission**(P): Alpha granted each epoch (1 epoch is 360 blocks and approx 72 minutes). (Note: The metagraph from Bittensor outputs emission in 1 billionth of an alpha  per block. Same data, different units.).
+* **Incentive**: *Miners*: Represents the distribution of miner emissions. The emissions column adds to 1 for all miners in the subnet.
+* **Dividends** *Validators*: Breakdown of emissions per validator. Calculated from the amount of TAO staked and the Vtrust. Adds to 1 for all validators in a subnet.
+* **Emission**(P): Alpha granted each epoch (1 epoch is 360 blocks/72 minutes). (Note: The metagraph from Bittensor outputs emission in 1 billionth of an alpha  per block. Same data, different units.).
 * **Updated**
   * *Validator*:  The number of blocks since weights were last set. This should be less than 500 for optimum performance, and anything over 1500 triggers an alert.
   * *Miners* This value has no meaning for miners.
 * **Axon**: IP address.
 * **Hotkey**: Hotkey of the neuron.
 * **Coldkey**: Coldkey of the neuron.
-* **Root Stake**: Amount of tao staked on root
-* **Root Weight**: Tao on root \* 18%
-* **Alpha Stake** amount of alpha staked
-* **Daily Alpha**: Daily rewards estimate in alpha.
+* **Root Stake**: Amount of tao staked on root for the neuron (This is a sum of all parent/child hotkeys.)
+* **Root Weight**: Tao on root \* 18% (This is a sum of all parent/child hotkeys.)
+* **Alpha Stake** amount of alpha staked. (This is a sum of all parent/child hotkeys.)
+* **Daily Alpha**: Daily rewards estimate in alpha. (There are 20 epochs a day. This column is emission \*20.)
 
 <br />
 
