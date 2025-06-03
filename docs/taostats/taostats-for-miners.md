@@ -14,8 +14,6 @@ If you are thinking about mining on Bittensor - or you want to improve your mini
 
 <br />
 
-# Choosing where to mine
-
 # Getting started: the data
 
 When looking at your miner's activity in taostats - there are probably a few different ways you want to interact:
