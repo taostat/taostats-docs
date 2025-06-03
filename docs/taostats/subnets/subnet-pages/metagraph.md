@@ -50,9 +50,18 @@ The Subnet metagraph is a chart that displays a detailed readout of the neurons 
 
 If a validator on the subnet is a child hotkey for other validators to parent on, *stake weight* will be yellow and have a carat. On clicking the carat, the stake weight will be broken down by the child and all of the parent hotkeys:
 
-![](https://files.readme.io/9ddb7a892032fdde60912c83101004fe7bc0f48dfad1f8c39d89f9604f9df60a-image.png)
+![](https://files.readme.io/b9a0ea97096e38e8da54a73da61c00129ef90b714c9d5568e3f00f16c3fb7791-image.png)
 
-Opentensor is running the neuron, and is the child hotkey.The parents add stake to the child hotkey, giving the family sum (reported in the main metagraph.)
+On Subnet 75, the validator is Hippius.  It has 7,748 alpha staked.  It has two parents:
+
+* Taostats: 30% of taostats stake is on this validator - this equates to 241k on root, and 56k alpha.  The [Stake Weight](doc:stake-weight) is calculated to 99k alpha
+* tao.bot has 1% of its stake on this validator - 4k on root, and 43 alpha - for a total stake weight of 825.
+
+The total stake weight is the sum of all three validators. In the taostats API, this is called the "family stake" (the sum of the parents and children.)
+
+<br />
+
+<br />
 
 # Reading the metagraph
 
