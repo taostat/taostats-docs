@@ -45,17 +45,17 @@ The ratio of root: alpha staked is calculated using the `root_proportion`.
 
 Root proportion will change every block, as the tao and alpha values will have increased (by 1 and 2 respectively).  The results can be charted over time:
 
-<Image alt="At day 0 there are 9M tao available." align="center" src="https://files.readme.io/9832735cab0abd57e776589bcaf69b38b0d312189b23dc91536d1b8c13014577-Screenshot_2025-02-03_at_22.27.36.jpg">
-  On day 0 there is 6M tao available.
-</Image>
+<Image align="center" alt="At day 0 there are 9M tao available." border={false} caption="On day 0 there is 6M tao available." src="https://files.readme.io/9832735cab0abd57e776589bcaf69b38b0d312189b23dc91536d1b8c13014577-Screenshot_2025-02-03_at_22.27.36.jpg" />
 
-The chart will vary on the amount of tao available at the moment the subnet is created. The above chart shows day 0 = 6 million tao.  
+The chart will vary on the amount of tao available at the moment the subnet is created. The above chart shows day 0 = 6 million tao.
 
 On day 0 of the subnet, 100% of emission will go to root stakeholders.
 
 50% root: 50% alpha is met at approximately day 70 (this is highly variable, and just an estimate).
 
-<br />
+> 📘 Each Subnet has a statistics page showing the Root proportion chart for the subnet.
+>
+> [https://beta.taostats.io/subnets/75/statistics](https://beta.taostats.io/subnets/75/statistics)
 
 In this second chart, the yellow/green subnet is created 100 days after the blue/red subnet (9,720,000 tao, and 0 alpha for the 2nd subnet):
 
