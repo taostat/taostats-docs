@@ -61,8 +61,6 @@ The total stake weight is the sum of all three validators. In the taostats API, 
 
 <br />
 
-<br />
-
 # Reading the metagraph
 
 There is a ton of information here.  Here are a few tricks to read the metagraph:
@@ -85,7 +83,7 @@ Sort by stake (or rank) descending to display validators at the top of the table
 
 Some basic analysis points to help you better understand the data:
 
-* **Mining and validating**: A single UID can run a miner and a validator. (Note: This is not true in all subnets)
+* **Mining and validating**: A single UID can run a miner and a validator. (Note: This pretty rare in modern Bittensor)
   * Position 7 (UID 224) is mining in addition to validation (there are nonzero Trust/Consensus/Incentive values.)
 * **Vtrust vs. Stake**. Validator emissions are defined by the amount staked and the Vtrust determined by the Yuma Consensus. Generally, higher numbers of stake & vtrust correlate directly to higher emission
   * **Vtrust effect**Positions 8&9 have nearly identical stake values.  Position 9 has a higher Vtrust (0.94 > 0.92). This leads to higher emissions (0.53 > 0.47.)
