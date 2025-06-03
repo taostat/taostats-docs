@@ -1,6 +1,6 @@
 ---
-title: Blocks
-excerpt: ''
+title: Blockchain
+excerpt: The section of taostats dedicated to stats of the blockchain.
 deprecated: false
 hidden: false
 metadata:
@@ -12,7 +12,7 @@ next:
 ---
 A chart showing the 10 most recent blocks emmitted from the Bittensor blockchain:
 
-![](https://files.readme.io/daa2221-image.png)
+![](https://files.readme.io/e3b015e22e7edc23f8eb234c021d06713beab4d64845adb799453304992e5816-image.png)
 
 Each block has a:
 
