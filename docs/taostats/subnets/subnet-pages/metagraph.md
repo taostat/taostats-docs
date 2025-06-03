@@ -24,8 +24,8 @@ The Subnet metagraph is a chart that displays a detailed readout of the neurons 
   * A pickaxe is shown for miners. Orange miners are in immunity. (Note: new validators might *initially* have a pickaxe until weights are set.)
 * **UID**: Unique ID: A number 0-\{node count -1} that specifies the node the miner/validator is connecting on. Every miner or validator has a UID assigned to their registration.
 * **Name**: The Hotkey name (if registered on the chain). Otherwise, the hotkey will be shown.
-* \*\* stake\*\*: Stake weight is a measurement of the alpha staked on the subnet.  Root stake is weighted at 18% of the tao staked. `Stake Weight = root_stake *0.18 + alpha stake`
-  * Orange color: This validator has no parent hotkeys
+* **[Stake Weight](doc:stake-weight)**: Stake weight is a measurement of the alpha staked on the subnet.  Root stake is weighted at 18% of the tao staked.
+  * Orange color: This validator has no parent hotkeys (see [Parent/Child Hotkeys](doc:emission-for-parentchild-hotkeys-copy))
   * Yellow Color: Validators that are [child hotkeys](#child-hotkeys).
 * **VTrust**: *Validator* Measurement of [Validator](doc:validator) trust.  High Vtrust implies consensus on the weights being set by the validator.
 * **Consensus**: *Miners*: A measurement of the consensus between the validators on the accuracy of the mining results. Adds to 1 for each subnet.
