@@ -2,7 +2,7 @@
 title: Hotkey view
 excerpt: ''
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
