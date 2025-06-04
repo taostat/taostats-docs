@@ -16,6 +16,10 @@ This chart shows the incentive values for all miners on the subnet.  The lowest 
 
 ![](https://files.readme.io/24685f5-image.png)
 
+Also note that this table can be animated to see how the distribution changes over time.
+
+<br />
+
 # Miner Coldkey Distribution
 
 Each miner has a unique hotkey, but the hotkeys can be controlled by a single coldkey.  This chart displays how many organizations are running multiple miners in the subnet.
