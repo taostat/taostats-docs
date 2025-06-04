@@ -43,7 +43,7 @@ The performance tab gives the validator feedback on how well the validator is pe
 ## Performance Columns:
 
 * **Netuid**: The subnet
-* **Type:**. 
+* **Type:**.
   * Key: Parent hotkey
   * Server: running infra
 * **CK Take**: The child hotkey take of the child hotkey
@@ -76,7 +76,7 @@ The performance tab gives the validator feedback on how well the validator is pe
 * **Dominance**:  Th fraction of emissions controlled by this validator family.
 * **Divs**:  the Dividends received by the family.  With high VTrust, Dominanace and Divs should be similar.
 * **UID** Neuron ID of the Validator in the Metagraph.
-* **Pos**: 
+* **Pos**:
 * **VTrust**: VTRUST of the child validator
 * **Updated**: Number of blocks since weights were last set
 
@@ -85,6 +85,16 @@ The performance tab gives the validator feedback on how well the validator is pe
 A chart showing tao staked over time & the number of nominators
 
 ![](https://files.readme.io/5a09a7bde1ef1f4131346f007eec4572acd59a5d79d5569ab1c7c9e946b37968-image.png)
+
+## Nominator search
+
+a table with the top stakeholders. Sort by Subnet or by account.
+
+![](https://files.readme.io/b5ede3eb6879541aa7f625135856977cbf1488ba042c879f95887e74eb815c5d-image.png)
+
+<br />
+
+<br />
 
 # Rewards
 
