@@ -6,6 +6,6 @@ hidden: false
 metadata:
   robots: index
 ---
-* [Tokenomics](doc:tokenomics)
+* Tokenomics
 * Yield
 * Where to Buy
