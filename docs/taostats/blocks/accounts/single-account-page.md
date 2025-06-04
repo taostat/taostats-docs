@@ -29,7 +29,7 @@ This table shows all alpha stakes with initial sort on % of stake
 ![](https://files.readme.io/6e39332b1ee10d9e73d4b65217205a70765629c3705d609d1b2f79071e7b990f-image.png)
 
 * **Subnet**: The subnet with stake
-* \*\* validator\*\*: Validator that is staked to
+* \*\* Validator\*\*: Validator that is staked to
 * **Chart**: Dropdown opens a chart (see [Alpha chart](#alpha-chart) )
 * **% of stake**: Percentage of stake (converted to tao)
 * **Balance**: Alpha balance
