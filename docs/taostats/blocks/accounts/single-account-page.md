@@ -8,7 +8,7 @@ metadata:
 ---
 # URL Format
 
-The general format for the URL is https\://taostats.io/account/\<wallet address> &#x20;
+The general format for the URL is [https://taostats.io/account/\<wallet](https://taostats.io/account/\<wallet) address>
 
 [example wallet](https://taostats.io/account/5CcH9xVPJY2Nc9Wovft6Lr2qoQzefEEJfqgVhSrXdAx2ixGr)
 
@@ -27,6 +27,24 @@ The top of the page has a wallet summary:
 * **Address**: coldkey and public key
 
 # Alpha Balances
+
+This table shows all alpha stakes with initial sort on % of stake
+
+![](https://files.readme.io/6e39332b1ee10d9e73d4b65217205a70765629c3705d609d1b2f79071e7b990f-image.png)
+
+* **Subnet**: The subnet with stake
+* \*\* validator\*\*: Validator that is staked to
+* **Chart**: Dropdown opens a chart (see [Alpha chart](#Alpha-chart) )
+* **% of stake**: Percentage of stake (converted to tao)
+* **Balance**: Alpha balance
+* **Balance Tao**: Alpha balance converted to tao.
+* **Data**
+
+## Alpha chart
+
+![](https://files.readme.io/478b2cc5a0805a8768d71720592ff05907d78eda18e2e82dde3630cbe5eb9bce-image.png)
+
+<br />
 
 # Alpha Staking Transactions
 
