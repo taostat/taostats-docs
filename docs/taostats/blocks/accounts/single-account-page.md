@@ -57,8 +57,24 @@ This table can be sorted by Subnet, Type, and Amount
   * Transfer in/out are changes in validator or Subnet of alpha.
 * **Subnet**: The alpha purchased/sold
 * **Delegate**: The validator staked to.
-* <br />
+* **Alpha**: The amount in alpha
+* **Tao**: the amount in tao.
+* **Tao Price** the price of the alpha (in Tao) at the time of transaction.
+* **TXN** a link to the Extrinsic of the transaction.
 
-# Tao Transactions
+# Transfers: Tao Transactions
+
+This table lists all transactions of tao in and out of the wallet
+
+![](https://files.readme.io/677f8f9648417dc45691f5cb0258fb303c2c22ed1860d7491905b7a95856af83-image.png)
+
+* **Arrow**: Green indicates "tao coming in", red indicates "tao going out"
+* **Extrinsic**: the chain extrinsic for the transaction. Clicking opens the extrinsic
+* **From**: Coldkey sending tao
+* **To**: Coldkey receiving tao
+* **Amount**: tao sent
+* **Time**: When the transaction occurred. Mouseover for GMT date/time
+
+<br />
 
 # Extrinsics
