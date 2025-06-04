@@ -10,4 +10,3 @@ metadata:
 * Stake
 * Transfer
 * API Keys
-* <br />
