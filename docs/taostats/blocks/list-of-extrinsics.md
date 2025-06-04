@@ -1,5 +1,5 @@
 ---
-title: List of Extrinsics
+title: Extrinsics
 excerpt: ''
 deprecated: false
 hidden: false
