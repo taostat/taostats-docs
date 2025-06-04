@@ -8,12 +8,44 @@ hidden: false
 metadata:
   robots: index
 ---
-# Adding wallets to the portfolio
+When a wallet is selected, data begins to appear:
 
-![](https://files.readme.io/fdc9a69e346733a22a75fd8d9767ec08c3a8064d07a691263efa72a6636ba56f-image.png)
+![](https://files.readme.io/76bc6f70887b093c60ae86b6f0ed40cd55af44e316b7844c572130dc11609d5f-image.png)
 
-The search box at the top allows you to search any wallet.  Once loaded, click "Add Account" to save this wallet with a name.  In the screenshot above there are 6 wallets saved.
+# changing the data
 
-Clicking the arrow carat displays the list of saved wallets. Clicking loads that wallet's details
+The current view is 1 Month - in tao.
 
-![](https://files.readme.io/a6065664a318f02ede9c1dc8adc6832f51d7e2a3f7ef0de8df287fccbb7d4e76-image.png)
+The timeframes available are 1D, 1W, 1M and 1Y.  The values can be shown in Tao of USD.
+
+![](https://files.readme.io/531e4f34b0200c6a8512dd0c61a7b97801ec079d4f808515d655f7ae9f97080c-image.png)
+
+<br />
+
+# Balance
+
+Wallet balance in tao and USD
+
+![](https://files.readme.io/b62d02bff31d896cf12ddba6a9f4e6a5f2c5d6633353380e4e65dc3c61e60621-image.png)
+
+<br />
+
+# Earnings
+
+The values here depend on the timeframe selected.  This screenshow shows a 5% growth, and 64% APY if extrapolated for a year.
+
+![](https://files.readme.io/8074c75ed4b0ee08f4421ad407d1e63e8b28d67fb5e12aab9295de7d63e986b9-image.png)
+
+# Chart
+
+![](https://files.readme.io/6d08ef5ed95e256b0abc3d9622a903ac9005a6eae5ac2d85844e4a6d2cd11ee5-image.png)
+
+<br />
+
+Red is USD value
+
+Teal is tao value.
+
+# Holdings
+
+![](https://files.readme.io/f1c71e1b4eda3ac33fdffdd14f8932af4a96421c943695a9b4a2ddb0c5495679-image.png)
