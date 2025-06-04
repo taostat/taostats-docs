@@ -42,9 +42,12 @@ This table shows all alpha stakes with initial sort on % of stake
 
 ## Alpha chart
 
+For each stake held, there is a chart with a carat.  Clicking opens a drawer in the table.
+
 ![](https://files.readme.io/478b2cc5a0805a8768d71720592ff05907d78eda18e2e82dde3630cbe5eb9bce-image.png)
 
-<br />
+* 24 hour change in alpha and tao
+* Chart of historical stake - showing both value in tao (red) and value in alpha (teal)
 
 # Alpha Staking Transactions
 
