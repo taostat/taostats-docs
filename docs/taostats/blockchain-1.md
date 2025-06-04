@@ -2,7 +2,7 @@
 title: Blockchain
 excerpt: Details on the Bittensor Blockchain
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
