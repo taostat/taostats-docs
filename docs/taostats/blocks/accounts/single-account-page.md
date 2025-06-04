@@ -8,11 +8,7 @@ metadata:
 ---
 # URL Format
 
-The general format for the URL is [https://taostats.io/account/\<wallet](https://taostats.io/account/\<wallet) address>
-
-[example wallet](https://taostats.io/account/5CcH9xVPJY2Nc9Wovft6Lr2qoQzefEEJfqgVhSrXdAx2ixGr)
-
-<br />
+The general format for the URL is [https://taostats.io/account/\<wallet](https://taostats.io/account/\<wallet) address.  [example wallet](https://taostats.io/account/5CcH9xVPJY2Nc9Wovft6Lr2qoQzefEEJfqgVhSrXdAx2ixGr)
 
 # Summary
 
