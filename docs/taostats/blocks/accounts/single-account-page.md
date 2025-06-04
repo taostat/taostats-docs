@@ -47,6 +47,18 @@ For each stake held, there is a chart with a carat.  Clicking opens a drawer in 
 
 # Alpha Staking Transactions
 
+![](https://files.readme.io/f86d56ccbcc4ee2582a72b87059de5b501d87356564cbe84c873712a79f6ebc8-image.png)
+
+This table can be sorted by Subnet, Type, and Amount
+
+* **Time**: when the transaction took place (mouseover for exact time in GMT)
+* **Action**: Buy, Sell, Transfer In, Transfer Out.
+  * Buy and sell are transfers of tao and alpha
+  * Transfer in/out are changes in validator or Subnet of alpha.
+* **Subnet**: The alpha purchased/sold
+* **Delegate**: The validator staked to.
+* <br />
+
 # Tao Transactions
 
 # Extrinsics
