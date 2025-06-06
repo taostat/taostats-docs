@@ -9,3 +9,5 @@ metadata:
 [Taostats Staking App](doc:taostats-staking-app)
 
 [Switch Validators](doc:taostats-transfer-app)
+
+[Staking Instructions](doc:staking-instructions)
