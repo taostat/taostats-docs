@@ -12,7 +12,7 @@ When a wallet is selected, data begins to appear:
 
 ![](https://files.readme.io/76bc6f70887b093c60ae86b6f0ed40cd55af44e316b7844c572130dc11609d5f-image.png)
 
-# changing the data
+# Changing the timeframe
 
 The current view is 1 Month - in tao.
 
@@ -40,12 +40,30 @@ The values here depend on the timeframe selected.  This screenshow shows a 5% gr
 
 ![](https://files.readme.io/6d08ef5ed95e256b0abc3d9622a903ac9005a6eae5ac2d85844e4a6d2cd11ee5-image.png)
 
-<br />
+See how your portfolio has changed over time.
 
-Red is USD value
-
-Teal is tao value.
+Red is USD value, and teal is tao value.
 
 # Holdings
 
 ![](https://files.readme.io/f1c71e1b4eda3ac33fdffdd14f8932af4a96421c943695a9b4a2ddb0c5495679-image.png)
+
+The holdings chart shows what alpha you hold.
+
+* Holding: The subnet
+* Validator: The validator you are staked to.
+* % of Stake: Percentage of your stake on this vali/subnet combo.
+* α Balance:  Balance in alpha
+* τ Balance: Balance in tao.
+* α Earnings:  Earnings in alpha over the selected timeframe
+* τ Earnings:  Earnings in tao over the selected timeframe
+* % Earnings:  Percentage chane over timeframe
+* EST APY: Actual Earnings over the timeframe - extrapolated to one year.
+
+> 📘 Why is the % and APY grayed out?
+>
+> If you have purchased or sold alpha in the timeframe - we cannot calculate your actual earnings over that period. Try a shorter period, or wait until it has been a day/week, and your actual earnings will appear.
+
+* Buy: But more of this alpha
+* Sell: Sell this alpha
+* Data:  Dig deeper
