@@ -67,3 +67,11 @@ The holdings chart shows what alpha you hold.
 * Buy: But more of this alpha
 * Sell: Sell this alpha
 * Data:  Dig deeper
+
+# Transactions
+
+![](https://files.readme.io/642295d7de849d412f8ba284bddb13d929cccf18adc924131c5855da6126982d-image.png)
+
+<br />
+
+This table is simlar to [Staking Transactions](doc:delegation), but just for your wallet.
