@@ -60,7 +60,7 @@ Staking to alpha *does* incur risk: a drop in alpha token price will result in a
 > * Staking: All staking actions will incur a 50,000 rao (0.00005 tao) fee.
 > * Unstaking:
 >   * Unstaking from root is set at 50,000 rao
->   * Alpha unskating: The minimum fee is 50,000 rao (0.00005 tao).
+>   * Alpha unstaking: The minimum fee is 50,000 rao (0.00005 tao).
 >     * The max is a percentage of your alpha emission:
 >     * AlphaEmission\_epoch: the amount your coldkey earns in 360 blocks
 >     * alpha\_unstaked/alpha\_staked = this is the % of alpha that you unstake.,
