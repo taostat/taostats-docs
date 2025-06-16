@@ -45,6 +45,12 @@ Here are some ideas for you to think about:
 
 <br />
 
+# Subnet Identity
+
+Your Subnet's name, Discord, GitHub Repo and website.  Update these on the chain using btcli `btcli s get-identity`.  you will be prompted to add all of the fields, and then the values stored on chain. Taostats will update on the next epoch with your new values.
+
+<br />
+
 # Running a Validator
 
 All Subnet owners have a neuron that cannot be deregistered.  This is intended to be run as a validator:
