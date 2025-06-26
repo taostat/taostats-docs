@@ -30,7 +30,11 @@ In the screenshot above, the value of alpha and tao in the pools are equal, but 
 
 ## Alpha Price
 
-The Subnet pool determines the alpha price
+The Subnet pool determines the alpha price:
+
+Note: that for subnets with uniswapv3 enabled, the alpha price is stored as the square root of alpha price. This is done to preserve accuracy on [Uniswap V3](doc:uniswap-v3) calculations.
+
+<br />
 
 <Image align="center" width="50% " src="https://files.readme.io/d8bf29448d71b415d59c472a882819ef507178fbc4c005550ba647dd33f25e76-image.png" />
 
