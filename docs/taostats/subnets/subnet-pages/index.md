@@ -22,10 +22,10 @@ In the upper left, find a description and links to external sites for the subnet
 * [Subnet Data](#subnet-data)
 * [Subnet Trading View Chart](doc:subnet-trading-view-chart)
 * [Metagraph](doc:metagraph)
-* Hyperparameters
-* Registration
-* Distribution
-* Miner Weights
+* [Hyperparameters](doc:subnet-hyperparameters)
+* [Subnet Registration Charts](doc:registration)
+* [Distribution](doc:distribution)
+* [Miner Weights](doc:miner-weights)
 * Emission
 * <br />
 
