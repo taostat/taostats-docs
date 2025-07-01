@@ -15,7 +15,11 @@ The [Taostats Staking App](https://dash.taostats.io/stake) is part of the taosta
 * ## [Simple](#simple-1)
 * ## [Manual](#manual-1)
 * ## [Balance](#balance-1)
-  > 📘 [Connect your wallet](doc:connecting-your-wallet) to ensure you can stake
+* ## [Automate](https://docs.taostats.io/docs/taostats-staking-app#automate)
+
+<br />
+
+> 📘 [Connect your wallet](doc:connecting-your-wallet) to ensure you can stake
 
 # Simple
 
@@ -120,5 +124,9 @@ Once the change has been made, the final fee can be seen in the Extrinsic:
 ![](https://files.readme.io/c72e861a99dc4061f1a2b53515a7011a9132c0af2defac57174eefcc97c729ba-image.png)
 
 > 📘 These are chain fees. Taostats does not charge for staking or unstaking.
+
+# Automate
+
+The [automate](https://dash.taostats.io/stake/mentat)  option at Taostats allows you to stake your tao
 
 # [Stake troubleshooting](doc:stake-troubleshooting)
