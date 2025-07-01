@@ -133,4 +133,8 @@ When you stake with Mentant Minds, you are giving them proxy access to your wall
 
 Mentant offers a number of [delegation options](https://mentatminds.com/delegate/)  around groups of subnets.
 
+![](https://files.readme.io/7c76bb2125164f51747cc46174d163272ebe6e9b6bf333feca6f47d0eeb33f4f-image.png)
+
+<br />
+
 # [Stake troubleshooting](doc:stake-troubleshooting)
