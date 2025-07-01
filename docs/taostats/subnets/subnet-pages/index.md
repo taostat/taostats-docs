@@ -19,7 +19,7 @@ In the upper left, find a description and links to external sites for the subnet
 * [Price](#price)
 * [Financial Data](#financial-data)
 * [Staking Data](#staking-data)
-* [Staking](doc:staking-in-dtao)
+* [Staking: Taostats Subnet page](doc:staking-taostats-subnet-page)
 * [Subnet Data](#subnet-data)
 * [Subnet Trading View Chart](doc:subnet-trading-view-chart)
 * [Metagraph](doc:metagraph)
