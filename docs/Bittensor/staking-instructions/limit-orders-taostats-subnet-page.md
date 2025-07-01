@@ -23,3 +23,25 @@ You must provide Taostats with access to buy and sell subnet tokens on your beha
 Note that granting access has a fee that is locked on chain while taostats has proxy access:
 
 <Image align="center" width="75% " src="https://files.readme.io/7988bb03b165ed881c020319a693f60972d5a662e77512c0fcf0beef73b466fd-image.png" />
+
+<br />
+
+# LImit Orders
+
+![](https://files.readme.io/1ebec4f9c922bbd66a3e82867704aad7bdecd2063910ccb53c36fe04ff0ce309-image.png)
+
+The limit Order UI is very similar to the buy/sell menu.  Choose:
+
+* Validator
+* Buy or sell price
+* Amount of tao/alpha to buy/sell
+* [Slippage](doc:slippage)
+
+Once you set the order, your order will appear in the tables below:
+
+* Order Book
+* Pending Orders
+* My Completed Orders
+* My Failed Orders.
+
+There is a button to `Remove Taostats Access` to cancel and stop all Limit orders.  Taostats will no longer have proxy access.
