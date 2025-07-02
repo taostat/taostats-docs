@@ -74,7 +74,53 @@ Parameters are all identical to those in the API
   * getTransfers
   * getOnChainIdentity
 * client.chain - Blockchain data including blocks, extrinsics, events, and network statistics
+  * getBlocks
+  * getBlockNumbersByInterval
+  * getExtrinsics
+  * getEvents
+  * getChainCalls
+  * getLatestStats
+  * getStatsHistory
+  * getRuntimeVersion
+  * getRuntimeVersionHistory
+  * getProxyCalls
 * client.subnets - Subnet data, registration, pricing, and comprehensive analytics
+  * getSubnets
+  * getHistoricalSubnetPricesSum
+  * getLatestSubnetPricesSum
+  * getSubnetRegistrations
+  * getSubnetRegistrationCostHistory
+  * getCurrentSubnetRegistrationCost
+  * getSubnetOwner
+  * getSubnetIdentity
+  * getSubnetEmission
+  * getSubnetsPoolsHistory
+  * getCurrentSubnetPools
+  * getSubnetHistory
 * client.metagraph - Metagraph data including miner incentive distributions
+  * getMinerIncentiveDistributionBySubnet
+  * getSubnetAxonIpDistribution
+  * getSubnetColdkeyDistribution
+  * getLatestMinerWeight
+  * getMinerWeightHistory
+  * getNeuronDeregistrations
+  * getNeuronRegistrations
+  * getRootSubnetHistory
+  * getRootSubnet
+  * getHistory
+  * getLatest
 * client.live - Real-time blockchain data and live network information
+  * getFreeTaoBalance
+  * getLatestBlockExtrinsics
+  * getExtrinsicsForBlockRange
+  * getExtrinsicsForSpecificBlock
+  * getRawExtrinsicsForSpecificBlock
+  * getNodeTransactionPool
+  * getNodeVersion
+  * getPalletByConstants
+  * getPalletEvents
 * client.evm - EVM-related operations and data
+  * getEVMTransactions
+  * getEVMBlocks
+  * getEVMContracts
+  * getEVMLogs
