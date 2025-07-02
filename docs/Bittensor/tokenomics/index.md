@@ -23,3 +23,16 @@ next:
 [Recycling](doc:recycling): The purchase of a subnet or subnet neurons results in tao/alpah being recycled,
 
 [Staking](doc:staking-in-dtao): Buy and sell alpha in each subnet. Or for a safer option, stake into the root subnet.
+
+<br />
+
+## Definitions:
+
+* \*\* Max Supply\*\*: total number of tokens that will be issued.  For all Subnets and for Tao,this is 21 million.
+* **Total Supply**: Max Supply - burned.  WE can never pass total supply, as the remaiuning tokens are burned.
+* **Burned**: Tokens that have been removed from circulation. A burn cannot be reversed - the token is eliminated.
+* **Recycled**: Tokens that have been removed from circulation. These tokens can be issued again.
+* **Circulating Supply**: Token that can be bought or sold.
+  * For Subnets, this is a sum of alpha in the liquidity pool + all alpha that is staked.
+  * For tao - this is all free tao and all staked tao.
+* **Total Issuance**: Total of all tokens issued.  This is circulating supply + all token that is burned.
