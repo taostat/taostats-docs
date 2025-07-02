@@ -4,7 +4,7 @@ excerpt: >-
   Are you a TypeScript developer using our APIs?  Our SDK might slimplify
   things!
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
