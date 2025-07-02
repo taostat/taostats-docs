@@ -49,3 +49,32 @@ RPC_URL="wss://your_custom_url" #Optional
 * **RPC\_URL**: Change to run your code in testnet, or in a private node.
 
 # Usage
+
+## API Modules (current as of July 2, 2025)
+
+Parameters are all identical to those in the API
+
+<br />
+
+* client.taoPrices - TAO price and market data endpoints
+  * getTaoPrice
+  * getTaoPriceHistory
+  * getTaoPriceOHLC
+* client.tradingView - TradingView UDF history data for subnets
+  * getTradingViewHistory
+* client.delegations - Delegation/staking data, slippage calculations, and stake balances
+  * getSlippage
+  * getDelegationEvents
+  * getStakeBalanceSumInTao
+  * getdTaoStakeBalance
+  * getdTaoHistoricalStakeBalance
+* client.accounts - Account information, balances, and transactions
+  * getAccount
+  * getAccountHistory
+  * getTransfers
+  * getOnChainIdentity
+* client.chain - Blockchain data including blocks, extrinsics, events, and network statistics
+* client.subnets - Subnet data, registration, pricing, and comprehensive analytics
+* client.metagraph - Metagraph data including miner incentive distributions
+* client.live - Real-time blockchain data and live network information
+* client.evm - EVM-related operations and data
