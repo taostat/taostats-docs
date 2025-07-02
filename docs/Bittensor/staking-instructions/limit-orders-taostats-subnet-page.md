@@ -28,14 +28,32 @@ Note that granting access has a fee that is locked on chain while taostats has p
 
 # LImit Orders
 
-![](https://files.readme.io/1ebec4f9c922bbd66a3e82867704aad7bdecd2063910ccb53c36fe04ff0ce309-image.png)
-
 The limit Order UI is very similar to the buy/sell menu.  Choose:
+
+![](https://files.readme.io/45c86c9de129dca331bee5e8e3b39f695a7e7d82b0559f325fb244e33d9e10e6-image.png)
 
 * Validator
 * Buy or sell price
 * Amount of tao/alpha to buy/sell
-* [Slippage](doc:slippage)
+* MEV Tolerance: [Slippage](doc:slippage)
+
+Add in your values
+
+## Fee
+
+![](https://files.readme.io/ba9229f7165f1303e648497f430513c0e8965420fc0c38f3a8adee8e2df00757-image.png)
+
+Once you insert your limit order, you will see an estimated fee. This is a fee to pay taostats to hndle chain fees and running the proxy.
+
+Add your balance for all limit order fees.  This will be paid to taostats to handle all your future limit orders.
+
+![](https://files.readme.io/19a5b8a8800ab660dba156f822204dd69227cc90e89ef16acc9cb23f57156c47-image.png)
+
+Taostats tracks the fees you have paid and how much fee balance you have left.
+
+![](https://files.readme.io/51d08a90a405a971fdac89207f7437d4b86f0e0656ee5ab534bfb82f4b8a10ae-image.png)
+
+<br />
 
 Once you set the order, your order will appear in the tables below:
 
