@@ -1,5 +1,5 @@
 ---
-title: Uniswap Liquidity
+title: Uniswap Subnet Pool Liquidity
 excerpt: Uniswap V3 is a way to add liquidity to alpha subnet pools.
 deprecated: false
 hidden: false
