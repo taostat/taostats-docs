@@ -42,3 +42,9 @@ Too add Liquidity to a subnet,
    ![](https://files.readme.io/ffa25ec6d2a8e0e9aef4431a227af220c81a36b14e90328db0be8f1adfaa9026-image.png)
 
    Deposit tokens.  If you are below the current price, you will only fund tao.  If you are bove the price, you will fuind alpha.  If the current price is in range, you will find tao & alpha.
+4. Once set, all of your positions will be displayed in the tables below
+5. ![](https://files.readme.io/1b5e4231a0207fdac28d59b1bfbaa86a2fd44d8a3f7b0435cc0934a600905604-image.png)
+
+   ![](https://files.readme.io/eb116dc7d127a47ee054cf21be5249c3283df1fe3f2b039895ae70ef1e91cce6-image.png)
+
+   <br />
