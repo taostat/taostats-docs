@@ -36,15 +36,18 @@ Too add Liquidity to a subnet,
 
 ![](https://files.readme.io/bd419a46775f87657315db8ec45d03b0b2cb8e37d8a83daa2f35bbe24ff2a0c7-image.png)
 
-2. Set the price range that you would like to set for liquidity. The full range of prices is 0-infinity.  You can set a custom range as well:
+2. Set the price range that you would like to set for liquidity. The full range of prices is 0-infinity.  You can set a custom range as well.  Note that the value may change slightly, asthe min & max prices must match a `tick` boundary.  Ticks are very small, so the difference is unlikely to make a large change.
 3. ![](https://files.readme.io/bcfc4bea81c775a4b4d8a6a6f4fc1a6498272e8be31a8063add5fe09dbf97f22-image.png)
 
-   ![](https://files.readme.io/ffa25ec6d2a8e0e9aef4431a227af220c81a36b14e90328db0be8f1adfaa9026-image.png)
-
    Deposit tokens.  If you are below the current price, you will only fund tao.  If you are bove the price, you will fuind alpha.  If the current price is in range, you will find tao & alpha.
+
+   ![](https://files.readme.io/d213505e380805b2a344b365177cf67fb2c335da4c1e181583cc1287b9d3e745-image.png)
+
+<br />
+
 4. Once set, all of your positions will be displayed in the tables below
 5. ![](https://files.readme.io/1b5e4231a0207fdac28d59b1bfbaa86a2fd44d8a3f7b0435cc0934a600905604-image.png)
 
-   ![](https://files.readme.io/eb116dc7d127a47ee054cf21be5249c3283df1fe3f2b039895ae70ef1e91cce6-image.png)
+   ![](https://files.readme.io/e4e23a5cada9d14b3440662b144a35e0f4ac4c99483c79f96c4946ad98010f62-image.png)
 
-   <br />
+   Once set, your positions will be used to buy and sell tao/alpha
