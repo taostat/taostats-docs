@@ -26,7 +26,7 @@ Note that granting access has a fee that is locked on chain while taostats has p
 
 <br />
 
-# LImit Orders
+# Limit Orders
 
 The limit Order UI is very similar to the buy/sell menu.  Choose:
 
@@ -43,7 +43,7 @@ Add in your values
 
 ![](https://files.readme.io/ba9229f7165f1303e648497f430513c0e8965420fc0c38f3a8adee8e2df00757-image.png)
 
-Once you insert your limit order, you will see an estimated fee. This is a fee to pay taostats to hndle chain fees and running the proxy.
+Once you insert your limit order, you will see an estimated fee. This is a fee to pay taostats to handle chain fees and running the proxy.
 
 Add your balance for all limit order fees.  This will be paid to taostats to handle all your future limit orders.
 
