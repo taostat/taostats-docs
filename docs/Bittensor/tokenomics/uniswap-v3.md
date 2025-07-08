@@ -20,6 +20,10 @@ No, Subnets can either use UniswapV3, or run on the existing Uniswapv2-like pool
 
 <br />
 
+# subnet owners
+
+To turn on user liquidity, Subnet owners must turn the `Enabled User Liquidity` hyperparameter to `true`.
+
 # Adding Liquidity
 
 When a subnet has uniswapv3 active, holders of alpha and tao can add liquidity to the Subnet pool.  When adding liquidity, the user specifies a price range where they would like to support transactions on the pool.  In Uniswap, ranges are defined by `ticks`. Ticks define  a range of price where liquidity can be added.  Generally, you will be adding liquidity over a range of mant ticks (the price range in each tick is small.)
