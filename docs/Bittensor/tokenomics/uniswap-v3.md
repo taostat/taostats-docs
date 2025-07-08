@@ -20,7 +20,7 @@ No, Subnets can either use UniswapV3, or run on the existing Uniswapv2-like pool
 
 <br />
 
-# subnet owners
+## Enabling Uniswap liquidity
 
 To turn on user liquidity, Subnet owners must turn the `Enabled User Liquidity` hyperparameter to `true`.
 
