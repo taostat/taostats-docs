@@ -28,7 +28,7 @@ When 10,500,000 tokens are issued, the block reward will drop by 50%. Tao and al
 > The halving date cannot be accurately predicted, as recycling causes tao to be taken out of circulation.
 >
 > 1/14/25 data:\
-> Assuming no recycle: Haling will be December 4, 2025.
+> Assuming no recycle: Halving will be December 4, 2025.
 >
 > Based on last 30 days of registration recycle fees: between December 11 - 21, 2025
 
@@ -57,8 +57,6 @@ When 10,500,000 tokens are issued, the block reward will drop by 50%. Tao and al
 > 📘 The tao halving will affect the timing for alpha halvings.
 >
 > Recall that alpha into the pool is based on the amount of tao entering the pool.  When tao halves, the amount of tao entering each pool will halve - and so will the alpha injected into the pool.
->
->
 >
 > The tao halving is shown by the yellow line. At this time, alpha\_in decreases- changing the slope of the emission line.
 >
