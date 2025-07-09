@@ -55,3 +55,23 @@ Too add Liquidity to a subnet,
    ![](https://files.readme.io/e4e23a5cada9d14b3440662b144a35e0f4ac4c99483c79f96c4946ad98010f62-image.png)
 
    Once set, your positions will be used to buy and sell tao/alpha
+
+![](https://files.readme.io/ed78a9be4abc0f953a16e8ae455db69829e6c0615ca6325a3f94556e44b83d04-image.png)
+
+See all the positions by Clicking All Positions.
+
+<br />
+
+# What do you earn?
+
+Every time a trade is made when the price is inisde your price window, you will receive a fraction of the staking fee (in tao) or the unstaking fee (in alpha).
+
+There is no way on chain to determine your earnings while your position is open.
+
+One position close, the swap.`remove_liquidity`  extrnisic is run.  This will close out the position.  The LIquidity Removed event will show the alpha and tao placed back into your wallet.  You  earn the `FeeAlpha` and `FeeTao` (shown in rao).
+
+![](https://files.readme.io/bce7ffc6f3dca336323a1288f61fb0ce8decb8ffc4d18c122c5f814766a9c061-image.png)
+
+<br />
+
+As the price changes, the liquidity provided will shif.  If the price goes up, your alpha will be used, and tao will be added to your liquidity. As the price goes dow, your tao will be sold, and alpha will increase.
