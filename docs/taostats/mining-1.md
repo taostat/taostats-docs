@@ -37,3 +37,13 @@ Once a miner coldkey is added, basic statistics appear:
   * **Immune**: current count (and total count over the period) of immune miners.
   * **Danger**: Danger Zone are miners close to being deregistered
   * **Dereg**: Count of miners dereged.
+
+# Coldkey Table
+
+The coldkey table has one row for each subnet that each saved coldkey has active miners on.
+
+In this screenshot, we see just one coldkey, with active mining on 6 subnets:
+
+![](https://files.readme.io/779d5be403b2b5190be65e50d753798e9cd222ea027b467825e1b522bb47f4ce-image.png)
+
+Selecting a coldkey (or multiple coldkeys on a single subnet) will provide a total:
