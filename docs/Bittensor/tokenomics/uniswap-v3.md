@@ -14,6 +14,17 @@ Every Subnet has a [Subnet Pool](doc:subnet-pools) that is used to exchage tao f
 
 UniswapV3 allows investors to add additional liquidity into subnet pools. When their liquidity is used in staking/unstaking transactions, investores receive a portion of the staking fees paid.
 
+> 📘 TL;dr
+>
+> Doug's thoughts on liquidity positions
+>
+> * You add tao/alpha into your liquidity position.  It's kind of like a limit order.  You set the range where you are happy to trade tao-> alpha (or alpha-> tao - both will happen). If you don't want to trade at a certain price - don't put it in your position  :thinking:
+> * As the price changes (and it is inside your liquidity position), your tao/alpha ratios will change. As the price goes up, your alpha converts to tao, as the price goes down, your tao converts to alpha).
+> * You get some of the fees every time there is a stake.
+> * If the price goes out of the range you defined - your position will be 100% alpha (low price) or 100% tao (high price).  You'll no longer get fees. Your tao/alpha are not staked, so you are no longer earning.
+> * If price is lower that your LP - you hold all alpha, and the price is dropping.. That could be bad.
+> * If price is higher- you hold all tao, and none of that sweet sweet alpha that is appreciating. that could also be bad.
+
 # Is Uniswap liquidity required?
 
 No, Subnets can either use UniswapV3, or run on the existing Uniswapv2-like pools.  If the subnet is not on uniswapv3, there is no way to add liquidity into the pool outside of staking and emissions.
