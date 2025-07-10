@@ -44,7 +44,7 @@ The coldkey table has one row for each subnet that each saved coldkey has active
 
 In this screenshot, we see just one coldkey, with active mining on 6 subnets:
 
-![](https://files.readme.io/779d5be403b2b5190be65e50d753798e9cd222ea027b467825e1b522bb47f4ce-image.png)
+<Image align="center" border={false} caption="In this screenshot - the coldkey has many miners in many subnets, but is only actually earning alpha in SN 24." src="https://files.readme.io/779d5be403b2b5190be65e50d753798e9cd222ea027b467825e1b522bb47f4ce-image.png" />
 
 Selecting a coldkey (or multiple coldkeys on a single subnet) will provide a total:
 
