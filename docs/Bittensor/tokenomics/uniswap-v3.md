@@ -6,8 +6,6 @@ hidden: false
 metadata:
   robots: index
 ---
-In summer 2025, uniswapV3 features will be added to Bittensor.
-
 # Introduction
 
 Every Subnet has a [Subnet Pool](doc:subnet-pools) that is used to exchage tao for the subnet alpha.  Prior to uniswapv3, all liquidity was added by token emission (each block, tao\_in from the % of tao distributed to the subnet and an equal value of alpha\_in.). Staking would add tao and reduce alpha, while unstaking would inxrease alpha and remove tao.
