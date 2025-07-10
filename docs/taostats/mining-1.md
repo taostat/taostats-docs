@@ -48,19 +48,19 @@ In this screenshot, we see just one coldkey, with active mining on 6 subnets:
 
 Selecting a coldkey (or multiple coldkeys on a single subnet) will provide a total:
 
-* Coldkey
-* Subnet
+* Coldkey: list of saved coldkeys
+* Subnet: subnets that the coldkeys are active on
 * Coldkey Balance:
-  * Mining Alpha
-  * Other ALpha
-  * Free Tao
-  * Total Tao
-* Earnings/\<time>
-  * Combined
-  * Av per hotkey
+  * Mining Alpha: Alpha on hotkeys from mining
+  * Other Alpha: Alpha on hotkeys from staking
+  * Free Tao: free tao on the coldkey
+  * Total Tao: total (alpha + tao)
+* Earnings \<time>
+  * Combined: sum across all hotkeys
+  * Av per hotkey: Average hotkey earning
 * Hotkey Slots
-  * Total
-  * Immune
-  * Danger
-  * Dereg
-  * <br />
+  * Total: Count of hotkeys active in timeframe
+  * Immune: number immune
+  * Danger: number in danger
+  * Dereg: number deregistered
+  <br />
