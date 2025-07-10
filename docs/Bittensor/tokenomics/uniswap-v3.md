@@ -14,7 +14,7 @@ Every Subnet has a [Subnet Pool](doc:subnet-pools) that is used to exchage tao f
 
 UniswapV3 allows investors to add additional liquidity into subnet pools. When their liquidity is used in staking/unstaking transactions, investores receive a portion of the staking fees paid.
 
-> 📘 TL;dr
+> 📘 Liquidity Positions TL;dr
 >
 > Doug's thoughts on liquidity positions
 >
