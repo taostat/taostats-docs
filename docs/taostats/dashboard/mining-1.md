@@ -63,4 +63,7 @@ Selecting a coldkey (or multiple coldkeys on a single subnet) will provide a tot
   * Immune: number immune
   * Danger: number in danger
   * Dereg: number deregistered
-  <br />
+
+# Hotkey Table
+
+Choosing a coldkey
