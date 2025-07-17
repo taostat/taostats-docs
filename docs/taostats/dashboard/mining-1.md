@@ -66,4 +66,6 @@ Selecting a coldkey (or multiple coldkeys on a single subnet) will provide a tot
 
 # Hotkey Table
 
-Choosing a coldkey
+Choosing a coldkey/subnet combination in the coldkey table will display all of the active hotkeys in the period.
+
+![](https://files.readme.io/715ceb192868b570425c4d34197344dedbe659239461bfbdb50ed650b8629311-image.png)
