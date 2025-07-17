@@ -83,4 +83,4 @@ One position close, the swap.`remove_liquidity`  extrnisic is run.  This will cl
 
 <br />
 
-As the price changes, the liquidity provided will shif.  If the price goes up, your alpha will be used, and tao will be added to your liquidity. As the price goes dow, your tao will be sold, and alpha will increase.
+As the price changes, the liquidity provided will shift.  If the price goes up, your alpha will be used, and tao will be added to your liquidity. As the price goes dow, your tao will be sold, and alpha will increase.
