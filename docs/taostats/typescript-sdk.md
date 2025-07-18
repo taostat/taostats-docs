@@ -14,16 +14,16 @@ IN addition to making calls to Taostats, you can do any transaction on the chain
 
 # Installation
 
-The Taostats [TypeScript SDK](https://github.com/taostat/taostats-sdk) is available on GitHub.  The latest installation instructions can be found there.
+The Taostats [TypeScript SDK](https://github.com/taostat/ts-sdk) is available on GitHub.  The latest installation instructions can be found there.
 
 Requirements: Node.js v 22.3.0 or higher
 
 ```shell
-npm install taostats-sdk
+npm install @taostats/sdk
 # or
-yarn add taostats-sdk
+yarn add @taostats/sdk
 # or
-pnpm add taostats-sdk
+pnpm add @taostats/sdk
 ```
 
 <br />
