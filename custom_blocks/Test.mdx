@@ -1,16 +1,47 @@
 ---
-name: Test
+name: PriceCalculator
 ---
-export const ExampleComponent = props => {
+import React, { useState } from 'react';
+
+export const ExampleComponent = () => {
+    const [alphaIn, setAlphaIn] = useState('');
+    const [taoIn, setTaoIn] = useState('');
+  	const [price, setPrice] = useState('');
+
+    const calculatePrice = () => {
+      const alpha = parseFloat(alphaIn);
+      const tao = parseFloat(taoIn);
+      if (isNaN(alpha) || isNaN(tao)) {
+        setPrice('Error: Invalid input');
+      } else {
+        const price = tao / alpha;
+        setPrice(`Price: ${price}`);
+      }
+    };
+
+
+
   return (
-    <div className="flex items-center h-full w-full">
-      <div className="bg-gray-800 rounded-md p-6 m-4">
-        {props.children}
-      </div>
-    </div>
-  );
+        <div>
+          <h2>Price Calculator</h2>
+          <form>
+            <label>
+              Alpha:
+              <input type="number" value={alphaIn} onChange={(e) => setAlphaIn(e.target.value)} />
+            </label>
+            <br />
+            <label>
+              Tao:
+              <input type="number" value={taoIn} onChange={(e) => setTaoIn(e.target.value)} />
+            </label>
+            <br />
+            <button type="button" onClick={calculatePrice}>
+              Calculate Price
+            </button>
+            <p>Price: {price}</p>
+          </form>
+        </div>
+      );		
 };
 
-<ExampleComponent>
-  Here's a very simple example component rather than an empty state. This should help you figure out what's happening quicker and see what's possible with custom components!
-</ExampleComponent>
+<ExampleComponent />
