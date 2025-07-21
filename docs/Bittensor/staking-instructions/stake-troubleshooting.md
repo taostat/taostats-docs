@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-There are a number of places where you mihght get stuck staking.  This guide aims to be a comprehensive list with troubleshooting.  If you are still stuck - ask in the [taostats discord](https://discord.taostats.io) .
+There are a number of places where you might get stuck staking.  This guide aims to be a comprehensive list with troubleshooting.  If you are still stuck - ask in the [taostats discord](https://discord.taostats.io) .
 
 <br />
 
@@ -55,7 +55,7 @@ Add your wallet address (begins with a 5) to the wallet extension. If you have a
 
 This is the `turn it off and turn it back on again` fix.
 
-1. In your wallet app: 
+1. In your wallet app:
 
 <Image align="center" width="50% " src="https://files.readme.io/d18ee739ac4be35c535e8a93d3f2893db551e2ac535a1aeafad7db98736770ee-image.png" />
 
