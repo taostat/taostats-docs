@@ -1,5 +1,5 @@
 ---
-title: get
+title: Get Total Burned Alpha
 api:
   file: taostats-1.json
   operationId: get_new-endpoint
