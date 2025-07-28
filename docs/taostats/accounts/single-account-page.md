@@ -8,16 +8,23 @@ metadata:
 ---
 # URL Format
 
-The general format for the URL is [https://taostats.io/account/\<wallet](https://taostats.io/account/\<wallet) address.  [example wallet](https://taostats.io/account/5CcH9xVPJY2Nc9Wovft6Lr2qoQzefEEJfqgVhSrXdAx2ixGr)
+The general format for the URL is \[https\://taostats.io/account/\<wallet]\(https\://taostats.io/account/\<wallet) address.  \[example wallet]\(https\://taostats.io/account/5CcH9xVPJY2Nc9Wovft6Lr2qoQzefEEJfqgVhSrXdAx2ixGr)
 
 # Summary
 
 The top of the page has a wallet summary:
 
-![](https://files.readme.io/f54b6faa3a999d146068b80d0eff9012c73373d86a75d42d18acd9ea181538eb-image.png)
+![](https://files.readme.io/ae2ec87ec00c6e9fad81a4e877ccce1f5fa960aa7070bcdef6f4825fca2be964-image.png)
+
+<br />
 
 * **Balance**: Both in tao and USD.  The arrow indicates the % change in the last 24 hours.
-* **Delegated: root/alpha vs. free**: Bar chart shows the delegated to root, alpha and free tao.  In the screenshot above, there is no delegation to root.
+* **Delegated**: Bar chart breaking down the distribution of tao.
+  * Staked to root
+  * Staked in alpha
+  * Free tao
+  * [Liquidity](ref:liquidity) Positions: amount in liqudity positions
+  * Reserved: Tao placed in reserve (generally when a proxy is added)
 * **24h balance change**: In tao and USD.
 * **Wallet Creation Date**: Date the wallet was created
 * **Address**: coldkey and public key
