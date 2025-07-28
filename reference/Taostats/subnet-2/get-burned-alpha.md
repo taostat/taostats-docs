@@ -1,5 +1,5 @@
 ---
-title: get
+title: Get Burned Alpha
 api:
   file: taostats-1.json
   operationId: get_new-endpointapidtaoburned_alphav1
