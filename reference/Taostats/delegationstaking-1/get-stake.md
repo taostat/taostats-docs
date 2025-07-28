@@ -5,7 +5,7 @@ api:
   file: taostats-1.json
   operationId: get-stake
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
