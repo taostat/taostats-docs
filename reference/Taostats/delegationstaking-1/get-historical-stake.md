@@ -1,11 +1,11 @@
 ---
 title: Get Historical Stake
-excerpt: Get historical stake balances
+excerpt: Get historical stake balances for a specific validator. Pre dtao data
 api:
   file: taostats-1.json
   operationId: get-historical-stake
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
