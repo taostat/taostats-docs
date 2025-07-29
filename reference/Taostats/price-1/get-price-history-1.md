@@ -1,6 +1,6 @@
 ---
 title: Get tao Price History
-excerpt: ''
+excerpt: Get historical tao price and details.
 api:
   file: taostats-1.json
   operationId: get-price-history-1
