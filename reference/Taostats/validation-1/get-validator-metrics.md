@@ -1,6 +1,6 @@
 ---
 title: Get Validator Metrics
-excerpt: Get latest reward data for validators.
+excerpt: Get latest reward data for validators (with neurons registered)
 api:
   file: taostats-1.json
   operationId: get-validator-metrics
