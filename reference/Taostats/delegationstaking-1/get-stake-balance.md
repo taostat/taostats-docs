@@ -1,5 +1,5 @@
 ---
-title: Get dTao Stake Balance
+title: Get Stake Balance
 excerpt: ''
 api:
   file: taostats-1.json
