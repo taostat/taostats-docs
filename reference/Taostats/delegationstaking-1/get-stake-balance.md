@@ -1,6 +1,6 @@
 ---
 title: Get Stake Balance
-excerpt: ''
+excerpt: Get current stake balances
 api:
   file: taostats-1.json
   operationId: get-stake-balance
