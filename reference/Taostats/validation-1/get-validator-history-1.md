@@ -1,5 +1,5 @@
 ---
-title: Get Validator History
+title: Get Validator History (pre-dtao)
 excerpt: ''
 api:
   file: taostats-1.json
