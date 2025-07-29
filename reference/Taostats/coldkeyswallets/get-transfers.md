@@ -1,6 +1,6 @@
 ---
 title: Get Transfers
-excerpt: ''
+excerpt: Coldkey transfers (buys and sells) of tao.
 api:
   file: taostats-1.json
   operationId: get-transfers
