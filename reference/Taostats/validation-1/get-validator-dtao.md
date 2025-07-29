@@ -1,5 +1,5 @@
 ---
-title: Get Validator (dTao)
+title: Get Validator
 excerpt: ''
 api:
   file: taostats-1.json
