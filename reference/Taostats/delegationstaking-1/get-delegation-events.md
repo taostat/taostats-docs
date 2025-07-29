@@ -5,7 +5,7 @@ api:
   file: taostats-1.json
   operationId: get-delegation-events
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
