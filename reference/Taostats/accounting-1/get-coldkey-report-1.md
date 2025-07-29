@@ -1,6 +1,8 @@
 ---
 title: Get Coldkey Report
-excerpt: Requires a Pro subscription
+excerpt: >-
+  Requires a Pro subscription. Detailed reporting of all stakes/transactions for
+  a coldkey.
 api:
   file: taostats-1.json
   operationId: get-coldkey-report-1
