@@ -1,6 +1,6 @@
 ---
 title: Get Slippage
-excerpt: ''
+excerpt: Estimate the slippage for an alpha/tao transaction.
 api:
   file: taostats-1.json
   operationId: get-slippage
