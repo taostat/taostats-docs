@@ -1,6 +1,6 @@
 ---
 title: Get Validator Metrics History
-excerpt: ''
+excerpt: Historical data for Validators with neurons
 api:
   file: taostats-1.json
   operationId: get-validator-history-copy
