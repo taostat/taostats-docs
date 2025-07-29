@@ -1,5 +1,5 @@
 ---
-title: Accounting
+title: Get Accounting Pre dtao
 excerpt: Requires a Pro subscription
 api:
   file: taostats-1.json
