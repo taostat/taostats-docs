@@ -1,5 +1,5 @@
 ---
-title: Get Price
+title: Get tao Price
 excerpt: ''
 api:
   file: taostats-1.json
