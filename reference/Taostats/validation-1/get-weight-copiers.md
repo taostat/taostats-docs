@@ -5,7 +5,7 @@ api:
   file: taostats-1.json
   operationId: get-weight-copiers
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
