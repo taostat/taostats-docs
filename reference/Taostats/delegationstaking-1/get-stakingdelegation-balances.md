@@ -1,6 +1,6 @@
 ---
 title: Get Staking/Delegation Events
-excerpt: ''
+excerpt: Get all delegation/staking/alpha buys&sells.
 api:
   file: taostats-1.json
   operationId: get-stakingdelegation-balances
