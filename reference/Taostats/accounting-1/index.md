@@ -1,6 +1,6 @@
 ---
 title: Accounting
-excerpt: ''
+excerpt: The accounting endpoints require a pro subscription.
 deprecated: false
 hidden: false
 metadata:
@@ -10,3 +10,4 @@ metadata:
 next:
   description: ''
 ---
+[Get a pro subscription](https://dash.taostats.io/billing)
