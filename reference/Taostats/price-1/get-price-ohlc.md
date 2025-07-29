@@ -1,5 +1,5 @@
 ---
-title: Get Price OHLC
+title: Get tao Price OHLC
 excerpt: ''
 api:
   file: taostats-1.json
