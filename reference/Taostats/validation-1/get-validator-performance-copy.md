@@ -1,5 +1,5 @@
 ---
-title: Get Validator Performance (dTao)
+title: Get Validator Performance
 excerpt: ''
 api:
   file: taostats-1.json
