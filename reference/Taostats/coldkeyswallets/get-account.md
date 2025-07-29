@@ -1,6 +1,6 @@
 ---
 title: Get Account
-excerpt: Gives most recent coldkey balance (from the database)
+excerpt: Gives most recent coldkey balance.
 api:
   file: taostats-1.json
   operationId: get-account
