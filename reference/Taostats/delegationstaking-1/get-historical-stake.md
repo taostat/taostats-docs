@@ -1,6 +1,6 @@
 ---
 title: Get Historical Stake
-excerpt: ''
+excerpt: Get historical stake balances
 api:
   file: taostats-1.json
   operationId: get-historical-stake
