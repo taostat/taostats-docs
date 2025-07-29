@@ -3,6 +3,7 @@
 - get-api-status
 - price-1
 - coldkeyswallets
+- accounting-1
 - networkchain
 - delegationstaking-1
 - metagraph-1
@@ -11,7 +12,6 @@
 - mining
 - evm
 - trading-view
-- accounting-1
 - live
 - hosted-rpc-connectivity
 - coingecko
