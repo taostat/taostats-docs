@@ -1,6 +1,6 @@
 ---
 title: Get Account History
-excerpt: Gives most recent coldkey balance (from the database)
+excerpt: Gives historical coldkey balance, daily at midnight GMT.
 api:
   file: taostats-1.json
   operationId: get-account-history
