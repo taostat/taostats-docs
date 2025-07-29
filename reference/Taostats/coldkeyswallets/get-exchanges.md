@@ -1,6 +1,6 @@
 ---
 title: Get Exchanges
-excerpt: ''
+excerpt: A list of exchanges as identified by Taostats.
 api:
   file: taostats-1.json
   operationId: get-exchanges
