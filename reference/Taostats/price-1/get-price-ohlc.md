@@ -1,6 +1,6 @@
 ---
 title: Get tao Price OHLC
-excerpt: ''
+excerpt: Open, High, Low, Close tao price details.
 api:
   file: taostats-1.json
   operationId: get-price-ohlc
