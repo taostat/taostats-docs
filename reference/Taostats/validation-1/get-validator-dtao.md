@@ -1,6 +1,6 @@
 ---
 title: Get Validator
-excerpt: ''
+excerpt: Get stake and return data for validators.
 api:
   file: taostats-1.json
   operationId: get-validator-dtao
