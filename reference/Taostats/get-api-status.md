@@ -1,6 +1,6 @@
 ---
 title: Get API Status
-excerpt: ''
+excerpt: Is the API up?  This will tell you :D
 api:
   file: taostats-1.json
   operationId: get-api-status
