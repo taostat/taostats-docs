@@ -1,6 +1,6 @@
 ---
-title: Get Accounting Pre dtao
-excerpt: Requires a Pro subscription
+title: Get Accounting Pre dTao
+excerpt: Requires a Pro subscription. Accounting information through Feb 13, 2025.
 api:
   file: taostats-1.json
   operationId: accounting
