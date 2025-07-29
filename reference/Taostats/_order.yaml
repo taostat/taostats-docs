@@ -4,10 +4,10 @@
 - price-1
 - coldkeyswallets
 - accounting-1
-- networkchain
 - delegationstaking-1
 - validation-1
 - mining
+- networkchain
 - metagraph-1
 - subnet-2
 - evm
