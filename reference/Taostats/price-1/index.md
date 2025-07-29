@@ -1,5 +1,5 @@
 ---
-title: Price
+title: Tao Price endpoints
 excerpt: ''
 deprecated: false
 hidden: false
