@@ -1,9 +1,9 @@
+- get-stake-balance
 - get-historical-stake
 - get-slippage
 - get-stakingdelegation-balances
 - get-delegation-events
 - get-stake-balance-sum-in-tao
-- get-stake-balance
 - get-historical-stake-balance
 - get-delegationstaking-balances
 - get-stake
