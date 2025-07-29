@@ -1,5 +1,5 @@
 ---
-title: Live
+title: Live - Read from Chain
 excerpt: ''
 deprecated: false
 hidden: false
