@@ -1,6 +1,6 @@
 ---
-title: Get Validator
-excerpt: ''
+title: Get Validator (preDtao)
+excerpt: Validator details pre dTao (Feb 13, 2025)
 api:
   file: taostats-1.json
   operationId: get-validator
