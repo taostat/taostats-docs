@@ -1,6 +1,6 @@
 - get-account
 - get-account-history
 - get-transfers
-- get-exchanges
 - get-coldkey-report
 - get-onchain-identity
+- get-exchanges
