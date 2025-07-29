@@ -1,5 +1,5 @@
-- get-slippage
 - get-historical-stake
+- get-slippage
 - get-stakingdelegation-balances
 - get-delegation-events
 - get-stake-balance-sum-in-tao
