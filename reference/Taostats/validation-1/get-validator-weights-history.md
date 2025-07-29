@@ -5,7 +5,7 @@ api:
   file: taostats-1.json
   operationId: get-validator-weights-history
 deprecated: true
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
