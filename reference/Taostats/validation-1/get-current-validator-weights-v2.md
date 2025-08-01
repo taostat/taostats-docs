@@ -1,6 +1,6 @@
 ---
 title: Get Current Validator Weights V2
-excerpt: ''
+excerpt: Weights set by validators
 api:
   file: taostats-1.json
   operationId: get-current-validator-weights-v2
