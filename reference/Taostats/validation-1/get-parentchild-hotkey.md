@@ -1,6 +1,6 @@
 ---
 title: Get Parent/Child Hotkey History
-excerpt: ''
+excerpt: Historical Parent & Child relationships for validators
 api:
   file: taostats-1.json
   operationId: get-parentchild-hotkey
