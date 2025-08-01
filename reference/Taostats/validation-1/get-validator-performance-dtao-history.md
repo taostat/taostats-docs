@@ -1,6 +1,8 @@
 ---
 title: Get Validator Performance History (dTao)
-excerpt: ''
+excerpt: >-
+  Gives the historical performance of the vaidator, or the validator's childkey
+  in a specified subnet.
 api:
   file: taostats-1.json
   operationId: get-validator-performance-dtao-history
