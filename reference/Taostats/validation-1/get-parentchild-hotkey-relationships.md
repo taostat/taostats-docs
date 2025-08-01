@@ -1,6 +1,6 @@
 ---
 title: Get Parent/Child hotkey relationships
-excerpt: ''
+excerpt: Parent&child relationships for validators.
 api:
   file: taostats-1.json
   operationId: get-parentchild-hotkey-relationships
