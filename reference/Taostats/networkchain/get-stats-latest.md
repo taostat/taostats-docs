@@ -1,6 +1,6 @@
 ---
 title: Get Stats Latest
-excerpt: ''
+excerpt: Get the latest high level stats from the chain.
 api:
   file: taostats-1.json
   operationId: get-stats-latest
