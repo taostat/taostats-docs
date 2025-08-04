@@ -1,6 +1,6 @@
 ---
 title: Get Runtime Version
-excerpt: ''
+excerpt: Returns the current chain runtime.
 api:
   file: taostats-1.json
   operationId: get-runtime-version
