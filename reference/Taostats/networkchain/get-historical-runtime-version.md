@@ -1,6 +1,6 @@
 ---
 title: Get Historical Runtime Version
-excerpt: ''
+excerpt: Historical runtime data.
 api:
   file: taostats-1.json
   operationId: get-historical-runtime-version
