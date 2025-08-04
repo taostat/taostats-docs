@@ -1,6 +1,6 @@
 ---
 title: 'Get Validator History '
-excerpt: ''
+excerpt: Get validator history.
 api:
   file: taostats-1.json
   operationId: get-validator-history-dtao
