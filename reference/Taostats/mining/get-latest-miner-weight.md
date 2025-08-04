@@ -1,6 +1,6 @@
 ---
 title: Get Latest Miner Weight
-excerpt: ''
+excerpt: Requires a pro subscription
 api:
   file: taostats-1.json
   operationId: get-latest-miner-weight
