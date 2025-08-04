@@ -1,6 +1,6 @@
 ---
 title: Get Blocks
-excerpt: ''
+excerpt: Get blocks from the chain
 api:
   file: taostats-1.json
   operationId: get-blocks-copy
