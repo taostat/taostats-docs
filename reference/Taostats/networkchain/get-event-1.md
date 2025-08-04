@@ -1,6 +1,6 @@
 ---
 title: Get Event
-excerpt: ''
+excerpt: Get chain events
 api:
   file: taostats-1.json
   operationId: get-event-1
