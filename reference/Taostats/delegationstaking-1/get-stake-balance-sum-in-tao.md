@@ -1,6 +1,6 @@
 ---
 title: Get Stake Balance Sum in Tao
-excerpt: ''
+excerpt: Returns total balance as tao.
 api:
   file: taostats-1.json
   operationId: get-stake-balance-sum-in-tao
