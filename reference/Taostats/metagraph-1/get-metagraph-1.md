@@ -1,6 +1,6 @@
 ---
 title: Get Metagraph
-excerpt: ''
+excerpt: Get metagraph information for neurons
 api:
   file: taostats-1.json
   operationId: get-metagraph-1
