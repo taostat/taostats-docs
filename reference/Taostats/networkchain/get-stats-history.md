@@ -1,6 +1,6 @@
 ---
 title: Get Stats History
-excerpt: ''
+excerpt: Get historical chain stats
 api:
   file: taostats-1.json
   operationId: get-stats-history
