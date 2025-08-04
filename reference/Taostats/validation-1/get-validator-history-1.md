@@ -1,6 +1,6 @@
 ---
 title: Get Validator History (pre-dtao)
-excerpt: ''
+excerpt: Get validator history pre Feb 13, 2025
 api:
   file: taostats-1.json
   operationId: get-validator-history-1
