@@ -1,6 +1,6 @@
 ---
 title: Get Metagraph History
-excerpt: ''
+excerpt: Historical metegraph details
 api:
   file: taostats-1.json
   operationId: get-metagraph-history
