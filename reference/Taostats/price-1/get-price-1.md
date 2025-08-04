@@ -1,6 +1,6 @@
 ---
 title: Get tao Price
-excerpt: ''
+excerpt: The current price of tao, and related stats.
 api:
   file: taostats-1.json
   operationId: get-price-1
