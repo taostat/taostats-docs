@@ -1,6 +1,6 @@
 ---
 title: Get Proxy Calls
-excerpt: ''
+excerpt: Gewt calls made by proxies
 api:
   file: taostats-1.json
   operationId: get-proxy-calls
