@@ -12,5 +12,4 @@
 - get-sum-of-subnet-prices
 - get-current-sum-of-subnet-prices
 - get-historical-sum-of-subnet-prices
-- get-total-burned-alpha
 - get-burned-alpha
