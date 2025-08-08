@@ -12,13 +12,17 @@ next:
 ---
 Wallets are used to store and house your tokens.  But the term wallet can be used for a few different things in the Bittensor ecosystem.
 
+<Embed typeOfEmbed="youtube" url="https://www.youtube.com/watch?v=ZC2z4asAMl0" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FZC2z4asAMl0%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZC2z4asAMl0%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FZC2z4asAMl0%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" href="https://www.youtube.com/watch?v=ZC2z4asAMl0" providerUrl="https://www.youtube.com/" providerName="YouTube" />
+
+<br />
+
 # Wallet application
 
 Wallet applications are the way you interact with your tao on chain.  There are many wallets (The Bittensor Discord has a [FAQ](https://discord.com/channels/799672011265015819/1215386737661055056/1220037507656450068)  listing the wallets that support Bittensor.)  No matter what wallet application you use, the wallet is just looking at your tao on the chain.
 
 > 📘 Banking
 >
-> When you access your bank account, you use the mobile app, the website, an ATM, or even a bank teller in the bank.  These are all interfaces into your bank account. 
+> When you access your bank account, you use the mobile app, the website, an ATM, or even a bank teller in the bank.  These are all interfaces into your bank account.
 >
 > None of these interfaces hold the money in your account, but are access points to the bank to manipulate your money.  You can take money in and out, pay bills, etc.from the interfaces in your account.
 
