@@ -4,3 +4,4 @@
 - get-coldkey-report
 - get-onchain-identity
 - get-exchanges
+- get-pending-coldkey-swaps
