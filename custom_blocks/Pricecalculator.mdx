@@ -1,0 +1,49 @@
+---
+name: Pricecalculator
+---
+import React, { useState } from 'react';
+
+export const PriceCalculator = () => {
+    const [subnet, setSubnet] = useState('');
+  	const [price, setPrice] = useState('');
+  	const [error, setError] = useState(null);
+
+  const GetPriceFromAPI = async () => {
+			const subnetValue = parseFloat(subnet);
+
+      if (subnetValue) {
+        try {
+          const response = await fetch(`https://docsdemo.taostats.io/api/dtao/pool/latest/v1?netuid=${subnetValue}`);
+          const json = await response.json();
+          const price = json['data'][0]['price'];
+          setPrice(Math.round(price*1000)/1000);
+          setError(null);
+      	} catch (error) {
+        	setError(error.message);
+      		}
+    	} else {
+      	setError('Please enter a valid number');
+    	};
+  };
+    const handleSubnetChange = (e) => {
+      setSubnet(e.target.value);
+    };
+
+    return (
+      <div>
+        <form onSubmit={(e) => e.preventDefault()}>
+          <label>
+            Subnet:
+            <input type="text" value={subnet} onChange={(e) => setSubnet(e.target.value)} />
+						<button type="button" onClick={GetPriceFromAPI}>
+          		Get Price
+        		</button>
+          </label>
+          {error && <p style={{ color: 'red' }}>{error}</p>}
+          {price && <p>Price: ${price}</p>}
+        </form>
+      </div>
+    );
+};
+
+<PriceCalculator />
