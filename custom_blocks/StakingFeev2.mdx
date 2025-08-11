@@ -38,7 +38,10 @@ export const StakingFee2 = () => {
         <form onSubmit={(e) => e.preventDefault()}>
           <label>
             Subnet:
-            <input type="text" value={subnet} onChange={(e) => setSubnet(e.target.value)} />
+            <input type="text" value={subnet} onChange={(e) => {
+                       setSubnet(e.target.value);
+                       setFee(null);                            
+                       }} />
 						<button type="button" onClick={GetFeeFromAPI}>
           		Get staking fee
         		</button>
