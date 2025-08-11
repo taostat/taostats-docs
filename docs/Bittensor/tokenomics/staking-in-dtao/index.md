@@ -67,6 +67,10 @@ Staking to alpha *does* incur risk: a drop in alpha token price will result in a
 > * Note that this can be changed by the subnet owner. (the [Get Subnets](ref:get-subnets-1) API endpoint lists the `fee_rate`)
 >
 > <PriceCalculator />
+>
+> <PriceCalculator />
+>
+>
 
 <br />
 
