@@ -57,6 +57,8 @@ Staking to alpha *does* incur risk: a drop in alpha token price will result in a
 
 > 📘 Staking fees
 >
+> For all staking transactions, there is a small extrinsic fee charged.  Taostats currently does not allow staking without leaving a small amount of tao fee to pay for the unstaking transaction.
+>
 > ## Root
 >
 > There is no fee to stake or unstake from root
