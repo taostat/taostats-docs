@@ -103,7 +103,7 @@ In the screenshot the amount of stake from SN1 drops from 25 tao to 12 tao. The 
 
 ## Fees
 
-Every staking and unstaking action on the chain costs 50,000 rao (0.00005 tao). This is rounded to zero in the taostats view:
+Every staking and unstaking action on the chain costs has a fee. This fee is different on each subnet [Get Subnets](ref:get-subnets-1) has this parameter.
 
 ![](https://files.readme.io/f4bdcd8efa78ac0374e4b4b9b460f329446e3e2a21eb32a48bd9ff0d61a3f96b-image.png)
 
