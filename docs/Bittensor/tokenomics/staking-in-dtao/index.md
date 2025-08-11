@@ -65,4 +65,12 @@ Staking to alpha *does* incur risk: a drop in alpha token price will result in a
 >
 > * All staking and unstaking fees are default 0.05% of the stake/unstake value. This can be changed by the subnet owner. (the [Get Subnets](ref:get-subnets-1) API endpoint lists the `fee_rate`)
 
+<br />
+
+## Moving stake
+
+The move stake command can be used to switch validators in a subnet.  Under the hood, this is an unstake, and then staking.  However, only one fee is charged.
+
+<br />
+
 ## [dTao FAQ](doc:dtao-faq): Your top  staking questions
