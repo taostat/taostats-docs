@@ -59,10 +59,10 @@ Staking to alpha *does* incur risk: a drop in alpha token price will result in a
 >
 > ## Root
 >
-> All staking and unstaking actions incur a fee of 50,000 rao (0.00005 tao).
+> There is no fee to stake or unstake from root
 >
 > ## Subnets:
 >
-> * All staking and unstaking fees are default 0.3% of the stake/unstake value. This can be changed by the subnet owner.
+> * All staking and unstaking fees are default 0.05% of the stake/unstake value. This can be changed by the subnet owner. (the [Get Subnets](ref:get-subnets-1) API endpoint lists the `fee_rate`)
 
 ## [dTao FAQ](doc:dtao-faq): Your top  staking questions
