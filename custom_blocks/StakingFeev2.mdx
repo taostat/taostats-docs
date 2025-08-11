@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 export const StakingFee2 = () => {
     const [subnet, setSubnet] = useState('');
-  	const [price, setPrice] = useState('');
+  	const [fee, setFee] = useState('');
   	const [error, setError] = useState(null);
 
   const GetFeeFromAPI = async () => {
@@ -20,7 +20,7 @@ export const StakingFee2 = () => {
     			}
 					const json = await response.json();
           const staking_fee = json['data'][0]['fee_rate'];
-          setPrice(Math.round(price*1000)/1000*100);
+          setFee(Math.round(staking_fee*100000)/100000*100);
           setError(null);
       	} catch (error) {
         	setError(error.message);
@@ -44,7 +44,7 @@ export const StakingFee2 = () => {
         		</button>
           </label>
           {error && <p style={{ color: 'red' }}>{error}</p>}
-          {price && <p> {fee}%</p>}
+          {fee && <p>The staking fee for subnet {subnet} is: {fee}%</p>}
         </form>
       </div>
     );
