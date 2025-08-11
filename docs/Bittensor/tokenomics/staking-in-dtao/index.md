@@ -65,6 +65,8 @@ Staking to alpha *does* incur risk: a drop in alpha token price will result in a
 >
 > * All staking and unstaking fees are default 0.05% of the stake/unstake value.
 > * Note that this can be changed by the subnet owner. (the [Get Subnets](ref:get-subnets-1) API endpoint lists the `fee_rate`)
+>
+> <PriceCalculator />
 
 <br />
 
