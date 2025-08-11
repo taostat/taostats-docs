@@ -70,7 +70,7 @@ Staking to alpha *does* incur risk: a drop in alpha token price will result in a
 >
 > <PriceCalculator />
 >
->
+> <stakingfee />
 
 <br />
 
