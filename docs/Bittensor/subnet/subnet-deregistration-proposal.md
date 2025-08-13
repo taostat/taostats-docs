@@ -57,7 +57,7 @@ If NAV >1, this means that the value of tao in the pool is greater than the valu
   If a holder has 1 tao worth of alpha, they will receive 2 tao on liquidation - increasing the value of their holding.
 </Callout>
 
-To see a subnets Historical NAV,
+Subnet Historical NAV can be found as a chart on the statistics page:  [https://taostats.io/subnets/3/statistics](https://taostats.io/subnets/3/statistics)
 
 ## Lowest price
 
