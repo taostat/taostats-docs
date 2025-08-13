@@ -59,6 +59,10 @@ If NAV >1, this means that the value of tao in the pool is greater than the valu
 
 Subnet Historical NAV can be found as a chart on the statistics page:  [https://taostats.io/subnets/3/statistics](https://taostats.io/subnets/3/statistics)
 
+![](https://files.readme.io/be5c756344ee2540e9d327734ba71fb02bc440443466fdd24ccfe80ee20e84d5-image.png)
+
+<br />
+
 ## Lowest price
 
 The subnet with the lowest price (and  would be the next to be deregistered.
