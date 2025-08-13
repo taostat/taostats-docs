@@ -52,12 +52,12 @@ If NAV >1, this means that the value of tao in the pool is greater than the valu
   A subnet has 100 tao\_in, but the alpha\_out is worth 50 tao (alpha\_out \* price).
 
   * NAV is 2, and the subnet could be deregistered.
-  * When the subnet is liquidated, they will receive alpha\_out*price*NAV tao.
+  * When the subnet is liquidated, they will receive alpha\_out\_price\_NAV tao.
 
   If a holder has 1 tao worth of alpha, they will receive 2 tao on liquidation - increasing the value of their holding.
 </Callout>
 
-<br />
+To see a subnets Historical NAV,
 
 ## Lowest price
 
