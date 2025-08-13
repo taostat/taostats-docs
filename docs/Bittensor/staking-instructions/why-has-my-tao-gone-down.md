@@ -11,12 +11,10 @@ metadata:
 1. Make sure there are no transfers `https://taostats.io/account/<YOUR wallet 5xxxx> `
    1. This means no transfers out.
 2. Staking
-   1. Staking into subnet 0 is safe.  There is no change for your tao to decrease.
-   2. Staking into subnets is not safe. You are buying a different token, whos price can change.
+   1. Staking into subnet 0 is safe.  There is no chance for your tao's value to decrease.
+   2. Staking into subnets is more risky.. You are buying a different token, whose price can change.
 
 <Callout icon="📘" theme="info">
-
-
   If a subnet has price 0.1, and you spend 10 tao - you will receive 100 alpha.
 
   If the price jumps to 0.2, you can sell your 100 alpha for 20 tao.
