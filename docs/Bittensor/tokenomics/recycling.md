@@ -27,4 +27,3 @@ Recycling is the process of returning active tao or alpha to the unissued pool.
 
 * **Root Neuron Registration**: If registering on root, there is no need to transfer the fee into alpha. The tao is directly recycled.
 * **Subnet Registration**:  When a subnet is registered, 1 tao from the fee is placed in the subnet pool. If there is any lock fee remaining, it is recycled.
-* <br />
