@@ -24,7 +24,7 @@ next:
 
 [Staking](doc:staking-in-dtao): Buy and sell alpha in each subnet. Or for a safer option, stake into the root subnet.
 
-<br />
+[Uniswap Subnet Pool Liquidity](doc:uniswap-v3): allows participants to add liquidity to subnet pools.
 
 ## Definitions:
 
