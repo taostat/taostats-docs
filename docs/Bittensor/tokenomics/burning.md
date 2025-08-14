@@ -8,6 +8,12 @@ hidden: false
 metadata:
   robots: index
 ---
+> 📘 Recycled vs. burned
+>
+> **Recycled tao/alpha** just becomes unissued - ready to be emitted again at a later date
+>
+> **Burned tao/alpha** is destroyed. This token no longer exists, and cannot be used.
+
 # Tao
 
 * <br />
