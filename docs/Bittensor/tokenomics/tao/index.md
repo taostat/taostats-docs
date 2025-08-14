@@ -36,13 +36,21 @@ The emitted tao is distributed to the subnet pools of each subnet.  The distribu
 
 [Tao Emission Distribution](doc:tao-emission)
 
+With 1/tao per block, the emission % is the percentage of the tao awarded to each subnet.
+
+<Image align="center" width="50% " src="https://files.readme.io/fd4d9df92ccdc8bdfd8516b0d131f7ffd32db432c60de8d195290608e6522afc-image.png" />
+
+<br />
+
 ## Recycling
 
 Recycled tao is tao that is removed from circulation back into the unissued supply.
 
 [Recycling](doc:recycling)
 
-<br />
+## Burned
+
+Tao can be burned, this is tao that is no longer in circulation, and is no longer accessible.
 
 ## tao vs. rao
 
