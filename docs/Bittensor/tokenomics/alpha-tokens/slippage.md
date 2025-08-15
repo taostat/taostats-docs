@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-When buying or selling through a subnet (liquidity) pool, there is an inherent loss of value during the purchase called `slippage`.  
+When buying or selling through a subnet (liquidity) pool, there is an inherent loss of value during the purchase called `slippage`.
 
 > 📘 The larger the purchase amount, the higher the slippage.
 
@@ -67,3 +67,11 @@ The amount received will be less than the amount expected from the direct price 
 > This results in 9.1% slippage.
 >
 > <Image align="center" width="50% " src="https://files.readme.io/a4d6088065f7ee95b3202e22faaacaa15ce88dd5de06441895fe71114599fb65-image.png" />
+
+<br />
+
+## Slippage values
+
+The transaction tables list the actual slippage of a transaction.  A negative slippage means your transaction actually profited from the trade
+
+![](https://files.readme.io/17ff300d55f73503d339d2de784d3edca266536ebbdb3304891f08701e8dc4e6-image.png)
