@@ -16,28 +16,29 @@ next:
 ## response details
 
 ```
- {
-      "id": "finney-68-0x828e7eabc592c6d03c62ab0799cda1c0de0b8f57fb7d542deba479957a9dc573-0x96f0651155c3a50c68d6fbe4175f512627d6517140ce00ae495e8b4a81050815-5453624-140",
-      "block_number": 5453624,
-      "timestamp": "2025-04-28T23:18:24.001Z",
-      "action": "DELEGATE", direction delegate or undelegate
+    {
+      "id": "finney-108-0x40c47b6a294686fe9612b5d78dd369f4c77fa3bbf96a4286ede97410ba2e3209-0xa4d9f9bfd193ceba1b0fb87d66fd53bfe454305aa3118bcb3552e90f13af7f2c-6226777-66",
+      "block_number": 6226777,
+      "timestamp": "2025-08-15T16:36:12Z",
+      "action": "DELEGATE",
       "nominator": {
-        "ss58": "5FUcTAuTxS5iS7FyP3CwHee53m3mtYYTVS9hJukfZF5hC8KU",
-        "hex": "0x96f0651155c3a50c68d6fbe4175f512627d6517140ce00ae495e8b4a81050815"
+        "ss58": "5FnrTnBvPmVFw4FeQHePJyrvsuK8EkXxYxk1EBwpEPmKsdtg",
+        "hex": "0xa4d9f9bfd193ceba1b0fb87d66fd53bfe454305aa3118bcb3552e90f13af7f2c"
       },
       "delegate": {
-        "ss58": "5F1tQr8K2VfBr2pG5MpAQf62n5xSAsjuCZheQUy82csaPavg",
-        "hex": "0x828e7eabc592c6d03c62ab0799cda1c0de0b8f57fb7d542deba479957a9dc573"
+        "ss58": "5DXdHixxtCvoa6GHKs2Jgrdzc61882Ftx1zN2sYFQuwgL1S1",
+        "hex": "0x40c47b6a294686fe9612b5d78dd369f4c77fa3bbf96a4286ede97410ba2e3209"
       },
-      "amount": "7092857", tao as rao
-      "alpha": "135443860", alpha as rao
-      "usd": "2.70", value in USD
-      "alpha_price_in_tao": "0.05236750488357316456",
-      "alpha_price_in_usd": "19.94",
-      "netuid": 68,
-      "extrinsic_id": "5453624-0032",
+      "amount": "1750000000",
+      "alpha": "1005293226196",
+      "usd": "636.46",
+      "alpha_price_in_tao": "0.00174078562791271212",
+      "alpha_price_in_usd": "0.63",
+      "slippage": "0.376975328288734945",
+      "fee": "881208",
+      "netuid": 108,
+      "extrinsic_id": "6226777-0016",
       "is_transfer": null,
       "transfer_address": null
     },
-    
 ```
