@@ -5,3 +5,4 @@
 - get-onchain-identity
 - get-exchanges
 - get-pending-coldkey-swaps
+- get-on-chain-identity-history
