@@ -34,9 +34,9 @@ In the pre-dtao world, immunity was 7 days.  Today, Subnets can not even start e
 
 <br />
 
-# Alpha Distribution Ration \< 1
+# Alpha Distribution Ratio \< 1
 
-Alpha Distribution Ration is defined as
+Alpha Distribution Ratio is defined as
 
 ![](https://files.readme.io/dd48fe231c72701bd107ccdbd8cb0f0c55075c40cfd26152241e94ccf241b295-image.png)
 
