@@ -34,32 +34,35 @@ In the pre-dtao world, immunity was 7 days.  Today, Subnets can not even start e
 
 <br />
 
-# Net Asset Value >1
+# Alpha Distribution Ration \< 1
 
-Net Asset Value (NAV) is a companies assets minus liabilities, divided by the number of shares.
+Alpha Distribution Ration is defined as
 
-![](https://files.readme.io/ba99d6f7e87cb3bcd26a9d9bc26039b0cb4aee2ebd41118a85bef5ca46249353-image.png)
+![](https://files.readme.io/dd48fe231c72701bd107ccdbd8cb0f0c55075c40cfd26152241e94ccf241b295-image.png)
 
-For a Subnet, this looks like:
+When ADR> 1 the alpha staked is worth more than tha alpha in the pool.  This means the subnet is more valuable than the assets in the pool.
 
-tao\_in is a sum of all the assets in the subnet.  The shares are the alpha owned by subnet participants (and converted to tao to ensure both are reported in the same units).
+When ADR \< 1, the assets in the pool are worth more than owning the subnet.  This places the subnet at risk of deregistration.  If the subnet were to be dissolved, the alpha owners would receive the tao\_in from the pool, which ahs a higher value than the alpha\_out.
 
-![](https://files.readme.io/26615e1101312b8e29436c567650286203c8e47f88454ce09e8bfb1eaea98392-image.png)
+ADR is listed on the subnet page, and each subnet's historical ADR is charted on the statistics page.
 
-If NAV >1, this means that the value of tao in the pool is greater than the value of alpha held by shareholders.
+![](https://files.readme.io/8072f00db1e6ecc99a4fa9057f248d13c1ecb95a7c259100e7d1f6da19a7cf1a-image.png)
 
-<Callout icon="📘" theme="info">
-  A subnet has 100 tao\_in, but the alpha\_out is worth 50 tao (alpha\_out \* price).
+<br />
 
-  * NAV is 2, and the subnet could be deregistered.
-  * When the subnet is liquidated, they will receive alpha\_out\_price\_NAV tao.
+## Net Asset Value  (NAV)
 
-  If a holder has 1 tao worth of alpha, they will receive 2 tao on liquidation - increasing the value of their holding.
-</Callout>
+NAV is no longer part of the deregistration planning.  However, NAV is simply the reciprocal of ADR.
 
-Subnet Historical NAV can be found as a chart on the statistics page:  [https://taostats.io/subnets/3/statistics](https://taostats.io/subnets/3/statistics)
+![](https://files.readme.io/9671bb030caa463a9d42650d53764a71a46730b43b4587369d6dc5c1ef05f08d-image.png)
 
-![](https://files.readme.io/be5c756344ee2540e9d327734ba71fb02bc440443466fdd24ccfe80ee20e84d5-image.png)
+Substituting tao\_in/alpha\_in for price:
+
+<br />
+
+![](https://files.readme.io/68097d108b889b2dd75ba351ee5d8eefa38729b0f42ec0a11ff87057fa4c5e7c-image.png)
+
+ADR = 1/NAV
 
 <br />
 
