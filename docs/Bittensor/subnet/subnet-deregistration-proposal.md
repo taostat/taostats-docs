@@ -21,7 +21,7 @@ There are 128 subnets, but many are inactive, and the tao/alpha in these subnets
 In the August 12, 2025 OpenDev call, Const proposed adding deregistration again. For a subnet to be deregistered, it must be:
 
 1. Out of immunity
-2. NAV over 1.
+2. ADR under 1.
 3. Lowest price
 
 This will likely change over time, and will be voted on by the Senate before it is put into place.
