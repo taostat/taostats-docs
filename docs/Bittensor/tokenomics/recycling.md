@@ -21,7 +21,7 @@ Recycling is the process of returning active tao or alpha to the unissued pool.
 ## Alpha token recycling
 
 * **Neuron registration**: When a neuron is registered, the coldkey pays the registration fee in tao.  However, the fee is sent through the [subnet pool](doc:subnet-pools) and converted to alpha.  This alpha is then recycled.
-* Subsidized subnets:  In certain conditions, excess tao is sold to alpha.  This alpha is then recycled.
+* **Subsidized subnets**:  In certain conditions, excess tao is sold to alpha.  This alpha is then recycled.
 
 ## Tao recycling
 
