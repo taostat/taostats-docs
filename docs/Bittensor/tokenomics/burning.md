@@ -16,7 +16,7 @@ metadata:
 
 # Tao
 
-* <br />
+* Tao extrinsic fees are burned.
 
 # Alpha
 
