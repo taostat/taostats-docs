@@ -29,6 +29,13 @@ There are several ways to get started with Bittensor, with different levels of p
 ## Token: Participants
 
 * **[Delegators](doc:delegation)**: Delegation of stake (often referred to as staking) is the process of attaching your tao to a validator on.a subnet.  When you stake with a validator, you receive a percentage of the rewards earned by the validator. It is possible to delegate any amount of tao/alpha to a validator so whilst you must hold the token, the associated cost is defined by the individual.
-* **[Validators](doc:validator)**: Validators handle all incoming requests to a subnet and also perform validation on the work performed by the miners.  Validators are rewarded with a percentage of the subnet alpha emitted each epoch. In order to be a validator you must possess or have delegated a sufficient amount of tao to attain [vpermit]() on any subnet you wish to validate. Whilst this varies between subnets, this figure is currently in the range of 5-20k tao so is the largest barrier to entry of the participants.
+  * [Staking/Delegation](doc:staking)
+  * [Staking Instructions](doc:staking-instructions)
+* **[Validators](doc:validator)**: Validators handle all incoming requests to a subnet and also perform validation on the work performed by the miners.  Validators are rewarded with a percentage of the subnet alpha emitted each epoch. In order to be a validator you must possess or have delegated a sufficient amount of tao to successfully validate. Whilst this varies between subnets, this figure is currently in the range of 5-20k tao so is the largest barrier to entry of the participants.
+  * [Running a Validator](doc:validator)
 * **[Miners](doc:miner)**:  Actors that complete the requests on the subnet.  Miners are rewarded subnet alpha token based on the value of their outputs via their trust score governed by the validation process. A miner requires tao to register a UID on a given subnet. There is a tao cost/recycle to this which is proportional to the demand for slots on that subnet and varies greatly from subnet to subnet. This makes mining the lowest participant barrier to entry.
+  * [Taostats: For Miners](doc:taostats-for-miners)
+  * [Starting as a Miner](doc:i-want-to-mine-on-bittensor)
 * **[Subnet Owners](subnets)**: The individual or organisation that creates a subnet.  They devise the model for the subnet, and the incentive mechanism, and develop the code for both miners and validators. Subnet owners are required to lockup tao in order to register a subnet. The cost is dynamic and governed by current demand for subnet slots. This provides a significant barrier to entry but the rewards for successful subnet operation are considerable and the fee is locked and not burned.
+  * [Subnet Owner](doc:subnet-owner)
+  * [Subnet Creation Best Practices](doc:subnet-creation-best-practices)
