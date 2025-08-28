@@ -28,7 +28,7 @@ next:
 
 ## Definitions:
 
-* \*\* Max Supply\*\*: total number of tokens that will be issued.  For all Subnets and for Tao,this is 21 million.
+* **Max Supply**: total number of tokens that will be issued.  For all Subnets and for Tao,this is 21 million.
 * **Total Supply**: Max Supply - burned.  WE can never pass total supply, as the remaiuning tokens are burned.
 * **Burned**: Tokens that have been removed from circulation. A burn cannot be reversed - the token is eliminated.
 * **Recycled**: Tokens that have been removed from circulation. These tokens can be issued again.
