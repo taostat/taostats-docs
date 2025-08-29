@@ -36,7 +36,7 @@ The emitted tao is distributed to the subnet pools of each subnet.  The distribu
 
 [Tao Emission Distribution](doc:tao-emission)
 
-With 1/tao per block, the emission % is the percentage of the tao awarded to each subnet.
+With 1 tao per block, the emission % is the percentage of the tao awarded to each subnet.
 
 <Top5Subnets />
 
