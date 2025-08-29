@@ -36,6 +36,14 @@ The amount received will be less than the amount expected from the direct price 
 
 ![](https://files.readme.io/2a735651eceede5e50fe54d00b883a166e7a99c20155ca1043f235aad9215bd8-image.png)
 
+<Callout icon="📘" theme="info">
+  NOTE: Slippage is calcuated slightly differently in subnets with [Uniswap Subnet Pool Liquidity](doc:uniswap-v3) activated.  The basics still hold, but if buying and selling in a range with a lot of liquidity, the sippage will be **lower** than the calculations above.
+</Callout>
+
+<br />
+
+## Slippage Calculator
+
 <br />
 
 <br />
@@ -62,7 +70,7 @@ The amount received will be less than the amount expected from the direct price 
 >
 > ![](https://files.readme.io/b4b5fc63a0c2c45d90bba35e3287ce8a515f79f9440581edfb428297697a1a89-image.png)
 >
-> A tao holder wishes to sell 10 tao for alpha.  Using the equation for alpha\_expected, they will receive 9.09α.
+> A tao holder wishes to sell 10 tao for alpha.  Using the equation for alpha_expected, they will receive 9.09α.
 >
 > This results in 9.1% slippage.
 >
