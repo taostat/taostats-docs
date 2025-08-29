@@ -12,8 +12,6 @@ next:
 ---
 From the dTao launch in February 2025, all subnets now have a token for staking. The subnet tokens are given a letter from an alphabet (greek, hebrew, arabic, etc.) but are generically defined as 'alpha'.  (alpha is also the token of subnet 1, as it is the first letter in the greek alphabet)
 
-<br />
-
 ## [Alpha Emission](doc:alpha-emission)
 
 ## Alpha tokens can only be purchased with tao.
