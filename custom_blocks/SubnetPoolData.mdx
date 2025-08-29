@@ -55,13 +55,17 @@ export const Subnetpools = () => {
   return (
 
       <div>
-			<div>
+      <div>
+        <p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Live Query of Subnet Pools</p>
+        <p style={{ fontFamily: "Georgia, serif", fontSize: 12 }}> Choose a Subnet to see the breakdown of the subnet pool</p>
+
+
         <form onSubmit={(e) => e.preventDefault()}>
           <label>
             Subnet:
             <input type="text" value ={subnet} onChange={(e) => setSubnet(e.target.value)} />
 						<button type="button" onClick={GetSubnetPool}>
-          		Get Price
+          		Get Pool data
         		</button>
           </label>
           {error && <p style={{ color: 'red' }}>{error}</p>}
