@@ -1,12 +1,12 @@
 ---
 name: GetTop5Subnets
 ---
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 export const Top5Subnets = () => {
 
     const [error, setError] = useState(null);
-    const [subnets, setSubnets] = useState(null);
+    const [subnets, setSubnets] = useState([]);
 
 
   const GetTopSubnets = async () => {
@@ -38,7 +38,7 @@ export const Top5Subnets = () => {
             return{
               hotkey: subnet.owner_hotkey.ss58,
               netuid: subnet.netuid,
-              emission: parseFloat(subnet.emission)/1e9,
+              emission: Math.round(parseFloat(subnet.emission)/1e9*1000,6)/1000*100,
               subnet_name: identity ? identity.subnet_name : null, // fallback if no match
 							subnet_logo: identity ? identity.logo_url : 'https://taostats.io/images/subnets/0.webp?w=64&q=75' // fallback if no match
 
@@ -53,6 +53,11 @@ export const Top5Subnets = () => {
       		}
 
   };
+  
+    // Runs once when the page (component) loads
+  useEffect(() => {
+    GetTopSubnets();
+  }, []);
 
 
   return (
@@ -61,24 +66,40 @@ export const Top5Subnets = () => {
         <form onSubmit={(e) => e.preventDefault()}>
           <label>
 
-						<button type="button" onClick={GetTopSubnets}>
-          		Get top subnets
-        		</button>
+					<p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Live View of Top Subnets</p>
           </label>
 				  <table border="1" id="subnet-table" style={{backgroundColor:'green', color:'black' }}>
             <thead>
               <tr style={{backgroundColor:'#6b6b6b', color: '#09d9ba' }}>
-                <th>Name</th>
+                <th>Logo</th>
+								<th>Name</th>
                 <th>NetUID</th>
-                <th>Hotkey</th>
                 <th>Emission</th>
               </tr>
             </thead>
-            <tbody></tbody>
+            <tbody>
+          {subnets.map(subnet => (
+            <tr key={subnet.netuid}>
+              <td>
+                <img
+                  src={subnet.subnet_logo}
+                  alt={subnet.subnet_name}
+                  width={32}
+                  height={32}
+                />
+              </td>
+              <td>{subnet.subnet_name}</td>
+              <td>{subnet.netuid}</td>
+      
+              <td>{subnet.emission}%</td>
+            </tr>
+          ))}
+        </tbody>
           </table>
 
+
           {error && <p style={{ color: 'red' }}>{error}</p>}
-          {subnets && <p>The staking fee for subnet {subnets} </p>}
+         
         </form>
       </div>
     );
