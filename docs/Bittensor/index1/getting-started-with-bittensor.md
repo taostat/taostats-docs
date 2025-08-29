@@ -22,7 +22,7 @@ There are several ways to get started with Bittensor, with different levels of p
 
 ## Developers: API Token
 
-* **[Developer](doc:developer)**:  Developers build applications that utilise the commodities being produced by the Bittensor network.  Whilst validators provide gateway access to the network, developers who are not aligned with a validator must use an API key to query the network through a participating validator. Obtaining and interacting with the data can vary from subnet to subnet, however products such as [Corcel](https://docs.corcel.io) exist to make interaction with many subnets easy via a single API key.
+* **[Developer](doc:developer)**:  Developers build applications that utilise the commodities being produced by the Bittensor network.  Whilst validators provide gateway access to the network, developers who are not aligned with a validator must use an API key to query the network through a participating validator. Obtaining and interacting with the data can vary from subnet to subnet, however products such as [nineteen.ai](https://nineteen.ai/) exist to make interaction with many subnets easy via a single API key.
 
   Currently API access to the network is supported through incentivisation. This provides a highly cost competitive  space for developers and actively encourages network growth - however it is likely in the future that access at scale for profit will incur charges.
 
