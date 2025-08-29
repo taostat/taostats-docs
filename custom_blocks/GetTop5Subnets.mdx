@@ -79,7 +79,7 @@ export const Top5Subnets = () => {
             </thead>
             <tbody>
           {subnets.map(subnet => (
-            <tr key={subnet.netuid}>
+            <tr key={subnet.netuid} style={{backgroundColor:'#6b6b6b', color: '#ebc249' }}>
               <td>
                 <img
                   src={subnet.subnet_logo}
