@@ -1,8 +1,8 @@
 ---
 title: What is Bittensor?
 excerpt: >-
-  The Taostats docs are a great introduction to Bittensor and ghow to explore
-  Bittensor with Taostats.
+  The Taostats docs are a intend to introduce users to Bittensor, and how to use
+  Taostats to understand the workings of the chain..
 deprecated: false
 hidden: false
 metadata:
