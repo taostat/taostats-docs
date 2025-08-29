@@ -1,6 +1,6 @@
 ---
 title: Get Historical Stake Balance
-excerpt: Stake balances over time.  Stored at midnight GMT daily
+excerpt: Stake balances over time.  Stored at midnight UTC daily
 api:
   file: taostats-1.json
   operationId: get-historical-stake-balance
