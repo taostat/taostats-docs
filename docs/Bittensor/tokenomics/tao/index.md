@@ -20,7 +20,7 @@ For a high-level overview, the [Tokenomics](https://taostats.io/tokenomics/) pag
 
 One block is written to the Bittensor blockchain approximately every 12 seconds.
 
-For every block written, 1 tao\* is created (in the current halving cycle). (see [Tao Emission Distribution](doc:tao-emission) for details)
+For every block written, 1 tao* is created (in the current halving cycle). (see [Tao Emission Distribution](doc:tao-emission) for details)
 
 This means a maximum of 7200 tao are created every day. If a block takes longer to be produced, this can lower the daily emitted blocks.
 
@@ -37,6 +37,8 @@ The emitted tao is distributed to the subnet pools of each subnet.  The distribu
 [Tao Emission Distribution](doc:tao-emission)
 
 With 1/tao per block, the emission % is the percentage of the tao awarded to each subnet.
+
+<Top5Subnets />
 
 <Image align="center" width="50% " src="https://files.readme.io/fd4d9df92ccdc8bdfd8516b0d131f7ffd32db432c60de8d195290608e6522afc-image.png" />
 
