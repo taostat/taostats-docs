@@ -70,17 +70,17 @@ export const Top5Subnets = () => {
           </label>
 				  <table id="subnet-table" className="custom-table" >
             <thead>
-              <tr style={{backgroundColor:'#6b6b6b', color: '#09d9ba',textAlign:'center' }}>
-                <th style = {{maxWidth: 20}}>Logo</th>
-								<th style = {{maxWidth: 40}}>Name</th>
-                <th style = {{maxWidth: 20}}>NetUID</th>
-                <th style = {{maxWidth: 50}}>Emission</th>
+              <tr >
+                <th >Logo</th>
+								<th >Name</th>
+                <th >NetUID</th>
+                <th >Emission</th>
               </tr>
             </thead>
             <tbody>
           {subnets.map(subnet => (
-            <tr key={subnet.netuid} style={{backgroundColor:'#6b6b6b', color: '#ebc249', textAlign:'center'}}>
-              <td style = {{maxWidth: 20}}>
+            <tr key={subnet.netuid} >
+              <td >
                 <img
                   src={subnet.subnet_logo}
                   alt={subnet.subnet_name}
@@ -88,10 +88,10 @@ export const Top5Subnets = () => {
                   height={32}
                 />
               </td>
-              <td style = {{maxWidth: 40}}>{subnet.subnet_name}</td>
-              <td style = {{maxWidth: 20}}>{subnet.netuid}</td>
+              <td >{subnet.subnet_name}</td>
+              <td >{subnet.netuid}</td>
       
-              <td style = {{maxWidth: 50}}>{subnet.emission}%</td>
+              <td>{subnet.emission}%</td>
             </tr>
           ))}
         </tbody>
