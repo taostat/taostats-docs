@@ -12,6 +12,10 @@ next:
 ---
 From the dTao launch in February 2025, all subnets now have a token for staking. The subnet tokens are given a letter from an alphabet (greek, hebrew, arabic, etc.) but are generically defined as 'alpha'.  (alpha is also the token of subnet 1, as it is the first letter in the greek alphabet)
 
+<br />
+
+## [Alpha Emission](doc:alpha-emission)
+
 ## Alpha tokens can only be purchased with tao.
 
 Your staking transaction will take your tao to purchase alpha.  This is done through a liquidity pool. Since each subnet has a token, each subnet has a liquidity pool (or Subnet Pool) that converts tao to the token of the subnet.  The price cannot be used to determine the exact conversion, there is [Slippage](doc:slippage) on every transaction in and out of a Subnet Pool.
