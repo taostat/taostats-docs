@@ -1,53 +1,44 @@
 ---
 name: SubnetCount
 ---
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-export const GetSNCount = () => {
-    const [subnet, setSubnet] = useState('');
-  	const [price, setPrice] = useState('');
-  	const [error, setError] = useState(null);
+export const SubnetCount = () => {
 
-  const GetPriceFromAPI1 = async () => {
-			const subnetValue = parseFloat(subnet);
+    const [error, setError] = useState(null);
+    const [subnetCount, setsubnetCount] = useState('');
 
-      if (subnetValue) {
-        try {
-          const response = await fetch(`https://docsdemo.taostats.io/api/dtao/pool/latest/v1?netuid=${subnetValue}`);
+
+  const GetCountFromAPI = async () => {
+
+    try {
+          const response = await fetch(`https://docsdemo.taostats.io/api/dtao/pool/latest/v1`);
           if (!response.ok) {
- 					     // Throws an error with the HTTP status text (e.g., "Not Found")
-      					throw new Error(`HTTP error! Status: ${response.status}`);
-    			}
-					const json = await response.json();
-          const price = json['data'][0]['price'];
-          setPrice(Math.round(price*1000)/1000);
+            // Throws an error with the HTTP status text (e.g., "Not Found")
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          const json = await response.json();
+          const count = json['pagination']['total_items'] -1;
+          setsubnetCount(count);
           setError(null);
-      	} catch (error) {
-        	setError(error.message);
-      		}
-    	} else {
-      	setError('Please enter a valid number');
-    	};
+        } catch (error) {
+          setError(error.message);
+        }
   };
-    const handleSubnetChange1 = (e) => {
-      setSubnet(e.target.value);
-    };
+
+    // Runs once when the page (component) loads
+  useEffect(() => {
+    GetCountFromAPI();
+  }, []);
+ 
+
 
     return (
       <div>
-        <form onSubmit={(e) => e.preventDefault()}>
-          <label>
-            Subnet:
-            <input type="text" value={subnet} onChange={(e) => setSubnet(e.target.value)} />
-						<button type="button" onClick={GetPriceFromAPI1}>
-          		Get Price
-        		</button>
-          </label>
           {error && <p style={{ color: 'red' }}>{error}</p>}
-          {price && <p>Price: {price} tao</p>}
-        </form>
+          {subnetCount && <p>There are currently {subnetCount} subnets.</p>}
       </div>
     );
 };
 
-<PriceCalculator />
+<SubnetCount />
