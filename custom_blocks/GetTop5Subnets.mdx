@@ -46,7 +46,7 @@ export const Top5Subnets = () => {
             };
           });
           setSubnets(topSubnets);
-
+					console.log(topSubnets);
           setError(null);
       	} catch (error) {
         	setError(error.message);
@@ -64,6 +64,18 @@ export const Top5Subnets = () => {
           		Get top subnets
         		</button>
           </label>
+				  <table border="1" id="subnet-table" style={{ opacity: 0.25 }}>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>NetUID</th>
+                <th>Hotkey</th>
+                <th>Emission</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+
           {error && <p style={{ color: 'red' }}>{error}</p>}
           {subnets && <p>The staking fee for subnet {subnets} </p>}
         </form>
