@@ -40,8 +40,6 @@ With 1/tao per block, the emission % is the percentage of the tao awarded to eac
 
 <Top5Subnets />
 
-<Image align="center" width="50% " src="https://files.readme.io/fd4d9df92ccdc8bdfd8516b0d131f7ffd32db432c60de8d195290608e6522afc-image.png" />
-
 <br />
 
 ## Recycling
