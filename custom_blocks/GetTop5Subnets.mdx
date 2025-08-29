@@ -34,11 +34,11 @@ export const Top5Subnets = () => {
           const topSubnets = subnetData.map(subnet => {
             // find the matching identity by netuid
   					const identity = subnetIdentities.find(item => item.netuid === subnet.netuid);
-	
+						const snEmission = (parseFloat(subnet.emission)/1e9*100).toFixed(3);
             return{
               hotkey: subnet.owner_hotkey.ss58,
               netuid: subnet.netuid,
-              emission: Math.round(parseFloat(subnet.emission)/1e9*1000,6)/1000*100,
+              emission: snEmission,
               subnet_name: identity ? identity.subnet_name : null, // fallback if no match
 							subnet_logo: identity?.logo_url ? identity.logo_url: 'https://taostats.io/images/subnets/0.webp?w=64&q=75' // fallback if no match
 
@@ -79,8 +79,8 @@ export const Top5Subnets = () => {
             </thead>
             <tbody>
           {subnets.map(subnet => (
-            <tr key={subnet.netuid} style={{backgroundColor:'#6b6b6b', color: '#ebc249' }}>
-              <td>
+            <tr key={subnet.netuid} style={{backgroundColor:'#6b6b6b', color: '#ebc249'}}>
+              <td style = {{maxWidth: '150px'}}>
                 <img
                   src={subnet.subnet_logo}
                   alt={subnet.subnet_name}
