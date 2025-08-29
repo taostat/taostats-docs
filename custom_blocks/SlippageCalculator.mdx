@@ -18,13 +18,8 @@ export const SlippageCalculator = () => {
 
       if (subnetValue) {
       	try {
-          //get the top pool data
-          const amount_rao = amount*1e9;
-          const token = "tao";
-          if ({direction} == "alpha_to_tao"){setToken("tao");}
-					else {setToken("alpha")}
-
-
+ 						//convert the tao value into rao for the api
+            const amount_rao = amount*1e9;         
             const response = await fetch(`https://docsdemo.taostats.io/api/dtao/slippage/v1?netuid=${subnet}&input_tokens=${amount_rao}&direction=${direction}`);
             if (!response.ok) {
                  // Throws an error with the HTTP status text (e.g., "Not Found")
@@ -59,8 +54,10 @@ export const SlippageCalculator = () => {
   
     // Runs once when the page (component) loads
   useEffect(() => {
-    Slippage();
-  }, []);
+    // Update token based on direction
+ 
+		Slippage();
+  }, [subnet, direction, amount]);
 
 
   return (
@@ -68,40 +65,24 @@ export const SlippageCalculator = () => {
       <div>
       <div>
         <p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Live Subnet Slippage Calculator</p>
-        <p style={{ fontFamily: "Georgia, serif", fontSize: 12 }}> Choose a Subnet to see the breakdown of the subnet pool</p>
-
-
-        <form onSubmit={(e) => e.preventDefault()}>
+          <form onSubmit={(e) => e.preventDefault()}>
           <label>
            <p> Subnet:
-            <input class="custom-input" type="text" value ={subnet} onChange={(e) => setSubnet(e.target.value)} /></p>
+             <input class="custom-input" type="text" value ={subnet} onChange={(e) => setSubnet(e.target.value)} /></p>
             <p> Amount:
               <input class="custom-input" type="text" value ={amount} onChange={(e) => setAmount(e.target.value)} />
-						<select name="direction" id="direction">
-              <option value ="tao_to_alpha" onChange={(e) => setdirection(e.target.value)}>tao to alpha</option>
-							<option value ="alpha_to_tao" onChange={(e) => setdirection(e.target.value)}>alpha to tao</option>
+              <select name="direction" id="direction" value={direction} onChange={(e) => setDirection(e.target.value)}>
+              <option value ="tao_to_alpha" >tao to alpha</option>
+							<option value ="alpha_to_tao" >alpha to tao</option>
               </select></p>
-            
-
-						<button class="custom-button" type="button" onClick={Slippage}>
-          		Get Slippage estimate
-        		</button>
-          </label>
+                      </label>
           {error && <p style={{ color: 'red' }}>{error}</p>}
           {subnets  &&  <p>
  						<p/><p/>
-            <p>tokens Expected: {(subnets?.expected_tokens?.toLocaleString(undefined, { minimumFractionDigits: 3, maximumFractionDigits: 3 }))} {token}</p>
-            <p>tokens received: {(subnets?.output_tokens?.toLocaleString(undefined, { minimumFractionDigits: 3, maximumFractionDigits: 3 }))}  {token}</p>
+            <p>tokens expected: {(subnets?.expected_tokens?.toLocaleString(undefined, { minimumFractionDigits: 3, maximumFractionDigits: 3 }))} {direction === "alpha_to_tao" ? "tao" : "alpha"}</p>
+            <p>tokens received: {(subnets?.output_tokens?.toLocaleString(undefined, { minimumFractionDigits: 3, maximumFractionDigits: 3 }))}  {direction === "alpha_to_tao" ? "tao" : "alpha"}</p>
             <p>Slippage: {subnets.slippage}% </p>
-		
-
-
-
             </p>}
-
-
-
-          {error && <p style={{ color: 'red' }}>{error}</p>}
           <label>
 					<p style={{ fontFamily: "Georgia, serif", fontSize: 10 }}> Data from Taostats API</p>
           </label>
