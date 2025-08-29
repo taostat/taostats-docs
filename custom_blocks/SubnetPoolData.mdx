@@ -63,7 +63,7 @@ export const Subnetpools = () => {
         <form onSubmit={(e) => e.preventDefault()}>
           <label>
             Subnet:
-            <input type="text" value ={subnet} onChange={(e) => setSubnet(e.target.value)} />
+            <input class="custom-input" type="text" value ={subnet} onChange={(e) => setSubnet(e.target.value)} />
 						<button class="custom-button" type="button" onClick={GetSubnetPool}>
           		Get Pool data
         		</button>
