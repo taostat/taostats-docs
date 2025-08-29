@@ -71,7 +71,7 @@ export const SlippageCalculator = () => {
              <input class="custom-input" type="text" value ={subnet} onChange={(e) => setSubnet(e.target.value)} /></p>
             <p> Amount:
               <input class="custom-input" type="text" value ={amount} onChange={(e) => setAmount(e.target.value)} />
-              <select name="direction" id="direction" value={direction} onChange={(e) => setDirection(e.target.value)}>
+              <select name="direction" id="direction"  class="custom-select" value={direction} onChange={(e) => setDirection(e.target.value)}>
               <option value ="tao_to_alpha" >tao to alpha</option>
 							<option value ="alpha_to_tao" >alpha to tao</option>
               </select></p>
