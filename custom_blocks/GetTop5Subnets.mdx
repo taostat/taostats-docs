@@ -63,7 +63,7 @@ export const Top5Subnets = () => {
   return (
 
       <div>
-        <form onSubmit={(e) => e.preventDefault()}>
+
           <label>
 
 					<p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Live View of Top Subnets</p>
@@ -99,8 +99,10 @@ export const Top5Subnets = () => {
 
 
           {error && <p style={{ color: 'red' }}>{error}</p>}
-         
-        </form>
+          <label>
+					<p style={{ fontFamily: "Georgia, serif", fontSize: 10 }}> Data from Taostats API</p>
+          </label>
+
       </div>
     );
 };
