@@ -55,7 +55,8 @@ export const Top5Subnets = () => {
   };
 
 
-    return (
+  return (
+
       <div>
         <form onSubmit={(e) => e.preventDefault()}>
           <label>
@@ -64,9 +65,9 @@ export const Top5Subnets = () => {
           		Get top subnets
         		</button>
           </label>
-				  <table border="1" id="subnet-table" style={{ opacity: 0.25 }}>
+				  <table border="1" id="subnet-table" style={{backgroundColor:'green', color:'black' }}>
             <thead>
-              <tr>
+              <tr style={{backgroundColor:'#6b6b6b', color: '#09d9ba' }}>
                 <th>Name</th>
                 <th>NetUID</th>
                 <th>Hotkey</th>
