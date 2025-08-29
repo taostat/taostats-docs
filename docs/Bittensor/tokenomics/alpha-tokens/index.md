@@ -22,11 +22,11 @@ Your staking transaction will take your tao to purchase alpha.  This is done thr
 
 <Image align="center" border={false} caption="The subnet pool for SN 64 (May 28, 2025)" src="https://files.readme.io/7fdbb36d142a090808c56e253f6170a58198dee773f137c845ab15631086d8e4-image.png" />
 
-<br />
-
-In the screenshot above, the value of alpha and tao in the pools are equal, but there are \~4x the alpha tokens in the pool vs. tao.  Alpha Price is determined by the contents of the subnet pool.
+In the screenshot above, the value of alpha and tao in the pools are equal, but there are ~4x the alpha tokens in the pool vs. tao.  Alpha Price is determined by the contents of the subnet pool.
 
 <br />
+
+<Subnetpools />
 
 ## Alpha Price
 
