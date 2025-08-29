@@ -68,19 +68,19 @@ export const Top5Subnets = () => {
 
 					<p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Live View of Top Subnets</p>
           </label>
-				  <table border="1" id="subnet-table" style={{backgroundColor:'green', color:'black' }}>
+				  <table border="1" id="subnet-table" style={{backgroundColor:'green', color:'black' , maxWidth: 450}}>
             <thead>
-              <tr style={{backgroundColor:'#6b6b6b', color: '#09d9ba' }}>
-                <th>Logo</th>
-								<th>Name</th>
-                <th>NetUID</th>
-                <th>Emission</th>
+              <tr style={{backgroundColor:'#6b6b6b', color: '#09d9ba',textAlign:'center' }}>
+                <th style = {{maxWidth: 20}}>Logo</th>
+								<th style = {{maxWidth: 40}}>Name</th>
+                <th style = {{maxWidth: 20}}>NetUID</th>
+                <th style = {{maxWidth: 50}}>Emission</th>
               </tr>
             </thead>
             <tbody>
           {subnets.map(subnet => (
-            <tr key={subnet.netuid} style={{backgroundColor:'#6b6b6b', color: '#ebc249'}}>
-              <td style = {{maxWidth: '150px'}}>
+            <tr key={subnet.netuid} style={{backgroundColor:'#6b6b6b', color: '#ebc249', textAlign:'center'}}>
+              <td style = {{maxWidth: 20}}>
                 <img
                   src={subnet.subnet_logo}
                   alt={subnet.subnet_name}
@@ -88,10 +88,10 @@ export const Top5Subnets = () => {
                   height={32}
                 />
               </td>
-              <td>{subnet.subnet_name}</td>
-              <td>{subnet.netuid}</td>
+              <td style = {{maxWidth: 40}}>{subnet.subnet_name}</td>
+              <td style = {{maxWidth: 20}}>{subnet.netuid}</td>
       
-              <td>{subnet.emission}%</td>
+              <td style = {{maxWidth: 50}}>{subnet.emission}%</td>
             </tr>
           ))}
         </tbody>
