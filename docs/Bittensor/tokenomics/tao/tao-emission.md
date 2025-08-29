@@ -26,8 +26,14 @@ This ensures that 1 tao is emitted every block, and distributed amongst the subn
 
 ![](https://files.readme.io/2a743d39d2afaacc67b13c59c53b76b57ba794a23d89d4fea557fc1da1d76cb4-image.png)
 
-> 📘 Tao\_in example:
+> 📘 Tao_in example:
 >
 > If the Sum of all prices is 1.8, and the proce for a Subnet is 0.2.
 >
-> tao\_in will be 0.2/1.8 = .111 per block.
+> tao_in will be 0.2/1.8 = .111 per block.
+
+<br />
+
+### Caveat:
+
+In reality, the tao_in is determined by an Exponential Moving Average (EMA) of price, but in most cases, the simple illustration above is good emough.
