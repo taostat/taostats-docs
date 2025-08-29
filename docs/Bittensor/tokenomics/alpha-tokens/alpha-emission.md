@@ -14,6 +14,8 @@ Every block, up to two alpha are emitted into each subnet. This is split between
 
 # Calculations
 
+The values shown below assume that alpha has not halved, and one full alpha can be emitted each block to alpha_in and alpha_out. At the alpha halvening, the alpha emitted will drop by a factor of 2.
+
 ## alpha_in
 
 To find the amount of alpha added to the subnet pool, find the tao emitted into the pool, and divide by the price of the alpha.
@@ -32,4 +34,4 @@ This keeps the ratio of alpha and tao values in the pool equal.
 
 ## alpha_out
 
-The alpha emitted to subnet participants is 1 alpha per block.  To learn how this is distributed, see [Subnet Emission](doc:subnets-1).
+The alpha emitted to subnet participants is 1 alpha per block.  To learn how this is distributed, see [Subnet Emission](doc:subnets-1).  
