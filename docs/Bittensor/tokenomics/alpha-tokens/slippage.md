@@ -44,7 +44,7 @@ The amount received will be less than the amount expected from the direct price 
 
 ## Slippage Calculator
 
-<br />
+<SlippageCalculator />
 
 <br />
 
