@@ -1,0 +1,119 @@
+---
+name: SubnetEmission
+---
+import React, { useEffect, useState } from 'react';
+
+export const SubnetEmission = () => {
+
+    const [error, setError] = useState(null);
+    const [subnets, setSubnets] = useState([]);
+    const [subnet, setSubnet] = useState(1);
+    const [amount, setAmount] = useState(10);
+	  const [direction, setDirection] = useState('tao_to_alpha');
+		const [token, setToken] = useState('tao');
+
+
+  const Slippage = async () => {
+					const subnetValue = parseFloat(subnet);
+
+      if (subnetValue) {
+      	try {
+ 						//convert the tao value into rao for the api
+            const amount_rao = amount*1e9;         
+            const response = await fetch(`https://docsdemo.taostats.io/api/dtao/pool/latest/v1?netuid=${subnet}`);
+            if (!response.ok) {
+                 // Throws an error with the HTTP status text (e.g., "Not Found")
+                  throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            const json = await response.json();
+            const subnetData = json['data'][0];
+						const root_prop = parseFloat((parseFloat(subnetData.root_prop)*100).toFixed(2));
+            const response1 = await fetch(`https://docsdemo.taostats.io/api/dtao/pool/latest/v1?netuid=${subnet}`);
+            if (!response.ok) {
+                 // Throws an error with the HTTP status text (e.g., "Not Found")
+                  throw new Error(`HTTP error! Status: ${response1.status}`);
+            }
+            const jsonPool = await response1.json();
+          	const subnetPoolData = jsonPool['data'][0];
+          const tao_in = parseFloat(subnetPoolData.tao_in_pool)/1e9;
+					const alpha_in = parseFloat(subnetPoolData.alpha_in_pool)/1e9;
+          const alpha_out = parseFloat(subnetPoolData.alpha_rewards)/1e9;
+          const alpha_miners = alpha_out*.41;
+          const alpha_owners = alpha_out*.18;
+          const alpha_vali = alpha_out*.41;
+          const alpha_vali_to_root = alpha_vali*root_prop/100;
+					const alpha_vali_to_alpha = alpha_vali*(1-root_prop)/100;
+
+
+
+         
+
+
+            const poolData = {
+              "root_prop": root_prop,
+              "tao_in":tao_in,
+							"alpha_in":alpha_in,
+							"alpha_out":alpha_out
+
+
+            };
+
+            setSubnets(poolData);
+            console.log(poolData);
+            setError(null);
+          } catch (error) {
+            setError(error.message);
+            }
+      } else {
+      	setError('Please enter a valid number');
+    	};
+
+  };
+  
+    // Runs once when the page (component) loads
+  useEffect(() => {
+    // Update token based on direction
+ 
+		Slippage();
+  }, [subnet, direction, amount]);
+
+
+  return (
+
+      <div class="my-box">
+      <div>
+        <p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Retrieve Live Root Proportion</p>
+          <form onSubmit={(e) => e.preventDefault()}>
+          <label>
+           <p> Subnet:
+             <input class="custom-input" type="text" value ={subnet} onChange={(e) => setSubnet(e.target.value)} /></p>
+           
+                      </label>
+          {error && <p style={{ color: 'red' }}>{error}</p>}
+          {subnets  &&  <p>
+ 						<p/><p/>
+            <p>Root Proportion: {(subnets?.root_prop?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 3 }))}%</p>
+           
+            </p>}
+          <label>
+					<p style={{ fontFamily: "Georgia, serif", fontSize: 10 }}> Data from Taostats API</p>
+          </label>
+
+
+         
+
+
+
+
+        </form>
+      </div>
+  
+      </div>
+    );
+};
+
+<SubnetEmission />
+
+
+
+
