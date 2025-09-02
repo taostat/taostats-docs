@@ -53,9 +53,12 @@ export const SubnetEmission = () => {
               "root_prop": root_prop,
               "tao_in":tao_in,
 							"alpha_in":alpha_in,
-							"alpha_out":alpha_out
-
-
+              "alpha_out":alpha_out,
+              "alpha_owner":alpha_owners,
+              "alpha_miners":alpha_miners,	
+              "alpha_valis": alpha_vali,
+              "alpha_vali_to_root":alpha_vali_to_root,					
+							"alpha_vali_to_alpha":alpha_vali_to_alpha
             };
 
             setSubnets(poolData);
@@ -82,7 +85,7 @@ export const SubnetEmission = () => {
 
       <div class="my-box">
       <div>
-        <p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Retrieve Live Root Proportion</p>
+        <p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Retrieve Subnet Eimssion</p>
           <form onSubmit={(e) => e.preventDefault()}>
           <label>
            <p> Subnet:
@@ -91,7 +94,9 @@ export const SubnetEmission = () => {
                       </label>
           {error && <p style={{ color: 'red' }}>{error}</p>}
           {subnets  &&  <p>
- 						<p/><p/>
+              <p/><p/>
+						<p>tao emission per block  {(subnets?.tao_in?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 3 }))}</p>
+
             <p>Root Proportion: {(subnets?.root_prop?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 3 }))}%</p>
            
             </p>}
@@ -113,7 +118,3 @@ export const SubnetEmission = () => {
 };
 
 <SubnetEmission />
-
-
-
-
