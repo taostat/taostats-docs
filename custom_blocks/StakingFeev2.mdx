@@ -20,6 +20,7 @@ export const StakingFee2 = () => {
     			}
 					const json = await response.json();
           const staking_fee = json['data'][0]['fee_rate'];
+					console.log(json);
           setFee(Math.round(staking_fee*100000)/100000*100);
           setError(null);
       	} catch (error) {
@@ -38,11 +39,11 @@ export const StakingFee2 = () => {
         <form onSubmit={(e) => e.preventDefault()}>
           <label>
             Subnet:
-            <input type="text" value={subnet} onChange={(e) => {
+            <input class="custom-input" type="text" value={subnet} onChange={(e) => {
                        setSubnet(e.target.value);
                        setFee(null);                            
                        }} />
-						<button type="button" onClick={GetFeeFromAPI}>
+						<button class="custom-button" type="button" onClick={GetFeeFromAPI}>
           		Get staking fee
         		</button>
           </label>
