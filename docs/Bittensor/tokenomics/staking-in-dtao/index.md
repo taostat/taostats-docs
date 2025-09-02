@@ -35,7 +35,7 @@ Stakeholder emission is split between these two options.  For new subnets, the e
 
 <Image align="center" alt="An example breakdown of root:subnet proportions." border={false} caption="An example breakdown of root:subnet proportions." src="https://files.readme.io/3e9d7b5c3747867d7b1d97a068bfceb15d003e0f4ba498f2f5b48bcca74f11ac-image.png" />
 
-<br />
+<RootProp />
 
 This change over time is described in [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha).
 
@@ -51,7 +51,7 @@ This is the new feature and primary goal of dTao - to enable stakeholders to vot
 
 To stake in alpha, tao is exchanged via the [Subnet Pools](doc:subnet-pools) into alpha.  This will incur [Slippage](doc:slippage). The received alpha is then staked to the validator selected.  Your returns will be in alpha, and autocompounded to the validator hotkey.
 
-Staking to alpha *does* incur risk: a drop in alpha token price will result in a lower amout of tao when unstaking.
+Staking to alpha _does_ incur risk: a drop in alpha token price will result in a lower amout of tao when unstaking.
 
 <br />
 
