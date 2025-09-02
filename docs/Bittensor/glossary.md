@@ -22,13 +22,13 @@ The amount of alpha that is present in the liquidity pool.  Depending on the con
 
 # Alpha out (aka Alpha outstanding, alpha staked)
 
-The amount of alpha that has been staked onto hotkeys. Alpha\_out can refer to\_all\_ of the alpha staked, or to the alpha being staked to a specific wallet. Examples: Subnet 37 has 4,000 alpha out.  I have 100 alpha out staked from subnet 16.
+The amount of alpha that has been staked onto hotkeys. Alpha_out can refer to_all_ of the alpha staked, or to the alpha being staked to a specific wallet. Examples: Subnet 37 has 4,000 alpha out.  I have 100 alpha out staked from subnet 16.
 
-Alpha\_out can also refer to the amount of alpha being added to the hotkeys during a block.
+Alpha_out can also refer to the amount of alpha being added to the hotkeys during a block.
 
 # Alpha Price:
 
-This is defined by the ratio of tao\_in/alpha\_in - the assets in the liquidity pool.
+This is defined by the ratio of tao_in/alpha_in - the assets in the liquidity pool.
 
 # Coldkey:
 
@@ -73,7 +73,7 @@ When a subnet closes registration, the Subnet retains its emission percentage, b
 
 # Exchange rate:
 
-This is defined by the ratio of tao\_in/alpha\_in - the assets in the liquidity pool.  Also known as
+This is defined by the ratio of tao_in/alpha_in - the assets in the liquidity pool.  Also known as
 
 # Extrinsic:
 
@@ -97,7 +97,7 @@ Time period (defined in blocks) that a new node or subnet is protected from de-r
 
 # Liquid Alpha:
 
-Also know as consensus based weights.  Introduced in Bittensor 7.3, this feature changes the way Validator dividends are calculated.  The "Bond" between each validator and miner is a exponentaial moving average, where the  most recent bond is weighed at alpha = 0.9.  With Liquid alpha, this becomes a variable. Subnets with Liquid alpha enabled set the [Subnet Hyperparameters](doc:subnet-parameters) liquid\_alpha\_enabled to true.
+Also know as consensus based weights.  Introduced in Bittensor 7.3, this feature changes the way Validator dividends are calculated.  The "Bond" between each validator and miner is a exponentaial moving average, where the  most recent bond is weighed at alpha = 0.9.  With Liquid alpha, this becomes a variable. Subnets with Liquid alpha enabled set the [Subnet Hyperparameters](doc:subnet-parameters) liquid_alpha_enabled to true.
 
 # Liquidity pool/Subnet pool:
 
@@ -121,7 +121,7 @@ A tao owner can stake (or delegate) their tao with a validator. The higher the v
 
 # Subnet:
 
-Short for "subnetwork." There are currently 32 subnets in the Bittensor network. [Subnets](doc:subnets).
+Short for "subnetwork." As of August 2025 there are 128 subnets in the Bittensor network. [Subnets](doc:subnets).
 
 # Take:
 
