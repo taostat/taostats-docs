@@ -8,10 +8,6 @@ export const SubnetEmission = () => {
     const [error, setError] = useState(null);
     const [subnets, setSubnets] = useState([]);
     const [subnet, setSubnet] = useState(1);
-    const [amount, setAmount] = useState(10);
-	  const [direction, setDirection] = useState('tao_to_alpha');
-		const [token, setToken] = useState('tao');
-
 
   const Slippage = async () => {
 					const subnetValue = parseFloat(subnet);
@@ -77,8 +73,8 @@ export const SubnetEmission = () => {
   useEffect(() => {
     // Update token based on direction
  
-		Slippage();
-  }, [subnet, direction, amount]);
+		
+  }, []);
 
 
   return (
