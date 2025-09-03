@@ -28,7 +28,7 @@ export const SubnetEmission = () => {
             const json = await response.json();
             const subnetData = json['data'][0];
 						const root_prop = parseFloat((parseFloat(subnetData.root_prop)*100).toFixed(2));
-            const response1 = await fetch(`https://docsdemo.taostats.io/api/dtao/pool/latest/v1?netuid=${subnet}`);
+            const response1 = await fetch(`https://docsdemo.taostats.io/api/dtao/subnet_emission/v1?netuid=${subnet}`);
             if (!response.ok) {
                  // Throws an error with the HTTP status text (e.g., "Not Found")
                   throw new Error(`HTTP error! Status: ${response1.status}`);
@@ -85,7 +85,7 @@ export const SubnetEmission = () => {
 
       <div class="my-box">
       <div>
-        <p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Retrieve Subnet Eimssion</p>
+        <p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}>Subnet Emission per block</p>
           <form onSubmit={(e) => e.preventDefault()}>
           <label>
            <p> Subnet:
@@ -95,10 +95,11 @@ export const SubnetEmission = () => {
           {error && <p style={{ color: 'red' }}>{error}</p>}
           {subnets  &&  <p>
               <p/><p/>
-						<p>tao emission per block  {(subnets?.tao_in?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 3 }))}</p>
+						<p>tao_in:  {(subnets?.tao_in?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 5 }))}</p>
+						<p>alpha_in:  {(subnets?.alpha_in?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 5 }))}</p>
+						<p>alpha_out:  {(subnets?.alpha_out?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 5 }))}</p>
 
-            <p>Root Proportion: {(subnets?.root_prop?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 3 }))}%</p>
-           
+         
             </p>}
           <label>
 					<p style={{ fontFamily: "Georgia, serif", fontSize: 10 }}> Data from Taostats API</p>
