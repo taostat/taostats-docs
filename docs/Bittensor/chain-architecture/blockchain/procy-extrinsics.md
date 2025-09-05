@@ -1,5 +1,5 @@
 ---
-title: Procy Extrinsics
+title: Proxy Extrinsics
 deprecated: false
 hidden: false
 metadata:
