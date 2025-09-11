@@ -4,7 +4,7 @@ api:
   file: taostats-1.json
   operationId: get_pathsapidev_activityhistoryv1
 deprecated: false
-hidden: true
+hidden: false
 link:
   new_tab: false
 metadata:
