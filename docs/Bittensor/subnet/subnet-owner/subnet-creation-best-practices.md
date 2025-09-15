@@ -73,7 +73,7 @@ Check your set identity with  `btcli s get_identity`
 <Callout icon="📘" theme="info">
   Tips for setting identity
 
-  The biggest issue is the logo URL.  
+  The biggest issue is the logo URL.
 
   This **must** be the url of the raw image - not the url of a page hosting the image.
 
@@ -81,11 +81,11 @@ Check your set identity with  `btcli s get_identity`
 
   ❌ `https://github.com/taostat/.github/blob/main/profile/taostats.png`
 
-  This is a page hosting the image.  Right click the image and open in a new tab
+  This is a page hosting the image.  Right click the image and open in a new tab.
 
   ✅. `https://raw.githubusercontent.com/taostat/.github/refs/heads/main/profile/taostats.png`
 
-  This is the linkto the image served by Github. Use this image.
+  This is the link to the image served by Github. Use this image.
 </Callout>
 
 # Running a Validator
