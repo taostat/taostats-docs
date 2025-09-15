@@ -88,9 +88,15 @@ Check your set identity with  `btcli s get_identity`
   This is the link to the image served by Github. Use this image.
 </Callout>
 
+<br />
+
+# Immune Owner Neurons
+
+Owners can set how many immune neurons they have via the  `ImmuneOwnerUidsLimit` parameter.  The default is 1, but the max is 10.
+
 # Running a Validator
 
-All Subnet owners have a neuron that cannot be deregistered.  This is intended to be run as a validator:
+All Subnet owners have at least one neuron that cannot be deregistered.  This is intended to be run as a validator:
 
 * Validators provide access to the subnet commodity.  With a validator, SN owners now have access to their commodity.
 * Mining incentive to this hotkey is burned.  SN owner cannot run a miner on this hotkey (and receive alpha).
