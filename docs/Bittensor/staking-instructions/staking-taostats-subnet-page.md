@@ -14,7 +14,7 @@ next:
 
 <br />
 
-On each subnet page, there is the ability [Connecting your wallet](doc:connecting-your-wallet) and stake to the subnet.
+On each subnet page, there is the ability [to connect your wallet](doc:connecting-your-wallet) and stake to the subnet.
 
 ![](https://files.readme.io/cc4aa9a73daa1baf9bea31469d565e6e3698615fe41650c5853b6db0f986789a-image.png)
 
