@@ -49,7 +49,14 @@ Adjust your validator of choice, and the amount of slippage that is acceptable
 
 ## Fees
 
-Every staking action on the network has a fee of 50,000 rao - 0.00005 tao.  This will be removed from the amount you stake/unstake.
+There are staking and unstaking fees on Bittensor.  
+
+* Root subnet: no staking or unstaking fees
+* Fee is a percentage (that can be adjusted by the subnet owner.  
+  * Fee is taken as tao when staking
+  * Fee is taken as alpha when unstaking
+
+<StakingFee2 />
 
 If you utilize multiple staking actions using taostats, they will be sent to the chain in a `batch`.  Batch calls on chain have a small fee.  Taostats does not collect this fee, it is paid to the chain.
 
