@@ -49,7 +49,44 @@ Here are some ideas for you to think about:
 
 Your Subnet's name, Discord, GitHub Repo and website.  Update these on the chain using btcli `btcli s get-identity`.  you will be prompted to add all of the fields, and then the values stored on chain. Taostats will update on the next epoch with your new values.
 
-<br />
+Check your set identity with  `btcli s get_identity`
+
+```
+                      Current Subnet 1 Identity                       
+                                                                      
+           Item ┃ Value                                               
+━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+         Netuid │ 1                                                   
+    subnet_name │ Apex                                                
+    github_repo │ https://github.com/macrocosm-os/apex                
+ subnet_contact │ support@macrocosmos.ai                              
+     subnet_url │ https://apex.macrocosmos.ai                         
+        discord │ macrocrux                                           
+    description │ Building the world's fastest deep researchers       
+       logo_url │ https://www.macrocosmos.ai/images/mc_logo_black.png 
+     additional │ ~                                                   
+────────────────┼─────────────────────────────────────────────────────
+                │                                                     
+
+```
+
+<Callout icon="📘" theme="info">
+  Tips for setting identity
+
+  The biggest issue is the logo URL.  
+
+  This **must** be the url of the raw image - not the url of a page hosting the image.
+
+  for example:
+
+  ❌ `https://github.com/taostat/.github/blob/main/profile/taostats.png`
+
+  This is a page hosting the image.  Right click the image and open in a new tab
+
+  ✅. `https://raw.githubusercontent.com/taostat/.github/refs/heads/main/profile/taostats.png`
+
+  This is the linkto the image served by Github. Use this image.
+</Callout>
 
 # Running a Validator
 
