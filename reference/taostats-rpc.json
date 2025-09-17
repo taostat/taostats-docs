@@ -68,7 +68,7 @@
       "ApiKeyAuth": {
         "type": "apiKey",
         "in": "query",
-        "name": "Authorization"
+        "name": "authorization"
       }
     }
   },

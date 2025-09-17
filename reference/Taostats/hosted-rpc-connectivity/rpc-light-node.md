@@ -1,5 +1,5 @@
 ---
-title: Lite Node
+title: post
 api:
   file: taostats-rpc.json
   operationId: post_apiv1rpcwsfinney_lite
