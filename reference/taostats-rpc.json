@@ -44,7 +44,11 @@
                   },
                   "params": {
                     "type": "object",
-                    "properties": {}
+                    "properties": {
+                      "property1": {
+                        "type": "string"
+                      }
+                    }
                   }
                 }
               }
