@@ -6,7 +6,7 @@
   },
   "servers": [
     {
-      "url": "https://api.taostats.io"
+      "url": "wss://api.taostats.io"
     }
   ],
   "tags": [],
