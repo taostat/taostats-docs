@@ -1,0 +1,48 @@
+---
+name: GetRPCPallets
+---
+import React, { useState } from 'react';
+
+export const GetPallets = () => {
+  	const [pallets, setPallets] = useState('');
+  	const [error, setError] = useState(null);
+
+  const GetPalletsFromAPI = async () => {
+			const subnetValue = parseFloat(subnet);
+
+      if (subnetValue) {
+        try {
+          const response = await fetch(`https://docsdemo.taostats.io/api/dtao/pool/latest/v1?netuid=${subnetValue}`);
+          if (!response.ok) {
+ 					     // Throws an error with the HTTP status text (e.g., "Not Found")
+      					throw new Error(`HTTP error! Status: ${response.status}`);
+    			}
+					const json = await response.json();
+          const price = json['data'][0]['price'];
+          setPallets(Math.round(price*1000)/1000);
+          setError(null);
+      	} catch (error) {
+        	setError(error.message);
+      		}
+    	} else {
+      	setError('Please enter a valid number');
+    	};
+  };
+
+    return (
+      <div>
+        <form onSubmit={(e) => e.preventDefault()}>
+          <label>
+
+						<button type="button" onClick={GetPalletsFromAPI}>
+          		Get Latest Pallets
+        		</button>
+          </label>
+          {error && <p style={{ color: 'red' }}>{error}</p>}
+          {pallets && <p> {pallets} tao</p>}
+        </form>
+      </div>
+    );
+};
+
+<GetPallets />
