@@ -1,7 +1,7 @@
 ---
 title: RPC Connection to the Chain
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
