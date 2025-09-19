@@ -1,38 +1,46 @@
 ---
 name: GetPallets2
 ---
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 export const GetPallets2 = () => {
-  const [pallets, setPallets] = useState(null);
-  const [error, setError] = useState(null);
+  	const [pallets, setPallets] = useState(null);
+  	const [error, setError] = useState(null);
 
   const GetPalletsFromAPI = async () => {
+
     try {
-      const response = await fetch(
-        `https://docsdemo.taostats.io/api/rpc/list?network=lite`
-      );
-      if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+          const response = await fetch(`https://docsdemo.taostats.io/api/rpc/list?network=lite`);
+          if (!response.ok) {
+ 					     // Throws an error with the HTTP status text (e.g., "Not Found")
+      					throw new Error(`HTTP error! Status: ${response.status}`);
+    			}
+					const json = await response.json();
+      		console.log("RPC Response:", json); // helpful for debugging
 
-      const json = await response.json();
-      console.log("RPC Response:", json);
+          // Example: If json.result.methods exists and is an array, do something
+         
+            setPallets(json);
+            setError(null);
+   
 
-      setPallets(json);
-      setError(null);
-    } catch (err) {
-      setError(err.message);
-    }
+      	} catch (error) {
+        	setError(error.message);
+      		}
+
   };
 
-  return (
-    <div>
-      <button type="button" onClick={GetPalletsFromAPI}>
-        Get Latest RPC Methods
-      </button>
+    return (
+      <div>
+        <form onSubmit={(e) => e.preventDefault()}>
+          <label>
 
-      {error && <p style={{ color: "red" }}>{error}</p>}
-
-      {pallets && (
+						<button type="button" onClick={GetPalletsFromAPI}>
+          		Get Latest RPC methods
+        		</button>
+          </label>
+          {error && <p style={{ color: 'red' }}>{error}</p>}
+        {pallets && (
         <div style={{ marginTop: "1em" }}>
           {Object.entries(pallets).map(([pallet, methods]) => (
             <div key={pallet} style={{ marginBottom: "1em" }}>
@@ -41,7 +49,11 @@ export const GetPallets2 = () => {
             </div>
           ))}
         </div>
-      )}
-    </div>
-  );
+      )}  
+
+        </form>
+      </div>
+    );
 };
+
+<GetPallets2 />
