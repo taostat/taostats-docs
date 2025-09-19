@@ -37,11 +37,13 @@ The ratio of root: alpha staked is calculated using the `root_proportion`.
 
 * **tao on root**: The total amount of tao on root.
 * **alpha issued**: The sum of `alpha_in` and `alpha_out` (all alpha emitted)
-* **tao\_weight**: a variable set by the chain.  The current `tao_weight` is 0.18.
+* **tao_weight**: a variable set by the chain.  The current `tao_weight` is 0.18.
 
 ![](https://files.readme.io/5fae38f32d8ae075ba7c970f88d69265de126147b67d21e03ccb5baff90381e5-image.png)
 
-<br />
+## Current Root prop
+
+<RootProp />
 
 Root proportion will change every block, as the tao and alpha values will have increased (by 1 and 2 respectively).  The results can be charted over time:
 
