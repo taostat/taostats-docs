@@ -14,9 +14,8 @@ export const SubnetEmission = () => {
 
       if (subnetValue) {
       	try {
- 						//convert the tao value into rao for the api
-            const amount_rao = amount*1e9;         
-            const response = await fetch(`https://docsdemo.taostats.io/api/dtao/pool/latest/v1?netuid=${subnet}`);
+ 						//convert the tao value into rao for the api       
+            const response = await fetch(`https://docsdemo.taostats.io/api/http/api/dtao/pool/latest/v1?netuid=${subnet}`);
             if (!response.ok) {
                  // Throws an error with the HTTP status text (e.g., "Not Found")
                   throw new Error(`HTTP error! Status: ${response.status}`);
@@ -24,7 +23,7 @@ export const SubnetEmission = () => {
             const json = await response.json();
             const subnetData = json['data'][0];
 						const root_prop = parseFloat((parseFloat(subnetData.root_prop)*100).toFixed(2));
-            const response1 = await fetch(`https://docsdemo.taostats.io/api/dtao/subnet_emission/v1?netuid=${subnet}`);
+            const response1 = await fetch(`https://docsdemo.taostats.io/api/http/api/dtao/subnet_emission/v1?netuid=${subnet}`);
             if (!response.ok) {
                  // Throws an error with the HTTP status text (e.g., "Not Found")
                   throw new Error(`HTTP error! Status: ${response1.status}`);
@@ -72,9 +71,9 @@ export const SubnetEmission = () => {
     // Runs once when the page (component) loads
   useEffect(() => {
     // Update token based on direction
- 
+  Slippage();
 		
-  }, []);
+  }, [subnet]);
 
 
   return (
