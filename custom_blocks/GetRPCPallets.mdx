@@ -55,7 +55,24 @@ export const GetPallets = () => {
         		</button>
           </label>
           {error && <p style={{ color: 'red' }}>{error}</p>}
-          {pallets && <p>{Array.isArray(pallets) ? pallets.join(", ") : pallets} tao</p>}
+          {pallets && Array.isArray(pallets) && (
+  <div>
+    {Object.entries(
+      // Group by prefix
+      pallets.reduce((acc, method) => {
+        const [prefix] = method.split("_");
+        if (!acc[prefix]) acc[prefix] = [];
+        acc[prefix].push(method);
+        return acc;
+      }, {})
+    ).map(([prefix, methods]) => (
+      <div key={prefix} style={{ marginBottom: "1em" }}>
+        <h3>{prefix}</h3>
+        <p>{methods.join(", ")}</p>
+      </div>
+    ))}
+  </div>
+)}
         </form>
       </div>
     );
