@@ -18,7 +18,7 @@ Smart contracts are agreements that are codified in code.  When two (or more) pa
 
 EVM is used to execute smart contracts. Generally, this is done on the ethereum blockchain, but in the case of Bittensor, these are run solely on the Bittensor subtensor chain.  It allows developers to write and deploy smart contracts in programming languages like Solidity.
 
-It should be noted that EVM is not native to substrate blockchains (like Bittensor.). To enable EVM and smart contracts to be run on Bittensor, an EVM implementation was added.  
+It should be noted that EVM is not native to substrate blockchains (like Bittensor.). To enable EVM and smart contracts to be run on Bittensor, an EVM implementation was added.
 
 Once you have created and compiled a smart contract, it must be deployed on the Ethereum network.
 
@@ -54,26 +54,22 @@ So how do these two types of wallets interact?
 Your EVM wallet (in Metamask) can execute smart contracts.  It has an alias address in Bittensor that can receive funds from "regular"  Substrate wallets.  This bittensor 'alias' has no password on the Bittensor side, and cannot be used for any transactions on the Bittensor chain. Any funds that are transferred into the alias immediately appear in the EVM wallet.
 
 <Image
+  align="center"
   alt="Bittensor wallet (orange) & EVM wallet (yellow)  
 The EVM wallet has a Bittensor alias for receiving funds. These will immediately appear in the EVM wallet."
-  align="center"
+  border={false}
+  caption="Bittensor wallet (orange) & EVM wallet (yellow)
+The EVM wallet has a Bittensor alias for receiving funds. These will immediately appear in the EVM wallet."
   src="https://files.readme.io/f3abfc30d2d41293749141a941d9d8f3e243b7c00613638ebc9b2ddc16d25194-image.png"
->
-  Bittensor wallet (orange) & EVM wallet (yellow)\
-  The EVM wallet has a Bittensor alias for receiving funds. These will immediately appear in the EVM wallet.
-</Image>
+/>
 
 ### Bittensor wallets on EVM
 
 In a similar way, Bittensor wallets have an alias address on EVM that can receive funds. This EVM 'alias' has no password and cannot be used to execute smart contracts on EVM, but can receive transfers or the execution of smart contracts.
 
-<Image alt="EVM wallet (yellow) can transfer funds to the Bittensor wallet alias. This appears in the Bittensor wallet immediately." align="center" src="https://files.readme.io/6ab8172063c03ab1d2a966a1cc9fcd84a5272e4a41f7e1d873bec35ce3b8ea82-image.png">
-  EVM wallet (yellow) can transfer funds to the Bittensor wallet alias. This appears in the Bittensor wallet immediately.
-</Image>
+<Image align="center" alt="EVM wallet (yellow) can transfer funds to the Bittensor wallet alias. This appears in the Bittensor wallet immediately." border={false} caption="EVM wallet (yellow) can transfer funds to the Bittensor wallet alias. This appears in the Bittensor wallet immediately." src="https://files.readme.io/6ab8172063c03ab1d2a966a1cc9fcd84a5272e4a41f7e1d873bec35ce3b8ea82-image.png" />
 
-<Image alt="EVM wallet executes a smart contract, and the Bittensor wallet's alias receives the funds as a result of the execution." align="center" src="https://files.readme.io/3db4f59dd03e01bd9d960922f1d3091bf290d670966449ac6c32e0af2da25833-image.png">
-  EVM wallet executes a smart contract, and the Bittensor wallet's alias receives the funds as a result of the execution. These funds appear in the Bittensor wallet upon execution of the contract.
-</Image>
+<Image align="center" alt="EVM wallet executes a smart contract, and the Bittensor wallet's alias receives the funds as a result of the execution." border={false} caption="EVM wallet executes a smart contract, and the Bittensor wallet's alias receives the funds as a result of the execution. These funds appear in the Bittensor wallet upon execution of the contract." src="https://files.readme.io/3db4f59dd03e01bd9d960922f1d3091bf290d670966449ac6c32e0af2da25833-image.png" />
 
 <br />
 
@@ -86,3 +82,18 @@ In a similar way, Bittensor wallets have an alias address on EVM that can receiv
 the Opentensor Foundation has up to date guides on running smart contracts on Bittensor:
 
 [https://docs.bittensor.com/evm-tutorials/](https://docs.bittensor.com/evm-tutorials/)
+
+# Contract verification
+
+(from our friends at [Taonado](https://github.com/taonado/taonado-cash/blob/main/verify-contract.md) 
+
+To verify the source code for a deployed contract on the taostats evm explorer. See hardhat.config.ts for configuration. This does not require a valid config.ts setup with keys etc..
+
+```pnpm hardhat verify --network taostats 0xDEPLOYED_CONTRACT_ADDRESS "CONSTRUCTOR_PARAM_0" "CONSTRUCTOR_PARAM_1"```
+
+
+If you run into issues verifying, it is likely an issue with the `@openzeppelin/hardhat-upgrades` package changes to how contracts are tested before verified. There is a compatibility issue with Blockscout. In particular, [HardhatError HH110](https://v2.hardhat.org/hardhat-runner/docs/errors#HH110) : Invalid JSON-RPC response is possible with error: "Action not found."
+
+To fix this, you have to temporarily uninitialize the @openzeppelin/hardhat-upgrades package for the purposes of verifying any contract, which will run the expected verify method which works with Blockscout's RPC.
+
+Root cause is the @openzeppelin/hardhat-upgrades package checks if the address isBeacon by trying to get the implementation() address which the Blockscout eth-RPC returns an error message different than what is expected by the lib, so it incorrectly assumes there is an RPC issue.
