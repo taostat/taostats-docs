@@ -14,7 +14,8 @@ export const Top5Subnets = () => {
     try {
 				//get the top subnets
 
-          const response = await fetch(`https://docsdemo.taostats.io/api/http/api/subnet/latest/v1?limit=5&order=emission_desc`);
+      const response = await fetch(`https://docsdemo.taostats.io/api/subnet/latest/v1?limit=5&order=emission_desc`);               
+                                    
           if (!response.ok) {
  					     // Throws an error with the HTTP status text (e.g., "Not Found")
       					throw new Error(`HTTP error! Status: ${response.status}`);
