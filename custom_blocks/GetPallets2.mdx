@@ -10,7 +10,7 @@ export const GetPallets2 = () => {
   const GetPalletsFromAPI = async () => {
 
     try {
-          const response = await fetch(`https://docsdemo.taostats.io/api/lite/list?network=lite`);
+          const response = await fetch(`https://docsdemo.taostats.io/api/rpc/list?network=lite`);
           if (!response.ok) {
  					     // Throws an error with the HTTP status text (e.g., "Not Found")
       					throw new Error(`HTTP error! Status: ${response.status}`);
