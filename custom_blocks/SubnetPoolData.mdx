@@ -16,7 +16,7 @@ export const Subnetpools = () => {
       	try {
           //get the top pool data
 
-            const response = await fetch(`https://docsdemo.taostats.io/api/http/api/http/api/dtao/pool/latest/v1?netuid=${subnetValue}&page=1`);
+            const response = await fetch(`https://docsdemo.taostats.io/api/http/api/dtao/pool/latest/v1?netuid=${subnetValue}&page=1`);
             if (!response.ok) {
                  // Throws an error with the HTTP status text (e.g., "Not Found")
                   throw new Error(`HTTP error! Status: ${response.status}`);
