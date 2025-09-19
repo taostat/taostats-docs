@@ -19,6 +19,8 @@ The [Taostats RPC Connection](ref:hosted-rpc-connectivity) gives you direct acce
 
 <br />
 
+# how RPC works:
+
 <br />
 
 <br />
