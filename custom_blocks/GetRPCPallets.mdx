@@ -10,7 +10,7 @@ export const GetPallets = () => {
   const GetPalletsFromAPI = async () => {
 
         try {
-          const response = await fetch(`https://docsdemo.taostats.io/api/lite/rpc`,{
+          const response = await fetch(`https://docsdemo.taostats.io/api/rpc/list?network=lite`,{
             method: "POST",
 						headers: {
 		            "Content-Type": "application/json"
