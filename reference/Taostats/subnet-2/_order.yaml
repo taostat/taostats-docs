@@ -10,6 +10,7 @@
 - get-subnet-registration-cost-history-1
 - get-subnet-registrations-1
 - subnet-deregistration-ranking
+- subnet-deregistration-ranking-historical
 - get-sum-of-subnet-prices
 - get-current-sum-of-subnet-prices
 - get-historical-sum-of-subnet-prices
@@ -17,4 +18,3 @@
 - get-total-burned-alpha
 - get-subnet-github-activity-history
 - get-latest-subnet-github-activity
-- subnet-deregistration-ranking-historical
