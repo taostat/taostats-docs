@@ -12,16 +12,12 @@ There are some calls that may require direct access into the chain.  There is a 
 The [Taostats RPC Connection](ref:hosted-rpc-connectivity) gives you direct access into the chain.  From the chain you can make many requests for granular information.
 
 <Callout icon="📘" theme="info">
-  The latest methods available from the Substrate RPC
-
-  <Accordion title="Get the methods" icon="fa-info-circle">
+  <Accordion title="The latest methods available from the Substrate ROC" icon="fa-info-circle">
     <GetPallets2 />
   </Accordion>
 
-  <GetPallets2 />
-</Callout>
 
-<GetPallets2 />
+</Callout>
 
 # how RPC works:
 
