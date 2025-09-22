@@ -14,6 +14,10 @@ The [Taostats RPC Connection](ref:hosted-rpc-connectivity) gives you direct acce
 <Callout icon="📘" theme="info">
   The latest methods available from the Substrate RPC
 
+  <Accordion title="Get the methods" icon="fa-info-circle">
+    <GetPallets2 />
+  </Accordion>
+
   <GetPallets2 />
 </Callout>
 
@@ -21,6 +25,6 @@ The [Taostats RPC Connection](ref:hosted-rpc-connectivity) gives you direct acce
 
 # how RPC works:
 
-<br />
+/
 
 <br />
