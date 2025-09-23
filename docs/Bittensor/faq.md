@@ -16,7 +16,7 @@ next:
 
 <Image align="center" width="50% " src="https://files.readme.io/d5fedce-image.png" />
 
-Due to a chain upgrade, all accounts had to be migrated, but this migration had impacts to the chain.  To mitigate this impact, empty accounts were not migrated. [twitter thread](https://x.com/taostats/status/1794719922486223324)  
+Due to a chain upgrade, all accounts had to be migrated, but this migration had impacts to the chain.  To mitigate this impact, empty accounts were not migrated. [twitter thread](https://x.com/taostats/status/1794719922486223324)
 
 # General
 
@@ -30,7 +30,7 @@ The metagraph is a tabular output of the data metrics associated to all subnets 
 
 In Febraury 2025, a new emissions paradigm known as dTao was launched. Its goals: further decentralise Bittensor by making emissions to subnet a purely democratic process. Staking tao into a subnet (as alpha) increases the emissions to that subnet.  Emissions are determined by "voting with their stake."
 
-Emissions are fundamentally changed as a part of dTao. See:  [Subnet Emission](doc:subnets-emission)
+Emissions are fundamentally changed as a part of dTao. See:  [Subnet Emission](doc:subnets-1)
 
 ## What do I do with my stake at launch?
 
@@ -72,7 +72,7 @@ Mining in Bittensor is competitive - there are a limited number of slots availab
 
 ## My miner has zero emissions? is this a bug?
 
-It is important to do you own research before registering on a subnet to understand how emission is granted to miners. Mining is extremely competitive, and using the base miner is often "not enough" to receive emissions.  Additionally, each subnet awards emission differently. Some Subnets only award emission to the top "x" miners. In others, the time to receive emission varies - but in general you'll need at least one epoch for the validators to grade you and set weights.  
+It is important to do you own research before registering on a subnet to understand how emission is granted to miners. Mining is extremely competitive, and using the base miner is often "not enough" to receive emissions.  Additionally, each subnet awards emission differently. Some Subnets only award emission to the top "x" miners. In others, the time to receive emission varies - but in general you'll need at least one epoch for the validators to grade you and set weights.
 
 If the Subnet has no emissions:
 
@@ -96,10 +96,10 @@ Any data transmitted to Bittensor will pass through multiple servers, including 
 
 ## There was a hack in July 2024. What happened?
 
-From July 2-12, 2024, the chain was placed into safe mode - preventing transactions from being performed.  In the minutes before the chain was placed in safe mode, several large accounts were drained of tao. 
+From July 2-12, 2024, the chain was placed into safe mode - preventing transactions from being performed.  In the minutes before the chain was placed in safe mode, several large accounts were drained of tao.
 
-The origins of the attack stem from the release of Bittensor 6.12.2 in May 2024. The pip version of this release had a compromised library that allowed the hacker to collect unencrypted coldkeys. On July 2, 2024, the attacker used these credentials to empty several wallets.  *ONLY* users of the command like tool BTCLI - version 6.12.2 - were compromised. [Blog post](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d)  describing the attack, and the [process to reopen the chain](https://blog.bittensor.com/reopening-bittensor-8252ee749980) . During the reopening and coldkey swap - no further wallets were attacked.\
-Our [A Best Practices Guide for Safely Installing Software](doc:a-best-practices-guide-for-safely-installing-software) provides a template for ensuring you are operating as safely as possible when installing dependencies. 
+The origins of the attack stem from the release of Bittensor 6.12.2 in May 2024. The pip version of this release had a compromised library that allowed the hacker to collect unencrypted coldkeys. On July 2, 2024, the attacker used these credentials to empty several wallets.  _ONLY_ users of the command like tool BTCLI - version 6.12.2 - were compromised. [Blog post](https://blog.bittensor.com/bittnesor-community-update-july-3-2024-45661b1d542d)  describing the attack, and the [process to reopen the chain](https://blog.bittensor.com/reopening-bittensor-8252ee749980) . During the reopening and coldkey swap - no further wallets were attacked.
+Our [A Best Practices Guide for Safely Installing Software](doc:a-best-practices-guide-for-safely-installing-software) provides a template for ensuring you are operating as safely as possible when installing dependencies.
 
 # Hotkey/Coldkey What's the difference?
 
