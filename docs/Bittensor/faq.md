@@ -32,6 +32,8 @@ In Febraury 2025, a new emissions paradigm known as dTao was launched. Its goals
 
 Emissions are fundamentally changed as a part of dTao. See:  [Subnet Emission](doc:subnets-1)
 
+## The first block of dTao was 4920351
+
 ## What do I do with my stake at launch?
 
 You dont have to do anything. Your stake will be converted to `root stake` and continute to earn rewards.  See  [Stakeholder Emissions: Root](doc:stakeholder-emissions-root).
