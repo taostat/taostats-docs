@@ -1,7 +1,7 @@
 ---
 name: RPCalls
 ---
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 export const SearchPallets = () => {
   	const [pallets, setPallets] = useState(null);
@@ -29,6 +29,7 @@ export const SearchPallets = () => {
       		}
 
   };
+
 
     return (
       <div class="my-box">
