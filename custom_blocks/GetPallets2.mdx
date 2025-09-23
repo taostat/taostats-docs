@@ -42,10 +42,10 @@ export const GetPallets2 = () => {
           {error && <p style={{ color: 'red' }}>{error}</p>}
         {pallets && (
         <div style={{ marginTop: "1em" }}>
-          {Object.entries(pallets).map(([pallet, methods]) => (
+          {Object.entries(pallets).map(([pallet, methodsObj]) => (
             <div key={pallet} style={{ marginBottom: "1em" }}>
               <h3>{pallet}</h3>
-              <p>{methods.join(", ")}</p>
+              <p>{Object.keys(methodsObj).join(", ")}</p>
             </div>
           ))}
         </div>
