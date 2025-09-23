@@ -1,0 +1,76 @@
+---
+name: RPCalls
+---
+import React, { useState } from 'react';
+
+export const SearchPallets = () => {
+  	const [pallets, setPallets] = useState(null);
+  	const [error, setError] = useState(null);
+
+  const GetPalletsFromAPI = async () => {
+
+    try {
+          const response = await fetch(`https://docsdemo.taostats.io/api/rpc/list?network=lite`);
+          if (!response.ok) {
+ 					     // Throws an error with the HTTP status text (e.g., "Not Found")
+      					throw new Error(`HTTP error! Status: ${response.status}`);
+    			}
+					const json = await response.json();
+      		console.log("RPC Response:", json); // helpful for debugging
+
+          // Example: If json.result.methods exists and is an array, do something
+         
+            setPallets(json);
+            setError(null);
+   
+
+      	} catch (error) {
+        	setError(error.message);
+      		}
+
+  };
+
+    return (
+      <div class="my-box">
+        <form onSubmit={(e) => e.preventDefault()}>
+				<div>
+          <label> Module</label>
+            <select id="modele" name="module">
+              <option value="subtensorModule">subtensorModule</option>
+              <option value="swap">swap</option>
+              <option value="balances">balances</option>
+              <option value="proxy">proxy</option>
+              <option value="multisig">multisig</option>
+              <option value="substrate">substrate</option>
+              <option value="system">system</option>
+              <option value="randomnessCollectiveFlip">randomnessCollectiveFlip</option>
+
+
+
+          </select>	
+				</div>
+
+						<button class = "custom-button" type="button" onClick={GetPalletsFromAPI}>
+          		Get Latest substrate methods
+        		</button>
+         <label> </label>
+          {error && <p style={{ color: 'red' }}>{error}</p>}
+        {pallets && (
+        <div style={{ marginTop: "1em" }}>
+          {Object.entries(pallets).map(([pallet, methods]) => (
+            <div key={pallet} style={{ marginBottom: "1em" }}>
+              <h3>{pallet}</h3>
+              <p>{methods.join(", ")}</p>
+            </div>
+          ))}
+        </div>
+      )}  
+
+        </form>
+				<p style={{ fontFamily: "Georgia, serif", fontSize: 10 }}> Data from Taostats API</p>
+      </div>
+
+    );
+};
+
+<SearchPallets />
