@@ -6,10 +6,8 @@ import React, { useEffect, useState } from 'react';
 export const SearchPallets = () => {
   	const [pallets, setPallets] = useState(null);
   	const [error, setError] = useState(null);
-
   const GetPalletsFromAPI = async () => {
-
-    try {
+		try {
           const response = await fetch(`https://docsdemo.taostats.io/api/rpc/list?network=lite`);
           if (!response.ok) {
  					     // Throws an error with the HTTP status text (e.g., "Not Found")
@@ -20,16 +18,29 @@ export const SearchPallets = () => {
 
           // Example: If json.result.methods exists and is an array, do something
          
-            setPallets(json);
+      			setPallets(json);
+						console.log(json);
+
             setError(null);
    
 
       	} catch (error) {
         	setError(error.message);
       		}
-
   };
 
+  const GetRPCCall = async () => {
+
+    
+
+  };
+  
+// Runs once when the page (component) loads
+  useEffect(() => {
+    // Update token based on direction
+  GetPalletsFromAPI();
+		
+  }, []);
 
     return (
       <div class="my-box">
