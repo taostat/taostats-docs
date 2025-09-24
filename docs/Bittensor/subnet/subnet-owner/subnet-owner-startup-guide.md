@@ -87,4 +87,4 @@ You have 4 months of immunity (from registration) to build up your subnet. After
 
 # Subnet Mechanisms
 
-Subnet mechanisms are a way to run different tasks on a single subnet.  Emission can be divided 
+Subnet mechanisms are a way to run different tasks on a single subnet.  See [Subnet Architecture](https://docs.taostats.io/docs/subnet#subnet-mechanisms-formerly-subsubnets) for more details on the current implementation. 
