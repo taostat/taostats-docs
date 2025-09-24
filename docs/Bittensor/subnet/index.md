@@ -118,6 +118,9 @@ New subnets have 4 months of immunity from being de-registered.
 
 New subnets are default not active, and receive no emission.  After 7 days, the subnet owner can "turn on" the subnet, starting emission, and letting validators and miners begin earning emission.
 
+
+`btcli s start`
+
 # Subnet Emission
 
 See [Subnet Emission tao and alpha](doc:subnet-emissions)
