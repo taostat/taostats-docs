@@ -14,6 +14,19 @@ The Bittensor network's primary division is into a group of subnets.  The subnet
 
 Each Subnet runs a self-contained codebase on top of the Bittensor code, each defining a unique context for the incentivised generation of value. Although each subnet is unique and runs with independent sets of participants, the interface with the Bittensor network and use of Yuma Consensus is common across all subnets. (There is also a subnet 0: the [Root Subnet](doc:root-subnet)).
 
+# Subnet Mechanisms (Formerly Subsubnets)
+
+Each subnet has a task or mechanism that is performed by the participants.  It is now possible for subnets to have **multiple** mechanisms inside a single subnet.  These were formerly called subsubnets.
+
+At launch:
+
+* There will be a max of 2 subnet mechanisms can be implemented, eventually increasing to higher numbers.
+* Miners and Validators can participate in all mechanisms with a single UID.
+* Subnet owners can split the emission distribution amongst mechanisms (50:50, 90:10, etc.)
+* Subnet emission to miners will be based on consensus/incentive on each mechanism, multiplied by the mechanism distribution.
+  * 50:50 split: Miner has 2 incentives 0.1 and 0.2.  0.1 *.5 + 0.2*.5 = 0.15 incentive overall.
+  * 90:10 split: Miner has 2 incentives 0.1 and 0.2.  0.1  * .9 + 0.2*.1 = 0.11 incentive overall.
+
 # Architecture of Subnets
 
 Subnets generally have 256 <Glossary>neurons</Glossary> (Subnets 0 and 1 are exceptions to this rule), set in the subnet [hyperparameters]().  In time, this will be a custom configurable value.
