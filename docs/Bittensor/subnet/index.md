@@ -30,6 +30,15 @@ At launch:
   * 90:10 split: Miner has 2 incentives 0.1 and 0.2.  0.1  * .9 + 0.2*.1 = 0.11 incentive overall.
 * Subnet emission to validators will be based on Vtrust and Dividends in each subnet mechanism, multipled by the mechanism distribution.
 
+Details on subnet mechanisms can be found in the [Get Subnets](ref:get-subnets-1) endpoint:
+
+```json
+     "sub_subnet_count": 1,
+      "sub_subnet_emission_split": [
+        "1"
+      ]
+```
+
 ## Mechanism architecture
 
 Subnets can have 256 neurons <Glossary>neurons</Glossary> (Subnets 0 and 1 are exceptions to this rule), set in the subnet [hyperparameters]().  In time, this will be a custom configurable value.
@@ -117,7 +126,6 @@ New subnets have 4 months of immunity from being de-registered.
 ## Subnet activation
 
 New subnets are default not active, and receive no emission.  After 7 days, the subnet owner can "turn on" the subnet, starting emission, and letting validators and miners begin earning emission.
-
 
 `btcli s start`
 
