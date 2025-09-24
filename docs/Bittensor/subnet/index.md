@@ -24,8 +24,9 @@ At launch:
 * Miners and Validators can participate in all mechanisms with a single UID.
 * Subnet owners can split the emission distribution amongst mechanisms (50:50, 90:10, etc.)
 * Subnet emission to miners will be based on consensus/incentive on each mechanism, multiplied by the mechanism distribution.
-  * 50:50 split: Miner has 2 incentives 0.1 and 0.2.  0.1 *.5 + 0.2*.5 = 0.15 incentive overall.
+  * 50:50 split: Miner has 2 incentives 0.1 and 0.2.  0.1 _.5 + 0.2_.5 = 0.15 incentive overall.
   * 90:10 split: Miner has 2 incentives 0.1 and 0.2.  0.1  * .9 + 0.2*.1 = 0.11 incentive overall.
+* Subnet emission to validators will be based on Vtrust and Dividends in each subnet mechanism, multipled by the mechanism distribution.
 
 # Architecture of Subnets
 
