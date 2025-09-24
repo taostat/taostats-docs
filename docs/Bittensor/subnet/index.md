@@ -14,7 +14,9 @@ The Bittensor network's primary division is into a group of subnets.  The subnet
 
 Each Subnet runs a self-contained codebase on top of the Bittensor code, each defining a unique context for the incentivised generation of value. Although each subnet is unique and runs with independent sets of participants, the interface with the Bittensor network and use of Yuma Consensus is common across all subnets. (There is also a subnet 0: the [Root Subnet](doc:root-subnet)).
 
-# Subnet Mechanisms (Formerly Subsubnets)
+# Architecture of Subnets
+
+## Subnet Mechanisms (Formerly Subsubnets)
 
 Each subnet has a task or mechanism that is performed by the participants.  It is now possible for subnets to have **multiple** mechanisms inside a single subnet.  These were formerly called subsubnets.
 
@@ -28,7 +30,7 @@ At launch:
   * 90:10 split: Miner has 2 incentives 0.1 and 0.2.  0.1  * .9 + 0.2*.1 = 0.11 incentive overall.
 * Subnet emission to validators will be based on Vtrust and Dividends in each subnet mechanism, multipled by the mechanism distribution.
 
-# Architecture of Subnets
+## Mechanism architecture
 
 Subnets generally have 256 <Glossary>neurons</Glossary> (Subnets 0 and 1 are exceptions to this rule), set in the subnet [hyperparameters]().  In time, this will be a custom configurable value.
 
@@ -45,14 +47,14 @@ The neurons are a mix of validators and miners with 64 slots reserved for valida
 > * **Axons**: receives message (server). The neuron's IP:port is considered the axon.
 > * **Dendrite**: sends message (client)
 
-## Validators
+### Validators
 
 Validators are nodes in the subnet that perform two roles.
 
 1. **Validation of miner output**.  This is typically done by sending regular requests to each miner and then assigning a value/score to the response.  These scores are usually added to a moving average of the miners performance which enables a score (weights) to be set at regular intervals on the blockchain for all miners by that validator. These weights form part of the incentive landscape which when combined with the weights of the other validators using [Yuma Consensus](doc:consensus) are then used to define and distribute emissions.
 2. **Gateway access to the network**. The only way a user or application can query a subnet is through the hotkey of an active validator - therefore validators also act as trusted gateways to the miners which in turn allows miners to prioritise queries based on a stake.
 
-### Delegated Stake
+#### Delegated Stake
 
 Tao holders can stake their tao with validators. Validators with higher stake receive higher emissions (that are shared with the stakeholders).  The weights set by validators is also influenced by the amount of stake held. The amount of tao a validator has as delegated stake defines both the value of the weights they set for miners and as a result allows for a natural market prioritisation of access to form.
 
@@ -62,7 +64,7 @@ Tao holders can stake their tao with validators. Validators with higher stake re
 
 <br />
 
-## Miners
+### Miners
 
 Miners produce output as defined by the subnet code. This work is usually performed by running code in order to complete tasks.  Each subnet has differnet mechanisms, requiring different expertises and hardware.  Although the mechanisms can vary from subnet to subnet, the power of distributed compute is one of the key values of the network. The validators then request this output for both the rewards mechanism and to satisfy any external queries.
 
@@ -72,7 +74,7 @@ Miners are ranked by validators and given an incentive score.  Miners with highe
 * [Miner (Persona)](doc:miner)
 * [Emission for Miners](doc:consensus-for-miners)
 
-## Consensus
+### Consensus
 
 Each subnet undertakes a specific task. In order to evaluate how the task is being performed, an incentive mechanism is used by validators to evaluate work performed by the miners.  The validators score each miner, and set weights on-chain each epoch. These weights are aggregated by [Yuma Consensus](doc:consensus) to form an overall incentive landscape upon which trust values are calculated to determine emissions.
 
