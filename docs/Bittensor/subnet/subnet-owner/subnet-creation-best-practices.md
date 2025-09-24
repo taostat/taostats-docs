@@ -1,5 +1,5 @@
 ---
-title: Subnet Creation Best Practices
+title: Subnet Design Best Practices
 excerpt: ''
 deprecated: false
 hidden: false
