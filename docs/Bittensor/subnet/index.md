@@ -120,4 +120,7 @@ See [Subnet Emission tao and alpha](doc:subnet-emissions)
 
 # Subnet de-registration
 
-in dTao, subnets can no longer be deregistered.
+In september 2025, subnet deregistration was readded.  The subnet with the lowest moving average price will be deregistered when a new subnet is created.
+
+* All alpha is liquidated.  All holders of alpha will be given a weighted % of the tao remaining in the subnet pool. This will appear on their coldkey, as unstaked tao.
+* The new subnet will take over the netuid.
