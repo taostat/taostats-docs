@@ -57,14 +57,14 @@ Check your set identity with  `btcli s get_identity`
 
 Owners can set how many immune neurons they have via the  `ImmuneOwnerUidsLimit` parameter.  The default is 1, but the max is 10.
 
-# Running a Validator
+## Running a Validator
 
 All Subnet owners have at least one neuron that cannot be deregistered.  This is intended to be run as a validator:
 
 * Validators provide access to the subnet commodity.  With a validator, SN owners now have access to their commodity.
 * Mining incentive to this hotkey is burned.  SN owner cannot run a miner on this hotkey (and receive alpha).
 
-## Setting up a validator
+### Setting up a validator
 
 * Make sure your validator is setting weights
 * Work with other valis to ensure they are running teh subnet code, and your vali is in consensus.
