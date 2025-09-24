@@ -114,6 +114,10 @@ Or you can view a historical chart of registration cost at <a href="<https://tao
 
 New subnets have 4 months of immunity from being de-registered.
 
+## Subnet activation
+
+New subnets are default not active, and receive no emission.  After 7 days, the subnet owner can "turn on" the subnet, starting emission, and letting validators and miners begin earning emission.
+
 # Subnet Emission
 
 See [Subnet Emission tao and alpha](doc:subnet-emissions)
