@@ -31,9 +31,15 @@ The `incentive` score for a subnet scores how well miners are performing in rela
 * Each miner's `incentive` score is reported in the metagraph of the subnet.
 * The `incentive` score is updated once per tempo of the subnet (360 blocks)
 
+<Callout icon="📘" theme="info">
+  ## Burning Incentive
+
+  Incentive that is awarded to the Subnet owner hotkey (shown with a crown on taostats) is burned.
+</Callout>
+
 # Emission
 
-![](https://files.readme.io/4b5db95e5393bc17c79ded4d0b81f3dadd1f645ad5ba8f1e73d0a63cad2c05ac-image.png)
+<Image border={false} src="https://files.readme.io/4b5db95e5393bc17c79ded4d0b81f3dadd1f645ad5ba8f1e73d0a63cad2c05ac-image.png" />
 
 <br />
 
@@ -43,19 +49,19 @@ The miner emission score is how much tao is awarded to the miner each epoch. (An
 >
 > A subnet receives 1 `alpha_out` per block.
 >
-> In 1 epoch - 1\*360 =  360 alpha.
+> In 1 epoch - 1*360 =  360 alpha.
 >
-> Miners receive 41% of the subnet' emissions. 360\*.41 = 147.6 alpha
+> Miners receive 41% of the subnet' emissions. 360*.41 = 147.6 alpha
 >
-> Miner 19 has incentive of 0.006.  147.6\*0.006 = .8856 alpha per epoch.
+> Miner 19 has incentive of 0.006.  147.6*0.006 = .8856 alpha per epoch.
 >
-> *Miner 19 has 0.8856 alpha emission*.
+> _Miner 19 has 0.8856 alpha emission_.
 
 Emission is calculated and awarded every epoch.  This can mean that emission is delivered to your hotkey after your miner is deregistered.
 
 # Daily Rewards
 
-On taostats, the daily rewards is calculated by multiplying emission \*20 (There are \~20 epochs in 24 hours.)
+On taostats, the daily rewards is calculated by multiplying emission *20 (There are ~20 epochs in 24 hours.)
 
 <Embed url="https://www.youtube.com/watch?v=Z2s7jEJK_m4" href="https://www.youtube.com/watch?v=Z2s7jEJK_m4" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FZ2s7jEJK_m4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DZ2s7jEJK_m4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FZ2s7jEJK_m4%252Fhqdefault.jpg%26key%3D7788cb384c9f4d5dbbdbeffd9fe4b92f%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
@@ -141,7 +147,7 @@ The code calls the Chain and asks for all of the validator weights.  The output 
 >
 > The code below queries the chain for the VTrust for validators 120, 232 and 236.  The number is reported in a Tensor:
 >
-> 120: 44.5%\
+> 120: 44.5%
 > 232: 93.9%
 > 236: 89.6%
 >
@@ -187,6 +193,6 @@ plt.title(F'weights and consensus for miner {miner_uid} in subnet {subnet_number
 plt.show()
 ```
 
-![](https://files.readme.io/8243646-image.png)
+<Image border={false} src="https://files.readme.io/8243646-image.png" />
 
 Validator 103 is the point at the top of the graph, and out of consensus with the others - all much closer to the consensus line. The weight posted by Validator 103 will not be included (or its weight drastically reduced) as it is out of consensus.
