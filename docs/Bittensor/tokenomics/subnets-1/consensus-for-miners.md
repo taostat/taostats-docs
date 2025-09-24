@@ -34,7 +34,7 @@ The `incentive` score for a subnet scores how well miners are performing in rela
 <Callout icon="📘" theme="info">
   ## Burning Incentive
 
-  Incentive that is awarded to the Subnet owner hotkey (shown with a crown on taostats) is burned.
+  Incentive that is awarded to the Subnet owner hotkey (shown with a crown on taostats) is burned. See [Burning](doc:burning)
 </Callout>
 
 # Emission
