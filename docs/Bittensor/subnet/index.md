@@ -110,7 +110,9 @@ Or you can view a historical chart of registration cost at <a href="<https://tao
 
 <Image align="center" alt="A screenshot of the Subnet registration cost over time." border={false} caption="A screenshot of the Subnet registration cost over time." src="https://files.readme.io/dc48e04eec3d2bbe2b7a19c012073d38b4b40461a174098dedf42edc32e77292-Screenshot_2024-09-03_at_17.35.05.jpg" />
 
-<br />
+## Subnet immunity
+
+New subnets have 4 months of immunity from being de-registered.
 
 # Subnet Emission
 
