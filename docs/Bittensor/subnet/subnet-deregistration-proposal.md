@@ -34,38 +34,8 @@ In the pre-dtao world, immunity was 7 days.  Today, Subnets can not even start e
 
 <br />
 
-# Alpha Distribution Ratio \< 1
-
-Alpha Distribution Ratio is defined as
-
-![](https://files.readme.io/dd48fe231c72701bd107ccdbd8cb0f0c55075c40cfd26152241e94ccf241b295-image.png)
-
-When ADR> 1 the alpha staked is worth more than tha alpha in the pool.  This means the subnet is more valuable than the assets in the pool.
-
-When ADR \< 1, the assets in the pool are worth more than owning the subnet.  This places the subnet at risk of deregistration.  If the subnet were to be dissolved, the alpha owners would receive the tao\_in from the pool, which ahs a higher value than the alpha\_out.
-
-ADR is listed on the subnet page, and each subnet's historical ADR is charted on the statistics page.
-
-![](https://files.readme.io/8072f00db1e6ecc99a4fa9057f248d13c1ecb95a7c259100e7d1f6da19a7cf1a-image.png)
-
-<br />
-
-## Net Asset Value  (NAV)
-
-NAV is no longer part of the deregistration planning.  However, NAV is simply the reciprocal of ADR.
-
-![](https://files.readme.io/9671bb030caa463a9d42650d53764a71a46730b43b4587369d6dc5c1ef05f08d-image.png)
-
-Substituting tao\_in/alpha\_in for price:
-
-<br />
-
-![](https://files.readme.io/68097d108b889b2dd75ba351ee5d8eefa38729b0f42ec0a11ff87057fa4c5e7c-image.png)
-
-ADR = 1/NAV
-
 <br />
 
 ## Lowest price
 
-The subnet with the lowest price (and  would be the next to be deregistered.
+The subnet with the lowest price would be the next to be deregistered.
