@@ -46,7 +46,11 @@ The [Tokenomics](doc:tokenomics) section describes how tao is distributed in the
 
 Miner alpha rewards will automatically stake to the hotkey.  
 
-If you would like your mining rewards to be automatically staked to a vliadtor, this can be set via `Autostake`
+If you would like your mining rewards to be automatically staked to a validator, this can be set via `Autostake`
+
+With autostake, all incentive from all hotkeys are automatically staked to one hotkey. Generally, a miner would choose a validator to earn staking rewards.
+
+<br />
 
 # Helpful links
 
