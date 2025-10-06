@@ -48,9 +48,11 @@ Miner alpha rewards will automatically stake to the hotkey.
 
 If you would like your mining rewards to be automatically staked to a validator, this can be set via `Autostake`
 
+### Autostake your rewards
+
 With autostake, all incentive from all hotkeys are automatically staked to one hotkey. Generally, a miner would choose a validator to earn staking rewards.
 
-<br />
+This does complicate the seperation of mining rewards with staking rewards. There is a Taostats API for the transfer of mining rewards:
 
 # Helpful links
 
