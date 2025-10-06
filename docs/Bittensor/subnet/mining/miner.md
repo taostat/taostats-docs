@@ -40,7 +40,13 @@ Miners receive alpha as an award for the work produced.  The reward is based on 
 
 The emission scores for all miners sum to 1.  This is then used to allocate the emissions awarded to the miners.
 
-The [Tao Allocation](doc:tao-allocation) page describes how tao is distributed in the Bittensor ecosystem.
+The [Tokenomics](doc:tokenomics) section describes how tao is distributed in the Bittensor ecosystem.
+
+## Where do your awards go?
+
+Miner alpha rewards will automatically stake to the hotkey.  
+
+If you would like your mining rewards to be automatically staked to a vliadtor, this can be set via `Autostake`
 
 # Helpful links
 
