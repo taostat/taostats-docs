@@ -47,10 +47,6 @@ See [Taostats: For Validators](doc:taostats-for-validators) for more details
 
 Validators are incentivised to add value to the Bittensor ecosystem. This value is recognised and rewarded by participants delegating [Stake](doc:staking) to their validator(s) of choice. The more stake a validator has, the greater proportion of network bandwidth is afforded to them through the natural market effect of their weights holding higher value to miners as a result of the prioritisation of stake by Yuma Consensus. (Higher stake also maximises emissions for the validator.)
 
-This can also be enforced through subnet mechanisms such as Subnet 19 - Vision which enables inference at scale whilst allocating bandwidth based upon the proportion of total delegation held.
-
-<Image border={false} src="https://files.readme.io/1f945c1-image.png" />
-
 To reward those that stake on a validator, the validator's emissions are divided amongst all delegators.
 
 # Emissions
