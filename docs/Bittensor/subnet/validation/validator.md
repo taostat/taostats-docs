@@ -29,11 +29,17 @@ Each subnet uses a unique validation and rewards mechanism to define the value o
 
 The output of the consensus (rewards landscape) is the breakdown of the rewards for the validators, miners, and subnet owners. These results are recorded on the blockchain.
 
-To see a validator's results in Taostats, x.taostats.io/validator/&lt;hotkey&gt; has a wealth of detail:
+To see a validator's results in Taostats, [Taostats Validtor pages](https://taostats.io/validators)  have a wealth of detail:
 
-* For each subnet that the validator is active:
+<Image border={false} src="https://files.readme.io/a5808e15ef88b571f686fe77e3369a2ce430e09cbc1f9b955ec104adf3e21c89-image.png" />
 
-![](https://files.readme.io/98aaa2e-image.png)
+Each validator has a page, witha table showing subnet specific data:
+
+<br />
+
+<Image border={false} src="https://files.readme.io/902cd9d9baac60c66836fa74930d84e5bf2eb1ce2a30072dc47f9691b2c0e360-image.png" />
+
+<br />
 
 See [Taostats: For Validators](doc:taostats-for-validators) for more details
 
@@ -43,7 +49,7 @@ Validators are incentivised to add value to the Bittensor ecosystem. This value 
 
 This can also be enforced through subnet mechanisms such as Subnet 19 - Vision which enables inference at scale whilst allocating bandwidth based upon the proportion of total delegation held.
 
-![](https://files.readme.io/1f945c1-image.png)
+<Image border={false} src="https://files.readme.io/1f945c1-image.png" />
 
 To reward those that stake on a validator, the validator's emissions are divided amongst all delegators.
 
