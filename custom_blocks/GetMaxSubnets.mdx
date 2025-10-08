@@ -1,9 +1,9 @@
 ---
 name: GetMaxSubnets
 ---
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-export const GetMaxSubnets = () => {
+export const GetSubnets = () => {
   	const [pallets, setPallets] = useState('');
   	const [error, setError] = useState(null);
 
@@ -45,6 +45,13 @@ export const GetMaxSubnets = () => {
       		}
 
   };
+    // Runs once when the page (component) loads
+  useEffect(() => {
+    // Update token based on direction
+  GetSubnets();
+		
+  }, []);
+
 
     return (
       <div>
