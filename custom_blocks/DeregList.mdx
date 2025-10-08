@@ -37,7 +37,7 @@ export const Bottom5Subnets = () => {
           const topSubnets = subnetData.map(subnet => {
             // find the matching identity by netuid
   					const identity = subnetIdentities.find(item => item.netuid === subnet.netuid);
-						const snEmission = (parseFloat(subnet.emission)/1e9*100).toFixed(3);
+						const snEmission = (parseFloat(subnet.moving_price)/1e9*100).toFixed(3);
             return{
               //hotkey: subnet.owner_hotkey.ss58,
               netuid: subnet.netuid,
@@ -77,7 +77,7 @@ export const Bottom5Subnets = () => {
                 <th >Logo</th>
 								<th >Name</th>
                 <th >NetUID</th>
-                <th >Emission</th>
+                <th >Price</th>
               </tr>
             </thead>
             <tbody>
