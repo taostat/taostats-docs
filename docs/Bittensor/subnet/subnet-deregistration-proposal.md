@@ -8,6 +8,22 @@ hidden: false
 metadata:
   robots: index
 ---
+# Subnet Registration
+
+Subnet registration is currently possible.  The cost to register a subnet is:
+
+<SubnetCost />
+
+The registration cost is burned.
+
+There is a limit of:
+
+<GetMaxSubnets />
+
+If the current maximum number of subnets has been reached, the lowest ranking subnet will be deregistered.
+
+<br />
+
 # Subnet Deregistration History
 
 Before dTao (Feb 2025), there was a competition on subnet activity, The subnet with the lowest emissions could be de-registered when a new subnet registered.
