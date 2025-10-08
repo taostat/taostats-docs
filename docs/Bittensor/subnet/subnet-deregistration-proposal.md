@@ -1,6 +1,8 @@
 ---
-title: Subnet Deregistration Proposal
-excerpt: In August 2025, a proposal was raised to reinstitute Subnet Deregistration
+title: Subnet Registration/Deregistration
+excerpt: >-
+  In September 2025, Subnet registration and deregistration was added back to
+  the chain
 deprecated: false
 hidden: false
 metadata:
@@ -16,15 +18,14 @@ When dTao was launched, de-registration was removed from the chain
 
 There are 128 subnets, but many are inactive, and the tao/alpha in these subnets is not being adequately utilized.
 
-# Proposal
+# Deregistration parameters
 
-In the August 12, 2025 OpenDev call, Const proposed adding deregistration again. For a subnet to be deregistered, it must be:
+For a subnet to be deregistered, it must be:
 
 1. Out of immunity
-2. ADR under 1.
-3. Lowest price
+2. Lowest price
 
-This will likely change over time, and will be voted on by the Senate before it is put into place.
+If there is a tie on the lowest price, the older subnet will be deregistered.
 
 <br />
 
