@@ -1,0 +1,89 @@
+---
+name: SubnetCost
+---
+import React, { useEffect, useState } from 'react';
+
+export const SubnetCost = () => {
+
+    const [error, setError] = useState(null);
+    const [subnets, setSubnets] = useState([]);
+    const [subnet, setSubnet] = useState(1);
+    const [amount, setAmount] = useState(10);
+	  const [direction, setDirection] = useState('tao_to_alpha');
+		const [token, setToken] = useState('tao');
+
+
+  const Slippage = async () => {
+					const subnetValue = parseFloat(subnet);
+
+      if (subnetValue) {
+      	try {
+ 						//convert the tao value into rao for the api
+            const amount_rao = amount*1e9;         
+            const response = await fetch(`https://docsdemo.taostats.io/api/http/api/subnet/registration_cost/latest/v1`);
+            if (!response.ok) {
+                 // Throws an error with the HTTP status text (e.g., "Not Found")
+                  throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            const json = await response.json();
+            const subnetData = json['data'][0];
+						const cost = parseFloat((parseFloat(subnetData.registration_cost)/1e9).toFixed(2));
+            
+
+
+          const poolData = {
+            "root_prop": cost,
+    
+          };
+
+            setSubnets(poolData);
+            console.log(poolData);
+            setError(null);
+          } catch (error) {
+            setError(error.message);
+            }
+      } else {
+      	setError('Please enter a valid number');
+    	};
+
+  };
+  
+    // Runs once when the page (component) loads
+  useEffect(() => {
+    // Update token based on direction
+ 
+		Slippage();
+  }, [subnet, direction, amount]);
+
+
+  return (
+
+      <div class="my-box">
+      <div>
+        <p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}>Live Subnet Registration Cost</p>
+          <form onSubmit={(e) => e.preventDefault()}>
+
+          {error && <p style={{ color: 'red' }}>{error}</p>}
+          {subnets  &&  <p>
+ 						<p/><p/>
+            <p>{(subnets?.root_prop?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 3 }))} tao</p>
+           
+            </p>}
+          <label>
+					<p style={{ fontFamily: "Georgia, serif", fontSize: 10 }}> Data from Taostats API</p>
+          </label>
+
+
+         
+
+
+
+
+        </form>
+      </div>
+  
+      </div>
+    );
+};
+
+<SubnetCost />
