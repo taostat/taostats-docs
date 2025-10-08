@@ -14,7 +14,7 @@ Subnet registration is currently possible.  The cost to register a subnet is:
 
 <SubnetCost />
 
-The registration cost is burned.
+The registration cost is [burned](doc:burning).
 
 <br />
 
