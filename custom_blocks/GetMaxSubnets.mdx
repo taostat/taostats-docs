@@ -1,0 +1,81 @@
+---
+name: GetMaxSubnets
+---
+import React, { useState } from 'react';
+
+export const GetMaxSubnets = () => {
+  	const [pallets, setPallets] = useState('');
+  	const [error, setError] = useState(null);
+
+  const GetPalletsFromAPI = async () => {
+
+        try {
+          const response = await fetch(`https://docsdemo.taostats.io/api/rpc/list?network=lite`,{
+            method: "POST",
+						headers: {
+		            "Content-Type": "application/json"
+          	},
+	          body: JSON.stringify({
+              jsonrpc: "2.0",
+              id: 1,
+              method: "rpc_methods",
+              params: []
+            })
+
+
+					});
+          if (!response.ok) {
+ 					     // Throws an error with the HTTP status text (e.g., "Not Found")
+      					throw new Error(`HTTP error! Status: ${response.status}`);
+    			}
+					const json = await response.json();
+      		console.log("RPC Response:", json); // helpful for debugging
+
+          // Example: If json.result.methods exists and is an array, do something
+          if (json.result?.methods) {
+            setPallets(json.result.methods);
+            setError(null);
+          } else {
+            setError("Unexpected response format");
+          }
+
+      	} catch (error) {
+        	setError(error.message);
+      		}
+
+  };
+
+    return (
+      <div>
+        <form onSubmit={(e) => e.preventDefault()}>
+          <label>
+
+						<button type="button" onClick={GetPalletsFromAPI}>
+          		Get Latest RPC methods
+        		</button>
+          </label>
+          {error && <p style={{ color: 'red' }}>{error}</p>}
+          {pallets && Array.isArray(pallets) && (
+  <div>
+    {Object.entries(
+      // Group by prefix
+      pallets.reduce((acc, method) => {
+        const [prefix] = method.split("_");
+        if (!acc[prefix]) acc[prefix] = [];
+        acc[prefix].push(method);
+        return acc;
+      }, {})
+    ).map(([prefix, methods]) => (
+      <div key={prefix} style={{ marginBottom: "1em" }}>
+        <h3>{prefix}</h3>
+        <p>{methods.join(", ")}</p>
+      </div>
+    ))}
+  </div>
+)}
+        </form>
+      </div>
+    );
+};
+
+<GetMaxSubnets />
