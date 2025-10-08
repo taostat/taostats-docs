@@ -28,7 +28,7 @@ If the current maximum number of subnets has been reached, the lowest ranking su
 
 New subnets have 4 months of immunity.
 
-# Subnet Deregistration 
+# Subnet Deregistration
 
 ## Deregistration History
 
@@ -50,9 +50,3 @@ If there is a tie on the lowest price, the older subnet will be deregistered.
 <br />
 
 <br />
-
-<br />
-
-## Lowest price
-
-The subnet with the lowest price would be the next to be deregistered.
