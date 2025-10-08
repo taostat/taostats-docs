@@ -3,87 +3,111 @@ name: DeregList
 ---
 import React, { useEffect, useState } from 'react';
 
-export const DeregList = () => {
+export const Bottom5Subnets = () => {
 
     const [error, setError] = useState(null);
     const [subnets, setSubnets] = useState([]);
-    const [subnet, setSubnet] = useState(1);
-    const [amount, setAmount] = useState(10);
-	  const [direction, setDirection] = useState('tao_to_alpha');
-		const [token, setToken] = useState('tao');
 
 
-  const Slippage = async () => {
-					const subnetValue = parseFloat(subnet);
+  const GetTopSubnets = async () => {
 
-      if (subnetValue) {
-      	try {
- 						//convert the tao value into rao for the api
-            const amount_rao = amount*1e9;         
-            const response = await fetch(`https://docsdemo.taostats.io/api/http/api/subnet/registration_cost/latest/v1`);
-            if (!response.ok) {
-                 // Throws an error with the HTTP status text (e.g., "Not Found")
-                  throw new Error(`HTTP error! Status: ${response.status}`);
-            }
-            const json = await response.json();
-            const subnetData = json['data'][0];
-						const cost = parseFloat((parseFloat(subnetData.registration_cost)/1e9).toFixed(2));
-            
+    try {
+				//get the top subnets
+
+      const response = await fetch(`https://docsdemo.taostats.io/api/http/api/subnet/pruning/latest/v1?is_immune=false&limit=5`);               
+                                    
+          if (!response.ok) {
+ 					     // Throws an error with the HTTP status text (e.g., "Not Found")
+      					throw new Error(`HTTP error! Status: ${response.status}`);
+    			}
+          const json = await response.json();
+      		const subnetData = json['data'];
+					console.log("sndata", subnetData);
+
+	        //get the identities
+          //get the identities
+              const response1 = await fetch(`https://docsdemo.taostats.io/api/http/api/subnet/identity/v1`);
+              if (!response1.ok) {
+                   // Throws an error with the HTTP status text (e.g., "Not Found")
+                    throw new Error(`HTTP error! Status: ${response1.status}`);
+              }
+          const identityJson = await response1.json();
+					const subnetIdentities = identityJson['data']
+
+          const topSubnets = subnetData.map(subnet => {
+            // find the matching identity by netuid
+  					const identity = subnetIdentities.find(item => item.netuid === subnet.netuid);
+						const snEmission = (parseFloat(subnet.emission)/1e9*100).toFixed(3);
+            return{
+              hotkey: subnet.owner_hotkey.ss58,
+              netuid: subnet.netuid,
+              emission: snEmission,
+              subnet_name: identity ? identity.subnet_name : null, // fallback if no match
+							subnet_logo: identity?.logo_url ? identity.logo_url: 'https://taostats.io/images/subnets/0.webp?w=64&q=75' // fallback if no match
 
 
-          const poolData = {
-            "root_prop": cost,
-    
-          };
-
-            setSubnets(poolData);
-            console.log(poolData);
-            setError(null);
-          } catch (error) {
-            setError(error.message);
-            }
-      } else {
-      	setError('Please enter a valid number');
-    	};
+            };
+          });
+          setSubnets(topSubnets);
+					console.log(topSubnets);
+          setError(null);
+      	} catch (error) {
+        	setError(error.message);
+      		}
 
   };
   
     // Runs once when the page (component) loads
   useEffect(() => {
-    // Update token based on direction
- 
-		Slippage();
-  }, [subnet, direction, amount]);
+    GetTopSubnets();
+  }, []);
 
 
   return (
 
-      <div class="my-box">
       <div>
-        <p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}>Live Subnet Deregistration list</p>
-          <form onSubmit={(e) => e.preventDefault()}>
+
+          <label>
+
+					<p style={{ fontFamily: "Georgia, serif", fontSize: 25 }}> Live View of Top Subnets</p>
+          </label>
+				  <table id="subnet-table" className="custom-table" >
+            <thead>
+              <tr >
+                <th >Logo</th>
+								<th >Name</th>
+                <th >NetUID</th>
+                <th >Emission</th>
+              </tr>
+            </thead>
+            <tbody>
+          {subnets.map(subnet => (
+            <tr key={subnet.netuid} >
+              <td >
+                <img
+                  src={subnet.subnet_logo}
+                  alt={subnet.subnet_name}
+                  width={32}
+                  height={32}
+                />
+              </td>
+              <td >{subnet.subnet_name}</td>
+              <td >{subnet.netuid}</td>
+      
+              <td>{subnet.emission}%</td>
+            </tr>
+          ))}
+        </tbody>
+          </table>
+
 
           {error && <p style={{ color: 'red' }}>{error}</p>}
-          {subnets  &&  <p>
- 						<p/><p/>
-            <p>{(subnets?.root_prop?.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 3 }))} tao</p>
-           
-            </p>}
           <label>
 					<p style={{ fontFamily: "Georgia, serif", fontSize: 10 }}> Data from Taostats API</p>
           </label>
 
-
-         
-
-
-
-
-        </form>
-      </div>
-  
       </div>
     );
 };
 
-<DeregList />
+<Bottom5Subnets />
