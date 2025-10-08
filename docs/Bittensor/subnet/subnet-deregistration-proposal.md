@@ -16,7 +16,7 @@ Subnet registration is currently possible.  The cost to register a subnet is:
 
 The registration cost is burned.
 
-There is a limit of:
+<br />
 
 <GetMaxSubnets />
 
