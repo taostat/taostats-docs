@@ -24,15 +24,17 @@ If the current maximum number of subnets has been reached, the lowest ranking su
 
 <br />
 
-# Subnet Deregistration History
+## Immunity
+
+New subnets have 4 months of immunity.
+
+# Subnet Deregistration 
+
+## Deregistration History
 
 Before dTao (Feb 2025), there was a competition on subnet activity, The subnet with the lowest emissions could be de-registered when a new subnet registered.
 
 When dTao was launched, de-registration was removed from the chain
-
-# Subnet current state
-
-There are 128 subnets, but many are inactive, and the tao/alpha in these subnets is not being adequately utilized.
 
 # Deregistration parameters
 
@@ -43,11 +45,9 @@ For a subnet to be deregistered, it must be:
 
 If there is a tie on the lowest price, the older subnet will be deregistered.
 
+<Bottom5Subnets />
+
 <br />
-
-## Immunity
-
-In the pre-dtao world, immunity was 7 days.  Today, Subnets can not even start emission for the first 7 days.  In the new proposal, subnets will be given adequate runway to get established and create a product.  The initial take was 6 months of immunity.
 
 <br />
 
