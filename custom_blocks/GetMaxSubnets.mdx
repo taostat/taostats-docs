@@ -3,11 +3,11 @@ name: GetMaxSubnets
 ---
 import React, { useState, useEffect } from 'react';
 
-export const GetSubnets = () => {
-  	const [pallets, setPallets] = useState('');
+export const GetMaxSubnets = () => {
+  	const [pallets, setPallets] = useState(null);
   	const [error, setError] = useState(null);
 
-  const GetPalletsFromAPI = async () => {
+  const GetSubnetLimit = async () => {
 
         try {
           const response = await fetch(`https://docsdemo.taostats.io/api/rpc/query?network=lite`,{
@@ -27,18 +27,17 @@ export const GetSubnets = () => {
 					});
           if (!response.ok) {
  					     // Throws an error with the HTTP status text (e.g., "Not Found")
-      					throw new Error(`HTTP error! Status: ${response.status}`);
+      					throw new Error(`HTTP erjror! Status: ${response.status}`);
     			}
 					const json = await response.json();
       		console.log("RPC Response:", json); // helpful for debugging
 
           // Example: If json.result.methods exists and is an array, do something
-          if (json.result?.methods) {
-            setPallets(json.result.methods);
-            setError(null);
-          } else {
-            setError("Unexpected response format");
-          }
+          
+          setPallets(json.value);
+					console.log(pallets);
+          setError(null);
+
 
       	} catch (error) {
         	setError(error.message);
@@ -46,9 +45,10 @@ export const GetSubnets = () => {
 
   };
     // Runs once when the page (component) loads
+    // Runs once when the p age (component) loads
   useEffect(() => {
     // Update token based on direction
-  GetSubnets();
+  GetSubnetLimit();
 		
   }, []);
 
@@ -58,29 +58,11 @@ export const GetSubnets = () => {
         <form onSubmit={(e) => e.preventDefault()}>
           <label>
 
-						<button type="button" onClick={GetPalletsFromAPI}>
-          		Get Latest RPC methods
-        		</button>
+
           </label>
           {error && <p style={{ color: 'red' }}>{error}</p>}
-          {pallets && Array.isArray(pallets) && (
-  <div>
-    {Object.entries(
-      // Group by prefix
-      pallets.reduce((acc, method) => {
-        const [prefix] = method.split("_");
-        if (!acc[prefix]) acc[prefix] = [];
-        acc[prefix].push(method);
-        return acc;
-      }, {})
-    ).map(([prefix, methods]) => (
-      <div key={prefix} style={{ marginBottom: "1em" }}>
-        <h3>{prefix}</h3>
-        <p>{methods.join(", ")}</p>
-      </div>
-    ))}
-  </div>
-)}
+          {pallets !== null ? <p>The current Subnet Limit is: {pallets}</p> : <p>Loading...</p>}
+
         </form>
       </div>
     );
