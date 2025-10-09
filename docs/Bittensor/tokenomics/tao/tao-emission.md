@@ -1,6 +1,6 @@
 ---
 title: Tao Emission
-excerpt: Basics on how tao is emiitted and distributed in Bittensor.
+excerpt: Basics on how tao is emitted and distributed in Bittensor.
 deprecated: false
 hidden: false
 metadata:
@@ -24,11 +24,11 @@ Tao emission (also known as `tao_in`) on a subnet is calculated by finding the s
 
 This ensures that 1 tao is emitted every block, and distributed amongst the subnets.
 
-![](https://files.readme.io/2a743d39d2afaacc67b13c59c53b76b57ba794a23d89d4fea557fc1da1d76cb4-image.png)
+<Image border={false} src="https://files.readme.io/2a743d39d2afaacc67b13c59c53b76b57ba794a23d89d4fea557fc1da1d76cb4-image.png" />
 
 > 📘 Tao_in example:
 >
-> If the Sum of all prices is 1.8, and the proce for a Subnet is 0.2.
+> If the Sum of all prices is 1.8, and the price for a Subnet is 0.2.
 >
 > tao_in will be 0.2/1.8 = .111 per block.
 
