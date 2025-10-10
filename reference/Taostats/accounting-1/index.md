@@ -1,6 +1,6 @@
 ---
-title: Accounting
-excerpt: The accounting endpoints require a pro subscription.
+title: Accounting/Tax
+excerpt: The accounting endpoints require a subscription.
 deprecated: false
 hidden: false
 metadata:
