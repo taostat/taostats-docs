@@ -7,7 +7,7 @@ api:
   file: taostats-1.json
   operationId: get-coldkey-report-csv
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
