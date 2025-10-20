@@ -16,7 +16,7 @@ Subnet registration is currently possible.  The cost to register a subnet is:
 
 The registration cost is [recycled](doc:recycling)
 
-<br />
+Once a subnet is registered, there is a 4 day window before the next registration can occur.
 
 <GetMaxSubnets />
 
@@ -71,7 +71,7 @@ Each alpha is worth 0.006 tao.
 
 <br />
 
-If a Subnet's ADR is \< 1, holders will receive a premium - more tao that their alpha is currently worth (you can find each Subnet's ADR at [https://taostats.io/subnets](https://taostats.io/subnets) 
+If a Subnet's ADR is \< 1, holders will receive a premium - more tao that their alpha is currently worth (you can find each Subnet's ADR at [https://taostats.io/subnets](https://taostats.io/subnets)
 
 <Image border={false} src="https://files.readme.io/1e822e3def581b1c31eb141fb2f444d7969220215f7af58872089a47003a1220-image.png" />
 
