@@ -49,4 +49,23 @@ If there is a tie on the lowest price, the older subnet will be deregistered.
 
 <br />
 
+# What happens to my alpha if a Subnet is Deregistered?
+
+<br />
+
+When a subnet is deregistered, all of the alpha is liquidated, and exchanged for tao from the pool.  This will be on your wallet as free tao.
+
+<br />
+
+For example:
+
+
+1.88M alpha will be exchanged for 11,670 tao.  
+
+<br />
+
+Each alpha is worth 0.006 tao.
+
+If a Subnet's ADR is < 1, holders will receive a premium - more tao that their alpha is currently worth (you can find each Subnet's ADR at
+
 <br />
