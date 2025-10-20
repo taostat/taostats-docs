@@ -59,13 +59,20 @@ When a subnet is deregistered, all of the alpha is liquidated, and exchanged for
 
 For example:
 
+If this subnet were to be deregistered: 1.88M alpha will be exchanged for 11,670 tao.
 
-1.88M alpha will be exchanged for 11,670 tao.  
+<Image border={false} src="https://files.readme.io/b62679ddc13e74d0dbda2ab2b82fed8324847bb88fc797c0a6f6afbfe78f7f51-image.png" />
 
 <br />
 
 Each alpha is worth 0.006 tao.
 
-If a Subnet's ADR is < 1, holders will receive a premium - more tao that their alpha is currently worth (you can find each Subnet's ADR at
+<Image border={false} src="https://files.readme.io/6de017365bea6725bfb775952f1765e130ff024b6f8b9803af25493a26caa0ef-image.png" />
+
+<br />
+
+If a Subnet's ADR is \< 1, holders will receive a premium - more tao that their alpha is currently worth (you can find each Subnet's ADR at [https://taostats.io/subnets](https://taostats.io/subnets) 
+
+<Image border={false} src="https://files.readme.io/1e822e3def581b1c31eb141fb2f444d7969220215f7af58872089a47003a1220-image.png" />
 
 <br />
