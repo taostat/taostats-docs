@@ -36,4 +36,4 @@ This ensures that 1 tao is emitted every block, and distributed amongst the subn
 
 ### Caveat:
 
-In reality, the tao_in is determined by an Exponential Moving Average (EMA) of price, but in most cases, the simple illustration above is good emough.
+In reality, the tao_in is determined by an Exponential Moving Average (EMA) of price, but in most cases, the simple illustration above is good enough.
