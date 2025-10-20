@@ -40,7 +40,7 @@ Each block, tao and alpha are emitted into the liquidity pool.
 * [Tao emission](https://docs.taostats.io/v2.0/docs/tao#distribution-of-emitted-tao)
 * [Alpha Emission](doc:alpha-emission)
 
-Note that the value of k with change with each block as a result of this emission.
+Note that the value of k will change with each block as a result of this emission.
 
 ## Alpha Price
 
