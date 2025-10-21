@@ -22,6 +22,26 @@
           }
         }
       }
+    },
+    "/api/v1/key/validate": {
+      "get": {
+        "description": "",
+        "operationId": "get_apiv1keyvalidate",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": [
+          {
+            "in": "query",
+            "name": "apiKeyId",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ]
+      }
     }
   },
   "components": {
