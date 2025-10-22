@@ -27,21 +27,27 @@ in dTao, there are two options for staking:
 * [Staking to root](#staking-to-root)
 * [Staking to a Subnet](#staking-to-alpha)
 
-## Emission division: root to subnet
+<br />
 
-Stakeholder emission is split between these two options.  For new subnets, the emission is primarily to root, with subnet increasing over time
+# Staking to root
 
-<Image align="center" alt="An example breakdown of root:subnet proportions." border={false} caption="An example breakdown of root:subnet proportions." src="https://files.readme.io/3e9d7b5c3747867d7b1d97a068bfceb15d003e0f4ba498f2f5b48bcca74f11ac-image.png" />
+Staking to root uses only tao.  Your tao is staked on a root validator, and you receive returns based on the validator's performance in the subnets.
+
+Staking to root is a `safe`  staking option - there is no way to lose tao value.  However, root staking decreases over time [by design](doc:stakeholder-emissions-root-vs-alpha), as the root proportion decreases on all subnets.
 
 <RootProp />
 
+## Root Staking Options
+
+If you have staked to root, by default your returns will be auto-compounded to your hotkey on root as tao.
+
+Starting in fall 2025, you may also choose Root Claim (TODO)
+
+<br />
+
+
+
 This change over time is described in [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha).
-
-## Staking to root
-
-Staking to root does not affect subnet emissions, and is a `safe`  staking option - there is no way to lose tao value.   Root stakers earn a (ever decreasing) portion of returns from every subnet the validator is active in.
-
-If you have staked to root, your returns will be auto-compounded to your hotkey on root.
 
 ## Staking to alpha
 
