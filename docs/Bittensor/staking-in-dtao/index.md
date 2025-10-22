@@ -1,6 +1,6 @@
 ---
 title: Staking
-excerpt: Learn about staking to root and alpha, and how these emissions are divided up.
+excerpt: Staking tao/alpha is how investors earn yield.
 deprecated: false
 hidden: false
 metadata:
@@ -10,17 +10,15 @@ metadata:
 next:
   description: ''
 ---
-> 📘 Staking with taostats
->
-> See [Staking Instructions](doc:staking-instructions) for a number of pages describing how to stake using Taostats.
+<Callout icon="📘" theme="info">
+  # Staking with taostats
+
+  See [Staking Instructions](doc:staking-instructions) for a number of pages describing how to stake using Taostats.
+</Callout>
 
 <br />
 
 Staking plays a principal role in the functioning of the Bittensor network. The principal goal of dTao is to divide chain emissions amongst subnets in a democratic way.  Staking into a subnet  increases the emissoins of the subnet.
-
-# Subnet emission
-
-Emission into a subnet is determined by the subnet price. (which is based on the amount of tao and alpha in the [Subnet Pool](doc:subnet-pools). The act of staking adds tao and removes alpha from the pool, increasing the price, and increasing emission to the subnet. Therefore subnet emission is guided by how much stake has been placed on the subnet.
 
 # Staking Options
 
@@ -81,3 +79,7 @@ The move stake command can be used to switch validators in a subnet.  Under the 
 <br />
 
 ## [dTao FAQ](doc:dtao-faq): Your top  staking questions
+
+<br />
+
+<br />
