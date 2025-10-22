@@ -27,14 +27,7 @@ next:
 
 <br />
 
-## Documentation fully updated for dTao
+## Documentation Updates
 
-Everything you need is in the left navigation!  But a few highlights:
-
-### [dTao BETA](ref:dtao-testnet-api) API
-
-* Our dTao API is using testnet data as we prepare for dTao launch
-
-### [dTao FAQ](doc:dtao-faq) - what are your burning questions?
-
-### [Subnet Emission](doc:subnets-1): How does dTao effect emission? We've broken it down into small bite sized lessons.
+* Keeping up to date with the latest updates from the Bittensor chain
+* Adding in interactive tools pulling live data from the Taostats API.
