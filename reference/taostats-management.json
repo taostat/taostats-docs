@@ -38,7 +38,7 @@
             "name": "apiKeyId",
             "schema": {
               "type": "string",
-              "default": "tao-8cbb8334-554c-463a-a53a-83b86faf1163:b15c8fc4"
+              "default": ""
             }
           }
         ]
