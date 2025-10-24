@@ -1,5 +1,5 @@
 ---
-title: Minering
+title: Mining
 excerpt: >-
   Miners are nodes in a Bittensor subnet that produce output as defined by the
   subnet code.
