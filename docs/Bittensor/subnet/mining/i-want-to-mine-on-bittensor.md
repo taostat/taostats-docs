@@ -16,9 +16,9 @@ TL;dr 2:Mining on Bittensor is very competitive. May the odds be ever in your fa
 
 # Introduction
 
-So you want to mine. What is the best way to mine? How do I get started? Can i mine with &lt;hardware configuration&gt;? 
+So you want to mine. What is the best way to mine? How do I get started? Can i mine with \<hardware configuration>?
 
-![](https://files.readme.io/a1aa463bb9f5e3ae126baf78021660bc7b0592ac80ce0844ff819ec7d44fd0e0-image.png)
+<Image border={false} src="https://files.readme.io/a1aa463bb9f5e3ae126baf78021660bc7b0592ac80ce0844ff819ec7d44fd0e0-image.png" />
 
 # The Basics
 
@@ -30,7 +30,7 @@ So you want to mine. What is the best way to mine? How do I get started? Can i m
 
 # Picking a Subnet
 
-There are multiple subnets on Bittensor (October 2024 - 52 subnets). Each subnet has a different objective, goal - and this each has different mining/validation requirements.  
+There are multiple subnets on Bittensor (October 2024 - 52 subnets). Each subnet has a different objective, goal - and this each has different mining/validation requirements.
 
 ### Picking a subnet
 
@@ -43,15 +43,13 @@ There are multiple subnets on Bittensor (October 2024 - 52 subnets). Each subnet
 >
 > # Option 1: Go for the big bucks
 >
-> Subnet 19 has the highest emission amongst all the subnets.
+> Subnet xx has the highest emission amongst all the subnets.
 >
-> * 7.78% Thats 560 tao/day - of which 229 will go to the miners.(October 9, 2024)
->
-> Subnet 19 was registered in December of 2023. Some of the miners on this subnet have had 11 months to modify and improve their miners. Using the default miner is unlikely to beat these highly tuned models. Prepare for a lot of coding, trial & error.
+> Some of the original subnets have very high emission. But they have also been around for 6 months-2 years. Some of the miners on this subnet have had 11 months to modify and improve their miners. Using the default miner is unlikely to beat these highly tuned models. Prepare for a lot of coding, trial & error.
 >
 > # Option 2: Start with a new Subnet
 >
-> Subnet 51 was registered this week. Its emissions are very small (the top miner is making $1.50/day). But, There are just 9 miners active (and 256 slots). So your miner will not be deregistered, and you can learn how to maximize your returns on the subnet along with everyone else. You may have small returns at the start, but if you believe the subnet can succeed - you may be an insider on the *next* biggest subnet.
+> Subnet 51 was registered this week. Its emissions are very small (the top miner is making $1.50/day). But, There are just 9 miners active (and 256 slots). So your miner will not be deregistered, and you can learn how to maximize your returns on the subnet along with everyone else. You may have small returns at the start, but if you believe the subnet can succeed - you may be an insider on the _next_ biggest subnet.
 
 * Registration cost: Each subnet has different cost to register a neuron. [Taostats: For Miners](doc:taostats-for-miners) shows how to determine the cost and how it changes over time.
 * Is there a testnet? If you can run on a testnet - you can forego the registration costs to see if you are able to run the miner.
