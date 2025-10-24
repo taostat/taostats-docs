@@ -1,5 +1,5 @@
 ---
-title: Tokenomics
+title: Tokenomics & Emission
 excerpt: >-
   Learn how tao and alpha tokens are emitted and distributed to participants on
   Bittensor.
