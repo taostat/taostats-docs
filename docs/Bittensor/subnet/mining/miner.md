@@ -12,6 +12,8 @@ next:
 ---
 A miner deploys (at least) one mining node into (at least) one subnet to perform the work being rewarded by the subnet incentive mechanism. The object of a miner is to score higher than their peers and not fall into the bottom percentile and risk reregistration.  The longer a miner remains active, the more profitable they become. Miners may operate multiple nodes on multiple subnets.
 
+The taostats [mining dashboard](https://dash.taostats.io/mining)  helps you track how well your miners are doing.
+
 When mining, miners ensure that their servers are operating - accepting requests from validators and returning responses. Miners can modify their mining server and code to best meet the incentive mechanism for the subnet.
 
 Mining is highly competitive - the "best" miners in each subnet accumulate more emissions, and the miners with the lowest scores are de-registered from the network.
@@ -22,7 +24,7 @@ Mining is highly competitive - the "best" miners in each subnet accumulate more 
 
 # Creating a miner
 
-The miner persona runs [MIner servers](doc:mining) in a subnet. To mine, research all of the subnets (see the [Bittensor Subnets](doc:list-of-subnets-1) list), and decide which subnet you wish to mine.  Each subnet has different hardware and software requirements.  Some subnets have a testnet to test your miner before registering and mining in the subnet.
+The miner persona runs [Miner servers](doc:mining) in a subnet. To mine, research all of the subnets (see the [Bittensor Subnets](doc:list-of-subnets-1) list), and decide which subnet you wish to mine.  Each subnet has different hardware and software requirements.  Some subnets have a testnet to test your miner before registering and mining in the subnet.
 
 You'll need to [register a node](doc:node-registration) with a Bittensor hotkey.  The you'll start your miner code on your server with the same hotkey to verify your server on the network.
 
@@ -44,7 +46,7 @@ The [Tokenomics](doc:tokenomics) section describes how tao is distributed in the
 
 ## Where do your awards go?
 
-Miner alpha rewards will automatically stake to the hotkey.  
+Miner alpha rewards will automatically stake to the hotkey.
 
 If you would like your mining rewards to be automatically staked to a validator, this can be set via `Autostake`
 
@@ -52,7 +54,7 @@ If you would like your mining rewards to be automatically staked to a validator,
 
 With autostake, all incentive from all hotkeys are automatically staked to one hotkey. Generally, a miner would choose a validator to earn staking rewards.
 
-This does complicate the seperation of mining rewards with staking rewards. There is a Taostats API for the transfer of mining rewards:
+This does complicate the separation of mining rewards with staking rewards. There is a Taostats API for the transfer of mining rewards:
 
 # Helpful links
 
