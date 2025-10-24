@@ -37,17 +37,31 @@ Staking to root is a `safe`  staking option - there is no way to lose tao value.
 
 <RootProp />
 
-## Root Staking Options
-
-If you have staked to root, by default your returns will be auto-compounded to your hotkey on root as tao.
-
-Starting in fall 2025, you may also choose Root Claim (TODO)
+Emission is rewarded ever 360 blocks (approximately 72 minutes)
 
 <br />
 
-This change over time is described in [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha).
+## (Proposed) Root Staking Options 
 
-## Staking to alpha
+In Fall 2025, the team has proposed the following change to the way root stake operates:
+
+Emissions are not automatically awarded every 360 blocks, but will be awarded approximately daily.  The time will be random, and so may be sometimes longer than a day, sometimes less than a day.
+
+Stakeholders will have two options in receiving rewards: 
+
+### (Default) Root Claim
+
+Root claim is the default option, and works similarly to the way root sketig works today. All the alpha earned will be converted to tao, and awarded to your root hotkey, approximately once a day.
+
+### Alpha Claim
+
+In fall 2025, root stakeholders may choose alpha claim.  This feature keeps your earned emission in alpha in every subnet.  IN this scenario, the claimed alpha is *not* converted to tao, but remains on the subnet staked as alpha.
+
+<br />
+
+<br />
+
+# Staking to alpha
 
 This is the new feature and primary goal of dTao - to enable stakeholders to vote and determine the emissions for every subnet.
 
