@@ -52,7 +52,7 @@ There are multiple subnets on Bittensor (October 2024 - 52 subnets). Each subnet
 > Subnet XX was registered this week. Its emissions are very small (the top miner is making $1.50/day). But, There are just 9 miners active (and 256 slots). So your miner will not be deregistered, and you can learn how to maximize your returns on the subnet along with everyone else. You may have small returns at the start, but if you believe the subnet can succeed - you may be an insider on the _next_ biggest subnet.
 
 * Registration cost: Each subnet has different cost to register a neuron. [Taostats: For Miners](doc:taostats-for-miners) shows how to determine the cost and how it changes over time.
-* Is there a testnet? If you can run on a testnet - you can forego the registration costs to see if you are able to run the miner.
+* Is there a testnet? If you can run on a testnet - you can forego the registration costs to see if you are able to run the miner.  You can also run a local blockchain for testing.
 
 # Skills required
 
