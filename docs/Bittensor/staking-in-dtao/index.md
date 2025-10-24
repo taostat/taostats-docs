@@ -18,7 +18,7 @@ next:
 
 <br />
 
-Staking plays a principal role in the functioning of the Bittensor network. The principal goal of dTao is to divide chain emissions amongst subnets in a democratic way.  Staking into a subnet  increases the emissoins of the subnet.
+Staking plays a principal role in the functioning of the Bittensor network. In February 2025, the dTao release gave stakeholders additional power: staking into a subnet increases the emissions of the subnet.
 
 # Staking Options
 
@@ -44,8 +44,6 @@ If you have staked to root, by default your returns will be auto-compounded to y
 Starting in fall 2025, you may also choose Root Claim (TODO)
 
 <br />
-
-
 
 This change over time is described in [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha).
 
