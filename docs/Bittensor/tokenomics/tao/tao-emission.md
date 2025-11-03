@@ -20,6 +20,34 @@ The tao is divided amongst the subnets and the fraction of tao awarded to each s
 
 # Flow based emission
 
+Starting in November 2025, tao flow will begin to be a part of the tao emission equation. Byy december 20225, 100% of tao emitted will be based on tao flow.
+
+<br />
+
+## What is flow
+
+In every subnet, tao flows in and out of the liquidity pool through staking actions:
+
+<Image border={false} src="https://files.readme.io/a4a27b0628a0677e0098b226e7194c74cca4743af7c60b5d6d5f008c7b445cbc-image.png" />
+
+Flow is *only staking* it is **NOT** based on emission, root proportion or neuron registration.
+
+To smooth this equation, each subnet's flow is placed in an exponential moving average with a half life of 30 days:
+
+<Image border={false} src="https://files.readme.io/8117fca83f79395f015b74a589d28e86255e55bd14509aae1ba8ab3d38554c1b-image.png" />
+
+<br />
+
+Now this flow can still be negative- and we cannot have a negative flow (removig tao from the subnet), so we only use flow EMAs that are. above zero.. and those below zero are set to zero.
+
+<Image border={false} src="https://files.readme.io/e49a805e14d5a891c90e671aa3a79efc672ee989a31ad33dc35030790f0d8f85-image.png" />
+
+We can then normalize the flows across all subnets: 
+
+<Image border={false} src="https://files.readme.io/79529d16e10dd4bed95c7ed1badfc850bd06830ca75c59f1bcb083a88c6dbdc4-image.png" />
+
+<br />
+
 <br />
 
 <br />
