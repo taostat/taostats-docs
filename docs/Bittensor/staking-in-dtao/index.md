@@ -37,17 +37,19 @@ Staking to root is a `safe`  staking option - there is no way to lose tao value.
 
 <RootProp />
 
-Emission is rewarded ever 360 blocks (approximately 72 minutes)
+Emission is rewarded every 2 days.
+
+<Embed typeOfEmbed="youtube" url="https://www.youtube.com/watch?v=Ed7SCDGmM4Q" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FEd7SCDGmM4Q%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DEd7SCDGmM4Q%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FEd7SCDGmM4Q%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" href="https://www.youtube.com/watch?v=Ed7SCDGmM4Q" providerUrl="https://www.youtube.com/" providerName="YouTube" />
 
 <br />
 
-## (Proposed) Root Staking Options 
+## Root Staking Options
 
-In Fall 2025, the team has proposed the following change to the way root stake operates:
+In November 2025, Bittensor launched the following change to the way root stake operates:
 
 Emissions are not automatically awarded every 360 blocks, but will be awarded approximately daily.  The time will be random, and so may be sometimes longer than a day, sometimes less than a day.
 
-Stakeholders will have two options in receiving rewards: 
+Stakeholders will have two options in receiving rewards:
 
 ### (Default) Root Claim
 
@@ -55,9 +57,7 @@ Root claim is the default option, and works similarly to the way root sketig wor
 
 ### Alpha Claim
 
-In fall 2025, root stakeholders may choose alpha claim.  This feature keeps your earned emission in alpha in every subnet.  IN this scenario, the claimed alpha is *not* converted to tao, but remains on the subnet staked as alpha.
-
-<br />
+In fall 2025, root stakeholders may choose alpha claim.  This feature keeps your earned emission in alpha in every subnet.  IN this scenario, the claimed alpha is _not_ converted to tao, but remains on the subnet staked as alpha.
 
 <br />
 
@@ -69,7 +69,7 @@ To stake in alpha, tao is exchanged via the [Subnet Pools](doc:subnet-pools) int
 
 Staking to alpha _does_ incur risk: a drop in alpha token price will result in a lower amout of tao when unstaking.
 
-<br />
+Emission is awarded every 360 blocks (approx 72 minutes).
 
 > 📘 Staking fees
 >
