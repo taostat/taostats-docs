@@ -48,10 +48,6 @@ We can then normalize the flows across all subnets:
 
 <br />
 
-<br />
-
-<br />
-
 # Price based emission
 
 <br />
