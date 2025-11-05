@@ -16,20 +16,34 @@ next:
 ## response details
 
 ```
+ {
+  "pagination": {
+    "current_page": 1,
+    "per_page": 1,
+    "total_items": 1,
+    "total_pages": 1,
+    "next_page": null,
+    "prev_page": null
+  },
+  "data": [
     {
-      "block_number": 5446631,
-      "timestamp": "2025-04-27T23:59:48Z",
-      "issued": "8687103218584414", tao issued as rao
-      "staked": "6268206630431947", tao staked as rao total
-      "staked_alpha": "551990041323928",  tao staked as alpha
-      "staked_root": "5716216589108019", tao staked to root
-      "subnet_locked": "0",number of locked subnets
-      "free": "2358319537825949", free tao (as rao)
-      "accounts": 241470, number of accounts
-      "balance_holders": 158728, number of accounts with balance
-      "extrinsics": 128169176,total extrinsics
-      "transfers": 3366463, transfers
-      "subnets": 99,number of subnets
-      "subnet_registration_cost": "328744911965" registration cost as rao
+      "block_number": 6812152,
+      "timestamp": "2025-11-04T23:59:48Z",
+      "issued": "10238806730295346",
+      "staked": "7188376143978931",
+      "staked_alpha": "1460542286310766",
+      "staked_root": "5727829104805753",
+      "staked_root_on_keep": "67086822569",
+      "staked_root_on_swap": "5727762017983184",
+      "subnet_locked": "12967601253620",
+      "free": "3050779213817594",
+      "accounts": 429138,
+      "balance_holders": 246326,
+      "extrinsics": 157639106,
+      "transfers": 4510647,
+      "subnets": 129,
+      "subnet_registration_cost": "430905168626"
     }
+  ]
+}
 ```
