@@ -40,7 +40,9 @@ Subnet data can be shown in tao values (where all alpha token is converted into 
 
 <Image border={false} src="https://files.readme.io/5997e445918cd954ce1b020650221a3390790c87828b2c580d9bd3d04f1a9a0d-image.png" />
 
-* **Name**: The name and netuid of the subnet.
+<br />
+
+* _Name_*: The name and netuid of the subnet.
 * **Emission**: The % of tao flowing into the subnet pool.
 * **Price**: The [Alpha Price](https://docs.taostats.io/docs/alpha-tokens#alpha-price)  of the subnet.
 * **1H**: Price trend over the previous hour.
