@@ -73,14 +73,14 @@ See all the positions by Clicking All Positions.
 
 # What do you earn?
 
-Every time a trade is made when the price is inisde your price window, you will receive a fraction of the staking fee (in tao) or the unstaking fee (in alpha).
+Every time a trade is made when the price is inside your price window, you will receive a fraction of the staking fee (in tao) or the unstaking fee (in alpha).
 
 There is no way on chain to determine your earnings while your position is open.
 
-One position close, the swap.`remove_liquidity`  extrnisic is run.  This will close out the position.  The LIquidity Removed event will show the alpha and tao placed back into your wallet.  You  earn the `FeeAlpha` and `FeeTao` (shown in rao).
+One position close, the swap.`remove_liquidity`  extrinsic is run.  This will close out the position.  The Liquidity Removed event will show the alpha and tao placed back into your wallet.  You  earn the `FeeAlpha` and `FeeTao` (shown in rao).
 
 <Image border={false} src="https://files.readme.io/bce7ffc6f3dca336323a1288f61fb0ce8decb8ffc4d18c122c5f814766a9c061-image.png" />
 
 <br />
 
-As the price changes, the liquidity provided will shift.  If the price goes up, your alpha will be used, and tao will be added to your liquidity. As the price goes dow, your tao will be sold, and alpha will increase.
+As the price changes, the liquidity provided will shift.  If the price goes up, your alpha will be used, and tao will be added to your liquidity. As the price goes down, your tao will be sold, and alpha will increase.
