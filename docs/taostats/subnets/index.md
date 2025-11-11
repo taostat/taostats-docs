@@ -47,9 +47,16 @@ Subnet data can be shown in tao values (where all alpha token is converted into 
 * **24H**: Price trend over the previous day.
 * **1W**: Price trend over the previous week.
 * **1M**: Price trend over the previous month.
+* **Flow(24H)**: Tao flow in the subnet pool.
+* **Flow(7D)**: Tao flow in the subnet pool.
+* **Flow(1M)**: Tao flow in the subnet pool.
 * **Market Cap**: The Circulating supply of alpha token (this can be displayed in tao or in USD.)
 * **Volume**: Amount traded in the last 24 hours (in tao or USD.)
 * **Liquidity**: Total value of tokens in the [Subnet Pool](doc:subnet-pools).
+* **V3**: Are V3 liquidity options available?
+* **ADR**:
+* **Root Prop**: Percentage of validator emissions to root.
+* **Root Sell**: Deprecated.
 
 # Subnets Total Price
 
