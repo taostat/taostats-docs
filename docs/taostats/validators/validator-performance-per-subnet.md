@@ -18,11 +18,11 @@ Each validator in a subnet is graded. If their weights are in [Yuma Consensus](d
 
 # Basic data
 
-![](https://files.readme.io/850b15c4234db7d04aa9edcd352bc59b77fe789636d72d68a3f236bace457e3b-image.png)
+<Image border={false} src="https://files.readme.io/850b15c4234db7d04aa9edcd352bc59b77fe789636d72d68a3f236bace457e3b-image.png" />
 
 At the top of every validator page, some basic data is delivered:
 
-* **Tao Stake Weight**: This is a weighted total of stake  tao\_staked\*root\_weight + alpha\_staked
+* **Tao Stake Weight**: This is a weighted total of stake  tao_staked*root_weight + alpha_staked
   * In the screenshot above 773k tao on root is 139k weighted.  39k alpha
   * This gives a 78/22 % breakdown to tao to alpha
 * **Nominator Return**: Total earnings per day, across all subnets in tao.
@@ -30,7 +30,7 @@ At the top of every validator page, some basic data is delivered:
 * **Total Nominators**: Number of stakeholders on this validator
 * **Dominance** : % of all stake controlled by this validator.
 
-![](https://files.readme.io/516b3e125fc4bb2b397e543e293ed992c820cc06dc8d8f8bf4719933adf732ee-image.png)
+<Image border={false} src="https://files.readme.io/516b3e125fc4bb2b397e543e293ed992c820cc06dc8d8f8bf4719933adf732ee-image.png" />
 
 <br />
 
@@ -38,7 +38,7 @@ At the top of every validator page, some basic data is delivered:
 
 The performance tab gives the validator feedback on how well the validator is performing in a subnet. A row highlighted in red is not performaning well, and should be investigated:
 
-![](https://files.readme.io/8876560e4a4de0735d6f0cef3ab4a15acd155671613d53e4033185ca2a2517d8-image.png)
+<Image border={false} src="https://files.readme.io/8876560e4a4de0735d6f0cef3ab4a15acd155671613d53e4033185ca2a2517d8-image.png" />
 
 ## Performance Columns:
 
@@ -47,13 +47,13 @@ The performance tab gives the validator feedback on how well the validator is pe
   * Key: Parent hotkey
   * Server: running infra
 * **CK Take**: The child hotkey take of the child hotkey
-* **Proportion**: Percentage of stake that that is assigned to this key.
+* **Proportion**: Percentage of stake that is assigned to this key.
 
-> 📘
->
-> ![](https://files.readme.io/fcfa1e8c6ac937168dcacea0f5ab0a7edc073b3beb7a4818c0e338127c7b9bf6-image.png)
->
-> In Subnet 1, this validator has 90% of their stake on opentensor foundation, and 10% at 5Cg5Q...
+<Callout icon="📘" theme="info">
+  <Image border={false} src="https://files.readme.io/fcfa1e8c6ac937168dcacea0f5ab0a7edc073b3beb7a4818c0e338127c7b9bf6-image.png" />
+
+  In Subnet 1, this validator has 90% of their stake on opentensor foundation, and 10% at 5Cg5Q...
+</Callout>
 
 * **Subnet Weight**: How much weighted alpha this validator holds.
 
@@ -84,13 +84,13 @@ The performance tab gives the validator feedback on how well the validator is pe
 
 A chart showing tao staked over time & the number of nominators
 
-![](https://files.readme.io/5a09a7bde1ef1f4131346f007eec4572acd59a5d79d5569ab1c7c9e946b37968-image.png)
+<Image border={false} src="https://files.readme.io/5a09a7bde1ef1f4131346f007eec4572acd59a5d79d5569ab1c7c9e946b37968-image.png" />
 
 ## Nominator search
 
 a table with the top stakeholders. Sort by Subnet or by account.
 
-![](https://files.readme.io/b5ede3eb6879541aa7f625135856977cbf1488ba042c879f95887e74eb815c5d-image.png)
+<Image border={false} src="https://files.readme.io/b5ede3eb6879541aa7f625135856977cbf1488ba042c879f95887e74eb815c5d-image.png" />
 
 <br />
 
@@ -100,4 +100,4 @@ a table with the top stakeholders. Sort by Subnet or by account.
 
 nom/1k/day - root
 
-![](https://files.readme.io/3307778bcc33d616f43f52b77014ebc6638a46e137e413945da236deb2670da9-image.png)
+<Image border={false} src="https://files.readme.io/3307778bcc33d616f43f52b77014ebc6638a46e137e413945da236deb2670da9-image.png" />
