@@ -30,7 +30,7 @@ In every subnet, tao flows in and out of the liquidity pool through staking acti
 
 <Image border={false} src="https://files.readme.io/a4a27b0628a0677e0098b226e7194c74cca4743af7c60b5d6d5f008c7b445cbc-image.png" />
 
-Flow is *only staking* it is **NOT** based on emission, root proportion or neuron registration.
+Flow is _only staking_ it is **NOT** based on emission, root proportion or neuron registration.
 
 To smooth this equation, each subnet's flow is placed in an exponential moving average with a half life of 30 days:
 
@@ -42,30 +42,10 @@ Now this flow can still be negative- and we cannot have a negative flow (removig
 
 <Image border={false} src="https://files.readme.io/e49a805e14d5a891c90e671aa3a79efc672ee989a31ad33dc35030790f0d8f85-image.png" />
 
-We can then normalize the flows across all subnets: 
+We can then normalize the flows across all subnets:
 
 <Image border={false} src="https://files.readme.io/79529d16e10dd4bed95c7ed1badfc850bd06830ca75c59f1bcb083a88c6dbdc4-image.png" />
 
 <br />
 
-# Price based emission
-
 <br />
-
-Tao emission (also known as `tao_in`) on a subnet is calculated by finding the subnet price, and dividing by the total of all subnet prices. This approach is being phased out, and will be no longer used in the network by December 2025.
-
-This ensures that 1 tao is emitted every block, and distributed amongst the subnets.
-
-<Image border={false} src="https://files.readme.io/2a743d39d2afaacc67b13c59c53b76b57ba794a23d89d4fea557fc1da1d76cb4-image.png" />
-
-> 📘 Tao_in example:
->
-> If the Sum of all prices is 1.8, and the price for a Subnet is 0.2.
->
-> tao_in will be 0.2/1.8 = .111 per block.
-
-<br />
-
-### Caveat:
-
-In reality, the tao_in is determined by an Exponential Moving Average (EMA) of price, but in most cases, the simple illustration above is good enough.
