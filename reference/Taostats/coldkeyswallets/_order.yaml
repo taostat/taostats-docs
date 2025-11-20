@@ -2,7 +2,7 @@
 - get-account-history
 - get-transfers
 - get-coldkey-report
-- get-onchain-identity
 - get-exchanges
 - get-pending-coldkey-swaps
+- get-onchain-identity
 - get-on-chain-identity-history
