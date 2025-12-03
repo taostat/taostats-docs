@@ -5,7 +5,7 @@ api:
   file: dtao-testnet-beta.json
   operationId: get-validator-emission-by-subnet
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
