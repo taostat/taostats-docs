@@ -34,7 +34,7 @@ Each miner participates in a subnet.  It solves the challenge specific to that s
 
 If a miner's server falls into the bottom of the miner trust rankings for a subnet, it risks being de-registered.
 
-Reward for miners is scored as emission.
+Reward for miners is scored as incetive that is converted to emission..
 
 # Rewards
 
@@ -43,6 +43,11 @@ Miners receive alpha as an award for the work produced.  The reward is based on 
 The emission scores for all miners sum to 1.  This is then used to allocate the emissions awarded to the miners.
 
 The [Tokenomics](doc:tokenomics) section describes how tao is distributed in the Bittensor ecosystem.
+
+<br />
+
+* Some subnets have "winner-takes-all" awarding (or a few winners-tak-all).
+* Incentive awarded to the Subnet owner is burned.
 
 ## Where do your awards go?
 
