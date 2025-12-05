@@ -20,7 +20,7 @@ The tao is divided amongst the subnets and the fraction of tao awarded to each s
 
 # Flow based emission
 
-Starting in November 2025, tao flow will begin to be a part of the tao emission equation. Byy december 20225, 100% of tao emitted will be based on tao flow.
+Starting in November 2025, tao flow will begin to be a part of the tao emission equation. By December 2025, 100% of tao emitted will be based on tao flow.
 
 <br />
 
@@ -38,7 +38,7 @@ To smooth this equation, each subnet's flow is placed in an exponential moving a
 
 <br />
 
-Now this flow can still be negative- and we cannot have a negative flow (removig tao from the subnet), so we only use flow EMAs that are. above zero.. and those below zero are set to zero.
+Now this flow can still be negative- and we cannot have a negative flow (removing tao from the subnet), so we only use flow EMAs that are. above zero.. and those below zero are set to zero.
 
 <Image border={false} src="https://files.readme.io/e49a805e14d5a891c90e671aa3a79efc672ee989a31ad33dc35030790f0d8f85-image.png" />
 
