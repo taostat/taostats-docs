@@ -6,7 +6,7 @@ hidden: false
 metadata:
   robots: index
 ---
-Looking at the Taostats Subnet page, you may notice that the Emissions do not always add to 100%  
+Looking at the Taostats Subnet page, you may notice that the Emissions do not always add to 100%
 
 <Image border={false} caption="Here they add to 92.7%" src="https://files.readme.io/af2f0aba280752fe8f557ed71d3e5b17b7872c91166f6d304c84909bee0eed79-image.png" />
 
@@ -24,16 +24,16 @@ If 1 tao is emitted per block, this means that just 0.817 tao is being awarded t
 
 [Tao Emission](doc:tao-emission) is calculated from EMA flow.
 
-[Alpha Emission](doc:alpha-emission) is calculated from tao emission and price - but it has a max value of 1. 
+[Alpha Emission](doc:alpha-emission) is calculated from tao emission and price - but it has a max value of 1.
 
 <br />
 
 At the time of writing, Subnet 8 has:
 
-*  a normalized EMA flow of 0.05635527424782002. 
+* a normalized EMA flow of 0.05635527424782002.
 * Price is 0.035997
 
-This would mean that alpha_in should be 1.55 
+This would mean that alpha_in should be 1.55
 
 <Image border={false} src="https://files.readme.io/5c48f4a34eb88388319d1a25fd2948c7b2b6a71b2039018357d5f36914ba5c9e-image.png" />
 
@@ -55,11 +55,17 @@ This tao is added to the liquidity pool, and the received alpha is recycled.
 
 This serves to increase the price to nearer the emission percentage.
 
-<br />
+# how can I find which are getting excess tao?
+
+On the taostats subnet page - look for the daily chain buy column. This is the per block valus multiplied by 7200.
+
+<Image border={false} src="https://files.readme.io/bf7942362f5da41e3f31040a7da9b1b6d303e0354b710d5e65f7b406834f7049-image.png" />
 
 <br />
 
-<br />
+# how will Excess tao change after the halving?
+
+When tao halves in December 2025, all excess tao will drop to 0.  Tao emissions will drop by 50%, and the max alpha_in will still be 1.  This means that it is unlikely for excess toa be become a concern until we begin seeing alpha halvings in 2028.
 
 <br />
 
