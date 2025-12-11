@@ -48,4 +48,8 @@ We can then normalize the flows across all subnets:
 
 <br />
 
-<br />
+<Callout icon="📘" theme="info">
+  Note: this is the default tao_in.  The actual tao in *may* be smaller than this due to [Tao Excess](doc:tao-emission-does-not-add-to-100).  This occurs when price and default tao emission result in "too much" alpha_in injected into the pool.  
+
+  The alpha_in is scaled to it's maximum emission, which results in scaling down the tao_in.  The difference is called excess tao.
+</Callout>
