@@ -1,5 +1,5 @@
 ---
-title: Tao Emission
+title: Tao Emission (including tao flow)
 excerpt: Basics on how tao is emitted and distributed in Bittensor.
 deprecated: false
 hidden: false
