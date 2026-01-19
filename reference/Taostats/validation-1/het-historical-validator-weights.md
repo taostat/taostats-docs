@@ -2,7 +2,7 @@
 title: Get Historical Validator Weights v2
 excerpt: Historical weights set by validators.
 api:
-  file: taostats-1.json
+  file: taostats-2.json
   operationId: het-historical-validator-weights
 deprecated: false
 hidden: false

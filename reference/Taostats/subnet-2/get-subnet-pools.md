@@ -2,7 +2,7 @@
 title: Get Current Subnet Pools
 excerpt: ''
 api:
-  file: taostats-1.json
+  file: taostats-2.json
   operationId: get-subnet-pools
 deprecated: false
 hidden: false

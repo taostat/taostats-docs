@@ -2,7 +2,7 @@
 title: Get Validator History (pre dtao)
 excerpt: Validator details pre dTao (Feb 13, 2025)
 api:
-  file: taostats-1.json
+  file: taostats-2.json
   operationId: get-validator
 deprecated: false
 hidden: true

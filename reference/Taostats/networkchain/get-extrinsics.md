@@ -4,7 +4,7 @@ excerpt: >-
   Lists all primary extrinsics. To get extrinsics in batch/proxy calls use he
   Get Calls endpoint
 api:
-  file: taostats-1.json
+  file: taostats-2.json
   operationId: get-extrinsics
 deprecated: false
 hidden: false

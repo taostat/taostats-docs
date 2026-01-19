@@ -2,7 +2,7 @@
 title: Get Metagraph
 excerpt: Get metagraph information for neurons
 api:
-  file: taostats-1.json
+  file: taostats-2.json
   operationId: get-metagraph-1
 deprecated: false
 hidden: false
