@@ -28196,7 +28196,12 @@
             "schema": {
               "type": "string",
               "enum": [
-                "coldkey_asc, coldkey_desc, block_number_asc, block_number_desc, timestamp_asc, timestamp_desc"
+                "coldkey_asc",
+                "coldkey_desc",
+                "block_number_asc",
+                "block_number_desc",
+                "timestamp_asc",
+                "timestamp_desc"
               ]
             }
           }
