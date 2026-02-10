@@ -40,38 +40,7 @@ The slippage limit should be small - a 4% slippage limit in the example above co
 
 ## The MEV bots calculate their MAX extraction on every transaction
 
-If your limit is very loose - the bot may decide to attack your transaction.
-
-If you have no limit set:  The MEV bots can extract as much as they want.
-
-<Image align="center" border={false} caption="This move stake operation had no limits, and the MEV attacker (entered at bottom, extited atthe top) walked away with 21 tao. If the attacker had 1000 tao, the would have made more." src="https://files.readme.io/f0f646c9892165d43a556a8597e47822e623d4cb9b64a0b690275e1fd9088713-image.png" />
-
-<br />
-
-# MEVShield
-
-<br />
-
-While a tight limit price on your transfer should be enough to stop MevBots,  the chain has also launched MevShield.
-
-Currently in version 1.0:  Mevshield encrypts your transfer, so that the MEVbot cannot read the details.  ON the next block, your transaction is decrypted and processed.
-
-## Advantages: 
-
-By encrypting the transaction, the MEVBot cannot see what you have done, and tehrefor cannot schedule a transaction in front of your trade.
-
-## Disadvatages
-
-Each transaction using MEVShield must be signed twice:
-
-* Sign the transaction
-* sign the encryption wrapper.
-
-Taostats (and other providers) now offers the ability to sign the encryption wrapper to save double password entry.
-
-<Image border={false} src="https://files.readme.io/72899b36bf5751080d9cada965a92b7c124e7994b3084197cde5be783ac10cca-image.png" />
-
-<br />
+I
 
 <br />
 
