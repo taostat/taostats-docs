@@ -66,3 +66,5 @@ Each transaction using MEVShield must be signed twice:
 Taostats (and other providers) now offers the ability to sign the encryption wrapper to save double password entry.
 
 <Image border={false} src="https://files.readme.io/72899b36bf5751080d9cada965a92b7c124e7994b3084197cde5be783ac10cca-image.png" />
+
+MevShield 2.0 is in development with more enhancements.
