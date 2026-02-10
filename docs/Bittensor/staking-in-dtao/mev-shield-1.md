@@ -2,7 +2,7 @@
 title: Mev Shield
 excerpt: why do we need mev shield, and how does it work?
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
