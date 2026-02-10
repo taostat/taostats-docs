@@ -21,11 +21,11 @@ When a transaction moves through a liquidity pool, there is an oprotunity for sl
 
   <Image border={false} src="https://files.readme.io/01d19664e30b545aa236029a979017e5ab2aa2706e91c05508a3e75a2d82053a-image.png" />
 
-  But a large transaction in front of this one adds slippage:  
+  But a large transaction in front of this one adds slippage:
 
   <Image border={false} src="https://files.readme.io/25389f78727e40ac3c144cc42e0f1b7ae86f5ff7cce16592d0b4d187d65e58cd-image.png" />
 
-  In this example, 4% of the transaction is lost to slippage.  
+  In this example, 4% of the transaction is lost to slippage.
 
   This is what the MEV bots do.
 </Callout>
@@ -38,7 +38,7 @@ All transactions should set a slippage limit.  This means - "hey, the price is x
 
 The slippage limit should be small - a 4% slippage limit in the example above cost 20 alpha (~ 2 tao).  For high liquidity subnets, you can be well below 1%.
 
-## The MEV bots calculate their MAX extraction on every transaction 
+## The MEV bots calculate their MAX extraction on every transaction
 
 If your limit is very loose - the bot may decide to attack your transaction.
 
@@ -48,4 +48,31 @@ If you have no limit set:  The MEV bots can extract as much as they want.
 
 <br />
 
+# MEVShield
+
 <br />
+
+While a tight limit price on your transfer should be enough to stop MevBots,  the chain has also launched MevShield.
+
+Currently in version 1.0:  Mevshield encrypts your transfer, so that the MEVbot cannot read the details.  ON the next block, your transaction is decrypted and processed.
+
+## Advantages: 
+
+By encrypting the transaction, the MEVBot cannot see what you have done, and tehrefor cannot schedule a transaction in front of your trade.
+
+## Disadvatages
+
+Each transaction using MEVShield must be signed twice:
+
+* Sign the transaction
+* sign the encryption wrapper.
+
+Taostats (and other providers) now offers the ability to sign the encryption wrapper to save double password entry.
+
+<Image border={false} src="https://files.readme.io/72899b36bf5751080d9cada965a92b7c124e7994b3084197cde5be783ac10cca-image.png" />
+
+<br />
+
+<br />
+
+MevShield 2.0 is in development with more enhancements.
