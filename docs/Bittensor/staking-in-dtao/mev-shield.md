@@ -71,6 +71,18 @@ MevShield 2.0 is in development with more enhancements.
 
 <br />
 
+## Why does Taostats disable MevShield for transactions  under one tao? 
+
 <br />
+
+For transactions `<1` tao, you are not likely going to be mevved - the potential gain for the attackers is too small compared to the risk. 
+
+<br />
+
+## Why does taostats disable MevShield for root stakes?
+
+<br />
+
+Root staking has no price impact or slippage you cannot be mevved on a root transaction - so no need for 2 signatures.  
 
 <br />
