@@ -12,7 +12,7 @@ metadata:
 
 Maximum Extractable Value (MEV) bots scan the chain and look for transactions to "steal" assets from.  There have been a number of approaches to hinder these Bots from operting on chain.
 
-When a transaction moves through a liquidity pool, there is an oprotunity for slippage: where another transaction preceeds your transaction - changing the price, and effecting the amount of tao/alpha you receive.
+When a transaction moves through a liquidity pool, there is an oprotunity for slippage: where another transaction preceeds your transaction - changing the price, and effecting the amount of tao/alpha you receive. 
 
 <Callout icon="📘" theme="info">
   Example
@@ -71,11 +71,11 @@ MevShield 2.0 is in development with more enhancements.
 
 <br />
 
-## Why does Taostats disable MevShield for transactions  `<1` tao? 
+## Why does Taostats disable MevShield for transactions  `<1` tao?
 
 <br />
 
-For transactions `<1` tao, you are not likely going to be mevved - the potential gain for the attackers is too small compared to the risk. 
+For transactions `<1` tao, you are not likely going to be mevved - the potential gain for the attackers is too small compared to the risk.
 
 <br />
 
@@ -83,6 +83,6 @@ For transactions `<1` tao, you are not likely going to be mevved - the potential
 
 <br />
 
-Root staking has no price impact or slippage you cannot be mevved on a root transaction - so no need for 2 signatures.  
+Root staking has no price impact or slippage you cannot be mevved on a root transaction - so no need for 2 signatures.
 
 <br />
