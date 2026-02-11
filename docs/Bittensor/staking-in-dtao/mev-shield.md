@@ -19,11 +19,11 @@ When a transaction moves through a liquidity pool, there is an oprotunity for sl
 
   An isolated transaction will have a small price impact due to the liqudity pool
 
-  <Image border={false} src="https://files.readme.io/01d19664e30b545aa236029a979017e5ab2aa2706e91c05508a3e75a2d82053a-image.png" />
+  ![](https://files.readme.io/01d19664e30b545aa236029a979017e5ab2aa2706e91c05508a3e75a2d82053a-image.png)
 
   But a large transaction in front of this one adds slippage:
 
-  <Image border={false} src="https://files.readme.io/25389f78727e40ac3c144cc42e0f1b7ae86f5ff7cce16592d0b4d187d65e58cd-image.png" />
+  ![](https://files.readme.io/25389f78727e40ac3c144cc42e0f1b7ae86f5ff7cce16592d0b4d187d65e58cd-image.png)
 
   In this example, 4% of the transaction is lost to slippage.
 
@@ -44,7 +44,7 @@ f your limit is very loose - the bot may decide to attack your transaction.
 
 If you have no limit set:  The MEV bots can extract as much as they want.
 
-<Image align="center" border={false} caption="This move stake operation had no limits, and the MEV attacker (entered at bottom, extited atthe top) walked away with 21 tao. If the attacker had 1000 tao, the would have made more." src="https://files.readme.io/f0f646c9892165d43a556a8597e47822e623d4cb9b64a0b690275e1fd9088713-image.png" />
+<Image align="center" caption="This move stake operation had no limits, and the MEV attacker (entered at bottom, extited atthe top) walked away with 21 tao. If the attacker had 1000 tao, the would have made more." src="https://files.readme.io/f0f646c9892165d43a556a8597e47822e623d4cb9b64a0b690275e1fd9088713-image.png" />
 
 # MEVShield
 
@@ -65,6 +65,12 @@ Each transaction using MEVShield must be signed twice:
 
 Taostats (and other providers) now offers the ability to sign the encryption wrapper to save double password entry.
 
-<Image border={false} src="https://files.readme.io/72899b36bf5751080d9cada965a92b7c124e7994b3084197cde5be783ac10cca-image.png" />
+![](https://files.readme.io/72899b36bf5751080d9cada965a92b7c124e7994b3084197cde5be783ac10cca-image.png)
 
 MevShield 2.0 is in development with more enhancements.
+
+<br />
+
+<br />
+
+<br />
