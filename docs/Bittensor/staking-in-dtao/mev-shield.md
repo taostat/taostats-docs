@@ -71,7 +71,7 @@ MevShield 2.0 is in development with more enhancements.
 
 <br />
 
-## Why does Taostats disable MevShield for transactions  under one tao? 
+## Why does Taostats disable MevShield for transactions  `<1` tao? 
 
 <br />
 
