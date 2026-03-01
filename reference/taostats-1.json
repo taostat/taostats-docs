@@ -20452,7 +20452,13 @@
             "description": "",
             "schema": {
               "type": "string",
-              "default": ""
+              "default": "",
+              "enum": [
+                "netuid_asc",
+                "netuid_desc",
+                "amount_asc",
+                "amount_desc"
+              ]
             }
           }
         ]
