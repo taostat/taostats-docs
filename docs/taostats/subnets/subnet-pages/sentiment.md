@@ -1,5 +1,5 @@
 ---
-title: Sentiment
+title: Subnet Sentiment Index (SSI)
 deprecated: false
 hidden: false
 metadata:
