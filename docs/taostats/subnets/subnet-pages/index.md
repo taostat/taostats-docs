@@ -28,7 +28,7 @@ In the upper left, find a description and links to external sites for the subnet
 * [Distribution](doc:distribution)
 * [Miner Weights](doc:miner-weights)
 * Emission
-* <br />
+* [Sentiment](doc:sentiment)
 
 ## Price
 
@@ -46,7 +46,7 @@ The price of the alpha token in both tao and USD. [Alpha Tokens](doc:alpha-token
 
 * **Market Cap**: The value of the subnet alpha in USD.
 * **Volume**: tao/alpha traded in the last 24 hours (in USD).
-* **FDV**: Fully Diluted Value: Price \* Max Supply (which is 21M tokens)
+* **FDV**: Fully Diluted Value: Price * Max Supply (which is 21M tokens)
 * **Vol/Market Cap/24hr**: Percentage of market cap traded in the last day.
 * **Max Supply**: Max number of tokens.
 * **Circulating Supply**: Total amount of alpha in circulation.
@@ -63,9 +63,7 @@ A summary of all staking/unstaking events in the previous 24 hours.
 
 An algorithm to sense buy/sell sentiment of investors on the subnet.
 
-![](https://files.readme.io/ed25aac493db7d49c3363afdb2e978930e11e58f963452e1dc8da9bab6d226a5-image.png)
-
-<br />
+[Sentiment](doc:sentiment)
 
 ## Subnet Data
 
