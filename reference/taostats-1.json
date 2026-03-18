@@ -1960,6 +1960,20 @@
         "operationId": "get-blocks-copy",
         "parameters": [
           {
+            "in": "query",
+            "name": "network",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "finney",
+                "nakamoto",
+                "kusanagi",
+                "testnet"
+              ],
+              "default": "finney"
+            }
+          },
+          {
             "name": "block_start",
             "in": "query",
             "description": "block number for start of range",
@@ -2067,20 +2081,6 @@
               "type": "integer",
               "format": "int32",
               "default": 50
-            }
-          },
-          {
-            "in": "query",
-            "name": "network",
-            "schema": {
-              "type": "string",
-              "enum": [
-                "finney",
-                "nakamoto",
-                "kusanagi",
-                "testnet"
-              ],
-              "default": "finney"
             }
           }
         ],
