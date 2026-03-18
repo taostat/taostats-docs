@@ -2068,6 +2068,20 @@
               "format": "int32",
               "default": 50
             }
+          },
+          {
+            "in": "query",
+            "name": "network",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "finney",
+                "nakamoto",
+                "kusanagi",
+                "testnet"
+              ],
+              "default": "finney"
+            }
           }
         ],
         "responses": {
