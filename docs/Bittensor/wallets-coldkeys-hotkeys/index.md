@@ -20,6 +20,14 @@ Wallets are used to store and house your tokens.  But the term wallet can be use
 
 Wallet applications are the way you interact with your tao on chain.  There are many wallets (The Bittensor Discord has a [FAQ](https://discord.com/channels/799672011265015819/1215386737661055056/1220037507656450068)  listing the wallets that support Bittensor.)  No matter what wallet application you use, the wallet is just looking at your tao on the chain.
 
+## Taostats wallets
+
+### [Chrome extension](https://chromewebstore.google.com/detail/taostats-the-bittensor-wa/khdnjjgidjjbjpececegbfglalchffpo)
+
+### [Mobile apps](https://taostats.io/app)
+
+<br />
+
 > 📘 Banking
 >
 > When you access your bank account, you use the mobile app, the website, an ATM, or even a bank teller in the bank.  These are all interfaces into your bank account.
