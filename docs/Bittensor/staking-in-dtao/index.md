@@ -37,7 +37,17 @@ Staking to root is a `safe`  staking option - there is no way to lose tao value.
 
 <RootProp />
 
-Emission is rewarded every 2 days.
+Emission is rewarded approximately every 2 days.  But it is randomly awarded by the chain, and a week is not abnormal.
+
+<Callout icon="📘" theme="info">
+  Auto Claim vs. Manual Claim
+
+  You can manually claim your root rewards, if you feel that the auto claim is taking too long.  Our analysis shows that the *extrinsic fee* you pay for the manual claim often EXCEEDS the amount or reward you have earned.  You can actually lose tao value doing this.
+
+  ![](https://files.readme.io/0f13dd72cfd0cc430c7f18f95f32a3868968f2ed36a4177474d1966d075eac34-image.png)
+
+  https://x.com/dougsillars/status/2033580026134777960
+</Callout>
 
 <Embed typeOfEmbed="youtube" url="https://www.youtube.com/watch?v=Ed7SCDGmM4Q" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FEd7SCDGmM4Q%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DEd7SCDGmM4Q%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FEd7SCDGmM4Q%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" href="https://www.youtube.com/watch?v=Ed7SCDGmM4Q" providerUrl="https://www.youtube.com/" providerName="YouTube" />
 
@@ -51,15 +61,17 @@ Emissions are not automatically awarded every 360 blocks, but will be awarded ap
 
 Stakeholders will have two options in receiving rewards:
 
-### (Default) Root Claim
+### (Default) Swap (root claim)
 
 Root claim is the default option, and works similarly to the way root sketig works today. All the alpha earned will be converted to tao, and awarded to your root hotkey, approximately once a day.
 
-### Alpha Claim
+### Keep (Alpha Claim)
 
-In fall 2025, root stakeholders may choose alpha claim.  This feature keeps your earned emission in alpha in every subnet.  IN this scenario, the claimed alpha is _not_ converted to tao, but remains on the subnet staked as alpha.
+In fall 2025, root stakeholders may choose alpha claim.  This feature keeps your earned emission in alpha in every subnet.  In this scenario, the claimed alpha is _not_ converted to tao, but remains on the subnet staked as alpha.
 
-<br />
+### Keep Selected
+
+This is a hybrid - you can choose to keep alpha for some subnets. The remaining subnets will be sold to tao, and your root balance will be increased.
 
 # Staking to alpha
 
