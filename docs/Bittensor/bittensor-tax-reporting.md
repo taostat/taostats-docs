@@ -10,7 +10,7 @@ No matter if you are a subnet owner, miner, validator, or you stake in Bittensor
 
 Bittensor is truly a global economy, and Taostats does not employ tax professionals, nor are we experts at global tax law.  But, we do have the data that can help you (or your tax professional) prepare your taxes.
 
-At [https://dash.taostats.io/tax](https://dash.taostats.io/tax) , you can find tooling that provides you with annual returns for every token you have purchased in the Bittensor Network:
+At [https://taostats.io/pro/tax](https://taostats.io/pro/tax) , you can find tooling that provides you with annual returns for every token you have purchased in the Bittensor Network:
 
 <Image border={false} src="https://files.readme.io/a13c94fbeed25977fdcff237b6d6181f3b9ed47bfcd97153abe28f6594f9205d-image.png" />
 

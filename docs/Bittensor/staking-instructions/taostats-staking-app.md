@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-The [Taostats Staking App](https://dash.taostats.io/stake) is part of the taostats dashboard. There are a few options to stake here:
+The [Taostats Staking App](https://taostats.io/pro/stake) is part of the taostats dashboard. There are a few options to stake here:
 
 * ## [Simple](#simple-1)
 * ## [Manual](#manual-1)
@@ -127,7 +127,7 @@ Once the change has been made, the final fee can be seen in the Extrinsic:
 
 # Automate
 
-The [automate](https://dash.taostats.io/stake/mentat)  option at Taostats allows you to stake your tao with [Mentant Minds](https://mentatminds.com/faq/) .
+The [automate](https://taostats.io/pro/stake/mentat)  option at Taostats allows you to stake your tao with [Mentant Minds](https://mentatminds.com/faq/) .
 
 When you stake with Mentant Minds, you are giving them proxy access to your wallet, and allowing them to shift your toa between subnets.  Staking with Mentant Minds is all or nothing - staking for the wallet is 100% controlled by mentant.
 

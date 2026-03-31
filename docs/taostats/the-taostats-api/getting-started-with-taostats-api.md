@@ -12,7 +12,7 @@ next:
 ---
 # Get an API key
 
-Visit [https://dash.taostats.io/](https://dash.taostats.io/) to sign up for an API key.
+Visit [https://taostats.io/pro/](https://taostats.io/pro/) to sign up for an API key.
 
 1. Sign in with your favorite 3rd party authentication.
 

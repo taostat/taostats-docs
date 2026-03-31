@@ -18,7 +18,7 @@ To use the API, you'll need an API key.
 
 # Get an API key
 
-Visit [dash.taostats.io](https://dash.taostats.io)  to sign up for an API key.
+Visit [taostats.io/pro](https://taostats.io/pro)  to sign up for an API key.
 
 1. Sign in with your favorite 3rd party tool.
 

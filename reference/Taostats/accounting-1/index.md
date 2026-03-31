@@ -10,4 +10,4 @@ metadata:
 next:
   description: ''
 ---
-[Get a pro subscription](https://dash.taostats.io/billing)
+[Get a pro subscription](https://taostats.io/pro/billing)

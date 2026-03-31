@@ -22,4 +22,4 @@ If you find any inconsistencies, please let us know on the  [Taostats Discord](d
 
 ## Don't have an API key yet?
 
- [Sign up for free!](https://dash.taostats.io)
+ [Sign up for free!](https://taostats.io/pro)

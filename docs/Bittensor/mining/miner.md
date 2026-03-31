@@ -12,7 +12,7 @@ next:
 ---
 A miner deploys (at least) one mining node into (at least) one subnet to perform the work being rewarded by the subnet incentive mechanism. The object of a miner is to score higher than their peers and not fall into the bottom percentile and risk reregistration.  The longer a miner remains active, the more profitable they become. Miners may operate multiple nodes on multiple subnets.
 
-The taostats [mining dashboard](https://dash.taostats.io/mining)  helps you track how well your miners are doing.
+The taostats [mining dashboard](https://taostats.io/pro/mining)  helps you track how well your miners are doing.
 
 When mining, miners ensure that their servers are operating - accepting requests from validators and returning responses. Miners can modify their mining server and code to best meet the incentive mechanism for the subnet.
 
