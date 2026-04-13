@@ -16,17 +16,17 @@ next:
 >
 > The [Validator Persona](doc:validator) has details on how a validator can be run.
 
-On each subnet there are a configurable number slots reserved for validation (default: 64). IN practice, these slots are not all filled by validators, and miners can use these slots as well.
+On each subnet there are a configurable number slots reserved for validation (default: 64). In practice, these slots are not all filled by validators, and miners can use these slots as well.
 
-Validators have three primary roles. Two exist inside  each subnet, and the third is to rank each subnet.
+Validators have three primary roles. Two exist inside each subnet mechanism, and the third is distribute stakeholder emission.
 
-1. **Validation of miner output**.  This is usually done by sending regular requests to each miner and then assigning a value/score to the response.  These scores are usually added to a moving average of the miners performance which enables a score (weights) to be set at regular intervals on the blockchain for all miners by that validator. These weights form part of the incentive landscape which when combined with the weights of the other validators using [Yuma Consensus](doc:consensus) are then used to define and distribute emissions.
+1. **Validation of miner output**.  This is usually done by sending regular requests to each miner and then assigning a value/score to the response.  These scores are often added to a moving average of the miners performance which enables a score (weights) to be set at regular intervals on the blockchain for all miners by that validator. These weights form part of the incentive landscape which when combined with the weights of the other validators using [Yuma Consensus](doc:consensus) are then used to define and distribute emissions.
 2. **Gateway access to the network**. The only way a user or application can query a subnet is through the hotkey of an active validator - therefore validators also act as trusted gateways to the miners which in turn allows miners to prioritise queries based on a stake.
-3. **Subnet Emissions** Emissions to the subnet are no longer determined by validator weighs on the root Subnet.  But - stake is still routhed through validators on each subnet.  See [Emissions for Validators](doc:incentive-for-validators), [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha) for further details.
+3. **Subnet Emissions** Stake is still routed through validators on each subnet.  See [Emissions for Validators](doc:incentive-for-validators), [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha) for further details.
 
 The amount of tao a validator has as delegated stake defines both the value of the weights they set for miners and as a result allows for a natural market prioritisation of access to form.
 
-<Embed url="https://www.youtube.com/watch?v=MLVeSRZoU7g" title="Bittensor Overview: Validators" favicon="https://www.youtube.com/favicon.ico" image="https://i.ytimg.com/vi/MLVeSRZoU7g/hqdefault.jpg" provider="youtube.com" href="https://www.youtube.com/watch?v=MLVeSRZoU7g" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FMLVeSRZoU7g%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DMLVeSRZoU7g%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FMLVeSRZoU7g%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
+<Embed url="https://www.youtube.com/watch?v=MLVeSRZoU7g" href="https://www.youtube.com/watch?v=MLVeSRZoU7g" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FMLVeSRZoU7g%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DMLVeSRZoU7g%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FMLVeSRZoU7g%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22854%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 <br />
 
@@ -34,9 +34,7 @@ The amount of tao a validator has as delegated stake defines both the value of t
 
 Validators must assess how well the miners are performing and the value they create on the network.  Each subnet has a different [Incentive Mechanism](doc:incentive-mechanisms) for determining how the validator interacts with the miner and scores the responses.
 
-This is done by creating synthetic queries or tasks that are sent to the miners to respond to or perform. This is done in a way that the validator either knows the correct or best response the miner can give, or is able to score the response when compared to the responses of the other miners. 
-
-The incentive mechanism is not fixed and it is the possibility for design of unique and innovative incentive mechanisms that is one of the key values of the network allowing each subnet a different approach to validation.
+The incentive mechanism is not fixed and it is the possibility for design of unique and innovative incentive mechanisms that is one of the key values of Bittensor - allowing each subnet a different approach to validation.
 
 ## Parent/Child hotkeys
 
@@ -56,13 +54,11 @@ Some subnets have a minimum stake required to be a successful validator. Below t
 
 Learn how to [register a node](doc:node-registration) on a subnet.
 
-In addition to the steps in the above link, validators need to have a significant amount of TAO staked to their hotkey to be successful in validating miners. This is due to market dynamics incentivising miners to naturally prioritise requests from validators with more stake as their weights hold great influence over consensus of trust. 
+In addition to the steps in the above link, validators need to have a significant amount of TAO/alpha staked to their hotkey to be successful in validating miners. This is due to market dynamics incentivising miners to naturally prioritise requests from validators with more stake as their weights hold great influence over consensus of trust.
 
-Although this varies from subnet to subnet there is a hard floor of 1k tao with a generally accepted competitive functional floor of around 20k tao (at the time of writing). This means that whilst is is possible to validate with less than 20k tao, you may not achieve the same level of responses from all miners and as a result consensus in the weights you set, and as a result your appropriate share of emissions. 
+Although this varies from subnet to subnet there is a hard floor of 1k tao with a generally accepted competitive functional floor of around 20k tao (at the time of writing). This means that whilst is is possible to validate with less than 20k tao, you may not achieve the same level of responses from all miners and as a result consensus in the weights you set, and as a result your appropriate share of emissions.
 
-It should also be noted that in order to validate competitively you must be present on as many subnets as possible.  This increases your emissions, and thus the return to the stakeholders.
-
-There is a real world cost to running this infrastructure which also makes it not profitable below a certain threshold of staked tao. 
+It should also be noted that in order to validate competitively on root, you must be present on as many subnets as possible.  This increases your emissions, and thus the return to the stakeholders.
 
 > 📘 How can miners ignore validators?
 >
@@ -72,15 +68,13 @@ There is a real world cost to running this infrastructure which also makes it no
 
 Validators are awarded emission from the network based on their dividend score.  Dividend is evaluated from the stake and Vtrust values. Vtrust describes how well their weights match the **consensus** of other validators.  See [Emissions for Validators](doc:incentive-for-validators))  for a detailed analysis.
 
-<Embed url="https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd" title="Bittensor Validation" favicon="https://www.youtube.com/s/desktop/4151fd0f/img/favicon.ico" image="https://i.ytimg.com/vi/XUgoBN8VB7Q/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDnKExP-CILW4skZCS2JCVslwQHAA&days_since_epoch=19969" provider="youtube.com" href="https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttp%253A%252F%252Fwww.youtube.com%252Fembed%252Fvideoseries%253Flist%253DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fplaylist%253Flist%253DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FXUgoBN8VB7Q%252Fhqdefault.jpg%253Fsqp%253D-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE%253D%2526rs%253DAOn4CLDnKExP-CILW4skZCS2JCVslwQHAA%2526days_since_epoch%253D19969%26key%3D02466f963b9b4bb8845a05b53d3235d7%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22853%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
+<Embed url="https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd" href="https://www.youtube.com/playlist?list=PLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd" typeOfEmbed="youtube" html="%3Ciframe%20class%3D%22embedly-embed%22%20src%3D%22%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttp%253A%252F%252Fwww.youtube.com%252Fembed%252Fvideoseries%253Flist%253DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fplaylist%253Flist%253DPLYW5tJU0VYmgMoMuDcjL9lfc6tVE3zzLd%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FXUgoBN8VB7Q%252Fhqdefault.jpg%253Fsqp%253D-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE%253D%2526rs%253DAOn4CLDnKExP-CILW4skZCS2JCVslwQHAA%2526days_since_epoch%253D19969%26key%3D02466f963b9b4bb8845a05b53d3235d7%26type%3Dtext%252Fhtml%26schema%3Dyoutube%22%20width%3D%22853%22%20height%3D%22480%22%20scrolling%3D%22no%22%20title%3D%22YouTube%20embed%22%20frameborder%3D%220%22%20allow%3D%22autoplay%3B%20fullscreen%3B%20encrypted-media%3B%20picture-in-picture%3B%22%20allowfullscreen%3D%22true%22%3E%3C%2Fiframe%3E" />
 
 # Gateway Access
 
 As miners are only scored by validators there is no incentive for them to receive or trust requests from anyone else except a valid validator.  Any request to the miners must therefore pass through a validator which will be routed to a miner(s)  who will generate the response to the validator, who returns the response to the external user.
 
 This allows validators to build API infrastructure or allow their access to be valued by any other network participant providing API access to the network.
-
-An example of this is [Corcel](https://corcel.io) who provide API access to a number of subnets via their validator,  and on subnets running the code they are able to purchase bandwidth from multiple validators therefore 'load-balancing' the queries across multiple validators access promoting a healthy decentralisation of network traffic.
 
 This is just one way of facilitating access to the network data via a validator and constant advancements a birthing new and innovative ways to interface with the commodities produced by subnets.
 
