@@ -31,13 +31,13 @@ The output of the consensus (rewards landscape) is the breakdown of the rewards 
 
 To see a validator's results in Taostats, [Taostats Validtor pages](https://taostats.io/validators)  have a wealth of detail:
 
-<Image border={false} src="https://files.readme.io/a5808e15ef88b571f686fe77e3369a2ce430e09cbc1f9b955ec104adf3e21c89-image.png" />
+![](https://files.readme.io/a5808e15ef88b571f686fe77e3369a2ce430e09cbc1f9b955ec104adf3e21c89-image.png)
 
 Each validator has a page, witha table showing subnet specific data:
 
 <br />
 
-<Image border={false} src="https://files.readme.io/902cd9d9baac60c66836fa74930d84e5bf2eb1ce2a30072dc47f9691b2c0e360-image.png" />
+![](https://files.readme.io/902cd9d9baac60c66836fa74930d84e5bf2eb1ce2a30072dc47f9691b2c0e360-image.png)
 
 <br />
 
@@ -64,10 +64,6 @@ As emission is divided to delegators, the validator can take a small percentage 
 See the [Tao Allocation](doc:tao-allocation) for a model of the percentages a validator can earn.
 
 The remainder of the emission is distributed to the stakeholders.
-
-# Subnet weighting (Root subnet)
-
-Validators can set emissions weights for every subnet (assuming they are registered on the [Root Subnet](doc:root-subnet)), which also uses [Yuma Consensus](doc:consensus) to then determine the emissions for each subnet.
 
 # Senate
 
