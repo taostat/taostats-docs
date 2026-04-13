@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-If you have an idea for the creation of a decentralised machine learning or commodity through a novel validation and incentive mechanism design, you can build a subnetwork for Bittensor. 
+If you have an idea for the creation of a decentralised machine learning or commodity through a novel validation and incentive mechanism design, you can build a subnetwork for Bittensor.
 
 # Idea
 
@@ -36,7 +36,7 @@ There are very in depth tutorials for [creating a subnet](https://docs.bittensor
 
 To register a subnet, the subnet owner must pay the lock cost. This tao is burned and is no longer returned to the SN owner.
 
-Once a new subnet is registered, Emissions are turned off for *at least* 7 days, to aallow the SN owner some time to test their code, and work through any kinks in their framework.  When the SN owner is ready to start their subnet, they call the `start_call` extrinsic to turn on emission to their subnet.
+Once a new subnet is registered, Emissions are turned off to allow the SN owner some time to test their code, and work through any kinks in their framework.  When the SN owner is ready to start their subnet, they call the `start_call` extrinsic to turn on emission to their subnet.
 
 > 📘 When in startup mode
 >
@@ -48,3 +48,19 @@ Once a new subnet is registered, Emissions are turned off for *at least* 7 days,
 Note that Subnets that are registered, but have not started the subnet will have 0 emission.
 
 Have a great subnet idea?  Read our [Subnet Creation Best Practices](doc:subnet-creation-best-practices) for more ideas.
+
+<br />
+
+# Subnet Owner Neuron - 
+
+Every subnet owner is given an immune neuron.  
+
+## Mining
+
+Any mining emission to this neuron is burned.
+
+## Validation
+
+Subnet owners are incentivized to run a validator.  They are best to judge results of the miners, and to provide access from external users to the subnet.
+
+It is also an additional revenue stream - The 18% of owner alpha can be used as a validator, and gain additional alpha returns on the holdings.
