@@ -95,5 +95,5 @@ Netuid: 19
 * **difficulty** No longer used
 * **Commit Reveal Weights Interval**: Weights are encrypted for this many blocks (to prevent [Weight Copying](doc:weight-copying)).
 * **Commit Reveal Weights Enabled**: Boolean if commit reveal is on or off.
-* **alpha_high/alpha_low**: used in Liquid alpha math.
+* **alpha_high/alpha_low**: used in Liquid alpha math. Not related to the alpha token
 * **Liquid Alpha Enabled**: Liquid alpha allows for a Consensus based weights.
