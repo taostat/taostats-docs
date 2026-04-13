@@ -72,6 +72,6 @@ See [Coldkeys](doc:coldkeys) for more detail.
 
 # Hotkey
 
-Hotkeys are used on chain. If you run a validator or miner, you use a hotkey (associated to a coldkey).  If you stake tao, you are also using a hotkey.  All tao on a hotkey is controlled by the owner of the coldkey.  This means that staked tao is fully under your control, as are the emissions earned by miners/validators.
+Hotkeys are used on chain. If you run a validator or miner, you use a hotkey (associated to a coldkey).  If you stake tao, you are also using a hotkey.  All tao/alpha on a hotkey is controlled by the owner of the coldkey.  This means that staked tao/alpha is fully under your control, as are the emissions earned by miners/validators.
 
 See [Hotkeys](doc:hotkeys) for more detail.
