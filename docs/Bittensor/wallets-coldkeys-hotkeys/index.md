@@ -22,6 +22,8 @@ Wallet applications are the way you interact with your tao on chain.  There are 
 
 ## Taostats wallets
 
+We think the taostats wallet applications are pretty good!
+
 ### [Chrome extension](https://chromewebstore.google.com/detail/taostats-the-bittensor-wa/khdnjjgidjjbjpececegbfglalchffpo)
 
 ### [Mobile apps](https://taostats.io/app)
