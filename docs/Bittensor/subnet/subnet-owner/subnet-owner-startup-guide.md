@@ -75,7 +75,7 @@ All Subnet owners have at least one neuron that cannot be deregistered.  This is
 
 # Starting your subnet
 
-Subnets on registration are not active.  You have 7 days to work with validators and miners to get your mechanism working in production. After 7 days, you can run `btcli subnet start` to start emission on your subnet.
+Subnets on registration are not active.  Run `btcli subnet start` to start emission on your subnet.
 
 <br />
 
