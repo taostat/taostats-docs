@@ -10,25 +10,25 @@ metadata:
 next:
   description: ''
 ---
-Neurons are server nodes in each subnet.  To become a validator or miner on a subnet you must register a neuron.  
+Neurons are server nodes in each subnet.  To become a validator or miner on a subnet you must register a neuron.
 
 # Neuron Registration
 
-To obtain a UID (unique slot number for a neuron) on a particular subnet you must register your hotkey.  The cost of the slot is variable and can be found using the command line `btcli subnets list`. The **recycle** cost is the cost to register a neuron).  
+To obtain a UID (unique slot number for a neuron) on a particular subnet you must register your hotkey.  The cost of the slot is variable and can be found using the command line `btcli subnets list`. The **recycle** cost is the cost to register a neuron).
 
-The number of registrations per epoch is defined in the subnet parameters (default: 3) and if all three slots are registered in a given epoch the cost will increase for the next epoch. If some but not all slots are filled the costs will remain the same for the next epoch. If none of the slots are registered then the cost for the next epoch will decrease.
+The burn cost decays smoothly each block, ensuring the price halves from the last registration cost every half life blocks.
+At each registration the burn cost is increased by a multiplier Burn Increase Multiplier (clamped between limits).
+It is possible to register multiple neurons per block
 
 This allows the registration costs to be defined by natural market forces of demand. A historical chart is available on the subnet's page on Taostats to see the current costs for each subnet:
 
-<Image alt="URL format: <https://taostats.io/subnets/netuid-18/#registration>" align="center" src="https://files.readme.io/de95227252701b51d1a1ef968be37bc5a09b642ccdce095f3b3253ef58fe55ca-Screenshot_2024-09-03_at_17.40.57.jpg">
-  URL format: [https://taostats.io/subnets/netuid-18/#registration](https://taostats.io/subnets/netuid-18/#registration)
-</Image>
+<Image align="center" alt="URL format: <https://taostats.io/subnets/netuid-18/#registration>" caption="URL format: [https://taostats.io/subnets/netuid-18/#registration](https://taostats.io/subnets/netuid-18/#registration)" src="https://files.readme.io/de95227252701b51d1a1ef968be37bc5a09b642ccdce095f3b3253ef58fe55ca-Screenshot_2024-09-03_at_17.40.57.jpg" />
 
 All new miners & validators are placed into <Glossary>immunity</Glossary> for a preset amount of time.  The immunity period can be adjusted per subnet.  A miner with immunity cannot be de-registered.
 
 > 👍 Immunity period
 >
-> To retrieve the immunity period (in blocks), you can use the [Bittensor CLI](doc:command-line-tool) to select a Subnet. The output includes the immunity\_period.  For subnet 1, it is 7200 blocks:
+> To retrieve the immunity period (in blocks), you can use the [Bittensor CLI](doc:command-line-tool) to select a Subnet. The output includes the immunity_period.  For subnet 1, it is 7200 blocks:
 >
 > ```
 > btcli sudo get
@@ -63,7 +63,7 @@ All new miners & validators are placed into <Glossary>immunity</Glossary> for a 
 
 ## Recycling of Fees
 
-Any tao spent on registration is converted into alpha and [recycled](doc:recycling) - it is returned to the unissued supply (thus slowly lengthening the time until the next halvening). The tao recycled for registration is NOT returned to the miner upon de-registration and is considered part of the operational costs to be factored into the profitability calculations when mining. 
+Any tao spent on registration is converted into alpha and [recycled](doc:recycling) - it is returned to the unissued supply (thus slowly lengthening the time until the next halvening). The tao recycled for registration is NOT returned to the miner upon de-registration and is considered part of the operational costs to be factored into the profitability calculations when mining.
 
 # Neuron De-registration
 

@@ -15,12 +15,12 @@ The [Taostats RPC Connection](ref:hosted-rpc-connectivity) gives you direct acce
   <Accordion title="The latest methods available from the Substrate ROC" icon="fa-info-circle">
     <GetPallets2 />
   </Accordion>
-
-
 </Callout>
 
 # how RPC works:
 
-/
+[https://docs.taostats.io/reference/hosted-rpc-connectivity](API docs)
+
+With just an API key from taostats, you can make RPC calls using the [Bittensor SDK](https://docs.learnbittensor.org/sdk/bt-api-ref) 
 
 <br />
