@@ -117,7 +117,7 @@ btcli subnet lock_cost
 
 Or you can view a historical chart of registration cost at <a href="<https://taostats.io/subnets>" target="_blank">Taostats</a>.
 
-<Image align="center" alt="A screenshot of the Subnet registration cost over time." border={false} caption="A screenshot of the Subnet registration cost over time." src="https://files.readme.io/dc48e04eec3d2bbe2b7a19c012073d38b4b40461a174098dedf42edc32e77292-Screenshot_2024-09-03_at_17.35.05.jpg" />
+<Image align="center" alt="A screenshot of the Subnet registration cost over time." caption="A screenshot of the Subnet registration cost over time." src="https://files.readme.io/dc48e04eec3d2bbe2b7a19c012073d38b4b40461a174098dedf42edc32e77292-Screenshot_2024-09-03_at_17.35.05.jpg" />
 
 ## Subnet immunity
 
@@ -125,7 +125,7 @@ New subnets have 4 months of immunity from being de-registered.
 
 ## Subnet activation
 
-New subnets are default not active, and receive no emission.  After 7 days, the subnet owner can "turn on" the subnet, starting emission, and letting validators and miners begin earning emission.
+New subnets are default not active, and receive no emission.  When ready, the subnet owner can "turn on" the subnet, starting emission, and letting validators and miners begin earning emission.
 
 `btcli s start`
 
