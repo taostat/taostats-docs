@@ -14,11 +14,11 @@ In addition to miners and validator code, each subnet has a set of hyperparamete
 
 ## Taostats
 
-Each subnet has a Hyperparameters option:
+Each subnet tab lists pertinent hyperparameters:
 
-<Image align="center" src="https://files.readme.io/fc2313faabb22c7b8db8535bc15fa7a14ef568c74838d162af594c993ba04e86-Screenshot_2024-09-03_at_17.37.55.jpg" />
+![](https://files.readme.io/bb83bb2b373645746c12a80ecdd871d349036ed4a284a861f6b13f53f0840e5c-image.png)
 
-<br />
+The full list can be found at: https://taostats.io/settings?subnet=19 (update the subnet number for the specific subnet parameters)
 
 ## Using CLI
 
