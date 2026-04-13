@@ -46,6 +46,10 @@ But with child hotkeys, the emission is split between the child and the parents.
 
 ![](https://files.readme.io/0b84d42d9c45455f6c947d3d2893db84f10a4a67f57be2e7145212e6294c216e-image.png)
 
+# Child Hotkey Take
+
+Child hotkeys - those running infrastructure - can impose a child hotkey take - a percentage of the earnings for each parent hotkey. This can range from 0-18%.
+
 ## Calculating emission between parent and child hotkeys
 
 [Emission for Parent/Child Hotkeys](doc:emission-parent-hotkeys)

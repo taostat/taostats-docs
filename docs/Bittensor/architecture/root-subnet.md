@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-The root subnet has the netuid of 0.  Its current role is to define how emissions are distributed across the other Bittensor subnets. It is limited to 64 neurons and each neuron must be a validator.
+The root subnet has the netuid 0. It is limited to 64 neurons and each neuron must be a validator.  Subnet 0's purpose is to distribute earnings to those who stake to root.  
 
 Validators set weights for each of the subnets, assigning a score to each subnet based the value proposition they contribute to the network.  These weights are fed into Yuma Consensus to create network subnet emissions and control the distribution ratio of tao to the subnets.  The overall distribution percentages are listed in the top row of the chart.
 

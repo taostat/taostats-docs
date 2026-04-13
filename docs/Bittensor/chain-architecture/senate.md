@@ -10,6 +10,10 @@ metadata:
 next:
   description: ''
 ---
+
+# NOTE: Chain Governance is planned to have a major update in 2026. 
+
+
 The Senate consists of a body of elected representatives who hold a substantial share of the network's total stake.
 
 Network participants who have allocated their stake to any Senate member are represented by the chosen delegate's party. This system ensures that every stakeholder can have their voice heard by delegating their stake to representatives that align with their views.

@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-Batch extrinsics do what you expect - they batch many extrinsics, so that they occur on the same block.  In Bittensor, there are three extrinsics for batching calls:
+Batch extrinsics do what you expect - they are a compilation of  many extrinsics, allowing the user to submit many transactions simultaneously. In Bittensor, there are three extrinsics for batching calls:
 
 * Utility.batch
 * Utility.batch\_all

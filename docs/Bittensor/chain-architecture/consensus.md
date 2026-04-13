@@ -10,17 +10,23 @@ metadata:
 next:
   description: ''
 ---
-The Yuma Consensus algorithm translates weights into emissions. There are two places that Yuma is used in the Bittensor Network.
+The Yuma Consensus algorithm translates weights into emissions. 
 
 # Neuron Rewards Mechanism
 
 Validators test the output of miners, and grade the results as weights.  These weights are passed to Yuma Consensus.  The Yuma Consensus algorithm translates weights into incentives for the subnet miners and dividends for the subnet validators. The Yuma Consensus rewards subnet validators with dividends for producing miner-value evaluations that are in agreement with the subjective evaluations produced by other subnet validators, weighted by stake.  The results of the subnet consensus are written to the blockchain to facilitate trustless rewards distribution.
+
 
 # Checks and Balances
 
 While setting the emissions for participants of the network, the algorithm also checks for Consensus. If the weights placed by a validator are not "in consensus" or similar to the other scores submitted by other validators, the results are given less "weight."  
 
 This works as a check against bad actor validators who might try to manipulate the system for their own gain.
+
+## TL;dr:
+If all the validators agree that a miner is doing a good job - they get a higher reward (incentive).
+The more that the validators agree on miner performance - the higher their rewards.
+
 
 ## Examples
 
