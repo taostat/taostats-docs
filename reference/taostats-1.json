@@ -20725,163 +20725,6 @@
         ]
       }
     },
-    "/paths/api/dev_activity/history/v1": {
-      "get": {
-        "description": "",
-        "operationId": "get_pathsapidev_activityhistoryv1",
-        "responses": {
-          "200": {
-            "description": "",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "properties": {
-                    "property1": {
-                      "type": "string"
-                    }
-                  },
-                  "type": "object"
-                },
-                "examples": {
-                  "New Example": {
-                    "summary": "New Example",
-                    "value": {
-                      "pagination": {
-                        "current_page": 1,
-                        "per_page": 50,
-                        "total_items": 7,
-                        "total_pages": 1,
-                        "next_page": null,
-                        "prev_page": null
-                      },
-                      "data": [
-                        {
-                          "netuid": 1,
-                          "repo_url": "https://github.com/macrocosm-os/apex",
-                          "day": "2025-07-10",
-                          "commits": 4,
-                          "prs_opened": 2,
-                          "prs_merged": 1,
-                          "issues_opened": 0,
-                          "issues_closed": 0,
-                          "reviews": 2,
-                          "comments": 1,
-                          "unique_contributors_day": 2
-                        },
-                        {
-                          "netuid": 1,
-                          "repo_url": "https://github.com/macrocosm-os/apex",
-                          "day": "2025-07-08",
-                          "commits": 1,
-                          "prs_opened": 0,
-                          "prs_merged": 1,
-                          "issues_opened": 0,
-                          "issues_closed": 0,
-                          "reviews": 0,
-                          "comments": 0,
-                          "unique_contributors_day": 1
-                        },
-                        {
-                          "netuid": 1,
-                          "repo_url": "https://github.com/macrocosm-os/apex",
-                          "day": "2025-07-07",
-                          "commits": 4,
-                          "prs_opened": 0,
-                          "prs_merged": 0,
-                          "issues_opened": 0,
-                          "issues_closed": 0,
-                          "reviews": 0,
-                          "comments": 0,
-                          "unique_contributors_day": 1
-                        },
-                        {
-                          "netuid": 1,
-                          "repo_url": "https://github.com/macrocosm-os/apex",
-                          "day": "2025-07-04",
-                          "commits": 0,
-                          "prs_opened": 1,
-                          "prs_merged": 0,
-                          "issues_opened": 0,
-                          "issues_closed": 0,
-                          "reviews": 0,
-                          "comments": 0,
-                          "unique_contributors_day": 1
-                        },
-                        {
-                          "netuid": 1,
-                          "repo_url": "https://github.com/macrocosm-os/apex",
-                          "day": "2025-07-03",
-                          "commits": 11,
-                          "prs_opened": 4,
-                          "prs_merged": 5,
-                          "issues_opened": 0,
-                          "issues_closed": 0,
-                          "reviews": 6,
-                          "comments": 0,
-                          "unique_contributors_day": 2
-                        },
-                        {
-                          "netuid": 1,
-                          "repo_url": "https://github.com/macrocosm-os/apex",
-                          "day": "2025-07-02",
-                          "commits": 1,
-                          "prs_opened": 0,
-                          "prs_merged": 0,
-                          "issues_opened": 0,
-                          "issues_closed": 0,
-                          "reviews": 0,
-                          "comments": 0,
-                          "unique_contributors_day": 1
-                        },
-                        {
-                          "netuid": 1,
-                          "repo_url": "https://github.com/macrocosm-os/apex",
-                          "day": "2025-07-01",
-                          "commits": 9,
-                          "prs_opened": 3,
-                          "prs_merged": 0,
-                          "issues_opened": 0,
-                          "issues_closed": 0,
-                          "reviews": 1,
-                          "comments": 0,
-                          "unique_contributors_day": 3
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "parameters": [
-          {
-            "in": "query",
-            "name": "netuid",
-            "schema": {
-              "type": "string"
-            },
-            "description": "Subnet"
-          },
-          {
-            "in": "query",
-            "name": "date_start",
-            "schema": {
-              "type": "string"
-            },
-            "description": "YYYY-MM-DD format"
-          },
-          {
-            "in": "query",
-            "name": "date_end",
-            "schema": {
-              "type": "string"
-            },
-            "description": "YYYY-MM-DD format"
-          }
-        ]
-      }
-    },
     "/api/dev_activity/latest/v1": {
       "get": {
         "description": "",
@@ -28238,6 +28081,163 @@
           }
         },
         "parameters": []
+      }
+    },
+    "/api/dev_activity/history/v1": {
+      "get": {
+        "description": "",
+        "operationId": "get_pathsapidev_activityhistoryv1",
+        "responses": {
+          "200": {
+            "description": "",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "property1": {
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                },
+                "examples": {
+                  "New Example": {
+                    "summary": "New Example",
+                    "value": {
+                      "pagination": {
+                        "current_page": 1,
+                        "per_page": 50,
+                        "total_items": 7,
+                        "total_pages": 1,
+                        "next_page": null,
+                        "prev_page": null
+                      },
+                      "data": [
+                        {
+                          "netuid": 1,
+                          "repo_url": "https://github.com/macrocosm-os/apex",
+                          "day": "2025-07-10",
+                          "commits": 4,
+                          "prs_opened": 2,
+                          "prs_merged": 1,
+                          "issues_opened": 0,
+                          "issues_closed": 0,
+                          "reviews": 2,
+                          "comments": 1,
+                          "unique_contributors_day": 2
+                        },
+                        {
+                          "netuid": 1,
+                          "repo_url": "https://github.com/macrocosm-os/apex",
+                          "day": "2025-07-08",
+                          "commits": 1,
+                          "prs_opened": 0,
+                          "prs_merged": 1,
+                          "issues_opened": 0,
+                          "issues_closed": 0,
+                          "reviews": 0,
+                          "comments": 0,
+                          "unique_contributors_day": 1
+                        },
+                        {
+                          "netuid": 1,
+                          "repo_url": "https://github.com/macrocosm-os/apex",
+                          "day": "2025-07-07",
+                          "commits": 4,
+                          "prs_opened": 0,
+                          "prs_merged": 0,
+                          "issues_opened": 0,
+                          "issues_closed": 0,
+                          "reviews": 0,
+                          "comments": 0,
+                          "unique_contributors_day": 1
+                        },
+                        {
+                          "netuid": 1,
+                          "repo_url": "https://github.com/macrocosm-os/apex",
+                          "day": "2025-07-04",
+                          "commits": 0,
+                          "prs_opened": 1,
+                          "prs_merged": 0,
+                          "issues_opened": 0,
+                          "issues_closed": 0,
+                          "reviews": 0,
+                          "comments": 0,
+                          "unique_contributors_day": 1
+                        },
+                        {
+                          "netuid": 1,
+                          "repo_url": "https://github.com/macrocosm-os/apex",
+                          "day": "2025-07-03",
+                          "commits": 11,
+                          "prs_opened": 4,
+                          "prs_merged": 5,
+                          "issues_opened": 0,
+                          "issues_closed": 0,
+                          "reviews": 6,
+                          "comments": 0,
+                          "unique_contributors_day": 2
+                        },
+                        {
+                          "netuid": 1,
+                          "repo_url": "https://github.com/macrocosm-os/apex",
+                          "day": "2025-07-02",
+                          "commits": 1,
+                          "prs_opened": 0,
+                          "prs_merged": 0,
+                          "issues_opened": 0,
+                          "issues_closed": 0,
+                          "reviews": 0,
+                          "comments": 0,
+                          "unique_contributors_day": 1
+                        },
+                        {
+                          "netuid": 1,
+                          "repo_url": "https://github.com/macrocosm-os/apex",
+                          "day": "2025-07-01",
+                          "commits": 9,
+                          "prs_opened": 3,
+                          "prs_merged": 0,
+                          "issues_opened": 0,
+                          "issues_closed": 0,
+                          "reviews": 1,
+                          "comments": 0,
+                          "unique_contributors_day": 3
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "in": "query",
+            "name": "netuid",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Subnet"
+          },
+          {
+            "in": "query",
+            "name": "date_start",
+            "schema": {
+              "type": "string"
+            },
+            "description": "YYYY-MM-DD format"
+          },
+          {
+            "in": "query",
+            "name": "date_end",
+            "schema": {
+              "type": "string"
+            },
+            "description": "YYYY-MM-DD format"
+          }
+        ]
       }
     }
   },
