@@ -14,7 +14,7 @@ Subnet registration is currently possible.  The cost to register a subnet is:
 
 <SubnetCost />
 
-The registration cost is [recycled](doc:recycling)
+The registration cost is added to the liquidity pool, and an equal amount of alpha is minted to match the price. The SN owner also receives that amount in alpha.
 
 Once a subnet is registered, there is a 4 day window before the next registration can occur.
 
@@ -61,18 +61,18 @@ For example:
 
 If this subnet were to be deregistered: 1.88M alpha will be exchanged for 11,670 tao.
 
-<Image border={false} src="https://files.readme.io/b62679ddc13e74d0dbda2ab2b82fed8324847bb88fc797c0a6f6afbfe78f7f51-image.png" />
+![](https://files.readme.io/b62679ddc13e74d0dbda2ab2b82fed8324847bb88fc797c0a6f6afbfe78f7f51-image.png)
 
 <br />
 
 Each alpha is worth 0.006 tao.
 
-<Image border={false} src="https://files.readme.io/6de017365bea6725bfb775952f1765e130ff024b6f8b9803af25493a26caa0ef-image.png" />
+![](https://files.readme.io/6de017365bea6725bfb775952f1765e130ff024b6f8b9803af25493a26caa0ef-image.png)
 
 <br />
 
 If a Subnet's ADR is \< 1, holders will receive a premium - more tao that their alpha is currently worth (you can find each Subnet's ADR at [https://taostats.io/subnets](https://taostats.io/subnets)
 
-<Image border={false} src="https://files.readme.io/1e822e3def581b1c31eb141fb2f444d7969220215f7af58872089a47003a1220-image.png" />
+![](https://files.readme.io/1e822e3def581b1c31eb141fb2f444d7969220215f7af58872089a47003a1220-image.png)
 
 <br />
