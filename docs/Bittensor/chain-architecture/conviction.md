@@ -96,7 +96,7 @@ If you lose conviction in a subnet (or if you are a subnet owner, and you need t
 
 When you unlock alpha:
 
-* Conviction IMMEDIATELY drops by the amount unlocked.  For example:i f your conviction was 100,000, and you unlock 50,000, your conviction becomes 50,000.
+* Conviction IMMEDIATELY drops by the amount unlocked.  For example: if your conviction was 100,000, and you unlock 50,000, your conviction becomes 50,000.
 * Unlocked alpha is not immediately available.  It becomes available at a decay rate with a half life of 20.8 days.
 
 ![](https://files.readme.io/73aabaef796cbc3ef2a960b5a2b9c15bf1eea4950f09ec702201f13ea5b21388-image.png)
