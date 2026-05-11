@@ -10,25 +10,25 @@ metadata:
 ---
 Conviction has arrived on testnet with a planned mainnet launch of May 13. In this post, we will walk through what conviction is, how it works, and why you should care.
 
-# TL;dr 
+# TL;dr
 
-* Conviction grows from locked alpha 
-* Conviction growth rate has a half-life of 62 days. 
-* 100% of SN owner emission is locked. 
-* Conviction is different from staking.  You still stake and have APY. There is no additional reward from conviction. 
-* Unlock - immediately drops conviction - alpha is not immediately available for selling 
-* Available alpha increases over time - 50% after 21 days. 
+* Conviction grows from locked alpha
+* Conviction growth rate has a half-life of 62 days.
+* 100% of SN owner emission is locked.
+* Conviction is different from staking.  You still stake and have APY. There is no additional reward from conviction.
+* Unlock - immediately drops conviction - alpha is not immediately available for selling
+* Available alpha increases over time - 50% after 21 days.
 * Locked stake can be transferred (some restrictions apply.)
-* Coldkeys can only have conviction to *ONE* hotkey per subnet.
+* Coldkeys can only have conviction to _ONE_ hotkey per subnet.
 
-# What is Subnet Conviction 
+# What is Subnet Conviction
 
 Buying an alpha token shows support for a subnet.  But does it show conviction?  That you have long term support for the mission of what the team is trying to achieve?  Not really.
 
 Conviction is the lock of your alpha token to the subnet owner’s hotkey. If you _really believe_ in the mission of the SN, you are willing to lock your token to show your conviction.  Once locked - a conviction score will begin to accumulate (with a half life of 62 days.)
 
 <Callout icon="📘" theme="info">
-  NOTE:  adding a conviction lock DOES NOT change staking.  It does not affect your yield.  Conviction is a completely different mechanism from staking. 
+  NOTE:  adding a conviction lock DOES NOT change staking.  It does not affect your yield.  Conviction is a completely different mechanism from staking.
 
   There is no **additional** yield from conviction.
 </Callout>
@@ -47,7 +47,7 @@ It is assumed (but not yet in the code) that the hotkey that is “Subnet King�
 
 One coldkey can have conviction to only one hotkey in the subnet.  The staking hotkey can be different than the conviction hotkey.
 
-## Lock to conviction 
+## Lock to conviction
 
 Once alpha is locked into conviction, it does not immediately become conviction.  The conviction score begins to grow as follows:
 
@@ -67,9 +67,9 @@ This table shows the conviction over time -showing the increase every 62 days ov
 
 Every time a new conviction lock/unlock is made, the conviction must be recalculated.  For subnet owners, this will happen every time alpha emission is awarded. And since the conviction for each reward amortizes into conviction differently, each award must be added to the calculation.
 
-So, the formula for subnet owner conviction has: 
+So, the formula for subnet owner conviction has:
 
-* Term 1: any initial lock made by the owner 
+* Term 1: any initial lock made by the owner
 * Term 2: an integral, calculating the conviction for each 0.18 injected each block from start time to block n
 
 ![](https://files.readme.io/0a3c27bf9178293075b3b98826b91c3a29d91826dc36ac516dcc56532df8e9c9-image.png)
@@ -92,11 +92,11 @@ This assumes that all locked alpha remains locked in conviction.
 
 # Unlocking Alpha from conviction
 
- If you lose conviction in a subnet (or if you are a subnet owner, and you need to pay expenses), you can unlock your alpha.
+If you lose conviction in a subnet (or if you are a subnet owner, and you need to pay expenses), you can unlock your alpha.
 
-When you unlock alpha: 
+When you unlock alpha:
 
-* Conviction IMMEDIATELY drops by the amount unlocked.  For example:i f your conviction was 100,000, and you unlock 50,000, your conviction becomes 50,000. 
+* Conviction IMMEDIATELY drops by the amount unlocked.  For example:i f your conviction was 100,000, and you unlock 50,000, your conviction becomes 50,000.
 * Unlocked alpha is not immediately available.  It becomes available at a decay rate with a half life of 20.8 days.
 
 ![](https://files.readme.io/73aabaef796cbc3ef2a960b5a2b9c15bf1eea4950f09ec702201f13ea5b21388-image.png)
@@ -147,11 +147,17 @@ There are rules to transferring locked alpha.  If an alpha transfer occurs insid
 
 <br />
 
-1. Free alpha (alpha that is not in the conviction mechanism) is utilized first. 
-2. Available alpha is the next store to be depleted. 
-3. Unlocked alpha. 
+1. Free alpha (alpha that is not in the conviction mechanism) is utilized first.
+2. Available alpha is the next store to be depleted.
+3. Unlocked alpha.
 
 If all of the free/unlocked/available alpha has been depleted, the locked alpha will be transferred.  
 Conviction is also transferred proportionally.  If there is 10,000 locked, and the conviction is 5,000, 50% of the locked alpha has conviction.  So 50% of the transferred locked alpha will also have conviction.
 
-if the coldkey receiving the transfer has a conviction with another hotkey - the transaction will fail.  Each coldkey can only have conviction with one hotley.
+if the coldkey receiving the transfer has a conviction with another hotkey - the transaction will fail.  Each coldkey can only have conviction with one hotkey.
+
+# Jupyter Notebook
+
+The charts and code in this example can be found on GitHub
+
+https://github.com/taostat/awesome-taostats-api-examples/blob/main/python/conviction_maths.ipynb
