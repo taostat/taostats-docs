@@ -37,7 +37,7 @@ The hotkey with the most conviction is the “Subnet King.”  Currently, this m
 
 ## Subnet Owner Conviction
 
-Subnet owners (should) have conviction in their subnet.  To enforce a base conviction for subnet owners, all emission to the subnet owner (18% owner share) is automatically locked into conviction on the owner hotkey. With 1296 alpha/day entering conviction to the subnet owner Hotkey, conviction for the subnet owner builds quickly.
+Subnet owners (should) have conviction in their subnet.  To enforce a base conviction for subnet owners, all emission to the subnet owner (18% owner share) is automatically locked into conviction on the owner hotkey. With 1296 alpha/day entering conviction to the subnet owner Hotkey, conviction for the subnet owner build quickly.
 
 ## Other User’s Conviction
 
@@ -96,7 +96,7 @@ If you lose conviction in a subnet (or if you are a subnet owner, and you need t
 
 When you unlock alpha:
 
-* Conviction IMMEDIATELY drops by the amount unlocked.  For example: if your conviction was 100,000, and you unlock 50,000, your conviction becomes 50,000.
+* Conviction IMMEDIATELY drops by the amount unlocked.  For example:i f your conviction was 100,000, and you unlock 50,000, your conviction becomes 50,000.
 * Unlocked alpha is not immediately available.  It becomes available at a decay rate with a half life of 20.8 days.
 
 ![](https://files.readme.io/73aabaef796cbc3ef2a960b5a2b9c15bf1eea4950f09ec702201f13ea5b21388-image.png)
@@ -147,9 +147,10 @@ There are rules to transferring locked alpha.  If an alpha transfer occurs insid
 
 <br />
 
-1. Free alpha (alpha that is not in the conviction mechanism) is utilized first.
-2. Available alpha is the next store to be depleted.
+1. Free alpha (alpha that is not in the conviction mechanism.)
+2. Available alpha.
 3. Unlocked alpha.
+4. Locked alpha.
 
 If all of the free/unlocked/available alpha has been depleted, the locked alpha will be transferred.  
 Conviction is also transferred proportionally.  If there is 10,000 locked, and the conviction is 5,000, 50% of the locked alpha has conviction.  So 50% of the transferred locked alpha will also have conviction.
