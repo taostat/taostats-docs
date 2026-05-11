@@ -29,7 +29,7 @@ But to smooth these values, a 30 day [exponential moving average](#https://docs.
 
 ![](https://files.readme.io/2cd1b1a7f150cffecc78c4c0372b64d4adb196f77c0c77dcf8e27b3727531624-image.png)
 
-<br />
+This new term is used to define the emissions delivered to a subnet.
 
 ## Protocol cost
 
