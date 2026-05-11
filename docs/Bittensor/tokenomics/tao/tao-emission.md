@@ -24,11 +24,14 @@ Net tao flow is used to determine emission.  This is a new parameter being intro
 
 The tao flow is normalized, and the tao emitted to each subnet subnet is based on the normalized net flow flow.  
 
-Emitted tao has 2 destinations - the liqudity pool - tao injected, or a chain buy.
+Emitted tao has 2 destinations:
+
+* tao injected
+* chain buy
 
 ## Tao injected
 
-<br />
+This is the primary feature of tao emission.  Tao from the chain is injected into the subnet's liquidity pool.  An equal amount of alpha is minted and created at the same time (in order to keep the liquidity pool and the price balanced.
 
 ## Chain buy
 
