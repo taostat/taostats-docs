@@ -23,7 +23,7 @@ Introduced in May 2026 to counteract issues with tao flow.  The principal issue 
 
 ![](https://files.readme.io/278af04c53eed397a917aa838a7e2307715199115112a71e94d3b51c91651fbe-image.png)
 
-If netTaoFlow is less than 0, it is set at 0 - there is no concept of negative emission.
+If netTaoFlow {'<0'}, it is set at 0 - there is no concept of negative emission.
 
 But to smooth these values, a 30 day [exponential moving average](#https://docs.taostats.io/docs/tao-flow#exponential--moving-average-example) is used for both.
 
