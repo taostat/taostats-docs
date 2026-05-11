@@ -37,7 +37,7 @@ The hotkey with the most conviction is the “Subnet King.”  Currently, this m
 
 ## Subnet Owner Conviction
 
-Subnet owners (should) have conviction in their subnet.  To enforce a base conviction for subnet owners, all emission to the subnet owner (18% owner share) is automatically locked into conviction on the owner hotkey. With 1296 alpha/day entering conviction to the subnet owner Hotkey, conviction for the subnet owner build quickly.
+Subnet owners (should) have conviction in their subnet.  To enforce a base conviction for subnet owners, all emission to the subnet owner (18% owner share) is automatically locked into conviction on the owner hotkey. With 1296 alpha/day entering conviction to the subnet owner Hotkey, conviction for the subnet owner builds quickly.
 
 ## Other User’s Conviction
 
@@ -160,4 +160,4 @@ if the coldkey receiving the transfer has a conviction with another hotkey - the
 
 The charts and code in this example can be found on GitHub
 
-https://github.com/taostat/awesome-taostats-api-examples/blob/main/python/conviction_maths.ipynb
+[https://github.com/taostat/awesome-taostats-api-examples/blob/main/python/conviction_maths.ipynb](https://github.com/taostat/awesome-taostats-api-examples/blob/main/python/conviction_maths.ipynb)
