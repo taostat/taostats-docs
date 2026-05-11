@@ -148,8 +148,8 @@ There are rules to transferring locked alpha.  If an alpha transfer occurs insid
 <br />
 
 1. Free alpha (alpha that is not in the conviction mechanism.)
-2. Available alpha.
-3. Unlocked alpha.
+2. Available alpha (unlocked and available to unstake).
+3. Unlocked alpha (unlocked but not available yet).
 4. Locked alpha.
 
 If all of the free/unlocked/available alpha has been depleted, the locked alpha will be transferred.  
