@@ -1,5 +1,5 @@
 ---
-title: Tao Flow
+title: Tao Flow & Net Tao Flow
 deprecated: false
 hidden: false
 metadata:
