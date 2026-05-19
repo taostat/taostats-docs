@@ -20,7 +20,7 @@ The tao is divided amongst the subnets based on emission.  And, then, depending 
 
 Net tao flow is used to determine emission.  This is a new parameter being introduced in May 2026 (tao flow was introduced in early 2026). It now has its own page [Tao Flow](doc:tao-flow)
 
-The tao flow is normalized, and the tao emitted to each subnet subnet is based on the normalized net flow flow.  
+The tao flow is normalized, and the tao emitted to each subnet subnet is based on the normalized net flow flow.
 
 Emitted tao has 2 destinations:
 
@@ -47,17 +47,17 @@ If tao injected is limited by the alpha price, there is excess tao that was emit
   * 12% emission of 0.5 tao =                 0.0597τ
   * max tao injected = 0.5α * .04258 =  0.02129τ
   * Excess Tao:                                          0.03841τ
-
-
 </Callout>
 
 <br />
 
-<br />
+## Owner Emission Toggle
 
-<br />
+Starting in May 2026, subnet owners can turn off emission into their pool with:
 
-## Chain buy
+`SubnetEmissionEnabled(netuid)`
+
+When False, tao emission is zeroed (no alpha_in, no chain buys).  The alpha_in is also stopped.
 
 <br />
 
