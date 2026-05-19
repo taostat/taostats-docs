@@ -57,7 +57,7 @@ Starting in May 2026, subnet owners can turn off emission into their pool with:
 
 `SubnetEmissionEnabled(netuid)`
 
-When False, tao emission is zeroed (no alpha_in, no chain buys).  The alpha_in is also stopped.
+When False, tao emission is zeroed (no alpha_in, no chain buys).  The alpha_in is also stopped.  Alpha_out emission continues unchanged.
 
 <br />
 
