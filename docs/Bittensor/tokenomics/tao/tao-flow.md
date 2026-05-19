@@ -13,7 +13,7 @@ Net Tao Flow: is currently in the dev branch, and is scheduled to be released en
 
 Introduced in November 2025, tao flow is the measurement of staking and unstaking through the subnet liquidity pool.  Its original use was to determine the emissions of a subnet.  This changed in May 2026, with the introduction of Net Tao Flow.
 
-In the May 2026 release, all neuron purchases (tao added to the pool, alpha is recycled) are inclided as a tao_staked, an inflow.
+In the May 2026 release, all neuron purchases (tao added to the pool, alpha is recycled) are included as a tao_staked, an inflow.
 
 Tao flow is still an interesting figure - it is a measure of how stakeholders are entering and exiting the subnet.
 
@@ -53,7 +53,7 @@ Both TaoFlow and NetTaoFlow have the same EMA.
 
 In every subnet, tao flows in and out of the liquidity pool through staking actions:
 
-Flow is _only staking_ it is **NOT** based on emission, root proportion or neuron registration.We can then normalize the flows across all subnets:
+<br />
 
 ![](https://files.readme.io/79529d16e10dd4bed95c7ed1badfc850bd06830ca75c59f1bcb083a88c6dbdc4-image.png)
 
