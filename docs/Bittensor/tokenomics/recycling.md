@@ -27,3 +27,5 @@ Recycling is the process of returning active tao or alpha to the unissued pool.
 ## Tao recycling
 
 * **Root Neuron Registration**: If registering on root, there is no need to transfer the fee into alpha. The tao is directly recycled.
+* **Hotkey swaps**: the Fee for hotkey swaps is recycled
+* **Coldkey swaps**: the Fee for coldkey swaps is recycled
