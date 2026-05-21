@@ -20,6 +20,5 @@ metadata:
 
 # Alpha
 
-* Mining emission to the subnet owner hotkey is burned.
-* Subnet owners can burn alpha
-* Subsidized subnets: the validator alpha that would be converted to tao for root emissions is burned.
+* Mining emission to the subnet owner hotkey is, by default, burned. (it can be recycled)
+* Subnet owners can burn alpha through an extrinsic call.
