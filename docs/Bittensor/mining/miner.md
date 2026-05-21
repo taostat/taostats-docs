@@ -47,7 +47,7 @@ The [Tokenomics](doc:tokenomics) section describes how tao is distributed in the
 <br />
 
 * Some subnets have "winner-takes-all" awarding (or a few winners-tak-all).
-* Incentive awarded to the Subnet owner is burned.
+* Incentive awarded to the Subnet owner is burned or recycled. (Burn is default.)
 
 ## Where do your awards go?
 
