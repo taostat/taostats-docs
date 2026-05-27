@@ -18,7 +18,7 @@ In this series of pages, we'll walk through the process of how tao and alpha are
 
 Step 1: [Subnet Emission Distribution](doc:subnet-emissions): How emitted tao is split amongst the subnets.
 
-Step 2: [Alpha Emission](doc:alpha-emission): Up to 1.5 alpha is emitted per subnet per block.  This page describes the split between the Subnet Pool (alpha_in) and subnet participants (alpha_out).  Alpha_in has a max of 0.5 alpha per block, and alpha_out has a max of 1 alpha/block.
+Step 2: [Alpha Emission](doc:alpha-emission): Up to 1.5 alpha is emitted per subnet per block.  This page describes the split between the Subnet Pool (alpha_in) and subnet participants (alpha_out).  Alpha_in has a max of 0.5 alpha per block, and alpha_out has a max of 1 alpha/block. (NOTE: alpha halvenings will effect these numbers, but no alpha halvening until fall 2027.)
 
 Step 3: Split `alpha_out` to SN owner/miners/validators. (1 alpha/block)
 

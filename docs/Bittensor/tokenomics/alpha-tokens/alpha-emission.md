@@ -34,4 +34,4 @@ This keeps the ratio of alpha and tao values in the pool equal.
 
 ## alpha_out
 
-The alpha emitted to subnet participants is 1 alpha per block.  To learn how this is distributed, see [Subnet Emission](doc:subnets-1).  
+The alpha emitted to subnet participants is 1 alpha per block (until an alpha halvening).  To learn how this is distributed, see [Subnet Emission](doc:subnets-1).  

@@ -36,7 +36,7 @@ The emitted tao is distributed to the subnet pools of each subnet.  The distribu
 
 [Tao Emission Distribution](doc:tao-emission)
 
-With 1 tao per block, the emission % is the percentage of the tao awarded to each subnet.
+There is 0.5 tao per block, the emission % is the percentage of the tao awarded to each subnet. Injected is the percentage into the liquidity pool and chain buys is the percentage tao bought for alpha.
 
 <Top5Subnets />
 
@@ -58,6 +58,6 @@ Tao can be burned, this is tao that is no longer in circulation, and is no longe
 
 ## Halving
 
-Bittensor follows the halving schedule of Bitcoin, and the first halving will be when 10.5M tao have been emitted.  At this time 0.5 tao will be emitted each block.
+Bittensor follows the halving schedule of Bitcoin, and the first halving occurred when 10.5M tao were been emitted (December 2025).  
 
 [Halving](doc:halving)
