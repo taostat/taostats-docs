@@ -2104,6 +2104,83 @@
         "operationId": "get_api-conviction-latest-v1",
         "summary": "Get Conviction"
       }
+    },
+    "/api/conviction/history/v1": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "parameters": [
+          {
+            "in": "query",
+            "name": "coldkey",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "hotkey",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "netuid",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "page",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "limit",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "block_start",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "block_end",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "timestamp_start",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "timestamp_end",
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "operationId": "get_api-conviction-history-v1",
+        "summary": "get Conviction History"
+      }
     }
   },
   "x-readme": {
