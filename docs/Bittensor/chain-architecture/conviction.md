@@ -336,3 +336,5 @@ Shipped with PR #2687:
 ---
 
 Analysis prepared by **Taostats** based on subtensor PRs #2658 and #2687 (#2687 merged to devnet-ready 2026-05-25, propagated to testnet same day).
+
+This document is informational only.
