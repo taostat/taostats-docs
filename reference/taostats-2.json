@@ -2022,7 +2022,17 @@
         "description": "",
         "responses": {
           "200": {
-            "description": ""
+            "description": "",
+            "content": {
+              "application/json": {
+                "examples": {
+                  "OK": {
+                    "summary": "OK",
+                    "value": "{\"pagination\":{\"current_page\":1,\"per_page\":200,\"total_items\":1,\"total_pages\":1,\"next_page\":null,\"prev_page\":null},\"\ndata\":[{\"coldkey\":{\"ss58\":\"5H3qhPGzKMNV9fTPuizxzp8azyFRMd4BnheSuwN9Qxb5Cz3u\",\"hex\":\"0xdc84503cd7f06da23828bf915f198\nea549d0d4f4398c32c4d84154e819a8c23b\"},\"hotkey\":{\"ss58\":\"5Eeq15e55UTfFcsw6kUNRhzRwTsAHciXk5sPajARWXxtjzyA\",\"hex\":\"0x\n727edcecbc1cd4f054d2f8a65d0c0c984fc6a117052bbfc343e714cb45ea6f6c\"},\"netuid\":39,\"block_number\":8284183,\"timestamp\":\"\n2026-05-28T17:14:24Z\",\"amount_locked\":14944408978,\"conviction\":3868022,\"is_owner_hotkey\":false,\"is_owner_coldkey\":f\nalse,\"perpetual\":true}]}"
+                  }
+                }
+              }
+            }
           }
         },
         "parameters": [
