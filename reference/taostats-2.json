@@ -2059,34 +2059,6 @@
           },
           {
             "in": "query",
-            "name": "block_start",
-            "schema": {
-              "type": "integer"
-            }
-          },
-          {
-            "in": "query",
-            "name": "block_end",
-            "schema": {
-              "type": "integer"
-            }
-          },
-          {
-            "in": "query",
-            "name": "timestamp_start",
-            "schema": {
-              "type": "integer"
-            }
-          },
-          {
-            "in": "query",
-            "name": "timestamp_end",
-            "schema": {
-              "type": "integer"
-            }
-          },
-          {
-            "in": "query",
             "name": "limit",
             "schema": {
               "type": "integer"
