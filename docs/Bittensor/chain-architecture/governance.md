@@ -28,13 +28,7 @@ The Triumvirate: a group of 3 members who vote on the proposal. They have 7 days
 
 ## Review
 
-The review stage consists of up to 32 members:
-
-### Builders:  16 subnet owners
-
-### Economic: 16 Validators
-
-Technically, there can be overlap (one wallet in both builders and economic)
+Voters: deduplicated union of Builders (16 top subnet owners) and Economic (16 top root validators). Overlap possible — ≤32 voters.  Chosen automatically by the chain.
 
 The review stage is 48 hours.  There are 3 possible outcomes:
 
