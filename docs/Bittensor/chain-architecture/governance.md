@@ -6,15 +6,15 @@ hidden: false
 metadata:
   robots: index
 ---
+This is still a proposed update. The code is not yet finalized, or even on devnet yet. (June 11, 2026)
+
 # Decentralized governance
 
 The goal of governance is to remove all chain decisions from a centralized team at the Opentensor Foundation to a community, democratic process.  The process will be completely on chain - and thus visible to all members of the community.
 
-<br />
+https://s3.hippius.com/rufus/public/governance-dag.html
 
 # Steps for new proposals
-
-<br />
 
 ## Proposer
 
