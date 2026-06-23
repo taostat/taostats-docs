@@ -1,7 +1,7 @@
 ---
 title: Tao Flow & Net Tao Flow
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
