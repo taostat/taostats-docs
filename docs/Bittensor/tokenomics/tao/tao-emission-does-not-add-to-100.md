@@ -2,7 +2,7 @@
 title: Tao Emission does not add to 100%
 excerpt: Learn about tao excess and how it is calculated.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
