@@ -34,9 +34,15 @@ If the subnet is allowed to retrieve emission, emission is determined by 3 facto
 * **Root prop**: the subnet's Root proportion (see [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha))
 * **Miner Burn**: How much of the miners incentive is burned
 
-![](https://files.readme.io/ee90fb0af505425b56c1fbcb9e11ad402e7be32a1fd44449181863a5a1ee0ba4-image.png)
+<br />
 
-This is normalized across all subnets to 100%.
+![](https://files.readme.io/4147df993f65337dc48eca77398bbc03f2e46da711a4915a6c7faed94a514afb-image.png)
+
+ This is normalized across all subnets to 100%.
+
+![](https://files.readme.io/47aa7df941695f1851cf81e2d769200185a11d7e493943b5da884cd355cc51f3-image.png)
+
+<br />
 
 Emitted tao has 2 destinations:
 
