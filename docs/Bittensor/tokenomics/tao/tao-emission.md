@@ -26,19 +26,20 @@ When tao emission is halted - alpha_in is also halted.
 
 ## Chain emission
 
-`Updated in chain spec 421 on June 23, 2026`
+`Updated in chain spec 431 July, 2026`
 
 If the subnet is allowed to retrieve emission, emission is determined by 3 factors:
 
-* **Price**: the EMA price on chain
-* **Root prop**: the subnet's Root proportion (see [Emissions: Root vs. Alpha Stake](doc:stakeholder-emissions-root-vs-alpha))
-* **Miner Burn**: How much of the miners incentive is burned
+- **Price**: the EMA price on chain
+- **Miner Burn**: How much of the miners incentive is burned
+
+![](https://files.readme.io/f164e0c9d8be2e5572924496fcb9fb7dbe8b3bc90e363ee7273cc6684f65330a-image.png)
+
+(Note - this removes the `root_prop`  added in June
 
 <br />
 
-![](https://files.readme.io/4147df993f65337dc48eca77398bbc03f2e46da711a4915a6c7faed94a514afb-image.png)
-
- This is normalized across all subnets to 100%.
+This is normalized across all subnets to 100%.
 
 ![](https://files.readme.io/47aa7df941695f1851cf81e2d769200185a11d7e493943b5da884cd355cc51f3-image.png)
 
@@ -46,8 +47,8 @@ If the subnet is allowed to retrieve emission, emission is determined by 3 facto
 
 Emitted tao has 2 destinations:
 
-* tao injected
-* chain buy
+- tao injected
+- chain buy
 
 ## Tao injected
 
@@ -55,8 +56,8 @@ This is the primary feature of tao emission.  Tao from the chain is injected int
 
 However, there is a limit of alpha that can be injected into the pool per block.  This was changed to `alpha_emission * root_prop` in June 2026.
 
-* Alpha Emission: 1 for all subnets until 2028/2029 when alpha halvenings begin.
-* The alpha_in cap is essentially root_prop
+- Alpha Emission: 1 for all subnets until 2028/2029 when alpha halvenings begin.
+- The alpha_in cap is essentially root_prop
 
 This means that newer subnets (higher root prop) have higher amounts of tao injected into the pool.  Older subnets (presumably with larger pools) get less, but more chain buys.
 
@@ -65,15 +66,17 @@ This means that newer subnets (higher root prop) have higher amounts of tao inje
 If tao injected is limited by the alpha price, there is excess tao that was emitted to the subnet.  This tao is used to buy alpha, an dthen the alpha is recycled.  This mechanism raises the alpha price - eventually leading to the chain buys stopping.
 
 <Callout icon="📘" theme="info">
+  ###
+
   Example
 
   Subnet 44 has emission of 12%, root_prop= 50%, and a price of 0.04258.
 
   Only 0.02129 can be injected because of the price and alpha_in being injected.  This leaves 0.03841τ that is used to buy alpha and recycle it.
 
-  * 12% emission of 0.5 tao =                 0.0597τ
-  * max tao injected = 0.5 * .04258 =  0.02129τ
-  * Excess Tao:                                          0.03841τ
+  - 12% emission of 0.5 tao =                 0.0597τ
+  - max tao injected = 0.5 \* .04258 =  0.02129τ
+  - Excess Tao:                                          0.03841τ
 </Callout>
 
 <br />
