@@ -1,6 +1,6 @@
 ---
-title: Subnet Trading View Chart
-excerpt: How to use the trading view chart
+title: Subnet TradingView Chart
+excerpt: How to use the TradingView chart
 deprecated: false
 hidden: false
 metadata:
@@ -8,7 +8,7 @@ metadata:
 ---
 ![](https://files.readme.io/be35b09aca38837c866670d6be8762db8af605892aefa8379f7e1de755255fff-image.png)
 
-Each subnet has a trading view chart: showing the price of alpha over time.  These charts are easily configurable, with many different options.
+Each subnet has a TradingView chart showing the price of alpha over time. These charts are easily configurable, with many different options — the same tools and timeframes you'd use to read the BTCUSD chart, applied to subnet alpha.
 
 <br />
 
