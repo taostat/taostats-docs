@@ -11,47 +11,16 @@ next:
   description: ''
 ---
 
----
-title: Bittensor Concepts
----
+Start with what you want to learn. Pick a category to see every topic in that area.
 
-
-
-
-Start with what you want to learn. Each card below is a category — open it to see every topic in that area.
-
-<Cards>
-  <Cards.Card icon={<span>◆</span>} title="Protocol Changes" href="/concepts/protocol-changes" arrow>
-    Recent and upcoming protocol-level changes.
-  </Cards.Card>
-  <Cards.Card icon={<span>⬡</span>} title="Subnets" href="/concepts/subnets" arrow>
-    How subnets are structured, registered, and emit.
-  </Cards.Card>
-  <Cards.Card icon={<span>✓</span>} title="Validators" href="/concepts/validators" arrow>
-    Running, measuring, and rewarding validators.
-  </Cards.Card>
-  <Cards.Card icon={<span>⛏</span>} title="Miners" href="/concepts/miners" arrow>
-    Mining mechanics, weights, and emission.
-  </Cards.Card>
-  <Cards.Card icon={<span>▲</span>} title="Staking" href="/concepts/staking" arrow>
-    Stake, yield, and how returns are calculated.
-  </Cards.Card>
-  <Cards.Card icon={<span>◈</span>} title="Tokenomics" href="/concepts/tokenomics" arrow>
-    TAO, alpha, emission, halving, and slippage.
-  </Cards.Card>
-  <Cards.Card icon={<span>≋</span>} title="How emission works" href="/concepts/how-emission-works" arrow>
-    Where TAO and alpha emissions flow, and to whom.
-  </Cards.Card>
-  <Cards.Card icon={<span>⚿</span>} title="Wallets & accounts" href="/concepts/wallets-accounts" arrow>
-    Keys, signing, and connecting wallets.
-  </Cards.Card>
-  <Cards.Card icon={<span>⬢</span>} title="Chain & runtime" href="/concepts/chain-runtime" arrow>
-    How the Bittensor chain runs underneath.
-  </Cards.Card>
-  <Cards.Card icon={<span>⛨</span>} title="Security" href="/concepts/security" arrow>
-    Staying safe: keys, software, and best practices.
-  </Cards.Card>
-  <Cards.Card icon={<span>⌆</span>} title="Legacy / Deprecated" href="/concepts/legacy-deprecated" arrow>
-    Older material kept for reference.
-  </Cards.Card>
-</Cards>
+* [**Protocol Changes**](/docs/protocol-changes) — Recent and upcoming protocol-level changes.
+* [**Subnets**](/docs/subnets) — How subnets are structured, registered, and emit.
+* [**Validators**](/docs/validators) — Running, measuring, and rewarding validators.
+* [**Miners**](/docs/miners) — Mining mechanics, weights, and emission.
+* [**Staking**](/docs/staking) — Stake, yield, and how returns are calculated.
+* [**Tokenomics**](/docs/tokenomics) — TAO, alpha, emission, halving, and slippage.
+* [**How emission works**](/docs/how-emission-works) — Where TAO and alpha emissions flow, and to whom.
+* [**Wallets & accounts**](/docs/wallets-accounts) — Keys, signing, and connecting wallets.
+* [**Chain & runtime**](/docs/chain-runtime) — How the Bittensor chain runs underneath.
+* [**Security**](/docs/security) — Staying safe: keys, software, and best practices.
+* [**Legacy / Deprecated**](/docs/legacy-deprecated) — Older material kept for reference.

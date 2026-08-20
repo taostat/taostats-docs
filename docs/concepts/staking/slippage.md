@@ -16,7 +16,7 @@ next:
 Slippage (the umbrella term) has two components:
 
 - **Price impact** — the inherent, predictable part. It comes down to **how big your transaction is** relative to **how much liquidity is in the pool**. A large trade against a small pool moves the price a lot; a small trade against a deep pool barely moves it. Price impact happens even if you are the only person trading.
-- **Slippage (price action)** — the part caused by *other* trades. Between the moment your transaction is submitted and the moment it lands, someone else can stake or unstake in the same pool and move the price, so you receive more or less than you expected. This is often just **another random stake or unstake** happening near yours — it is not necessarily anyone acting against you. In the worst case it *can* be deliberate **front-running** (an [MEV bot](/concepts/chain-runtime/mev-shield/) trading ahead of your transaction on purpose), which Taostats defends against with [MEV Shield](/concepts/chain-runtime/mev-shield/) (see below).
+- **Slippage (price action)** — the part caused by *other* trades. Between the moment your transaction is submitted and the moment it lands, someone else can stake or unstake in the same pool and move the price, so you receive more or less than you expected. This is often just **another random stake or unstake** happening near yours — it is not necessarily anyone acting against you. In the worst case it *can* be deliberate **front-running** (an [MEV bot](/docs/mev-shield) trading ahead of your transaction on purpose), which Taostats defends against with [MEV Shield](/docs/mev-shield) (see below).
 
 > 📘 **The larger the purchase amount, the higher the price impact**
 >
@@ -32,7 +32,7 @@ Due to the limited resources of the liquidity pool, any change in the ratio of t
 
 Price impact is predictable from the pool size and your trade size. The **price action** component is not: between submitting your transaction and it landing, other trades in the same pool move the price, so you end up with more or less than you expected. Most of the time this is simply **another random stake or unstake** that happened to land near yours — no one is targeting you.
 
-It *can*, however, be deliberate: an [MEV bot](/concepts/chain-runtime/mev-shield/) that sees your pending transaction and **front-runs** it on purpose to profit from the price move. Because subnet-pool trades are exposed to this, Taostats routes your alpha stake/unstake through **[MEV Shield](/concepts/chain-runtime/mev-shield/)**, which encrypts the transaction so bots cannot read it and front-run you.
+It *can*, however, be deliberate: an [MEV bot](/docs/mev-shield) that sees your pending transaction and **front-runs** it on purpose to profit from the price move. Because subnet-pool trades are exposed to this, Taostats routes your alpha stake/unstake through **[MEV Shield](/docs/mev-shield)**, which encrypts the transaction so bots cannot read it and front-run you.
 
 ## Putting it together
 

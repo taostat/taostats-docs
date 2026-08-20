@@ -15,8 +15,6 @@ The Yuma consensus mechanism
 
 The Yuma Consensus algorithm translates weights into emissions.
 
-
-
 Validators test the output of miners, and grade the results as weights.  These weights are passed to Yuma Consensus.  The Yuma Consensus algorithm translates weights into incentives for the subnet miners and dividends for the subnet validators. The Yuma Consensus rewards subnet validators with dividends for producing miner-value evaluations that are in agreement with the subjective evaluations produced by other subnet validators, weighted by stake.  The results of the subnet consensus are written to the blockchain to facilitate trustless rewards distribution.
 
 # Checks and Balances
