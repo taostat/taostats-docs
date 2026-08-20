@@ -42,21 +42,15 @@ Your total slippage is price impact plus price action. For example, a transactio
 
 The tao/alpha conversion price cannot be used to calculate a transaction.  You must use the following equation to determine the `α_received`:
 
-$$
-\alpha_{received} = \alpha_{pool} - \dfrac{k}{tao_{pool} + tao_{staked}}
-$$
+<Image border={false} alt="formula" src="https://raw.githubusercontent.com/taostat/taostats-docs/v5.0/docs-assets/math/aa4d3b00b7764efa.png" />
 
 The opposite occurs when unstaking alpha to buy tao:
 
-$$
-tao_{received} = tao_{pool} - \dfrac{k}{\alpha_{pool} + \alpha_{unstaked}}
-$$
+<Image border={false} alt="formula" src="https://raw.githubusercontent.com/taostat/taostats-docs/v5.0/docs-assets/math/152a576c170d3333.png" />
 
 The amount received will be less than the amount expected from the direct price conversion. That total difference is the slippage (generally shown as a percentage):
 
-$$
-Slippage = \dfrac{\alpha_{expected} - \alpha_{actual}}{\alpha_{expected}}
-$$
+<Image border={false} alt="formula" src="https://raw.githubusercontent.com/taostat/taostats-docs/v5.0/docs-assets/math/46506de86a39e4ac.png" />
 
 ## Price Impact Calculator
 
@@ -72,9 +66,7 @@ $$
 >
 > This results in a price impact of 90.91%:
 >
-> $$
-> \dfrac{1000 - 90.9}{1000} \times 100 = 90.91\%
-> $$
+> <Image border={false} alt="formula" src="https://raw.githubusercontent.com/taostat/taostats-docs/v5.0/docs-assets/math/c823f6e432363be3.png" />
 >
 > Large purchases of tao or alpha will have large amounts of price impact.
 
@@ -88,9 +80,7 @@ $$
 >
 > This results in 9.1% price impact.
 >
-> $$
-> \dfrac{10 - 9.09}{10} \times 100 = 9.1\%
-> $$
+> <Image border={false} alt="formula" src="https://raw.githubusercontent.com/taostat/taostats-docs/v5.0/docs-assets/math/277ccf25ca75deb8.png" />
 
 ## Price impact and Slippage values
 
