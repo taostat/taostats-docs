@@ -54,13 +54,11 @@ The amount received will be less than the amount expected from the direct price 
 
 ## Price Impact Calculator
 
-<SlippageCalculator />
-
 > 📘 **Example 1 (large purchase = large price impact):**
 >
 > A subnet pool has 100α and 100τ.  alpha:tao is 1:1, so the alpha price is 1 tao.
 >
-> <Image border={false} alt="Subnet liquidity pool holding 100 τ and 100 α at a 1:1 ratio" src="https://files.readme.io/b4b5fc63a0c2c45d90bba35e3287ce8a515f79f9440581edfb428297697a1a89-image.png" />
+> <Image border={false} alt="Subnet liquidity pool holding 100 τ and 100 α at a 1:1 ratio" src="https://raw.githubusercontent.com/taostat/taostats-docs/v5.0/docs-assets/img/eeaff23927332bc5.png" />
 >
 > A tao holder wishes to sell 1,000 tao for alpha.  Following the exchange rate of 1:1, you might assume 1,000α would be received. But there is just 100α in the pool, so using the equation above 90.9α is received.
 >
@@ -74,7 +72,7 @@ The amount received will be less than the amount expected from the direct price 
 >
 > A subnet pool has 100α and 100τ.  alpha:tao is 1:1, so the alpha price is 1 tao.
 >
-> <Image border={false} alt="Subnet liquidity pool holding 100 τ and 100 α at a 1:1 ratio" src="https://files.readme.io/b4b5fc63a0c2c45d90bba35e3287ce8a515f79f9440581edfb428297697a1a89-image.png" />
+> <Image border={false} alt="Subnet liquidity pool holding 100 τ and 100 α at a 1:1 ratio" src="https://raw.githubusercontent.com/taostat/taostats-docs/v5.0/docs-assets/img/eeaff23927332bc5.png" />
 >
 > A tao holder wishes to sell 10 tao for alpha.  Using the equation for alpha\_expected, they will receive 9.09α.
 >
@@ -86,7 +84,7 @@ The amount received will be less than the amount expected from the direct price 
 
 The transaction tables list the actual slippage of a transaction.  A negative slippage means your transaction actually profited from the trade
 
-<Image border={false} alt="Transaction table showing per-trade Slippage % and Fee (τ) columns" src="https://files.readme.io/17ff300d55f73503d339d2de784d3edca266536ebbdb3304891f08701e8dc4e6-image.png" />
+<Image border={false} alt="Transaction table showing per-trade Slippage % and Fee (τ) columns" src="https://raw.githubusercontent.com/taostat/taostats-docs/v5.0/docs-assets/img/67ccbe03abc8ec8e.png" />
 
 ## Setting a slippage limit
 

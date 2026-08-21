@@ -1,1 +1,12 @@
+- chain-architecture
+- conviction-v2
+- extrinsics-and-events
+- senate
 - consensus
+- commit-reveal-30
+- mev-shield
+- node-registration
+- miner-collateral
+- evm-contracts
+- deploy-a-dtao-chain
+- rpc-connection-to-the-chain

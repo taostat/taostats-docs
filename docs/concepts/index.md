@@ -11,7 +11,7 @@ next:
   description: ''
 ---
 
-Start with what you want to learn. Pick a category to see every topic in that area.
+Start with what you want to learn. Each card below is a category — open it to see every topic in that area.
 
 * [**Protocol Changes**](/docs/protocol-changes) — Recent and upcoming protocol-level changes.
 * [**Subnets**](/docs/subnets) — How subnets are structured, registered, and emit.
