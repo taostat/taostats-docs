@@ -127,11 +127,9 @@ Once the change has been made, the final fee can be seen in the Extrinsic:
 
 # Automate
 
-The [automate](https://taostats.io/pro/stake/mentat)  option at Taostats allows you to stake your tao with [Mentant Minds](https://mentatminds.com/faq/) .
+The [automate](https://taostats.io/pro/stake/mentat) option at Taostats allows you to stake your TAO with [Mentat Minds](https://mentatminds.com/mentat-plus/).
 
-When you stake with Mentant Minds, you are giving them proxy access to your wallet, and allowing them to shift your toa between subnets.  Staking with Mentant Minds is all or nothing - staking for the wallet is 100% controlled by mentant.
-
-Mentant offers a number of [delegation options](https://mentatminds.com/delegate/)  around groups of subnets.
+When you use a non-custodial staking proxy (such as [Mentat Minds](https://mentatminds.com/mentat-plus/) or [Stakao](https://stakao.com/)), you grant a `ProxyType.Staking` permission to a delegate so it can rebalance your stake across subnets while your TAO remains in your own wallet.
 
 ![](https://files.readme.io/7c76bb2125164f51747cc46174d163272ebe6e9b6bf333feca6f47d0eeb33f4f-image.png)
 
